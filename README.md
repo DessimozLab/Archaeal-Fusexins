@@ -11,7 +11,7 @@ Ipython notebook used with HHblits. Used for finidng FsxA and comparing FsxA pro
 
 Kmer
 ----
-Used for finding IMEs using kmer spectra and extracting transfered regions. ( Figure 4.a , Supp Figure 6 )
+Used for finding IMEs using kmer spectra and extracting transfered regions. ( Figure 4.a , Supp Figure 13 )
 
 Mobilome_ORFs
 -------------
@@ -19,12 +19,13 @@ Script and notebook to accompany HMMER. These can be used to annotate a proteome
 
 Structures
 ---------
-Contains the set of monomeric structures used for structure-based phylogenetics figures ( Figure 4.c ; Supp Figures 12-14).
+Contains the set of monomeric structures used for structure-based phylogenetics figures ( Figure 4.c ).
 
 
 Protein-comparison-tool
 -----------------------
-This script runs Fatcat and TMalign as well as FastmME and Clustalo to create trees and sequence alignments based on structural comparison. ( Figure 4.c ). Notebooks are also included showing how the jackknife ( Supp Figure 14 ), molecular dynamics( Supp Figure 13 ) and structural distane vs sequence distance comparisons( Supp Figure 11 ) were done using this structural alignment metric. 
+This script runs Fatcat and TMalign as well as FastmME and Clustalo to create trees and sequence alignments based on structural comparison. ( Figure 4.c ).
+
 
 Hmmer_vs_metaclust
 ------------------
@@ -32,11 +33,11 @@ This notebook was used to parse the results of the phmmer search against the met
 
 Synteny_analysis
 ----------------
-Data, scripts, and notebooks to generate IMEs clustering based on Jaccard indexes (Supplementary Fig. 8) and  synteny plots (Fig. 4b; Supplementary Fig. 9).
+Data, scripts, and notebooks to generate IMEs clustering based on Jaccard indexes (Supplementary Fig. 8) and  synteny plots (Fig. 4b; Supplementary Fig. 16 ).
 
 Phylo_Eco_Mapping
 -----------------
-Data, scripts and structural models to produce the phylogenetic tree with environmental information and selected trimers with electrostatic surfaces to be calculated with APBS (Extended Fig. 8). 
+Data, scripts and structural models to produce the phylogenetic tree with environmental information and selected trimers with electrostatic surfaces to be calculated with APBS (Supplementary Fig. 17). 
 
 Datasource
 -----------
