@@ -1,0 +1,189 @@
+Query         P03518
+Match_columns 446
+No_of_seqs    533 out of 649
+Neff          7.5 
+Searched_HMMs 35
+Date          Wed Jul  7 10:08:38 2021
+Command       hhsuite2/bin/hhsearch -cpu 8 -d ./hhsearch.pal -i HHM_UNI/P03518Profphylotest.hhm -o ALLVSALL/P03518Profphylotestallvalltest.hhr -n 1 -B 2000 -Z 2000 -mact .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 P03518                         100.0  1E-123  3E-125  947.6   0.0  446    1-446     1-446 (446)
+  2 D2W008                          31.1   0.018 0.00051   36.3   0.0   80    4-93      6-86  (631)
+  3 P08563                           7.7    0.16  0.0045   28.2   0.0   16  344-359   344-359 (446)
+  4 Q89292                           7.6    0.16  0.0046   30.2   0.0   12   81-92     68-79  (443)
+  5 P14336                           7.5    0.16  0.0047   30.1   0.0   12   81-92     68-79  (446)
+  6 CRY7J9                           4.5    0.31   0.009   28.6   0.0   42    1-45      3-44  (514)
+  7 P12823                           4.0    0.36    0.01   27.6   0.0   11   82-92     69-79  (442)
+  8 Q1H8W5                           3.9    0.38   0.011   26.7   0.0   43   53-95     27-70  (412)
+  9 P03315                           3.8    0.39   0.011   26.7   0.0   43   53-95     27-70  (415)
+ 10 T1ISJ2                           1.2     1.6   0.045   23.2   0.0   22   26-48     19-40  (486)
+
+No 1  
+>P03518
+Probab=100.00  E-value=1.1e-123  Score=947.62  Aligned_cols=446  Identities=100%  Similarity=1.532  Sum_probs=435.7
+
+Q P03518            1 CSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSISPK   80 (446)
+Q Consensus         1 C~e~~~~~~~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~i~~~~~~l~C~~~~~~~Tr~~~~~   80 (446)
+                      |||++++++++++|+.++++..|+++.+++|+|+|+|||+||+|++++|++++.|||||++++|+|+|+++|||||++++
+T Consensus         1 C~e~~~~~~~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~i~~~~~~l~C~~~~~~~Tr~~~~~   80 (446)
+T P03518            1 CSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSISPK   80 (446)
+Confidence            89999999999999999889999999999999999999999999999889999999999999999999999999999999
+
+
+Q P03518           81 CLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVF  160 (446)
+Q Consensus        81 ~~s~~RC~~~GsC~~~~C~~~~~~~~~~El~~~~~~~~~g~t~C~~scg~~~CgCf~~~~~Clfyr~~~~p~~~~~yevf  160 (446)
+                      ++|+|||++||+|++++|++|++++++|||+++++|+|||+++|+++|||+||||||++|||||||+|++|+++++||||
+T Consensus        81 ~~s~~RC~~~GsC~~~~C~~~~~~~~~~El~~~~~~~~~g~t~C~~scg~~~CgCf~~~~~Clfyr~~~~p~~~~~yevf  160 (446)
+T P03518           81 CLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVF  160 (446)
+Confidence            99999999999999999999999999999999877899999999999999999999999999999999999999999999
+
+
+Q P03518          161 NCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPSKGYAIVDEPFSEIPRQGFLG  240 (446)
+Q Consensus       161 ~C~~W~~~v~~~i~~~~~~~~~~~l~~~~~~~~~~~~itltl~s~~~p~~p~~~Fi~~~~~~~Al~~~~~~~~p~~g~ig  240 (446)
+                      +|++|.++|+|+|++.++++++++|.+++++|++|++|+|+|+++++||+|+++||+++++++|||+++++++|++|++|
+T Consensus       161 ~C~~W~~~v~~~i~~~~~~~~~~~l~~~~~~~~~~~~itltl~s~~~p~~p~~~Fi~~~~~~~Al~~~~~~~~p~~g~ig  240 (446)
+T P03518          161 NCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPSKGYAIVDEPFSEIPRQGFLG  240 (446)
+Confidence            99999999999999998877889999999999999999999999999999999999997679999999999999999999
+
+
+Q P03518          241 EIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQAD  320 (446)
+Q Consensus       241 ~lqC~s~~~A~~~~~~C~~~~~~C~C~p~~~~v~C~C~~~d~~~~~~~~~LP~~~~~~~~~~~~d~~~V~A~~~~~~~a~  320 (446)
+                      +|||+|+++|++++++|.+++++|+|.|++|.+.|.|+++|+.++|++++||+++++++|+.++|+..|+|+++++++|+
+T Consensus       241 ~lqC~s~~~A~~~~~~C~~~~~~C~C~p~~~~v~C~C~~~d~~~~~~~~~LP~~~~~~~~~~~~d~~~V~A~~~~~~~a~  320 (446)
+T P03518          241 EIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQAD  320 (446)
+Confidence            99999999999987899999999999999999999999999999999999999999999999887789999999999999
+
+
+Q P03518          321 LTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDGSLHIVLPSENGTKDQCQILHFTV  400 (446)
+Q Consensus       321 l~i~~~~~~v~~~~~~~~C~i~~~~ltGCYsC~~GA~~~i~C~S~~~~~~~~~c~~~~~~~~~~c~~~~~~~~~~~~f~~  400 (446)
+                      |+|.|+++++++++++++|+|++++|+|||||.+||+++|+|+|+.+++|++.|++++++|+++|+|+|..++++|||++
+T Consensus       321 l~i~~~~~~v~~~~~~~~C~i~~~~ltGCYsC~~GA~~~i~C~S~~~~~~~~~c~~~~~~~~~~c~~~~~~~~~~~~f~~  400 (446)
+T P03518          321 LTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDGSLHIVLPSENGTKDQCQILHFTV  400 (446)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q P03518          401 PEVEEEFMYSCDGDERPLLVKGTLIAIDPFDDRREAGGESTVVNPK  446 (446)
+Q Consensus       401 a~v~~~C~v~Cg~~~~~f~I~G~L~y~~~~~~~~~~~~~~~~~~~~  446 (446)
+                      |+|+++|+++||++++.|+|+|+|+|++++|+|+++||+||||||+
+T Consensus       401 a~v~~~C~v~Cg~~~~~f~I~G~L~y~~~~~~~~~~~~~~~~~~~~  446 (446)
+T P03518          401 PEVEEEFMYSCDGDERPLLVKGTLIAIDPFDDRREAGGESTVVNPK  446 (446)
+Confidence            9999999999999999999999999999999999999999999997
+
+
+No 2  
+>D2W008
+Probab=31.13  E-value=0.018  Score=36.34  Aligned_cols=80  Identities=16%  Similarity=0.324  Sum_probs=56.7
+
+Q P03518            4 LIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELS-CREGQSYWTGSISPKCL   82 (446)
+Q Consensus         4 ~~~~~~~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~i~~~~~~l~-C~~~~~~~Tr~~~~~~~   82 (446)
+                      +.+.-+++..|..    ..|..+....++-.-.++.-||.|...+ +   ++-|.+..-... =....=|||-|+.++  
+T Consensus         6 ~~~S~T~i~~Cv~----t~C~anI~ta~sT~~S~~~~Cf~Lt~D~-s---~VNIsL~ddFk~qlsSs~CYYTDDy~pr--   75 (631)
+T D2W008            6 VSISPTKQISCSD----TACVYNINTALTTSYTGDNYCFKLTDDS-S---MVNITLGDDFSAVLSSSYCYYTDDPLPR--   75 (631)
+Confidence            5667788899988    6999998888885456788999999886 3   455554432111 145567999996665  
+
+
+Q P03518           83 SSRRCHLVGEC   93 (446)
+Q Consensus        83 s~~RC~~~GsC   93 (446)
+                      +.-||+...-|
+T Consensus        76 yT~~CS~s~vC   86 (631)
+T D2W008           76 YTAFCSSTDVC   86 (631)
+Confidence            56788877655
+
+
+No 3  
+>P08563
+Probab=7.73  E-value=0.16  Score=28.15  Aligned_cols=16  Identities=44%  Similarity=0.916  Sum_probs=13.8
+
+Q P03518          344 LNLTGCYSCNAGARVC  359 (446)
+Q Consensus       344 ~~ltGCYsC~~GA~~~  359 (446)
+                      ..++|||.|..-|.++
+T Consensus       344 vrvtgcyqcgtpalve  359 (446)
+T P08563          344 VRVTGCYQCGTPALVE  359 (446)
+Confidence            6789999999888775
+
+
+No 4  
+>Q89292
+Probab=7.59  E-value=0.16  Score=30.17  Aligned_cols=12  Identities=25%  Similarity=0.498  Sum_probs=9.8
+
+Q P03518           81 CLSSRRCHLVGE   92 (446)
+Q Consensus        81 ~~s~~RC~~~Gs   92 (446)
+                      +.+.-|||.+|+
+T Consensus        68 t~s~d~CPt~ge   79 (443)
+T Q89292           68 VKINDKCPSTGE   79 (443)
+Confidence            567889999987
+
+
+No 5  
+>P14336
+Probab=7.48  E-value=0.16  Score=30.13  Aligned_cols=12  Identities=25%  Similarity=0.512  Sum_probs=9.8
+
+Q P03518           81 CLSSRRCHLVGE   92 (446)
+Q Consensus        81 ~~s~~RC~~~Gs   92 (446)
+                      +.+.-|||.+|+
+T Consensus        68 t~s~d~CPt~ge   79 (446)
+T P14336           68 TKVAARCPTMGP   79 (446)
+Confidence            567889999987
+
+
+No 6  
+>CRY7J9
+Probab=4.52  E-value=0.31  Score=28.64  Aligned_cols=42  Identities=14%  Similarity=0.339  Sum_probs=31.9
+
+Q P03518            1 CSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLK   45 (446)
+Q Consensus         1 C~e~~~~~~~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~   45 (446)
+                      |+-+..++.....-+.++  ..-.+.++..+.|. .+.++||+|.
+T Consensus         3 Ctr~~~~~G~i~~~~~~~--~~~~~~t~~q~~i~-L~eT~Cf~l~   44 (514)
+T CRY7J9            3 CTKTLPTTGHVRYSSRES--AQALVETFIQSSIK-PGETLCFILH   44 (514)
+Confidence            666677777777655433  45578888888888 8999999999
+
+
+No 7  
+>P12823
+Probab=4.04  E-value=0.36  Score=27.60  Aligned_cols=11  Identities=36%  Similarity=0.697  Sum_probs=9.1
+
+Q P03518           82 LSSRRCHLVGE   92 (446)
+Q Consensus        82 ~s~~RC~~~Gs   92 (446)
+                      .+.-|||.+|+
+T Consensus        69 ~s~~~CPt~ge   79 (442)
+T P12823           69 TTDSRCPTQGE   79 (442)
+Confidence            67889999887
+
+
+No 8  
+>Q1H8W5
+Probab=3.85  E-value=0.38  Score=26.72  Aligned_cols=43  Identities=21%  Similarity=0.235  Sum_probs=35.4
+
+Q P03518           53 KFLKIKTVSSELSCREGQSYWTGSISPKCLSS-RRCHLVGECHV   95 (446)
+Q Consensus        53 ~~i~i~~~~~~l~C~~~~~~~Tr~~~~~~~s~-~RC~~~GsC~~   95 (446)
+                      -.|+|++.+..|.=.-..+|||-.++..+.|- -.|-+.-+|..
+T Consensus        27 l~L~i~v~~t~l~Pt~~leYiTC~ykTvVpsP~VkCCGt~eC~~   70 (412)
+T Q1H8W5           27 MVLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKD   70 (412)
+Confidence            56888888888888888999999999999886 57777777775
+
+
+No 9  
+>P03315
+Probab=3.77  E-value=0.39  Score=26.66  Aligned_cols=43  Identities=21%  Similarity=0.268  Sum_probs=35.4
+
+Q P03518           53 KFLKIKTVSSELSCREGQSYWTGSISPKCLSS-RRCHLVGECHV   95 (446)
+Q Consensus        53 ~~i~i~~~~~~l~C~~~~~~~Tr~~~~~~~s~-~RC~~~GsC~~   95 (446)
+                      -.|+|++.+..|.=.-..+|||-.++..+.|- -.|-+.-+|..
+T Consensus        27 l~L~i~v~~t~l~Pt~~leYiTC~ykTvVpsP~VkCCGt~eC~~   70 (415)
+T P03315           27 LTLQMQVVETSLEPTLNLEYITCEYKTVVPSPYVKCCGASECST   70 (415)
+Confidence            56888888888888888999999999999886 57777777775
+
+
+No 10 
+>T1ISJ2
+Probab=1.17  E-value=1.6  Score=23.22  Aligned_cols=22  Identities=18%  Similarity=-0.009  Sum_probs=17.3
+
+Q P03518           26 SGTALIRAGSVGAEACLMLKGVK   48 (446)
+Q Consensus        26 ~~~~~l~l~~~~~e~Cl~l~~~~   48 (446)
+                      .++..+.|. .+.++||++..++
+T Consensus        19 ~ts~q~~i~-L~eT~Cf~l~~~~   40 (486)
+T T1ISJ2           19 HTTVTTSLK-PKEKVCGELLLEK   40 (486)
+Confidence            555666676 8999999999765
+
+
+Done!

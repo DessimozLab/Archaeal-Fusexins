@@ -1,0 +1,295 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/91260_Ga0222658_1000332_127.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/91260_Ga0222658_1000332_127.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/91260_Ga0222658_1000332_127.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/91260_Ga0222658_1000332_127.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       91260_Ga0222658_1000332_127  [M=1258]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+          0 2992.1  93.7          0 2991.9  93.7    1.0  1  Ga0222658_1000332_127   [4255 - 8028]
+          0 2992.1  93.7          0 2991.9  93.7    1.0  1  Ga0222667_1000160_1376  [11892 - 8119] (REVERSE SENSE)
+     1e-215  721.4  55.9     6e-213  712.1  38.9    3.0  3  Ga0075122_10000557_468  [22096 - 26337]
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0222658_1000332_127  [4255 - 8028]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 2991.9  93.7         0         0       1    1258 []       1    1258 []       1    1258 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 2991.9 bits;  conditional E-value: 0
+  91260_Ga0222658_1000332_127    1 msviafflvvtliqfgsavcfndtvfnatgsgssfytdfdfcfdainvstnkidifnvsydnpssdglvnnfsyihstnt 80  
+                                   msviafflvvtliqfgsavcfndtvfnatgsgssfytdfdfcfdainvstnkidifnvsydnpssdglvnnfsyihstnt
+        Ga0222658_1000332_127    1 MSVIAFFLVVTLIQFGSAVCFNDTVFNATGSGSSFYTDFDFCFDAINVSTNKIDIFNVSYDNPSSDGLVNNFSYIHSTNT 80  
+                                   9******************************************************************************* PP
+
+  91260_Ga0222658_1000332_127   81 qingssfpyvssslsttrekiiisdiktingtfiinvsglipynliyssntstyqyqyerdnytyypsndtivvyltgie 160 
+                                   qingssfpyvssslsttrekiiisdiktingtfiinvsglipynliyssntstyqyqyerdnytyypsndtivvyltgie
+        Ga0222658_1000332_127   81 QINGSSFPYVSSSLSTTREKIIISDIKTINGTFIINVSGLIPYNLIYSSNTSTYQYQYERDNYTYYPSNDTIVVYLTGIE 160 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  161 ngtnslgiredfdrnetqdisyndeldrlrglseevnqevnadskisrqssslrgfidffslssavnrtayfyrdinyei 240 
+                                   ngtnslgiredfdrnetqdisyndeldrlrglseevnqevnadskisrqssslrgfidffslssavnrtayfyrdinyei
+        Ga0222658_1000332_127  161 NGTNSLGIREDFDRNETQDISYNDELDRLRGLSEEVNQEVNADSKISRQSSSLRGFIDFFSLSSAVNRTAYFYRDINYEI 240 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  241 sattyvsrikainikviqslsfseiservslffrnfldffglgssvdrtayffrnesesvlinnaaeptqgvfivtsqdi 320 
+                                   sattyvsrikainikviqslsfseiservslffrnfldffglgssvdrtayffrnesesvlinnaaeptqgvfivtsqdi
+        Ga0222658_1000332_127  241 SATTYVSRIKAINIKVIQSLSFSEISERVSLFFRNFLDFFGLGSSVDRTAYFFRNESESVLINNAAEPTQGVFIVTSQDI 320 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  321 sitettnrfsttfkyfiespsinpmayrishlyrnftenvpilssqttlqaaflnvvqqlsfsesssriinstitfsdyf 400 
+                                   sitettnrfsttfkyfiespsinpmayrishlyrnftenvpilssqttlqaaflnvvqqlsfsesssriinstitfsdyf
+        Ga0222658_1000332_127  321 SITETTNRFSTTFKYFIESPSINPMAYRISHLYRNFTENVPILSSQTTLQAAFLNVVQQLSFSESSSRIINSTITFSDYF 400 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  401 gitqtatrttslirnildffqigndgylssfyysekitesitttinleasggffvdisnalnvndiisrtqtisrdvidq 480 
+                                   gitqtatrttslirnildffqigndgylssfyysekitesitttinleasggffvdisnalnvndiisrtqtisrdvidq
+        Ga0222658_1000332_127  401 GITQTATRTTSLIRNILDFFQIGNDGYLSSFYYSEKITESITTTINLEASGGFFVDISNALNVNDIISRTQTISRDVIDQ 480 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  481 fsitelstrfqdisksiinffgitdnlnlfrelsgrvdlavafsdsvgrtqtlsresqqtlsldllfertasisrsvtqf 560 
+                                   fsitelstrfqdisksiinffgitdnlnlfrelsgrvdlavafsdsvgrtqtlsresqqtlsldllfertasisrsvtqf
+        Ga0222658_1000332_127  481 FSITELSTRFQDISKSIINFFGITDNLNLFRELSGRVDLAVAFSDSVGRTQTLSRESQQTLSLDLLFERTASISRSVTQF 560 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  561 fqmffslfsskteldpwtkitsveekiqtpalegdivywnykdtwtvdnyprnwtnvtktyelsssanginvfidgvnyt 640 
+                                   fqmffslfsskteldpwtkitsveekiqtpalegdivywnykdtwtvdnyprnwtnvtktyelsssanginvfidgvnyt
+        Ga0222658_1000332_127  561 FQMFFSLFSSKTELDPWTKITSVEEKIQTPALEGDIVYWNYKDTWTVDNYPRNWTNVTKTYELSSSANGINVFIDGVNYT 640 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  641 gtswisnvsnnwtvvnnktlealdtsvinftyntaatsseeatwlaynkrvgenttwrntitmvnpstenytniginitt 720 
+                                   gtswisnvsnnwtvvnnktlealdtsvinftyntaatsseeatwlaynkrvgenttwrntitmvnpstenytniginitt
+        Ga0222658_1000332_127  641 GTSWISNVSNNWTVVNNKTLEALDTSVINFTYNTAATSSEEATWLAYNKRVGENTTWRNTITMVNPSTENYTNIGINITT 720 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  721 dsnaiastvwvqndtgvlvshtftqsngnvnwthdlpsvnsvfvieyknseinltqtnyttstgqiqtyynltvstnstr 800 
+                                   dsnaiastvwvqndtgvlvshtftqsngnvnwthdlpsvnsvfvieyknseinltqtnyttstgqiqtyynltvstnstr
+        Ga0222658_1000332_127  721 DSNAIASTVWVQNDTGVLVSHTFTQSNGNVNWTHDLPSVNSVFVIEYKNSEINLTQTNYTTSTGQIQTYYNLTVSTNSTR 800 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  801 dvkttyasfnftdvgvvsnrfykctndtysdcteeitdrvdvnfddlsgdgrddfiewfittmnnntpgtyqlvsdsgfp 880 
+                                   dvkttyasfnftdvgvvsnrfykctndtysdcteeitdrvdvnfddlsgdgrddfiewfittmnnntpgtyqlvsdsgfp
+        Ga0222658_1000332_127  801 DVKTTYASFNFTDVGVVSNRFYKCTNDTYSDCTEEITDRVDVNFDDLSGDGRDDFIEWFITTMNNNTPGTYQLVSDSGFP 880 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  881 iqtteteeilnapikpfdtiswrttvtmynpnsfatektlkyefptgvrdielddigknlqydpfgvlqpyvtiidsddt 960 
+                                   iqtteteeilnapikpfdtiswrttvtmynpnsfatektlkyefptgvrdielddigknlqydpfgvlqpyvtiidsddt
+        Ga0222658_1000332_127  881 IQTTETEEILNAPIKPFDTISWRTTVTMYNPNSFATEKTLKYEFPTGVRDIELDDIGKNLQYDPFGVLQPYVTIIDSDDT 960 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  961 ehqssvylspgetkifvltyktdsitvftstffpdyfkvgemsevtkvlriknqaekdvsdlehriaidyaedlrvcege 1040
+                                   ehqssvylspgetkifvltyktdsitvftstffpdyfkvgemsevtkvlriknqaekdvsdlehriaidyaedlrvcege
+        Ga0222658_1000332_127  961 EHQSSVYLSPGETKIFVLTYKTDSITVFTSTFFPDYFKVGEMSEVTKVLRIKNQAEKDVSDLEHRIAIDYAEDLRVCEGE 1040
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1041 yergcpdegdgnyenvtidtdslikgdyklelenieagetklitmtyyvptanvekeedgrrsidgiltnfrkyellssa 1120
+                                   yergcpdegdgnyenvtidtdslikgdyklelenieagetklitmtyyvptanvekeedgrrsidgiltnfrkyellssa
+        Ga0222658_1000332_127 1041 YERGCPDEGDGNYENVTIDTDSLIKGDYKLELENIEAGETKLITMTYYVPTANVEKEEDGRRSIDGILTNFRKYELLSSA 1120
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1121 hftmddvrlreggipcsqivdvlscrpnglcdlpiaytcdtnlklgsfgvgerktvylwyiedeaesenpsmwyrilefg 1200
+                                   hftmddvrlreggipcsqivdvlscrpnglcdlpiaytcdtnlklgsfgvgerktvylwyiedeaesenpsmwyrilefg
+        Ga0222658_1000332_127 1121 HFTMDDVRLREGGIPCSQIVDVLSCRPNGLCDLPIAYTCDTNLKLGSFGVGERKTVYLWYIEDEAESENPSMWYRILEFG 1200
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1201 dryylekgsvayylfgflgveedgqlyvttgriilflsaiifiilsfiailyigkksk 1258
+                                   dryylekgsvayylfgflgveedgqlyvttgriilflsaiifiilsfiailyigkksk
+        Ga0222658_1000332_127 1201 DRYYLEKGSVAYYLFGFLGVEEDGQLYVTTGRIILFLSAIIFIILSFIAILYIGKKSK 1258
+                                   *********************************************************8 PP
+
+>> Ga0222667_1000160_1376  [11892 - 8119] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 2991.9  93.7         0         0       1    1258 []       1    1258 []       1    1258 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 2991.9 bits;  conditional E-value: 0
+  91260_Ga0222658_1000332_127    1 msviafflvvtliqfgsavcfndtvfnatgsgssfytdfdfcfdainvstnkidifnvsydnpssdglvnnfsyihstnt 80  
+                                   msviafflvvtliqfgsavcfndtvfnatgsgssfytdfdfcfdainvstnkidifnvsydnpssdglvnnfsyihstnt
+       Ga0222667_1000160_1376    1 MSVIAFFLVVTLIQFGSAVCFNDTVFNATGSGSSFYTDFDFCFDAINVSTNKIDIFNVSYDNPSSDGLVNNFSYIHSTNT 80  
+                                   9******************************************************************************* PP
+
+  91260_Ga0222658_1000332_127   81 qingssfpyvssslsttrekiiisdiktingtfiinvsglipynliyssntstyqyqyerdnytyypsndtivvyltgie 160 
+                                   qingssfpyvssslsttrekiiisdiktingtfiinvsglipynliyssntstyqyqyerdnytyypsndtivvyltgie
+       Ga0222667_1000160_1376   81 QINGSSFPYVSSSLSTTREKIIISDIKTINGTFIINVSGLIPYNLIYSSNTSTYQYQYERDNYTYYPSNDTIVVYLTGIE 160 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  161 ngtnslgiredfdrnetqdisyndeldrlrglseevnqevnadskisrqssslrgfidffslssavnrtayfyrdinyei 240 
+                                   ngtnslgiredfdrnetqdisyndeldrlrglseevnqevnadskisrqssslrgfidffslssavnrtayfyrdinyei
+       Ga0222667_1000160_1376  161 NGTNSLGIREDFDRNETQDISYNDELDRLRGLSEEVNQEVNADSKISRQSSSLRGFIDFFSLSSAVNRTAYFYRDINYEI 240 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  241 sattyvsrikainikviqslsfseiservslffrnfldffglgssvdrtayffrnesesvlinnaaeptqgvfivtsqdi 320 
+                                   sattyvsrikainikviqslsfseiservslffrnfldffglgssvdrtayffrnesesvlinnaaeptqgvfivtsqdi
+       Ga0222667_1000160_1376  241 SATTYVSRIKAINIKVIQSLSFSEISERVSLFFRNFLDFFGLGSSVDRTAYFFRNESESVLINNAAEPTQGVFIVTSQDI 320 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  321 sitettnrfsttfkyfiespsinpmayrishlyrnftenvpilssqttlqaaflnvvqqlsfsesssriinstitfsdyf 400 
+                                   sitettnrfsttfkyfiespsinpmayrishlyrnftenvpilssqttlqaaflnvvqqlsfsesssriinstitfsdyf
+       Ga0222667_1000160_1376  321 SITETTNRFSTTFKYFIESPSINPMAYRISHLYRNFTENVPILSSQTTLQAAFLNVVQQLSFSESSSRIINSTITFSDYF 400 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  401 gitqtatrttslirnildffqigndgylssfyysekitesitttinleasggffvdisnalnvndiisrtqtisrdvidq 480 
+                                   gitqtatrttslirnildffqigndgylssfyysekitesitttinleasggffvdisnalnvndiisrtqtisrdvidq
+       Ga0222667_1000160_1376  401 GITQTATRTTSLIRNILDFFQIGNDGYLSSFYYSEKITESITTTINLEASGGFFVDISNALNVNDIISRTQTISRDVIDQ 480 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  481 fsitelstrfqdisksiinffgitdnlnlfrelsgrvdlavafsdsvgrtqtlsresqqtlsldllfertasisrsvtqf 560 
+                                   fsitelstrfqdisksiinffgitdnlnlfrelsgrvdlavafsdsvgrtqtlsresqqtlsldllfertasisrsvtqf
+       Ga0222667_1000160_1376  481 FSITELSTRFQDISKSIINFFGITDNLNLFRELSGRVDLAVAFSDSVGRTQTLSRESQQTLSLDLLFERTASISRSVTQF 560 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  561 fqmffslfsskteldpwtkitsveekiqtpalegdivywnykdtwtvdnyprnwtnvtktyelsssanginvfidgvnyt 640 
+                                   fqmffslfsskteldpwtkitsveekiqtpalegdivywnykdtwtvdnyprnwtnvtktyelsssanginvfidgvnyt
+       Ga0222667_1000160_1376  561 FQMFFSLFSSKTELDPWTKITSVEEKIQTPALEGDIVYWNYKDTWTVDNYPRNWTNVTKTYELSSSANGINVFIDGVNYT 640 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  641 gtswisnvsnnwtvvnnktlealdtsvinftyntaatsseeatwlaynkrvgenttwrntitmvnpstenytniginitt 720 
+                                   gtswisnvsnnwtvvnnktlealdtsvinftyntaatsseeatwlaynkrvgenttwrntitmvnpstenytniginitt
+       Ga0222667_1000160_1376  641 GTSWISNVSNNWTVVNNKTLEALDTSVINFTYNTAATSSEEATWLAYNKRVGENTTWRNTITMVNPSTENYTNIGINITT 720 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  721 dsnaiastvwvqndtgvlvshtftqsngnvnwthdlpsvnsvfvieyknseinltqtnyttstgqiqtyynltvstnstr 800 
+                                   dsnaiastvwvqndtgvlvshtftqsngnvnwthdlpsvnsvfvieyknseinltqtnyttstgqiqtyynltvstnstr
+       Ga0222667_1000160_1376  721 DSNAIASTVWVQNDTGVLVSHTFTQSNGNVNWTHDLPSVNSVFVIEYKNSEINLTQTNYTTSTGQIQTYYNLTVSTNSTR 800 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  801 dvkttyasfnftdvgvvsnrfykctndtysdcteeitdrvdvnfddlsgdgrddfiewfittmnnntpgtyqlvsdsgfp 880 
+                                   dvkttyasfnftdvgvvsnrfykctndtysdcteeitdrvdvnfddlsgdgrddfiewfittmnnntpgtyqlvsdsgfp
+       Ga0222667_1000160_1376  801 DVKTTYASFNFTDVGVVSNRFYKCTNDTYSDCTEEITDRVDVNFDDLSGDGRDDFIEWFITTMNNNTPGTYQLVSDSGFP 880 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  881 iqtteteeilnapikpfdtiswrttvtmynpnsfatektlkyefptgvrdielddigknlqydpfgvlqpyvtiidsddt 960 
+                                   iqtteteeilnapikpfdtiswrttvtmynpnsfatektlkyefptgvrdielddigknlqydpfgvlqpyvtiidsddt
+       Ga0222667_1000160_1376  881 IQTTETEEILNAPIKPFDTISWRTTVTMYNPNSFATEKTLKYEFPTGVRDIELDDIGKNLQYDPFGVLQPYVTIIDSDDT 960 
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127  961 ehqssvylspgetkifvltyktdsitvftstffpdyfkvgemsevtkvlriknqaekdvsdlehriaidyaedlrvcege 1040
+                                   ehqssvylspgetkifvltyktdsitvftstffpdyfkvgemsevtkvlriknqaekdvsdlehriaidyaedlrvcege
+       Ga0222667_1000160_1376  961 EHQSSVYLSPGETKIFVLTYKTDSITVFTSTFFPDYFKVGEMSEVTKVLRIKNQAEKDVSDLEHRIAIDYAEDLRVCEGE 1040
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1041 yergcpdegdgnyenvtidtdslikgdyklelenieagetklitmtyyvptanvekeedgrrsidgiltnfrkyellssa 1120
+                                   yergcpdegdgnyenvtidtdslikgdyklelenieagetklitmtyyvptanvekeedgrrsidgiltnfrkyellssa
+       Ga0222667_1000160_1376 1041 YERGCPDEGDGNYENVTIDTDSLIKGDYKLELENIEAGETKLITMTYYVPTANVEKEEDGRRSIDGILTNFRKYELLSSA 1120
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1121 hftmddvrlreggipcsqivdvlscrpnglcdlpiaytcdtnlklgsfgvgerktvylwyiedeaesenpsmwyrilefg 1200
+                                   hftmddvrlreggipcsqivdvlscrpnglcdlpiaytcdtnlklgsfgvgerktvylwyiedeaesenpsmwyrilefg
+       Ga0222667_1000160_1376 1121 HFTMDDVRLREGGIPCSQIVDVLSCRPNGLCDLPIAYTCDTNLKLGSFGVGERKTVYLWYIEDEAESENPSMWYRILEFG 1200
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1201 dryylekgsvayylfgflgveedgqlyvttgriilflsaiifiilsfiailyigkksk 1258
+                                   dryylekgsvayylfgflgveedgqlyvttgriilflsaiifiilsfiailyigkksk
+       Ga0222667_1000160_1376 1201 DRYYLEKGSVAYYLFGFLGVEEDGQLYVTTGRIILFLSAIIFIILSFIAILYIGKKSK 1258
+                                   *********************************************************8 PP
+
+>> Ga0075122_10000557_468  [22096 - 26337]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?  -19.7  25.5         3   9.7e+04     710     842 ..     388     527 ..     377     556 .. 0.65
+   2 !   24.8   9.0   5.7e-10   1.9e-05     234     355 ..     559     680 ..     533     681 .. 0.78
+   3 !  712.1  38.9  1.9e-217    6e-213     525    1252 ..     669    1402 ..     664    1410 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: -19.7 bits;  conditional E-value: 3
+  91260_Ga0222658_1000332_127 710 nytniginit.tdsnaiastvwvqn.dtgvlvshtftqsngnvnwthdlpsvnsvfviey.knseinltqtnytt...stgq 785
+                                    +ni in+t t++n    t  + n d  ++ s t+t     +n+   +       v  +    +in t t   t   +  q
+       Ga0075122_10000557_468 388 SQSNIFINVTiTETNFKNITYNLFNsDDTLVNSTTYTILTNSINFVNLVDGTYKYNVTIFdLGGNINSTTTRTITldtTPPQ 469
+                                  5678889987555665555554444133344577888887788887766655444443331356677776654331113346 PP
+
+  91260_Ga0222658_1000332_127 786 iqty..ynltvstnstrdvkttyasfnftdvgvvsnrfykctndtysdcteeitdrvdv 842
+                                  i+     n t + + t d+  t++     d    sn  +   n t + c  +itd v  
+       Ga0075122_10000557_468 470 IKIVspLNNTNTLDNTLDIEYTFSDNVGLDSCWYSNDTFT-VNITLASCGTNITDVVWA 527
+                                  6554116778888889999999988888888888888775.688999999999998754 PP
+
+  == domain 2  score: 24.8 bits;  conditional E-value: 5.7e-10
+  91260_Ga0222658_1000332_127 234 rdinyeisattyvsrikainikviqslsfseiservslffrnfldffglgssvdrtayffrnesesvlinnaaeptqgvfiv 315
+                                  r+i  ei +     r      kv q++s+ +i +r+  +fr++++ f l +  dr a ffrn  +++ ++  +   + ++i 
+       Ga0075122_10000557_468 559 REIPQEIISVEDTNRKTNTIKKVPQTFSIENIVDRIQSIFRKLIEGFNLNTFTDRIASFFRNLIQTLNLDTFTGRLKSLLIS 640
+                                  5566666666666666666667889999999999999999999999999999999999999999999999999999999999 PP
+
+  91260_Ga0222658_1000332_127 316 tsqdisitettnrfsttfkyfiespsinpmayrishlyrn 355
+                                   sq  +i +  nr  + f+ + e+  i+ +  r + l+r+
+       Ga0075122_10000557_468 641 ISQSFTIDNFVNRTQSIFRNIAETLNIDELIKRTATLFRK 680
+                                  9999999999999999999999999999999999888885 PP
+
+  == domain 3  score: 712.1 bits;  conditional E-value: 1.9e-217
+  91260_Ga0222658_1000332_127  525 dsvgrtqtlsresqqtlsldllfertasisrsvtqffqmffslfsskteldpwtkitsveekiqtpalegdivywnykdt 604 
+                                   + + rt tl r+  +tl+++ + ++  s+  +++qf+++++s+f++ t  + +  i s e   q    e   v w+  d 
+       Ga0075122_10000557_468  669 ELIKRTATLFRKLLNTLTIETITDKLRSVQTTISQFINFLISVFTTPT-YNAFNWINSTETLTQFDGQEQIRVEWQRLDN 747 
+                                   5678****************************************9988.688999************************* PP
+
+  91260_Ga0222658_1000332_127  605 wtvdn.yprnwtnvtktyelsssanginvfidgvnytgtswisnvsnnwtvvnnktlealdtsvinftyntaatsseeat 683 
+                                   wtv    p+nwtnvtkty l   ++ ++++ dg + t t  + n    +t  nnktle  ++s+in+ty+t+at+s e t
+       Ga0075122_10000557_468  748 WTVSSvSPQNWTNVTKTYTLPIDCDDVKLVFDGDDVTSTNLVNNTLCVYTFRNNKTLEQTNSSLINITYDTSATTSAEGT 827 
+                                   ***87369************************************************************************ PP
+
+  91260_Ga0222658_1000332_127  684 wlaynkrvgenttwrntitmvnpste.nytniginittdsnaiastvwvqndtgvlvshtftqsngnvnwthdl..psvn 760 
+                                   wla nkrvg +t wrnt+t+ npst+ +ytni in+ttd  ai +++ v+n +  ++   ftq +gnvnwt dl     n
+       Ga0075122_10000557_468  828 WLASNKRVGSKTGWRNTLTLTNPSTQlDYTNISINMTTDIFAINTSIVVRNSSNDILNNNFTQVDGNVNWTDDLilKDSN 907 
+                                   *************************868*********************************************7335789 PP
+
+  91260_Ga0222658_1000332_127  761 svfvieyknseinltqtnyttst.gqiqtyynltvstnstrdvkttyasfnftdvgvvsnrfykctndtysdcteeitdr 839 
+                                    vf i+y  +einl++ n+ t+t gq+   +n+t+ +ns+r + t +a f f       n+++kc+ d   +cte+it+r
+       Ga0075122_10000557_468  908 DVFTIDYETTEINLSEVNFQTTTgGQVFDIHNITIYANSSRAIPTVFANFTFNATQSFQNKLFKCS-DGMNNCTEDITNR 986 
+                                   9*****************9776637****************************************7.7899********* PP
+
+  91260_Ga0222658_1000332_127  840 vdvnfddlsgdgrddfiewfittmnnntpgtyqlvsdsgfpiqtteteeilnapikpfdtiswrttvtmynpnsfatekt 919 
+                                   vdv f d  gdg +d++ewfit+++ n   +y+l+sd gfpi+t+   eiln p++pfdti w++t+tmynpn f +   
+       Ga0075122_10000557_468  987 VDVSFRDTDGDGAEDLVEWFITSLDRNQ--SYKLISDIGFPIDTSTIVEILNKPVRPFDTINWKATITMYNPNPFQATVV 1064
+                                   ************************9996..7************************************************* PP
+
+  91260_Ga0222658_1000332_127  920 lkyefptgvrdielddigknlqydpfgvlqpyvtiidsddtehqssvylspgetkifvltyktdsitvftstffpdyfkv 999 
+                                    kyefp gvrdi+ld +gknlq+d +g l p++t++d  dt    sv l  getk f +ty+tds+tvf+ t fp+++kv
+       Ga0075122_10000557_468 1065 NKYEFPLGVRDIQLDGVGKNLQFDAIGNLAPFITLVDKADTLFTDSVRLFAGETKTFEVTYRTDSVTVFSETSFPEFYKV 1144
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1000 gemsevtkvlriknqaekdvsdlehriaidyaedlrvcegeyergcpdegdgnyenvtidtdslikgdyklelenieage 1079
+                                    e   + +vlriknqae +v+d++  i +dyaed+  cege   gcpde d +++++ i  dsl+kgd+ ++++ +e+ge
+       Ga0075122_10000557_468 1145 KEKPTIVQVLRIKNQAEDNVTDVQIIIKLDYAEDVVACEGEDTGGCPDEDDNDFDELLITQDSLVKGDFEIDIDALESGE 1224
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1080 tklitmtyyvptanvekeedgrrsidgiltnfrkyellssahftmddvrlreggipcsqivdvlscrpnglcdlpiaytc 1159
+                                    k+it++y vpta +ek e g rsi+g+ltnfrky++ls a ftm+d+r re  i   q+ d+  cr +g+cd+p++ t 
+       Ga0075122_10000557_468 1225 VKVITVSYKVPTALLEKVESGARSINGVLTNFRKYQFLSIAPFTMNDLRYRESEININQVTDIWECRADGICDIPLSSTS 1304
+                                   ******************************************************************************** PP
+
+  91260_Ga0222658_1000332_127 1160 dtnlklgsfgvgerktvylwyiedeae....senpsmwyrilefgdryylekgsvayylfgflg.veedgqlyvttgrii 1234
+                                      ++lgs+gvgerk +y+wy+ d+       +n  +   il+ g    lekgs+ +ylfg+ g ++e g+  +   r+i
+       Ga0075122_10000557_468 1305 PFRINLGSYGVGERKQIYVWYLPDDVSedgvGDNRGIIDIILNSGRLINLEKGSIMFYLFGWAGfMDETGNRVIPLSRLI 1384
+                                   *********************98876412225799999*************************94588999********* PP
+
+  91260_Ga0222658_1000332_127 1235 lflsaiifiilsfiaily 1252
+                                   l++s  ++ +l +i i+ 
+       Ga0075122_10000557_468 1385 LIISGYLLSVLIVIIIVI 1402
+                                   ****99988887766653 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (1258 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       751  (0.00776926); expected 1933.3 (0.02)
+Passed bias filter:                      373  (0.00385877); expected 1933.3 (0.02)
+Passed Vit filter:                        21  (0.00021725); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.34u 0.05s 00:00:00.39 Elapsed: 00:00:00.11
+# Mc/sec: 42278.81
+//
+[ok]

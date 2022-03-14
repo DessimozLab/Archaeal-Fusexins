@@ -1,0 +1,93 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/46412_JNCS01000001_575.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/46412_JNCS01000001_575.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/46412_JNCS01000001_575.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/46412_JNCS01000001_575.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       46412_JNCS01000001_575  [M=278]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+   1.6e-132  443.5   5.6     2e-132  443.2   5.6    1.0  1  JNCS01000001_575  [40741 - 41589] Natrinema altunense strain 
+   5.7e-132  441.7   4.6     7e-132  441.4   4.6    1.0  1  ATYM01000002_662  [42641 - 43489] Haloplanus natans DSM 17983
+
+
+Domain annotation for each sequence (and alignments):
+>> JNCS01000001_575  [40741 - 41589] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun seque
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  443.2   5.6  4.1e-137    2e-132       1     278 []       3     279 ..       3     279 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 443.2 bits;  conditional E-value: 4.1e-137
+  46412_JNCS01000001_575   1 msdsspiedapaveeelleeqldkcddiladiieerlDveeeddvyqkidelfgsvrqstldvlsDrfkasalydalklllrglaee 87 
+                             ms+ss    ap+++ee++eeq++kc+d+ladiie+r+Dve++ddvyqkide+fg+v+qst+d+++Drf++++ly++l++++ gla+e
+        JNCS01000001_575   3 MSQSS----APPTNEEMIEEQIEKCFDLLADIIEPRIDVESDDDVYQKIDEYFGWVEQSTRDSFQDRFNTAQLYNYLRYVFLGLADE 85 
+                             77777....9***************************************************************************** PP
+
+  46412_JNCS01000001_575  88 qgyedklereekGkqkveDsvvnllrWfklyatvlLeeeidieyefalenfkeyReveiaHpeelptpdqeadpvllsslvliWnal 174
+                             qgy+dkl+re++G++++eD+vvn++rWfk+y+tvlL+eei+i+y+falen++eyRe+eiaHp+elp+pdq+adpvllssl+liWnal
+        JNCS01000001_575  86 QGYRDKLQREVGGEIRNEDNVVNAYRWFKTYSTVLLDEEIEISYTFALENLNEYREDEIAHPKELPSPDQQADPVLLSSLLLIWNAL 172
+                             *************************************************************************************** PP
+
+  46412_JNCS01000001_575 175 EdilrlWeeiLdldeeaaeeresvLdgd.elkvGfisnledrrGyittyqegeaGksirieldeveyFpseGDvvrleaedeakend 260
+                             E+++r+W++iLdlde+++eer+++Ld+d ++++Gf++++e+r+Gy+t++qegeaGksirie+++veyFpseGDvv+l+ae+++++nd
+        JNCS01000001_575 173 EGVIRTWGRILDLDEDTYEERRRLLDDDhDFHIGFVDHVEGRVGYVTSFQEGEAGKSIRIEPQYVEYFPSEGDVVILKAEQQYNHND 259
+                             ***************************99********************************************************** PP
+
+  46412_JNCS01000001_575 261 ekfssld..veeatrlrkyv 278
+                             e+fssl+  +e+++r+rk+v
+        JNCS01000001_575 260 EPFSSLTpvIENNNRVRKFV 279
+                             ********9*********97 PP
+
+>> ATYM01000002_662  [42641 - 43489] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequenc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  441.4   4.6  1.5e-136    7e-132       1     278 []       3     279 ..       3     279 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 441.4 bits;  conditional E-value: 1.5e-136
+  46412_JNCS01000001_575   1 msdsspiedapaveeelleeqldkcddiladiieerlDveeeddvyqkidelfgsvrqstldvlsDrfkasalydalklllrglaee 87 
+                             ms+ss    ap+++ee++eeq+dkc+d+ladiie+r+Dve++ddvyqkide+fg+v+qst+ +++Drf++++ly++l++++ gla+e
+        ATYM01000002_662   3 MSQSS----APPTNEEMIEEQIDKCFDLLADIIEPRIDVESDDDVYQKIDEYFGWVEQSTRASFQDRFNTAQLYNYLRYVFLGLADE 85 
+                             77777....9***************************************************************************** PP
+
+  46412_JNCS01000001_575  88 qgyedklereekGkqkveDsvvnllrWfklyatvlLeeeidieyefalenfkeyReveiaHpeelptpdqeadpvllsslvliWnal 174
+                             qgy++kl+re++G++++eD+vvn++rWfk+y+tvlL+eeidi+y+falen++eyRe+eiaHp++lp+pdq+adpvllssl+liWnal
+        ATYM01000002_662  86 QGYREKLQREVGGEIRNEDNVVNAFRWFKTYSTVLLDEEIDISYTFALENLNEYREDEIAHPKDLPSPDQQADPVLLSSLLLIWNAL 172
+                             *************************************************************************************** PP
+
+  46412_JNCS01000001_575 175 EdilrlWeeiLdldeeaaeeresvLdgd.elkvGfisnledrrGyittyqegeaGksirieldeveyFpseGDvvrleaedeakend 260
+                             E+++r+W++iLdlde+++e+r+++Ld++ ++++Gf++++e+r+Gy+t++qegeaGksirie+++veyFpseGDvv+l+ae+++++nd
+        ATYM01000002_662 173 EGVIRTWGRILDLDEDTYEDRRRLLDDNhDFHIGFVDHVEGRVGYVTSFQEGEAGKSIRIEPQYVEYFPSEGDVVILKAEQQYNHND 259
+                             ***************************99********************************************************** PP
+
+  46412_JNCS01000001_575 261 ekfssld..veeatrlrkyv 278
+                             e+fssl+  +e+++r+rk+v
+        ATYM01000002_662 260 EPFSSLTpvIENNNRVRKFV 279
+                             ********9*********97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (278 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       554  (0.00573125); expected 1933.3 (0.02)
+Passed bias filter:                      359  (0.00371393); expected 1933.3 (0.02)
+Passed Vit filter:                        17  (0.000175869); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.15u 0.01s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 20554.62
+//
+[ok]

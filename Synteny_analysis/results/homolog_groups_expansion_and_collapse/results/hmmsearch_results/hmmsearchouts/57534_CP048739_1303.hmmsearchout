@@ -1,0 +1,103 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/57534_CP048739_1303.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/57534_CP048739_1303.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/57534_CP048739_1303.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/57534_CP048739_1303.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       57534_CP048739_1303  [M=402]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+     3e-126  423.7   0.2   3.7e-126  423.5   0.2    1.0  1  Ga0207718_100100_2151  [44060 - 42846] (REVERSE SENSE)
+   4.3e-115  387.0   0.0   5.1e-115  386.8   0.0    1.0  1  CP048739_1303          [86352 - 85078] (REVERSE SENSE) [Halog
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207718_100100_2151  [44060 - 42846] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  423.5   0.2  7.6e-131  3.7e-126       6     394 ..       5     399 ..       1     403 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 423.5 bits;  conditional E-value: 7.6e-131
+    57534_CP048739_1303   6 ieltEyeeke.kelelseedaealeeeeskklkve.pspeeegkwkltakgyVGviqls.dltieirPKvplanLfemleyaydlksf 90 
+                            ++l+Eyeeke ++ el+ee+a++l e++s++++v  p+ +++ kw+l ++g+VG+i+l+ d +i+++PKv+l n+f m+eyaydl +f
+  Ga0207718_100100_2151   5 WTLEEYEEKElDQDELDEETAKFLVENFSSEVEVGfPNLKRDYKWELINQGFVGYIALPgDNSIVLQPKVELGNVFAMMEYAYDLGEF 92 
+                            89********99**************************************************************************** PP
+
+    57534_CP048739_1303  91 rfeeeveleseeellealaalfakeverllrrGlyrsYveeeenlpvlRGridlakqlrraplplklecrYdeltaDileNqillaal 178
+                            ++++ ++ +s e +++++a+++a++v ++ rrGlyrsYve+ee++++++Grid++k+l+r p+++k +++Y+e+taD+++Nqill++l
+  Ga0207718_100100_2151  93 DLSTVYDSDSVEGFYDRIANILAENVIDRRRRGLYRSYVEKEEKTQRIKGRIDFTKTLKR-PWDPKAHVKYSEMTADNEDNQILLYTL 179
+                            ************************************************************.*************************** PP
+
+    57534_CP048739_1303 179 elllrl.pllseelrrrlrrllarle.eVslkpvsaadldrisynRlnehYepllaLarlilenlsleleegerevlsflvdMnrlFE 264
+                            ++++++ +l+++e+ r++r+ +++++ ++s+++++a+d+  +synRln++Ye+l+aL+rl+l+n+++++e g+r++++f vdM++lF+
+  Ga0207718_100100_2151 180 NRISSAsSLCRDETLRKVRKGIRSMKgGISYNEFRASDCAGRSYNRLNSDYERLHALCRLLLDNSGPSYEVGDRQMVPFNVDMADLFQ 267
+                            ***9986889****************************************************************************** PP
+
+    57534_CP048739_1303 265 rfVaealkealperlrvkaqkrvhl...deerrvtlrpDlvlr..etgepvlvlDtKYKlsekpsnaDlyQllaYatalglpegvLiy 347
+                            +fV+e+l+e+lper+rvka+++v+l    ++r++++r+D+vl+  etg++v+v+DtKYK +e+p++ D+ Q++ Ya+a+++ e +L+y
+  Ga0207718_100100_2151 268 EFVTEWLRENLPERFRVKAEEEVTLaeyVHGRDLKYRIDIVLYdrETGDVVCVIDTKYKADERPETGDVSQMVGYAKAKDTGETFLLY 355
+                            ***********************99777777********************************************************* PP
+
+    57534_CP048739_1303 348 Pkseedepleitvrnagirlrilaldlsgdleeleeefleelaeeik 394
+                            P++  +epl++++  +++++r ++++l++dl+e++e+f+eel + ++
+  Ga0207718_100100_2151 356 PED-LEEPLDVQL--DDVHVRNMTFELEDDLQENGEAFVEELSDALS 399
+                            **9.6***99999..99*************************99875 PP
+
+>> CP048739_1303  [86352 - 85078] (REVERSE SENSE) [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  386.8   0.0    1e-119  5.1e-115       6     393 ..      17     418 ..       1     422 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 386.8 bits;  conditional E-value: 1e-119
+  57534_CP048739_1303   6 ieltEyeeke.kelels.....eedaealeeeeskklkve.pspeeegkwkltakgyVGviqls.dltieirPKvplanLfemleyaydl 87 
+                          ++l+E ee++ +e ++s     +e a++l +++ ++++++ ps ++e+++ l++kgyVG+iql+ ++ i+++PKv+l+n+fem+eyaydl
+        CP048739_1303  17 WRLKEFEECWfDESDISgdttfDEIAKFLLDSFPSQVELDfPSLRTENRCLLKNKGYVGHIQLPsGHAIRLLPKVELDNVFEMMEYAYDL 106
+                          899****999988888887888999***************************************************************** PP
+
+  57534_CP048739_1303  88 ksfrfeeeveleseeellealaalfakeverllrrGlyrsYveeeenlpvlRGridlakqlrraplplklecrYdeltaDileNqillaa 177
+                           +f++e+ ++ ++ e +++++a+++a+++ ++ rrGlyr+Yv++ee++++lRGrid+ k+l++ p+++k +++Y+e+taD++eNqill++
+        CP048739_1303 107 GDFDLEGVYDSDTVEGFYDRIANILAQNIVQRRRRGLYRAYVQREEKSQTLRGRIDFGKTLQK-PWDPKAHIKYSEMTADNEENQILLYT 195
+                          ***************************************************************.************************** PP
+
+  57534_CP048739_1303 178 lelllrl.pllseelrrrlrrllarle.eVslkpvsaadldrisynRlnehYepllaLarlilenlsleleegerevlsflvdMnrlFEr 265
+                          l++++++ +l++ee+ +  rr +++++ ++++++++++++  ++ynRln++Y++++aL+rlil+n++ ++e g+  +++f v+M++l+++
+        CP048739_1303 196 LSKISSStNLCREETLQLARRGIRSMRgGITYNEFQPRACIGRQYNRLNRDYKRMHALCRLILDNSGASYEVGDAMMVPFNVEMDMLYQK 285
+                          ****99967789****************************************************************************** PP
+
+  57534_CP048739_1303 266 fVaealkealperlrvkaq....krvhl..deerrvtlrpDlvlr..etgepvlvlDtKYKlsekpsnaDlyQllaYatalglpegvLiy 347
+                          +Va++l+e+lper+++++     ++v+l   ++r++++r+D+vl+  +tgepv+v+D+KYK +e+p + D+ Q++ Ya+a g++e +L+y
+        CP048739_1303 286 YVANWLRENLPERFEINRGgdkeETVTLaeFAGRNLQYRIDIVLYdrDTGEPVCVIDAKYKDDERPGTGDISQMVGYAKAVGVDETFLMY 375
+                          ***************9855444367788665679******************************************************** PP
+
+  57534_CP048739_1303 348 Pkseedepleitvrnagirlrilaldlsgdleeleeefleelaeei 393
+                          P++  d++l+i++  ++++++ +  +l+gdl+e+++ fle+la+e+
+        CP048739_1303 376 PSG-FDDSLDIQL--DDVHVKNAIYSLTGDLDENGQLFLESLADEL 418
+                          ***.699999999..99**************************987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (402 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       537  (0.00555538); expected 1933.3 (0.02)
+Passed bias filter:                      375  (0.00387946); expected 1933.3 (0.02)
+Passed Vit filter:                        23  (0.00023794); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.06
+# Mc/sec: 24769.06
+//
+[ok]

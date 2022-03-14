@@ -1,0 +1,63 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/50275_JABURA010000001_1704.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/50275_JABURA010000001_1704.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/50275_JABURA010000001_1704.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/50275_JABURA010000001_1704.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       50275_JABURA010000001_1704  [M=85]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    6.3e-54  182.2   2.8    6.9e-54  182.1   2.8    1.0  1  JABURA010000001_1704  [76366 - 76112] (REVERSE SENSE) JABURA0
+    1.3e-53  181.3   2.4    1.4e-53  181.1   2.4    1.0  1  CP058579_2807         [139644 - 139390] (REVERSE SENSE) [Halo
+
+
+Domain annotation for each sequence (and alignments):
+>> JABURA010000001_1704  [76366 - 76112] (REVERSE SENSE) JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  182.1   2.8   1.4e-58   6.9e-54       1      85 []       1      85 []       1      85 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 182.1 bits;  conditional E-value: 1.4e-58
+  50275_JABURA010000001_1704  1 mralkiedetlstrnkakrlmkkaekqGddevdfsavefvGrafadeavkqaelrdieiiGlsGdvetmfekvGfldesqGeydr 85
+                                mralkiedetlstrnkak+lmkkaekqGdd++dfs+vef+GrafadeavkqaelrdieiiGlsGdvetmfe+vGfl+e++Ge+dr
+        JABURA010000001_1704  1 MRALKIEDETLSTRNKAKQLMKKAEKQGDDTADFSNVEFAGRAFADEAVKQAELRDIEIIGLSGDVETMFEHVGFLHENGGENDR 85
+                                9**********************************************************************************97 PP
+
+>> CP058579_2807  [139644 - 139390] (REVERSE SENSE) [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  181.1   2.4   2.9e-58   1.4e-53       1      85 []       1      85 []       1      85 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 181.1 bits;  conditional E-value: 2.9e-58
+  50275_JABURA010000001_1704  1 mralkiedetlstrnkakrlmkkaekqGddevdfsavefvGrafadeavkqaelrdieiiGlsGdvetmfekvGfldesqGeydr 85
+                                mr+l+ie++tlstrn+akrlmk+ae+qGddevdfsavefvGrafadeavkqa+lrdi+i+GlsGdvetmf+kvGf+desqGey++
+               CP058579_2807  1 MRTLEIELGTLSTRNEAKRLMKNAERQGDDEVDFSAVEFVGRAFADEAVKQADLRDIAITGLSGDVETMFDKVGFRDESQGEYRG 85
+                                9**********************************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (85 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       361  (0.00373462); expected 1933.3 (0.02)
+Passed bias filter:                      317  (0.00327943); expected 1933.3 (0.02)
+Passed Vit filter:                        16  (0.000165524); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 6284.69
+//
+[ok]

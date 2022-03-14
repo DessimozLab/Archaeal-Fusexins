@@ -1,0 +1,90 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37844_DRYJ01000053.1_366.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37844_DRYJ01000053.1_366.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37844_DRYJ01000053.1_366.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37844_DRYJ01000053.1_366.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37844_DRYJ01000053.1_366  [M=75]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    1.2e-54  184.6   3.5    1.3e-54  184.5   3.5    1.0  1  DRYJ01000053.1_366     [22459 - 22683] TPA_asm: Candidatus Ba
+    1.2e-54  184.6   3.5    1.3e-54  184.5   3.5    1.0  1  Ga0065719_100268_366   [22459 - 22683]
+  ------ inclusion threshold ------
+       0.26   13.8   0.1        0.4   13.2   0.1    1.4  1  Ga0208375_1000150_327  [22253 - 22552]
+       0.51   12.9   0.3       0.72   12.4   0.3    1.2  1  Ga0207719_100190_491   [30522 - 30839]
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_366  [22459 - 22683] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  184.5   3.5   5.5e-59   1.3e-54       1      75 []       1      75 []       1      75 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 184.5 bits;  conditional E-value: 5.5e-59
+  37844_DRYJ01000053.1_366  1 mkleyhsfmrdnrklriirvdkpvnevviydidpkekletikewienerlngrecvvdfkdrvivcarssvpqsp 75
+                              mkleyhsfmrdnrklriirvdkpvnevviydidpkekletikewienerlngrecvvdfkdrvivcarssvpqsp
+        DRYJ01000053.1_366  1 MKLEYHSFMRDNRKLRIIRVDKPVNEVVIYDIDPKEKLETIKEWIENERLNGRECVVDFKDRVIVCARSSVPQSP 75
+                              9*************************************************************************9 PP
+
+>> Ga0065719_100268_366  [22459 - 22683]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  184.5   3.5   5.5e-59   1.3e-54       1      75 []       1      75 []       1      75 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 184.5 bits;  conditional E-value: 5.5e-59
+  37844_DRYJ01000053.1_366  1 mkleyhsfmrdnrklriirvdkpvnevviydidpkekletikewienerlngrecvvdfkdrvivcarssvpqsp 75
+                              mkleyhsfmrdnrklriirvdkpvnevviydidpkekletikewienerlngrecvvdfkdrvivcarssvpqsp
+      Ga0065719_100268_366  1 MKLEYHSFMRDNRKLRIIRVDKPVNEVVIYDIDPKEKLETIKEWIENERLNGRECVVDFKDRVIVCARSSVPQSP 75
+                              9*************************************************************************9 PP
+
+>> Ga0208375_1000150_327  [22253 - 22552]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.1   1.7e-05       0.4      16      48 ..      25      57 ..      15      65 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 1.7e-05
+  37844_DRYJ01000053.1_366 16 riirvdkpvnevviydidpkekletikewiene 48
+                              ++ rvd  +   +iydi  k++l   + w +n 
+     Ga0208375_1000150_327 25 KLQRVDSNLFHFIIYDIAEKNNLPITRGWFKNG 57
+                              5679*************************9996 PP
+
+>> Ga0207719_100190_491  [30522 - 30839]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.3     3e-05      0.72      14      39 ..      67      94 ..      58     104 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 3e-05
+  37844_DRYJ01000053.1_366 14 klriirvdk..pvnevviydidpkekle 39
+                              +  iir+d   pv+ + +ydid +e l+
+      Ga0207719_100190_491 67 RYDIIRLDEkdPVDAIGVYDIDEREVLD 94
+                              6779**99545**************987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (75 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       857  (0.00886585); expected 1933.3 (0.02)
+Passed bias filter:                      650  (0.00672439); expected 1933.3 (0.02)
+Passed Vit filter:                        43  (0.000444844); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 5545.31
+//
+[ok]

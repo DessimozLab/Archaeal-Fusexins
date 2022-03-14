@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/36588_DQXS01000079.1_317.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/36588_DQXS01000079.1_317.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/36588_DQXS01000079.1_317.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/36588_DQXS01000079.1_317.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       36588_DQXS01000079.1_317  [M=96]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.4e-64  216.6   3.8    1.6e-64  216.5   3.8    1.0  1  DQXS01000079.1_317      [19390 - 19677] TPA_asm: Candidatus A
+    1.4e-64  216.6   3.8    1.6e-64  216.5   3.8    1.0  1  Ga0116200_10000074_317  [19390 - 19677]
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_317  [19390 - 19677] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  216.5   3.8   3.2e-69   1.6e-64       1      96 []       1      96 []       1      96 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 216.5 bits;  conditional E-value: 3.2e-69
+  36588_DQXS01000079.1_317  1 mvvkrkpfdidrvisrvdkkikktlkeeilkefelarnfylryldnpslfckeqfditytfdgnssyvvdrfgvhikynewlfdiaf 87
+                              mvvkrkpfdidrvisrvdkkikktlkeeilkefelarnfylryldnpslfckeqfditytfdgnssyvvdrfgvhikynewlfdiaf
+        DQXS01000079.1_317  1 MVVKRKPFDIDRVISRVDKKIKKTLKEEILKEFELARNFYLRYLDNPSLFCKEQFDITYTFDGNSSYVVDRFGVHIKYNEWLFDIAF 87
+                              9************************************************************************************** PP
+
+  36588_DQXS01000079.1_317 88 aslllkikr 96
+                              aslllkikr
+        DQXS01000079.1_317 88 ASLLLKIKR 96
+                              ********8 PP
+
+>> Ga0116200_10000074_317  [19390 - 19677]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  216.5   3.8   3.2e-69   1.6e-64       1      96 []       1      96 []       1      96 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 216.5 bits;  conditional E-value: 3.2e-69
+  36588_DQXS01000079.1_317  1 mvvkrkpfdidrvisrvdkkikktlkeeilkefelarnfylryldnpslfckeqfditytfdgnssyvvdrfgvhikynewlfdiaf 87
+                              mvvkrkpfdidrvisrvdkkikktlkeeilkefelarnfylryldnpslfckeqfditytfdgnssyvvdrfgvhikynewlfdiaf
+    Ga0116200_10000074_317  1 MVVKRKPFDIDRVISRVDKKIKKTLKEEILKEFELARNFYLRYLDNPSLFCKEQFDITYTFDGNSSYVVDRFGVHIKYNEWLFDIAF 87
+                              9************************************************************************************** PP
+
+  36588_DQXS01000079.1_317 88 aslllkikr 96
+                              aslllkikr
+    Ga0116200_10000074_317 88 ASLLLKIKR 96
+                              ********8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (96 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1046  (0.0108211); expected 1933.3 (0.02)
+Passed bias filter:                      638  (0.00660025); expected 1933.3 (0.02)
+Passed Vit filter:                        30  (0.000310357); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 7098.00
+//
+[ok]

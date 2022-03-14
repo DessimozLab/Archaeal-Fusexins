@@ -1,0 +1,81 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/54484_CP058579_3042.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/54484_CP058579_3042.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/54484_CP058579_3042.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/54484_CP058579_3042.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       54484_CP058579_3042  [M=92]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    1.5e-52  178.6   7.8    1.7e-52  178.5   7.8    1.0  1  CP058579_3042         [123431 - 123156] (REVERSE SENSE) [Halo
+    3.6e-38  132.5   3.5      4e-38  132.4   3.5    1.0  1  CP048739_466          [33187 - 33429] [Halogeometricum borinq
+    8.7e-05   25.6   3.8    9.7e-05   25.4   3.3    1.5  1  JABURA010000001_2057  [55091 - 54750] (REVERSE SENSE) JABURA0
+
+
+Domain annotation for each sequence (and alignments):
+>> CP058579_3042  [123431 - 123156] (REVERSE SENSE) [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.5   7.8   5.3e-57   1.7e-52       1      92 []       1      92 []       1      92 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 178.5 bits;  conditional E-value: 5.3e-57
+  54484_CP058579_3042  1 mmadkqrpryprdlvtriisvrdsdGkkltlttarffrigGaaakrelqreGerkkdrreiqryrtrdyrllvrtepdGrlkkrkvwalytr 92
+                         mma+k+rpryprdlv+r+i+vrdsdG+kltlt+arffrigGaaakre+qreGer+kdrrei+ryrtrdyrl+v+t+pdGrlkkrkvwalyt+
+        CP058579_3042  1 MMARKGRPRYPRDLVGRTITVRDSDGRKLTLTYARFFRIGGAAAKREVQREGERMKDRREIHRYRTRDYRLFVPTTPDGRLKKRKVWALYTQ 92
+                         9******************************************************************************************8 PP
+
+>> CP048739_466  [33187 - 33429] [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  132.4   3.5   1.2e-42     4e-38       1      92 []       1      81 []       1      81 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 132.4 bits;  conditional E-value: 1.2e-42
+  54484_CP058579_3042  1 m.madkqrpryprdlvtriisvrdsdGkkltlttarffrigGaaakrelqreGerkkdrreiqryrtrdyrllvrtepdGrlkkrkvwalyt 91
+                         m mad+qrp       t+i+s+r++dGkk++++t+r+    G++a++elq++Gerkk++++iq+yrt++y+++vrte +Gr+++r++wal+t
+         CP048739_466  1 MpMADTQRP-------TEIPSERRFDGKKFHFHTYRY----GSGARQELQSLGERKKSWGAIQAYRTERYTVMVRTE-SGRMERRTAWALFT 80
+                         66*******.......*********************....************************************.************** PP
+
+  54484_CP058579_3042 92 r 92
+                         r
+         CP048739_466 81 R 81
+                         7 PP
+
+>> JABURA010000001_2057  [55091 - 54750] (REVERSE SENSE) JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4   3.3     3e-09   9.7e-05      18      91 ..      47     113 ..      26     114 .] 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 25.4 bits;  conditional E-value: 3e-09
+   54484_CP058579_3042  18 iisvrdsdGkkltlttarffrigGaaakrelqreGerkkdrreiqryrtrdy.rllvrtepdGrlkkrkvwalyt 91 
+                           ++   + dG+   l ++ +     +  ++ lq++Ge +k+++ i+ryrtr y r+ vr +   r  + + + l+ 
+  JABURA010000001_2057  47 VPESIQADGR---LYYYNY-----SEQRQRLQNQGEWMKQKGLIDRYRTRPYnRMTVRWDEHDRPVRYNGYVLFV 113
+                           4455555665...556677.....899*************************44668888777777777777775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (92 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       935  (0.00967278); expected 1933.3 (0.02)
+Passed bias filter:                      525  (0.00543124); expected 1933.3 (0.02)
+Passed Vit filter:                        25  (0.00025863); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.04
+# Mc/sec: 8502.81
+//
+[ok]

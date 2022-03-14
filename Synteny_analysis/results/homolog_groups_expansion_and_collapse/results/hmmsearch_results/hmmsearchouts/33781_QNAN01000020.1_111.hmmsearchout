@@ -1,0 +1,76 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/33781_QNAN01000020.1_111.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/33781_QNAN01000020.1_111.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/33781_QNAN01000020.1_111.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/33781_QNAN01000020.1_111.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       33781_QNAN01000020.1_111  [M=68]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.5e-49  168.4   2.0    1.7e-49  168.2   2.0    1.0  1  DQXS01000079.1_111      [6720 - 6923] TPA_asm: Candidatus Alt
+    1.5e-49  168.4   2.0    1.7e-49  168.2   2.0    1.0  1  Ga0116200_10000074_111  [6720 - 6923]
+    1.5e-49  168.4   2.0    1.7e-49  168.2   2.0    1.0  1  QNAN01000020.1_111      [6720 - 6923] Thermotogae bacterium i
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_111  [6720 - 6923] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.2   2.0   5.2e-54   1.7e-49       1      68 []       1      68 []       1      68 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 168.2 bits;  conditional E-value: 5.2e-54
+  33781_QNAN01000020.1_111  1 mfgitpkriiiivaiflllayfgklgdavnllggivngaidwskdrviellgekiepceeclkrcasv 68
+                              mfgitpkriiiivaiflllayfgklgdavnllggivngaidwskdrviellgekiepceeclkrcasv
+        DQXS01000079.1_111  1 MFGITPKRIIIIVAIFLLLAYFGKLGDAVNLLGGIVNGAIDWSKDRVIELLGEKIEPCEECLKRCASV 68
+                              9******************************************************************8 PP
+
+>> Ga0116200_10000074_111  [6720 - 6923]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.2   2.0   5.2e-54   1.7e-49       1      68 []       1      68 []       1      68 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 168.2 bits;  conditional E-value: 5.2e-54
+  33781_QNAN01000020.1_111  1 mfgitpkriiiivaiflllayfgklgdavnllggivngaidwskdrviellgekiepceeclkrcasv 68
+                              mfgitpkriiiivaiflllayfgklgdavnllggivngaidwskdrviellgekiepceeclkrcasv
+    Ga0116200_10000074_111  1 MFGITPKRIIIIVAIFLLLAYFGKLGDAVNLLGGIVNGAIDWSKDRVIELLGEKIEPCEECLKRCASV 68
+                              9******************************************************************8 PP
+
+>> QNAN01000020.1_111  [6720 - 6923] Thermotogae bacterium isolate B96_G9 B96_Guay9_scaffold_13443, whole genome shotgun
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.2   2.0   5.2e-54   1.7e-49       1      68 []       1      68 []       1      68 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 168.2 bits;  conditional E-value: 5.2e-54
+  33781_QNAN01000020.1_111  1 mfgitpkriiiivaiflllayfgklgdavnllggivngaidwskdrviellgekiepceeclkrcasv 68
+                              mfgitpkriiiivaiflllayfgklgdavnllggivngaidwskdrviellgekiepceeclkrcasv
+        QNAN01000020.1_111  1 MFGITPKRIIIIVAIFLLLAYFGKLGDAVNLLGGIVNGAIDWSKDRVIELLGEKIEPCEECLKRCASV 68
+                              9******************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (68 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1636  (0.0169248); expected 1933.3 (0.02)
+Passed bias filter:                     1090  (0.0112763); expected 1933.3 (0.02)
+Passed Vit filter:                        62  (0.000641404); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 5027.75
+//
+[ok]

@@ -1,0 +1,100 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/41701_NZ_CP071597.1_474.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/41701_NZ_CP071597.1_474.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/41701_NZ_CP071597.1_474.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/41701_NZ_CP071597.1_474.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       41701_NZ_CP071597.1_474  [M=116]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.6e-61  208.2   8.9    1.8e-61  208.1   8.9    1.0  1  CP058579_1323           [97903 - 98250] [Halobonum sp. NJ-3-1
+    1.2e-56  192.5   8.8    1.3e-56  192.4   8.8    1.0  1  NZ_CP071597.1_474       [31216 - 31554] Halovivax sp. KZCA124
+    1.2e-09   41.0   8.2    1.4e-09   40.8   8.2    1.0  1  JABURA010000001_323     [23188 - 23487] JABURA010000001.1 [Ha
+  ------ inclusion threshold ------
+       0.34   13.7   0.3       0.39   13.5   0.3    1.1  1  Ga0075122_10000557_403  [21250 - 21507]
+
+
+Domain annotation for each sequence (and alignments):
+>> CP058579_1323  [97903 - 98250] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  208.1   8.9   7.3e-66   1.8e-61       1     116 []       1     116 []       1     116 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 208.1 bits;  conditional E-value: 7.3e-66
+  41701_NZ_CP071597.1_474   1 mavalfrkpvaGGeletmvldlldklddvvlllllylsallaslvlvlvGleyltapeasllaellagidltasslalsleGaltl 86 
+                              ma+alfrkpvaGGel+tmv+dlld++ddvv+++ll+lsa+la+++lvlvG+eylt+p++sll+e+lagi+l+as+lalsleGa+t+
+            CP058579_1323   1 MAAALFRKPVAGGELHTMVFDLLDQVDDVVWTWLLHLSAFLAGIHLVLVGMEYLTQPAQSLLGEQLAGIGLHASGLALSLEGAVTI 86 
+                              99************************************************************************************ PP
+
+  41701_NZ_CP071597.1_474  87 fvllvGllllliGlGlllyvvkqlleryma 116
+                              fvllvG+ll+liGlG+llyv+kq++e+yma
+            CP058579_1323  87 FVLLVGTLLTLIGLGFLLYVGKQVFEQYMA 116
+                              ****************************96 PP
+
+>> NZ_CP071597.1_474  [31216 - 31554] Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  192.4   8.8   5.2e-61   1.3e-56       1     114 [.       1     112 [.       1     113 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 192.4 bits;  conditional E-value: 5.2e-61
+  41701_NZ_CP071597.1_474   1 mavalfrkpvaGGeletmvldlldklddvvlllllylsallaslvlvlvGleyltapeasllaellagidlt.asslalsleGalt 85 
+                              m+v   r+p++GG++etm++++l+kldd++llll+y+s+l++slvlvl+G+++ltapeas+la+lla+id+t +ssl+lsl+Galt
+        NZ_CP071597.1_474   1 MTV---RAPPTGGDCETMPMKVLRKLDDWGLLLLTYVSTLVSSLVLVLAGWQHLTAPEASTLADLLAMIDVTvSSSLGLSLSGALT 83 
+                              555...******************************************************************9************* PP
+
+  41701_NZ_CP071597.1_474  86 lfvllvGllllliGlGlllyvvkqllery 114
+                              lfv+lvGl++ll+G+Gl+lyvv+qll+r+
+        NZ_CP071597.1_474  84 LFVMLVGLTVLLNGVGLALYVVMQLLDRW 112
+                              ****************************9 PP
+
+>> JABURA010000001_323  [23188 - 23487] JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.8   8.2   5.7e-14   1.4e-09      28     107 ..      12      92 ..       3      99 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 40.8 bits;  conditional E-value: 5.7e-14
+  41701_NZ_CP071597.1_474  28 dvvlllllylsallaslvlvlvGleyltapeasllaellagidlt.asslalsleGaltlfvllvGllllliGlGlllyvv 107
+                               + l l   l+ l+++lvl+ +Gl+++ +p+++lla+ll +++l  a+s  lsl G l l+ +lvG+ + + G+ ll   +
+      JABURA010000001_323  12 GWKLSLASALAMLVSGLVLLSTGLRHIFSPAEALLADLLDMVNLAvAASPELSLAGLLWLLSILVGISVAMTGIYLLWAFG 92 
+                              467777888999*********************************99**************************98765554 PP
+
+>> Ga0075122_10000557_403  [21250 - 21507]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.3   1.6e-05      0.39      11      72 ..       3      64 ..       1      70 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 1.6e-05
+  41701_NZ_CP071597.1_474 11 aGGeletmvldlldklddvvlllllylsallaslvlvlvGleyltapeasllaellagidlt 72
+                             +  el  + ld  + l + ++++ + +s ++a +   lv +e l +     l+  l ++++ 
+   Ga0075122_10000557_403  3 TTKELTLLSLDYPKYLTQTGIIWTVGISFFIAIISYGLVSWESLNQKTLIFLGIILIMVEIS 64
+                             5567777888888999999************************************9999875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (116 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1078  (0.0111521); expected 1933.3 (0.02)
+Passed bias filter:                      543  (0.00561745); expected 1933.3 (0.02)
+Passed Vit filter:                        23  (0.00023794); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 8576.75
+//
+[ok]

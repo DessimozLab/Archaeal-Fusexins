@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CP048739_160         -          53883_CP058579_2441  -              2e-52  177.6   0.9   2.2e-52  177.5   0.9   1.0   1   0   0   1   1   1   1 [9472 - 9729] [Halogeometricum borinquense strain wsp4 | 60847.21]
+CP058579_2441        -          53883_CP058579_2441  -            2.6e-42  145.2   0.3   2.8e-42  145.1   0.3   1.0   1   0   0   1   1   1   1 [163614 - 163372] (REVERSE SENSE) [Halobonum sp. NJ-3-1 | 2743089.3]
+NZ_CP071597.1_1574   -          53883_CP058579_2441  -            3.9e-25   90.2   2.0   5.6e-25   89.7   2.0   1.2   1   0   0   1   1   1   1 [87644 - 87276] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/53883_CP058579_2441.hmm
+# Target file:     ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# Option settings: hmmsearch -o ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/53883_CP058579_2441.hmmsearchout --tblout ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/53883_CP058579_2441.tblout --domtblout ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/53883_CP058579_2441.domtblout --cpu 3 ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/53883_CP058579_2441.hmm ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa 
+# Current dir:     /media3/mauri/fusexins/analysis_mobile_elements_with_MAGs_and_Halovivax/scripts
+# Date:            Tue Aug 10 15:58:49 2021
+# [ok]

@@ -1,0 +1,118 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37795_DRYJ01000053.1_317.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37795_DRYJ01000053.1_317.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37795_DRYJ01000053.1_317.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37795_DRYJ01000053.1_317.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37795_DRYJ01000053.1_317  [M=102]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.3e-69  233.4   2.9    1.5e-69  233.3   2.9    1.0  1  DRYJ01000053.1_317      [19650 - 19955] TPA_asm: Candidatus B
+    1.3e-69  233.4   2.9    1.5e-69  233.3   2.9    1.0  1  Ga0065719_100268_317    [19650 - 19955]
+     0.0082   18.9   0.2     0.0099   18.7   0.2    1.1  1  Ga0208375_1000150_1283  [71415 - 71732]
+  ------ inclusion threshold ------
+       0.05   16.4   0.0      0.056   16.3   0.0    1.0  1  DQXS01000079.1_308      [18870 - 19121] TPA_asm: Candidatus A
+       0.05   16.4   0.0      0.056   16.3   0.0    1.0  1  Ga0116200_10000074_308  [18870 - 19121]
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_317  [19650 - 19955] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  233.3   2.9   7.6e-74   1.5e-69       1     102 []       1     102 []       1     102 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 233.3 bits;  conditional E-value: 7.6e-74
+  37795_DRYJ01000053.1_317   1 lmfgkidwdeykenlfkaiktfavidwtdfdkflgtdvkkiyiysggyvvseipynevevkhlskfmpvvdltggrpypedfekv 85 
+                               +mfgkidwdeykenlfk iktfavidwtdfdkflgtdvkkiyiysggyvvseipynevevkhlskfmpvvdltggrpypedfekv
+        DRYJ01000053.1_317   1 MMFGKIDWDEYKENLFKXIKTFAVIDWTDFDKFLGTDVKKIYIYSGGYVVSEIPYNEVEVKHLSKFMPVVDLTGGRPYPEDFEKV 85 
+                               8************************************************************************************ PP
+
+  37795_DRYJ01000053.1_317  86 pkfwsifgrlnlaelei 102
+                               pkfwsifgrlnlaelei
+        DRYJ01000053.1_317  86 PKFWSIFGRLNLAELEI 102
+                               ***************98 PP
+
+>> Ga0065719_100268_317  [19650 - 19955]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  233.3   2.9   7.6e-74   1.5e-69       1     102 []       1     102 []       1     102 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 233.3 bits;  conditional E-value: 7.6e-74
+  37795_DRYJ01000053.1_317   1 lmfgkidwdeykenlfkaiktfavidwtdfdkflgtdvkkiyiysggyvvseipynevevkhlskfmpvvdltggrpypedfekv 85 
+                               +mfgkidwdeykenlfk iktfavidwtdfdkflgtdvkkiyiysggyvvseipynevevkhlskfmpvvdltggrpypedfekv
+      Ga0065719_100268_317   1 MMFGKIDWDEYKENLFKXIKTFAVIDWTDFDKFLGTDVKKIYIYSGGYVVSEIPYNEVEVKHLSKFMPVVDLTGGRPYPEDFEKV 85 
+                               8************************************************************************************ PP
+
+  37795_DRYJ01000053.1_317  86 pkfwsifgrlnlaelei 102
+                               pkfwsifgrlnlaelei
+      Ga0065719_100268_317  86 PKFWSIFGRLNLAELEI 102
+                               ***************98 PP
+
+>> Ga0208375_1000150_1283  [71415 - 71732]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.7   0.2   5.1e-07    0.0099      17      97 ..      16     101 ..       4     104 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 5.1e-07
+  37795_DRYJ01000053.1_317  17 kaiktfavidwtdfdk..flgtd.vkkiyi.ysggyvvseipynevevkhlskf.mpvvdltggrpypedfekvpkfwsifgrln 96 
+                               k++  + ++d+td  k   +g d  kkiyi y   +      y e  +++l +    vvd t g+  p +   +p+  + fg ++
+    Ga0208375_1000150_1283  16 KHVGYWYLVDFTDAAKeySVGNDfCKKIYImYDKQWTGKSWLYSEARIQQLKQQgNAVVDKTQGQIVPAESTMIPRTEAAFGTIQ 100
+                               556667899****98833478884599**857788999999*********98752789***********************9886 PP
+
+  37795_DRYJ01000053.1_317  97 l 97 
+                               +
+    Ga0208375_1000150_1283 101 I 101
+                               5 PP
+
+>> DQXS01000079.1_308  [18870 - 19121] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.0   2.9e-06     0.056      22      98 ..       2      79 ..       1      82 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 2.9e-06
+  37795_DRYJ01000053.1_317 22 favidwtdfdkflgtdvkkiyiysggyvvseipynevevkhlskf.mpvvdltggrpypedfekvpkfwsifgrlnla 98
+                              +a+id+t   k ++   k+i ++  g ++   py   e++ l k    v d t  +   e+   vp +   +grl+l 
+        DQXS01000079.1_308  2 IAIIDFTKKSKEFALTQKEILLFVEGELIDRRPYSLAELNSLLKEgWFVYDRTYRKEISEESVLVPDVILALGRLQLH 79
+                              699************************************998875267889***********************9985 PP
+
+>> Ga0116200_10000074_308  [18870 - 19121]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.0   2.9e-06     0.056      22      98 ..       2      79 ..       1      82 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 2.9e-06
+  37795_DRYJ01000053.1_317 22 favidwtdfdkflgtdvkkiyiysggyvvseipynevevkhlskf.mpvvdltggrpypedfekvpkfwsifgrlnla 98
+                              +a+id+t   k ++   k+i ++  g ++   py   e++ l k    v d t  +   e+   vp +   +grl+l 
+    Ga0116200_10000074_308  2 IAIIDFTKKSKEFALTQKEILLFVEGELIDRRPYSLAELNSLLKEgWFVYDRTYRKEISEESVLVPDVILALGRLQLH 79
+                              699************************************998875267889***********************9985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (102 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       668  (0.00691061); expected 1933.3 (0.02)
+Passed bias filter:                      474  (0.00490363); expected 1933.3 (0.02)
+Passed Vit filter:                        30  (0.000310357); expected 96.7 (0.001)
+Passed Fwd filter:                         5  (5.17261e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 7541.62
+//
+[ok]

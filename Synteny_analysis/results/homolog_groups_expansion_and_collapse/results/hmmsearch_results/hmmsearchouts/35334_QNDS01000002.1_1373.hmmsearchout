@@ -1,0 +1,112 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/35334_QNDS01000002.1_1373.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/35334_QNDS01000002.1_1373.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/35334_QNDS01000002.1_1373.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/35334_QNDS01000002.1_1373.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       35334_QNDS01000002.1_1373  [M=163]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+   2.7e-119  397.1   2.1     3e-119  396.9   2.1    1.0  1  Ga0164313_10000250_1373  [2459 - 1971] (REVERSE SENSE)
+   2.7e-119  397.1   2.1     3e-119  396.9   2.1    1.0  1  QNDS01000002.1_1373      [2459 - 1971] (REVERSE SENSE) Candid
+      0.005   19.0   0.0     0.0058   18.7   0.0    1.1  1  CP010426.1_11203         [591177 - 591602] Archaeon GW2011_AR
+  ------ inclusion threshold ------
+      0.011   17.9   0.3      0.021   16.9   0.1    1.6  2  CP010426.1_16952         [777041 - 776247] (REVERSE SENSE) Ar
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_1373  [2459 - 1971] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  396.9   2.1  1.2e-123    3e-119       1     163 []       1     163 []       1     163 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 396.9 bits;  conditional E-value: 1.2e-123
+  35334_QNDS01000002.1_1373   1 mriwtilffwltvvllsltvayyagerdtqdiivtyeiqapdaleisinkslfdklegeythrdveylyclrgqisnreimiad 84 
+                                mriwtilffwltvvllsltvayyagerdtqdiivtyeiqapdaleisinkslfdklegeythrdveylyclrgqisnreimiad
+    Ga0164313_10000250_1373   1 MRIWTILFFWLTVVLLSLTVAYYAGERDTQDIIVTYEIQAPDALEISINKSLFDKLEGEYTHRDVEYLYCLRGQISNREIMIAD 84 
+                                9*********************************************************************************** PP
+
+  35334_QNDS01000002.1_1373  85 iveekdvfscpyavfmyetpcnysdcvgtlhphhsgncspsqedilfwrsmcdeedmpfhmiqcgaekfrgylcvnngi 163
+                                iveekdvfscpyavfmyetpcnysdcvgtlhphhsgncspsqedilfwrsmcdeedmpfhmiqcgaekfrgylcvnngi
+    Ga0164313_10000250_1373  85 IVEEKDVFSCPYAVFMYETPCNYSDCVGTLHPHHSGNCSPSQEDILFWRSMCDEEDMPFHMIQCGAEKFRGYLCVNNGI 163
+                                ******************************************************************************8 PP
+
+>> QNDS01000002.1_1373  [2459 - 1971] (REVERSE SENSE) Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_sca
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  396.9   2.1  1.2e-123    3e-119       1     163 []       1     163 []       1     163 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 396.9 bits;  conditional E-value: 1.2e-123
+  35334_QNDS01000002.1_1373   1 mriwtilffwltvvllsltvayyagerdtqdiivtyeiqapdaleisinkslfdklegeythrdveylyclrgqisnreimiad 84 
+                                mriwtilffwltvvllsltvayyagerdtqdiivtyeiqapdaleisinkslfdklegeythrdveylyclrgqisnreimiad
+        QNDS01000002.1_1373   1 MRIWTILFFWLTVVLLSLTVAYYAGERDTQDIIVTYEIQAPDALEISINKSLFDKLEGEYTHRDVEYLYCLRGQISNREIMIAD 84 
+                                9*********************************************************************************** PP
+
+  35334_QNDS01000002.1_1373  85 iveekdvfscpyavfmyetpcnysdcvgtlhphhsgncspsqedilfwrsmcdeedmpfhmiqcgaekfrgylcvnngi 163
+                                iveekdvfscpyavfmyetpcnysdcvgtlhphhsgncspsqedilfwrsmcdeedmpfhmiqcgaekfrgylcvnngi
+        QNDS01000002.1_1373  85 IVEEKDVFSCPYAVFMYETPCNYSDCVGTLHPHHSGNCSPSQEDILFWRSMCDEEDMPFHMIQCGAEKFRGYLCVNNGI 163
+                                ******************************************************************************8 PP
+
+>> CP010426.1_11203  [591177 - 591602] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.7   0.0   2.4e-07    0.0058      45     134 ..      21     110 ..       7     134 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 2.4e-07
+  35334_QNDS01000002.1_1373  45 eisinkslfdk.legeythrdveylyclrgqisnreimiadiveekdvfscpyavfmyetpcnysdcvgtlhphhsgncspsqe 127
+                                ei i +s++ + +e   +    e++  l+g+i n+ ++i d+v ++       a +  + p    ++ gt+h h      ps +
+           CP010426.1_11203  21 EIFISRSVIYRiIEFANSNYPKEFVAFLKGKILNKRLIINDLVYQHFKAGFHSASVNKQLPLG-REIFGTIHSHPGYSNGPSYQ 103
+                                67777776554156677777889********************99877777777777788876.689********999****** PP
+
+  35334_QNDS01000002.1_1373 128 dilfwrs 134
+                                d+lf+  
+           CP010426.1_11203 104 DLLFFND 110
+                                ****964 PP
+
+>> CP010426.1_16952  [777041 - 776247] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.9   0.1   8.7e-07     0.021      36      91 ..     101     156 ..      84     166 .. 0.88
+   2 ?   -3.4   0.0       1.5   3.7e+04      28      52 ..     196     220 ..     188     239 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 16.9 bits;  conditional E-value: 8.7e-07
+  35334_QNDS01000002.1_1373  36 yeiqapdaleisinkslfdklegeythrdveylyclrgqisnreimiadiveekdv 91 
+                                + i a + l  +ink+l++  e+    rd+++l +lr    n ei+  d+ ee  +
+           CP010426.1_16952 101 FIITAIEKLISTINKALLNWNEAGLKERDIQFLNILRNVSKNGEILQKDLKEELKI 156
+                                457788899999**************************************999766 PP
+
+  == domain 2  score: -3.4 bits;  conditional E-value: 1.5
+  35334_QNDS01000002.1_1373  28 dtqdiivtyeiqapdaleisinksl 52 
+                                 +++ii   + +   al i +n  l
+           CP010426.1_16952 196 PARNIIKLNDEEIEKALGIKLNDFL 220
+                                3566776666677777777777654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (163 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       967  (0.0100038); expected 1933.3 (0.02)
+Passed bias filter:                      688  (0.00711751); expected 1933.3 (0.02)
+Passed Vit filter:                        37  (0.000382773); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 12051.81
+//
+[ok]

@@ -1,0 +1,107 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/91362_Ga0222658_1000332_229.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/91362_Ga0222658_1000332_229.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/91362_Ga0222658_1000332_229.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/91362_Ga0222658_1000332_229.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       91362_Ga0222658_1000332_229  [M=276]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+   2.6e-188  626.4  24.1   2.9e-188  626.3  24.1    1.0  1  Ga0222658_1000332_229   [13488 - 14315]
+   2.6e-188  626.4  24.1   2.9e-188  626.3  24.1    1.0  1  Ga0222667_1000160_1478  [2659 - 1832] (REVERSE SENSE)
+  ------ inclusion threshold ------
+       0.75   11.6   2.0        1.1   11.1   2.0    1.2  1  ATYM01000002_1872       [94503 - 93880] (REVERSE SENSE) Halop
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0222658_1000332_229  [13488 - 14315]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  626.3  24.1  8.9e-193  2.9e-188       1     276 []       1     276 []       1     276 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 626.3 bits;  conditional E-value: 8.9e-193
+  91362_Ga0222658_1000332_229   1 mdepnipseereklfpfvpvsiipvfvftlitlgillfdfsgnystnpvvfysipllyaltflvndsfpvilsvigaslptl 82 
+                                  mdepnipseereklfpfvpvsiipvfvftlitlgillfdfsgnystnpvvfysipllyaltflvndsfpvilsvigaslptl
+        Ga0222658_1000332_229   1 MDEPNIPSEEREKLFPFVPVSIIPVFVFTLITLGILLFDFSGNYSTNPVVFYSIPLLYALTFLVNDSFPVILSVIGASLPTL 82 
+                                  9********************************************************************************* PP
+
+  91362_Ga0222658_1000332_229  83 rskivaaisvpigwfvgwglvsmamakgsifkiatypwavtslatvgtlstfttstsfalyffvalfeeiaaiimgknaanw 164
+                                  rskivaaisvpigwfvgwglvsmamakgsifkiatypwavtslatvgtlstfttstsfalyffvalfeeiaaiimgknaanw
+        Ga0222658_1000332_229  83 RSKIVAAISVPIGWFVGWGLVSMAMAKGSIFKIATYPWAVTSLATVGTLSTFTTSTSFALYFFVALFEEIAAIIMGKNAANW 164
+                                  ********************************************************************************** PP
+
+  91362_Ga0222658_1000332_229 165 lhskgmtgipasllgyllgrialtshhwfsygglrepslylsamfmftlftimglifgilmkgfkdelsdykvipisifvmm 246
+                                  lhskgmtgipasllgyllgrialtshhwfsygglrepslylsamfmftlftimglifgilmkgfkdelsdykvipisifvmm
+        Ga0222658_1000332_229 165 LHSKGMTGIPASLLGYLLGRIALTSHHWFSYGGLREPSLYLSAMFMFTLFTIMGLIFGILMKGFKDELSDYKVIPISIFVMM 246
+                                  ********************************************************************************** PP
+
+  91362_Ga0222658_1000332_229 247 aahlafdfvmsqlmvfvrvalpllhslplv 276
+                                  aahlafdfvmsqlmvfvrvalpllhslplv
+        Ga0222658_1000332_229 247 AAHLAFDFVMSQLMVFVRVALPLLHSLPLV 276
+                                  ****************************98 PP
+
+>> Ga0222667_1000160_1478  [2659 - 1832] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  626.3  24.1  8.9e-193  2.9e-188       1     276 []       1     276 []       1     276 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 626.3 bits;  conditional E-value: 8.9e-193
+  91362_Ga0222658_1000332_229   1 mdepnipseereklfpfvpvsiipvfvftlitlgillfdfsgnystnpvvfysipllyaltflvndsfpvilsvigaslptl 82 
+                                  mdepnipseereklfpfvpvsiipvfvftlitlgillfdfsgnystnpvvfysipllyaltflvndsfpvilsvigaslptl
+       Ga0222667_1000160_1478   1 MDEPNIPSEEREKLFPFVPVSIIPVFVFTLITLGILLFDFSGNYSTNPVVFYSIPLLYALTFLVNDSFPVILSVIGASLPTL 82 
+                                  9********************************************************************************* PP
+
+  91362_Ga0222658_1000332_229  83 rskivaaisvpigwfvgwglvsmamakgsifkiatypwavtslatvgtlstfttstsfalyffvalfeeiaaiimgknaanw 164
+                                  rskivaaisvpigwfvgwglvsmamakgsifkiatypwavtslatvgtlstfttstsfalyffvalfeeiaaiimgknaanw
+       Ga0222667_1000160_1478  83 RSKIVAAISVPIGWFVGWGLVSMAMAKGSIFKIATYPWAVTSLATVGTLSTFTTSTSFALYFFVALFEEIAAIIMGKNAANW 164
+                                  ********************************************************************************** PP
+
+  91362_Ga0222658_1000332_229 165 lhskgmtgipasllgyllgrialtshhwfsygglrepslylsamfmftlftimglifgilmkgfkdelsdykvipisifvmm 246
+                                  lhskgmtgipasllgyllgrialtshhwfsygglrepslylsamfmftlftimglifgilmkgfkdelsdykvipisifvmm
+       Ga0222667_1000160_1478 165 LHSKGMTGIPASLLGYLLGRIALTSHHWFSYGGLREPSLYLSAMFMFTLFTIMGLIFGILMKGFKDELSDYKVIPISIFVMM 246
+                                  ********************************************************************************** PP
+
+  91362_Ga0222658_1000332_229 247 aahlafdfvmsqlmvfvrvalpllhslplv 276
+                                  aahlafdfvmsqlmvfvrvalpllhslplv
+       Ga0222667_1000160_1478 247 AAHLAFDFVMSQLMVFVRVALPLLHSLPLV 276
+                                  ****************************98 PP
+
+>> ATYM01000002_1872  [94503 - 93880] (REVERSE SENSE) Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genom
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   2.0   3.3e-05       1.1      16      67 ..     148     199 ..     140     207 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 3.3e-05
+  91362_Ga0222658_1000332_229  16 pfvpvsiipvfvftlitlgillfdfsgnystnpvvfysipllyaltflvnds 67 
+                                   f  vs  p fv+ +i +  + fd++gn  t p  f+ +p++++   + nd 
+            ATYM01000002_1872 148 NFDVVSAEPEFVVVVILIFSVGFDIAGNSDTRPCSFHILPFVFCKIPIDNDR 199
+                                  46679999*********************************99988777775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (276 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1657  (0.017142); expected 1933.3 (0.02)
+Passed bias filter:                      579  (0.00598988); expected 1933.3 (0.02)
+Passed Vit filter:                        29  (0.000300011); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 20406.75
+//
+[ok]

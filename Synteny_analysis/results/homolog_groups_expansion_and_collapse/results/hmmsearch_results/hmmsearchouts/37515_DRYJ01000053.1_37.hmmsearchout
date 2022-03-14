@@ -1,0 +1,112 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37515_DRYJ01000053.1_37.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37515_DRYJ01000053.1_37.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37515_DRYJ01000053.1_37.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37515_DRYJ01000053.1_37.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37515_DRYJ01000053.1_37  [M=108]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+      4e-72  241.8   3.7    4.4e-72  241.7   3.7    1.0  1  DRYJ01000053.1_37      [1913 - 2236] TPA_asm: Candidatus Bath
+      4e-72  241.8   3.7    4.4e-72  241.7   3.7    1.0  1  Ga0065719_100268_37    [1913 - 2236]
+  ------ inclusion threshold ------
+       0.54   12.9   0.5       0.63   12.7   0.5    1.1  1  JAADFW010000227.1_388  [15535 - 15819] Chlorobi bacterium iso
+        8.4    9.1   7.5        1.1   11.9   1.6    2.3  2  CP010426.1_2438        [130287 - 131234] Archaeon GW2011_AR20
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_37  [1913 - 2236] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, whole 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.7   3.7   1.8e-76   4.4e-72       1     108 []       1     108 []       1     108 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 241.7 bits;  conditional E-value: 1.8e-76
+  37515_DRYJ01000053.1_37   1 mdldvyntvytfahrstsmkkirrvsqygfgislnkeelkssnfnpeeevlviplnklilitdpklfglreilkvkeddetiedfi 86 
+                              mdldvyntvytfahrstsmkkirrvsqygfgislnkeelkssnfnpeeevlviplnklilitdpklfglreilkvkeddetiedfi
+        DRYJ01000053.1_37   1 MDLDVYNTVYTFAHRSTSMKKIRRVSQYGFGISLNKEELKSSNFNPEEEVLVIPLNKLILITDPKLFGLREILKVKEDDETIEDFI 86 
+                              9************************************************************************************* PP
+
+  37515_DRYJ01000053.1_37  87 rkavekeikrrksiwekkilei 108
+                              rkavekeikrrksiwekkilei
+        DRYJ01000053.1_37  87 RKAVEKEIKRRKSIWEKKILEI 108
+                              *********************8 PP
+
+>> Ga0065719_100268_37  [1913 - 2236]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.7   3.7   1.8e-76   4.4e-72       1     108 []       1     108 []       1     108 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 241.7 bits;  conditional E-value: 1.8e-76
+  37515_DRYJ01000053.1_37   1 mdldvyntvytfahrstsmkkirrvsqygfgislnkeelkssnfnpeeevlviplnklilitdpklfglreilkvkeddetiedfi 86 
+                              mdldvyntvytfahrstsmkkirrvsqygfgislnkeelkssnfnpeeevlviplnklilitdpklfglreilkvkeddetiedfi
+      Ga0065719_100268_37   1 MDLDVYNTVYTFAHRSTSMKKIRRVSQYGFGISLNKEELKSSNFNPEEEVLVIPLNKLILITDPKLFGLREILKVKEDDETIEDFI 86 
+                              9************************************************************************************* PP
+
+  37515_DRYJ01000053.1_37  87 rkavekeikrrksiwekkilei 108
+                              rkavekeikrrksiwekkilei
+      Ga0065719_100268_37  87 RKAVEKEIKRRKSIWEKKILEI 108
+                              *********************8 PP
+
+>> JAADFW010000227.1_388  [15535 - 15819] Chlorobi bacterium isolate M_MaxBin.088 contig-127_5253, whole genome shotgun 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.5   2.6e-05      0.63       5      66 ..       5      67 ..       1      75 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 2.6e-05
+  37515_DRYJ01000053.1_37  5 vyntvytfahrstsmkkirrvsqygfgislnkeel.kssnfnpeeevlviplnklilitdpkl 66
+                             +y+  y +a ++ + k i++   +   i   k++l  + n++p  +v vi  nk   + +pk 
+    JAADFW010000227.1_388  5 LYKVKYKIANKTNTAKPIKKTVSFEKYIFKSKNKLfITCNIQPTTKVPVITDNKAKTVQNPKT 67
+                             79999**************99888888888888873579*******************99996 PP
+
+>> CP010426.1_2438  [130287 - 131234] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   1.6   4.7e-05       1.1       8      95 ..       5      93 ..       1      99 [. 0.64
+   2 ?    0.0   0.4      0.22   5.4e+03      62     102 ..     238     281 ..     194     286 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 4.7e-05
+  37515_DRYJ01000053.1_37  8 tvytfahrstsmkkirrvsqygfgislnkeelkss..nfn..peeevlviplnklilitdpklfglreilkvkeddetiedfirkave 91
+                              +y f +r   mkki  +    + + l    + ss  nf+   e+e+l+ip+n +i  +      + e + v    + i+ +i+ka e
+          CP010426.1_2438  5 NIYKFKQRRDIMKKIIYIVGVLLFLVLISLAISSSlnNFEkvQEDEILIIPINGIISNSG--GGNIFESVTVTS--DKINSLIKKAEE 88
+                             69************9877665554445444555442245422699********9875443..333445555544..468888888866 PP
+
+  37515_DRYJ01000053.1_37 92 .keik 95
+                              k+ik
+          CP010426.1_2438 89 nKNIK 93
+                             24454 PP
+
+  == domain 2  score: 0.0 bits;  conditional E-value: 0.22
+  37515_DRYJ01000053.1_37  62 tdpklfglreilkvkeddetiedfi...rkavekeikrrksiwe 102
+                               + k +gl + l  ke    +   +   + a   e k rksi++
+          CP010426.1_2438 238 IEAKELGLVDYLGDKETAIEVAKELsntKEAKLVEFKERKSIFD 281
+                              55566666666666665543333320113444457888888875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (108 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       739  (0.00764512); expected 1933.3 (0.02)
+Passed bias filter:                      459  (0.00474846); expected 1933.3 (0.02)
+Passed Vit filter:                        23  (0.00023794); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 7985.25
+//
+[ok]

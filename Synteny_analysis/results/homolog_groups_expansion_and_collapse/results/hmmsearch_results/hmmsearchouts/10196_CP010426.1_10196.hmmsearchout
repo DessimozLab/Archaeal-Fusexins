@@ -1,0 +1,63 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/10196_CP010426.1_10196.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/10196_CP010426.1_10196.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/10196_CP010426.1_10196.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/10196_CP010426.1_10196.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       10196_CP010426.1_10196  [M=53]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    1.3e-37  130.1   3.8    1.4e-37  130.0   3.8    1.0  1  CP010426.1_10196  [533621 - 533779] Archaeon GW2011_AR20 chro
+    1.9e-29  103.9   1.1      2e-29  103.9   1.1    1.0  1  CP058579_203      [16522 - 16662] [Halobonum sp. NJ-3-1 | 274
+
+
+Domain annotation for each sequence (and alignments):
+>> CP010426.1_10196  [533621 - 533779] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.0   3.8     3e-42   1.4e-37       1      53 []       1      53 []       1      53 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 130.0 bits;  conditional E-value: 3e-42
+  10196_CP010426.1_10196  1 mvfglfskqvDPvCGmkvskDsvakseynGktYYFCalnCkqrFdknPekYak 53
+                            mvfglfskqvDP+CGmkvskDs++kseynGktYYFCalnCkq+FdknPekYak
+        CP010426.1_10196  1 MVFGLFSKQVDPICGMKVSKDSQHKSEYNGKTYYFCALNCKQTFDKNPEKYAK 53
+                            9***************************************************9 PP
+
+>> CP058579_203  [16522 - 16662] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.9   1.1   4.2e-34     2e-29       9      53 .]       2      47 .]       1      47 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 103.9 bits;  conditional E-value: 4.2e-34
+  10196_CP010426.1_10196  9 qvDPvCGmkv.skDsvakseynGktYYFCalnCkqrFdknPekYak 53
+                            ++DPvCGm++ s+D+va+++++GktYYFC+++C+qrF+++P++Y+k
+            CP058579_203  2 PTDPVCGMELtSDDAVATVQHGGKTYYFCSDGCRQRFEEQPTVYTK 47
+                            89*******************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (53 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1613  (0.0166868); expected 1933.3 (0.02)
+Passed bias filter:                     1022  (0.0105728); expected 1933.3 (0.02)
+Passed Vit filter:                        40  (0.000413809); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 3918.69
+//
+[ok]

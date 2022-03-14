@@ -1,0 +1,144 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/56537_CP048739_306.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/56537_CP048739_306.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/56537_CP048739_306.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/56537_CP048739_306.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       56537_CP048739_306  [M=107]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    7.1e-53  179.5   0.8    7.9e-53  179.3   0.8    1.0  1  Ga0207718_100100_1047        [78694 - 79038]
+    2.4e-51  174.5   0.5    2.7e-51  174.4   0.5    1.0  1  JGI12330J12834_1000008_1334  [88660 - 88968]
+    1.1e-46  159.6   0.0    1.2e-46  159.5   0.0    1.0  1  CP048739_306                 [21153 - 21446] [Halogeometricum
+  ------ inclusion threshold ------
+      0.074   15.4   0.0      0.086   15.2   0.0    1.3  1  ATYM01000002_1615            [107471 - 107854] Haloplanus nat
+       0.19   14.1   0.0       0.23   13.8   0.0    1.2  1  ATYM01000002_1697            [105930 - 105544] (REVERSE SENSE
+       0.51   12.7   0.0       0.84   12.0   0.0    1.4  1  Ga0207715_100102_1002        [63049 - 62750] (REVERSE SENSE)
+        0.6   12.5   0.0        0.8   12.1   0.0    1.2  1  JNCS01000001_521             [36994 - 37350] Natrinema altune
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207718_100100_1047  [78694 - 79038]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  179.3   0.8   5.7e-57   7.9e-53       1     107 []       1     115 []       1     115 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 179.3 bits;  conditional E-value: 5.7e-57
+     56537_CP048739_306   1 mtakkvsl....makeaqe.aveahdlldsvtkkiakvllenPkiaynktslaeaagvsrdalyrrfdslvesGliekaevesevahW 83 
+                            mt+kkvsl    ma++aqe av++h+llds+tk++a+vllenPkiayn++slaeaagvsrdalyrr+ds++e+Glie+aeves+++hW
+  Ga0207718_100100_1047   1 MTYKKVSLtdmaMAESAQEyAVNPHHLLDSITKEVATVLLENPKIAYNRSSLAEAAGVSRDALYRRWDSYEEIGLIEEAEVESKTTHW 88 
+                            89************************************************************************************** PP
+
+     56537_CP048739_306  84 qlnsdselaealeellysv...Genqe 107
+                            +lnsdse+a++l+ell+s+   Genqe
+  Ga0207718_100100_1047  89 RLNSDSEIADLLSELLHSTlreGENQE 115
+                            *******************9*****97 PP
+
+>> JGI12330J12834_1000008_1334  [88660 - 88968]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  174.4   0.5     2e-55   2.7e-51       9     107 .]       1     101 [.       1     101 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 174.4 bits;  conditional E-value: 2e-55
+           56537_CP048739_306   9 makeaqeaveahdlldsvtkkiakvllenPkiaynktslaeaagvsrdalyrrfdslvesGliekaevesevahWqlnsd.. 88 
+                                  m++e+qe+vea+d+ldsvt kiak+llenPki+ynkt+la++agvs+daly+r+dslv++Gliekaevesev+hWqln+d  
+  JGI12330J12834_1000008_1334   1 MTQETQERVEADDILDSVTLKIAKLLLENPKIKYNKTTLADKAGVSTDALYDRWDSLVKGGLIEKAEVESEVDHWQLNQDts 82 
+                                  9********************************************************************************9 PP
+
+           56537_CP048739_306  89 selaealeellysvGenqe 107
+                                  s+l+eal++++y+vG++q+
+  JGI12330J12834_1000008_1334  83 SPLPEALDQIMYVVGDVQD 101
+                                  9*****************7 PP
+
+>> CP048739_306  [21153 - 21446] [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  159.5   0.0   8.5e-51   1.2e-46       1     106 [.       1      98 []       1      98 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 159.5 bits;  conditional E-value: 8.5e-51
+  56537_CP048739_306   1 mtakkvslmakeaqeaveahdlldsvtkkiakvllenPkiaynktslaeaagvsrdalyrrfdslvesGliekaevesevahWqlnsdsel 91 
+                         m+a++++lm+k      e+h++l++v+++i++vllenP+++y+ktsl++aa+vsr+a+yrrfds+vesG+++++++++++ahWqln+ds++
+        CP048739_306   1 MFAPQYVLMSK------EGHPFLNDVAERIVRVLLENPDTTYTKTSLINAADVSRNAFYRRFDSIVESGVAMRTDDGDGQAHWQLNPDSKM 85 
+                         89*********......9************************************************************************* PP
+
+  56537_CP048739_306  92 aealeellysvGenq 106
+                         aeale+++y  Genq
+        CP048739_306  86 AEALERMIY--GENQ 98 
+                         *********..**99 PP
+
+>> ATYM01000002_1615  [107471 - 107854] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequ
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.0   6.2e-06     0.086      45      74 ..      58      87 ..      28     109 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 6.2e-06
+  56537_CP048739_306 45 tslaeaagvsrdalyrrfdslvesGlieka 74
+                        + l+++ ++sr ++yrr d l+++Gl+   
+   ATYM01000002_1615 58 AELVDRCEMSRATVYRRLDRLEDAGLVTSQ 87
+                        5799**********************9865 PP
+
+>> ATYM01000002_1697  [105930 - 105544] (REVERSE SENSE) Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.0   1.7e-05      0.23      46      83 ..      60      98 ..      27     114 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 1.7e-05
+  56537_CP048739_306 46 slaeaagvsrdalyrrfdslvesGlie.kaevesevahW 83
+                         l+e+ ++sr ++yrr d l  +G +  ++ v+ +  h 
+   ATYM01000002_1697 60 DLIERCEMSRATVYRRLDRLRAAGFVTaETAVDPDGHHC 98
+                        69**********************875266666665554 PP
+
+>> Ga0207715_100102_1002  [63049 - 62750] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   6.1e-05      0.84      53      85 ..      40      72 ..      16      82 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 6.1e-05
+     56537_CP048739_306 53 vsrdalyrrfdslvesGliekaevesevahWql 85
+                           + +  ly   ds+v+ G++ek+e + +++ + l
+  Ga0207715_100102_1002 40 IHHGRLYPNLDSVVDKGMVEKSEKDRRTNEYIL 72
+                           566789******************999988776 PP
+
+>> JNCS01000001_521  [36994 - 37350] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun seque
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   5.8e-05       0.8      52      87 ..      65     100 ..      38     108 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 5.8e-05
+  56537_CP048739_306  52 gvsrdalyrrfdslvesGliekaevesevahWqlns 87 
+                         ++ +  ly   d+lve Gl+ek e + +++ +++ +
+    JNCS01000001_521  65 EIHHGRLYPNLDTLVEKGLVEKGEKDRRTNNYKVTQ 100
+                         5667789********************999998766 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (107 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       474  (0.00490363); expected 1933.3 (0.02)
+Passed bias filter:                      421  (0.00435534); expected 1933.3 (0.02)
+Passed Vit filter:                        27  (0.000279321); expected 96.7 (0.001)
+Passed Fwd filter:                         7  (7.24165e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 7911.31
+//
+[ok]

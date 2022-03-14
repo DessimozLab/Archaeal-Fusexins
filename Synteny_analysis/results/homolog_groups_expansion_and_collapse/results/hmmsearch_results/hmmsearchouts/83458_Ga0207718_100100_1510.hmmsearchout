@@ -1,0 +1,81 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/83458_Ga0207718_100100_1510.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/83458_Ga0207718_100100_1510.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/83458_Ga0207718_100100_1510.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/83458_Ga0207718_100100_1510.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       83458_Ga0207718_100100_1510  [M=104]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    5.2e-66  221.9   4.5    5.8e-66  221.8   4.5    1.0  1  Ga0207718_100100_1510        [86138 - 85827] (REVERSE SENSE)
+    8.8e-46  157.0   4.1    9.6e-46  156.8   4.1    1.0  1  JGI12330J12834_1000008_1532  [93820 - 93590] (REVERSE SENSE)
+     0.0048   19.6   0.0     0.0048   19.6   0.0    1.0  1  JGI12330J12834_1000008_1535  [93583 - 93494] (REVERSE SENSE)
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207718_100100_1510  [86138 - 85827] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  221.8   4.5   1.8e-70   5.8e-66       1     104 []       1     104 []       1     104 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 221.8 bits;  conditional E-value: 1.8e-70
+  83458_Ga0207718_100100_1510   1 miglellaalmwedvvlafgsfvgistklyalldertvwsrkssltnavlyppslaafwsldlyltftvvfvtmclwfgiav 82 
+                                  m+glell+almw+dvvlafgsfvgistklyal+d++tvwsr+ssltnavlyppsl+afw+ldl+ltft++f+tmc+wfgiav
+        Ga0207718_100100_1510   1 MTGLELLPALMWQDVVLAFGSFVGISTKLYALWDSQTVWSRRSSLTNAVLYPPSLYAFWTLDLWLTFTTTFITMCIWFGIAV 82 
+                                  9********************************************************************************* PP
+
+  83458_Ga0207718_100100_1510  83 frapenedwlgrrngesylsyf 104
+                                  frapenedwlgrrngesylsyf
+        Ga0207718_100100_1510  83 FRAPENEDWLGRRNGESYLSYF 104
+                                  *********************8 PP
+
+>> JGI12330J12834_1000008_1532  [93820 - 93590] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.8   4.1     3e-50   9.6e-46       1      77 [.       1      77 []       1      77 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 156.8 bits;  conditional E-value: 3e-50
+  83458_Ga0207718_100100_1510  1 miglellaalmwedvvlafgsfvgistklyalldertvwsrkssltnavlyppslaafwsldlyltftvvfvtmclw 77
+                                 mig+e++aalmwedv++afg+fvgi+tk+yal+dertvwsrk+s+tna+lyppslaafws++ly+tf+vv+vtmclw
+  JGI12330J12834_1000008_1532  1 MIGTEFFAALMWEDVAIAFGTFVGILTKSYALMDERTVWSRKASGTNAILYPPSLAAFWSPELYVTFFVVTVTMCLW 77
+                                 9**************************************************************************** PP
+
+>> JGI12330J12834_1000008_1535  [93583 - 93494] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.6   0.0   1.5e-07    0.0048      82     102 ..       3      23 ..       1      25 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 19.6 bits;  conditional E-value: 1.5e-07
+  83458_Ga0207718_100100_1510  82 vfrapenedwlgrrngesyls 102
+                                   frape+edwlgr  ge y+ 
+  JGI12330J12834_1000008_1535   3 FFRAPESEDWLGRDPGEYYVK 23 
+                                  69***************9985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (104 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1133  (0.0117211); expected 1933.3 (0.02)
+Passed bias filter:                      674  (0.00697268); expected 1933.3 (0.02)
+Passed Vit filter:                        34  (0.000351737); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 7689.50
+//
+[ok]

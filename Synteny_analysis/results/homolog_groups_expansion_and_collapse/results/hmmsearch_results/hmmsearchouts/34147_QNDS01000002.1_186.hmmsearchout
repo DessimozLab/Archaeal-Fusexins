@@ -1,0 +1,123 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34147_QNDS01000002.1_186.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34147_QNDS01000002.1_186.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34147_QNDS01000002.1_186.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34147_QNDS01000002.1_186.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       34147_QNDS01000002.1_186  [M=561]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+          0 1359.8  17.8          0 1359.6  17.8    1.0  1  Ga0164313_10000250_186  [9342 - 11024]
+          0 1359.8  17.8          0 1359.6  17.8    1.0  1  QNDS01000002.1_186      [9342 - 11024] Candidatus Fermentibac
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_186  [9342 - 11024]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1359.6  17.8         0         0       1     561 []       1     561 []       1     561 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1359.6 bits;  conditional E-value: 0
+  34147_QNDS01000002.1_186   1 ltmrkiiltcwllllfsgiatatvdfttftevdpnehitatsskvsfnctndeiayiyrdygltyfssweinltfnieamdaimd 85 
+                               +tmrkiiltcwllllfsgiatatvdfttftevdpnehitatsskvsfnctndeiayiyrdygltyfssweinltfnieamdaimd
+    Ga0164313_10000250_186   1 MTMRKIILTCWLLLLFSGIATATVDFTTFTEVDPNEHITATSSKVSFNCTNDEIAYIYRDYGLTYFSSWEINLTFNIEAMDAIMD 85 
+                               8************************************************************************************ PP
+
+  34147_QNDS01000002.1_186  86 glnlialssetsnisslgsqdfrlfvtppagsyyislesgdgeelselfdelndsqnyyltlvgtdtnvtvsiyadpnrtigslv 170
+                               glnlialssetsnisslgsqdfrlfvtppagsyyislesgdgeelselfdelndsqnyyltlvgtdtnvtvsiyadpnrtigslv
+    Ga0164313_10000250_186  86 GLNLIALSSETSNISSLGSQDFRLFVTPPAGSYYISLESGDGEELSELFDELNDSQNYYLTLVGTDTNVTVSIYADPNRTIGSLV 170
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 171 gtlsipvatqyrymilsssifygdegdsgwwqgyitnmsieteavptarqnievtsekrvqtifteqftgmstpqdlltagwktt 255
+                               gtlsipvatqyrymilsssifygdegdsgwwqgyitnmsieteavptarqnievtsekrvqtifteqftgmstpqdlltagwktt
+    Ga0164313_10000250_186 171 GTLSIPVATQYRYMILSSSIFYGDEGDSGWWQGYITNMSIETEAVPTARQNIEVTSEKRVQTIFTEQFTGMSTPQDLLTAGWKTT 255
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 256 neinllaygsigtslagkyvhlagwvdiyrstppanpdylttnirispylvigkiwlddctlvikltdavgdqcnwsfqtpagvn 340
+                               neinllaygsigtslagkyvhlagwvdiyrstppanpdylttnirispylvigkiwlddctlvikltdavgdqcnwsfqtpagvn
+    Ga0164313_10000250_186 256 NEINLLAYGSIGTSLAGKYVHLAGWVDIYRSTPPANPDYLTTNIRISPYLVIGKIWLDDCTLVIKLTDAVGDQCNWSFQTPAGVN 340
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 341 lqkveegtwyplsirkdattcyvkigenkyqypigsprftygfsnadlacfdisyvalgktitnvgdptkfceegyelfgdlccp 425
+                               lqkveegtwyplsirkdattcyvkigenkyqypigsprftygfsnadlacfdisyvalgktitnvgdptkfceegyelfgdlccp
+    Ga0164313_10000250_186 341 LQKVEEGTWYPLSIRKDATTCYVKIGENKYQYPIGSPRFTYGFSNADLACFDISYVALGKTITNVGDPTKFCEEGYELFGDLCCP 425
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 426 igtiamgdlccppwaiashglccpegtigissegiccpeertigdgeeccpegsvvrdteccpntgfaaqeffavmessakgqmn 510
+                               igtiamgdlccppwaiashglccpegtigissegiccpeertigdgeeccpegsvvrdteccpntgfaaqeffavmessakgqmn
+    Ga0164313_10000250_186 426 IGTIAMGDLCCPPWAIASHGLCCPEGTIGISSEGICCPEERTIGDGEECCPEGSVVRDTECCPNTGFAAQEFFAVMESSAKGQMN 510
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 511 iveallylllggeecricpeydihiygycvpaivmfltliaasiilldmwl 561
+                               iveallylllggeecricpeydihiygycvpaivmfltliaasiilldmwl
+    Ga0164313_10000250_186 511 IVEALLYLLLGGEECRICPEYDIHIYGYCVPAIVMFLTLIAASIILLDMWL 561
+                               **************************************************8 PP
+
+>> QNDS01000002.1_186  [9342 - 11024] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1359.6  17.8         0         0       1     561 []       1     561 []       1     561 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1359.6 bits;  conditional E-value: 0
+  34147_QNDS01000002.1_186   1 ltmrkiiltcwllllfsgiatatvdfttftevdpnehitatsskvsfnctndeiayiyrdygltyfssweinltfnieamdaimd 85 
+                               +tmrkiiltcwllllfsgiatatvdfttftevdpnehitatsskvsfnctndeiayiyrdygltyfssweinltfnieamdaimd
+        QNDS01000002.1_186   1 MTMRKIILTCWLLLLFSGIATATVDFTTFTEVDPNEHITATSSKVSFNCTNDEIAYIYRDYGLTYFSSWEINLTFNIEAMDAIMD 85 
+                               8************************************************************************************ PP
+
+  34147_QNDS01000002.1_186  86 glnlialssetsnisslgsqdfrlfvtppagsyyislesgdgeelselfdelndsqnyyltlvgtdtnvtvsiyadpnrtigslv 170
+                               glnlialssetsnisslgsqdfrlfvtppagsyyislesgdgeelselfdelndsqnyyltlvgtdtnvtvsiyadpnrtigslv
+        QNDS01000002.1_186  86 GLNLIALSSETSNISSLGSQDFRLFVTPPAGSYYISLESGDGEELSELFDELNDSQNYYLTLVGTDTNVTVSIYADPNRTIGSLV 170
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 171 gtlsipvatqyrymilsssifygdegdsgwwqgyitnmsieteavptarqnievtsekrvqtifteqftgmstpqdlltagwktt 255
+                               gtlsipvatqyrymilsssifygdegdsgwwqgyitnmsieteavptarqnievtsekrvqtifteqftgmstpqdlltagwktt
+        QNDS01000002.1_186 171 GTLSIPVATQYRYMILSSSIFYGDEGDSGWWQGYITNMSIETEAVPTARQNIEVTSEKRVQTIFTEQFTGMSTPQDLLTAGWKTT 255
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 256 neinllaygsigtslagkyvhlagwvdiyrstppanpdylttnirispylvigkiwlddctlvikltdavgdqcnwsfqtpagvn 340
+                               neinllaygsigtslagkyvhlagwvdiyrstppanpdylttnirispylvigkiwlddctlvikltdavgdqcnwsfqtpagvn
+        QNDS01000002.1_186 256 NEINLLAYGSIGTSLAGKYVHLAGWVDIYRSTPPANPDYLTTNIRISPYLVIGKIWLDDCTLVIKLTDAVGDQCNWSFQTPAGVN 340
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 341 lqkveegtwyplsirkdattcyvkigenkyqypigsprftygfsnadlacfdisyvalgktitnvgdptkfceegyelfgdlccp 425
+                               lqkveegtwyplsirkdattcyvkigenkyqypigsprftygfsnadlacfdisyvalgktitnvgdptkfceegyelfgdlccp
+        QNDS01000002.1_186 341 LQKVEEGTWYPLSIRKDATTCYVKIGENKYQYPIGSPRFTYGFSNADLACFDISYVALGKTITNVGDPTKFCEEGYELFGDLCCP 425
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 426 igtiamgdlccppwaiashglccpegtigissegiccpeertigdgeeccpegsvvrdteccpntgfaaqeffavmessakgqmn 510
+                               igtiamgdlccppwaiashglccpegtigissegiccpeertigdgeeccpegsvvrdteccpntgfaaqeffavmessakgqmn
+        QNDS01000002.1_186 426 IGTIAMGDLCCPPWAIASHGLCCPEGTIGISSEGICCPEERTIGDGEECCPEGSVVRDTECCPNTGFAAQEFFAVMESSAKGQMN 510
+                               ************************************************************************************* PP
+
+  34147_QNDS01000002.1_186 511 iveallylllggeecricpeydihiygycvpaivmfltliaasiilldmwl 561
+                               iveallylllggeecricpeydihiygycvpaivmfltliaasiilldmwl
+        QNDS01000002.1_186 511 IVEALLYLLLGGEECRICPEYDIHIYGYCVPAIVMFLTLIAASIILLDMWL 561
+                               **************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (561 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       657  (0.00679681); expected 1933.3 (0.02)
+Passed bias filter:                      413  (0.00427258); expected 1933.3 (0.02)
+Passed Vit filter:                        19  (0.000196559); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.19u 0.01s 00:00:00.20 Elapsed: 00:00:00.06
+# Mc/sec: 34565.78
+//
+[ok]

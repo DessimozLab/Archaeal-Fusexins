@@ -1,0 +1,16 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ATYM01000002_871     -            110 44419_LOEP01000012_329 -            110   2.8e-63  213.5   7.3   1   1   9.5e-68   3.1e-63  213.4   7.3     1   110     1   110     1   110 1.00 [57455 - 57784] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence.   [Haloplanus natans DSM 17983 | 926690.3]
+LOEP01000012_329     -             95 44419_LOEP01000012_329 -            110   4.3e-47  161.4   2.8   1   1   1.5e-51   4.9e-47  161.3   2.8    23   110     1    87     1    87 1.00 [20068 - 20352] Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Haloferax sp. Q22 | 1526048.3]
+NZ_CP071597.1_2134   -            101 44419_LOEP01000012_329 -            110    0.0015   21.3   0.1   1   1   5.5e-08    0.0018   21.0   0.1    28    98    16    88     4    97 0.79 [51314 - 51012] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/44419_LOEP01000012_329.hmm
+# Target file:     ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# Option settings: hmmsearch -o ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/44419_LOEP01000012_329.hmmsearchout --tblout ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/44419_LOEP01000012_329.tblout --domtblout ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/44419_LOEP01000012_329.domtblout --cpu 3 ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/44419_LOEP01000012_329.hmm ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa 
+# Current dir:     /media3/mauri/fusexins/analysis_mobile_elements_with_MAGs_and_Halovivax/scripts
+# Date:            Tue Aug 10 16:18:31 2021
+# [ok]

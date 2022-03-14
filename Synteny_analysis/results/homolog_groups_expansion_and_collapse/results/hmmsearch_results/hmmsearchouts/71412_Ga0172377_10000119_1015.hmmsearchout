@@ -1,0 +1,103 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/71412_Ga0172377_10000119_1015.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/71412_Ga0172377_10000119_1015.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/71412_Ga0172377_10000119_1015.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/71412_Ga0172377_10000119_1015.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       71412_Ga0172377_10000119_1015  [M=334]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+   3.3e-200  666.7  18.5   3.6e-200  666.6  18.5    1.0  1  Ga0172379_10001592_217   [12772 - 13764]
+   2.4e-196  654.0  20.8   2.6e-196  653.9  20.8    1.0  1  Ga0172377_10000119_1015  [47885 - 48877]
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0172379_10001592_217  [12772 - 13764]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  666.6  18.5  7.5e-205  3.6e-200       1     334 []       1     331 []       1     331 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 666.6 bits;  conditional E-value: 7.5e-205
+  71412_Ga0172377_10000119_1015   1 mstevgdlgklnpffedlkkydevekkkeksvdadeilgktanrvldekwnvkiqfsakffknvfaylkelgydvlialk 80 
+                                    mst+vgdlgk+npffedlk+y+e e+k+eks+++d++lgkt+nrvldekwnvkiqfs+kff+n+fa+lk++gy+++i+l+
+         Ga0172379_10001592_217   1 MSTQVGDLGKINPFFEDLKTYSE-ENKVEKSEKNDDMLGKTSNRVLDEKWNVKIQFSSKFFINTFAFLKQFGYNTVIGLN 79 
+                                    9**********************.******************************************************** PP
+
+  71412_Ga0172377_10000119_1015  81 kkeiilfkldsstnvlsyikisktevseyiniditdvsgiaetsettekpeeetvvyvemdvldemvinekypvdlyfdt 160
+                                    kk+i+lfk+d+stnv+syi+isk+evseyinid+td+sgia+++et+ekp  +t++yvemd+ld+mvinekypvdlyfdt
+         Ga0172379_10001592_217  80 KKTITLFKVDPSTNVMSYIIISKNEVSEYINIDETDISGIAGNGETPEKP--DTIIYVEMDILDDMVINEKYPVDLYFDT 157
+                                    **************************************************..**************************** PP
+
+  71412_Ga0172377_10000119_1015 161 keknsmyiingkakearrlidlanndktlslyptiyeiklkrwlkeediypvhvrkeslktvlsylkkkktkkdkkskae 240
+                                    kekn+myiingk++earrl+d+an+dk+l+lypt+ye+k++rwlk++di+pvh+rkeslktvls+l+kkktkkd+kskae
+         Ga0172379_10001592_217 158 KEKNHMYIINGKSLEARRLNDPANGDKQLTLYPTFYEQKIQRWLKSDDIFPVHIRKESLKTVLSHLEKKKTKKDQKSKAE 237
+                                    ******************************************************************************** PP
+
+  71412_Ga0172377_10000119_1015 241 lkikfspseidfiieketstssiqlygddislrpkkdvtllleldyvlkykklqlennvilhikedrpfilesklgagqi 320
+                                    +ki+f+ps+idfi+ekets+ssiqlygddis+rpk+dvtl+l++d+v++yk+l+lennvi+h+ke++p+ile+klgagqi
+         Ga0172379_10001592_217 238 VKIVFTPSDIDFITEKETSHSSIQLYGDDISIRPKHDVTLYLNVDFVVMYKALNLENNVIMHAKENFPCILETKLGAGQI 317
+                                    ******************************************************************************** PP
+
+  71412_Ga0172377_10000119_1015 321 kiyyiiapiveeqe 334
+                                    k++yii+piv+++e
+         Ga0172379_10001592_217 318 KHFYIISPIVRTGE 331
+                                    ***********985 PP
+
+>> Ga0172377_10000119_1015  [47885 - 48877]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  653.9  20.8  5.4e-201  2.6e-196       1     334 []       1     331 []       1     331 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 653.9 bits;  conditional E-value: 5.4e-201
+  71412_Ga0172377_10000119_1015   1 mstevgdlgklnpffedlkkydevekkkeksvdadeilgktanrvldekwnvkiqfsakffknvfaylkelgydvlialk 80 
+                                    m te+g++g+lnpffe+++k+d+v+kkkeksvdadei+gktanr+ld+kwn+kiqf+a+ffknvf+y+ke+gydvl+alk
+        Ga0172377_10000119_1015   1 M-TEIGNIGSLNPFFEGINKFDDVSKKKEKSVDADEIIGKTANRTLDNKWNIKIQFGAPFFKNVFTYIKEMGYDVLFALK 79 
+                                    4.9***************************************************************************** PP
+
+  71412_Ga0172377_10000119_1015  81 kkeiilfkldsstnvlsyikisktevseyiniditdvsgiaetsettekpeeetvvyvemdvldemvinekypvdlyfdt 160
+                                    kkeii+fkldss+n++syiki++tevseyin+ditdv+ ++etse+t+kpeeetvv+vemdvldem+inekyp+dlyfdt
+        Ga0172377_10000119_1015  80 KKEIIIFKLDSSNNYFSYIKIGRTEVSEYINTDITDVN-FNETSEQTDKPEEETVVFVEMDVLDEMNINEKYPIDLYFDT 158
+                                    **************************************.***************************************** PP
+
+  71412_Ga0172377_10000119_1015 161 keknsmyiingkakearrlidlanndktlslyptiyeiklkrwlkeediypvhvrkeslktvlsylkkkktkkdkkskae 240
+                                    ke+nsmyiingkakearrlidl+nn++t+s+yp+iy+i+lk+ l+ee++ypvhvrkes++++lsylk+kktkkdk+s+++
+        Ga0172377_10000119_1015 159 KETNSMYIINGKAKEARRLIDLSNNNPTVSTYPGIYNILLKH-LGEESSYPVHVRKESIGNILSYLKLKKTKKDKSSTNA 237
+                                    ******************************************.************************************* PP
+
+  71412_Ga0172377_10000119_1015 241 lkikfspseidfiieketstssiqlygddislrpkkdvtllleldyvlkykklqlennvilhikedrpfilesklgagqi 320
+                                    lkikfspseidfiie++tstssiqlygddi+lrp+k++t+lleldy+lk++klqlennvilhi+edrpfi+esk+gag+i
+        Ga0172377_10000119_1015 238 LKIKFSPSEIDFIIETDTSTSSIQLYGDDIQLRPTKTSTVLLELDYILKFGKLQLENNVILHINEDRPFIIESKFGAGNI 317
+                                    ******************************************************************************** PP
+
+  71412_Ga0172377_10000119_1015 321 kiyyiiapiveeqe 334
+                                    kiyy+iap+veeq+
+        Ga0172377_10000119_1015 318 KIYYFIAPRVEEQT 331
+                                    ***********996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (334 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       840  (0.00868998); expected 1933.3 (0.02)
+Passed bias filter:                      446  (0.00461397); expected 1933.3 (0.02)
+Passed Vit filter:                        23  (0.00023794); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 24695.12
+//
+[ok]

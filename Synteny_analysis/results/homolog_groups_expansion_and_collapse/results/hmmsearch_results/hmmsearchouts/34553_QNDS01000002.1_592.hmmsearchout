@@ -1,0 +1,90 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34553_QNDS01000002.1_592.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34553_QNDS01000002.1_592.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34553_QNDS01000002.1_592.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34553_QNDS01000002.1_592.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       34553_QNDS01000002.1_592  [M=27]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    7.9e-23   81.6   7.3    8.3e-23   81.6   7.3    1.0  1  Ga0164313_10000250_592  [40604 - 40684]
+    7.9e-23   81.6   7.3    8.3e-23   81.6   7.3    1.0  1  QNDS01000002.1_592      [40604 - 40684] Candidatus Fermentiba
+  ------ inclusion threshold ------
+       0.16   13.5   0.0       0.18   13.3   0.0    1.2  1  Ga0078972_1006503_358   [16964 - 17041]
+       0.19   13.3   2.5       0.23   13.0   2.5    1.2  1  CP058579_2139           [157010 - 157054] [Halobonum sp. NJ-3
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_592  [40604 - 40684]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.6   7.3   3.5e-27   8.3e-23       1      27 []       1      27 []       1      27 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 81.6 bits;  conditional E-value: 3.5e-27
+  34553_QNDS01000002.1_592  1 MRGEGNWLIRGYKKREDGKCAEVSWER 27
+                              MRGEGNWLIRGYKKREDGKCAEVSWER
+    Ga0164313_10000250_592  1 MRGEGNWLIRGYKKREDGKCAEVSWER 27
+                              **************************9 PP
+
+>> QNDS01000002.1_592  [40604 - 40684] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.6   7.3   3.5e-27   8.3e-23       1      27 []       1      27 []       1      27 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 81.6 bits;  conditional E-value: 3.5e-27
+  34553_QNDS01000002.1_592  1 MRGEGNWLIRGYKKREDGKCAEVSWER 27
+                              MRGEGNWLIRGYKKREDGKCAEVSWER
+        QNDS01000002.1_592  1 MRGEGNWLIRGYKKREDGKCAEVSWER 27
+                              **************************9 PP
+
+>> Ga0078972_1006503_358  [16964 - 17041]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.0   7.4e-06      0.18       6      20 ..       7      21 ..       5      24 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 7.4e-06
+  34553_QNDS01000002.1_592  6 NWLIRGYKKREDGKC 20
+                              N LIR Y K+  G C
+     Ga0078972_1006503_358  7 NDLIRTYQKKQEGIC 21
+                              77***********99 PP
+
+>> CP058579_2139  [157010 - 157054] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   2.5   9.7e-06      0.23      16      27 .]       3      15 .]       2      15 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 9.7e-06
+  34553_QNDS01000002.1_592 16 EDGKCAEV.SWER 27
+                              EDG CAE   WER
+             CP058579_2139  3 EDGSCAEGgGWER 15
+                              9******636**9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (27 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1115  (0.0115349); expected 1933.3 (0.02)
+Passed bias filter:                      697  (0.00721062); expected 1933.3 (0.02)
+Passed Vit filter:                        51  (0.000527606); expected 96.7 (0.001)
+Passed Fwd filter:                         5  (5.17261e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.05
+# Mc/sec: 1996.31
+//
+[ok]

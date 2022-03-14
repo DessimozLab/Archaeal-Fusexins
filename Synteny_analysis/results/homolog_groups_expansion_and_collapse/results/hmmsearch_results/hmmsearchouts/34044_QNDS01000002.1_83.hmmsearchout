@@ -1,0 +1,114 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34044_QNDS01000002.1_83.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34044_QNDS01000002.1_83.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34044_QNDS01000002.1_83.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34044_QNDS01000002.1_83.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       34044_QNDS01000002.1_83  [M=259]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+   1.1e-184  614.1   1.4   1.2e-184  613.9   1.4    1.0  1  Ga0164313_10000250_83   [3726 - 4502]
+   1.1e-184  614.1   1.4   1.2e-184  613.9   1.4    1.0  1  QNDS01000002.1_83       [3726 - 4502] Candidatus Fermentibact
+  ------ inclusion threshold ------
+      0.057   15.2   0.3       0.11   14.3   0.1    1.6  2  Ga0172379_10001592_217  [12772 - 13764]
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_83  [3726 - 4502]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  613.9   1.4  3.8e-189  1.2e-184       1     259 []       1     259 []       1     259 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 613.9 bits;  conditional E-value: 3.8e-189
+  34044_QNDS01000002.1_83   1 llmmelraeilqgrlleffnaaaycgnkielrmdkggigfsqvcvddrglgvmdlfsedfneyvfisrsgecsvclsihpiltals 86 
+                              +lmmelraeilqgrlleffnaaaycgnkielrmdkggigfsqvcvddrglgvmdlfsedfneyvfisrsgecsvclsihpiltals
+    Ga0164313_10000250_83   1 MLMMELRAEILQGRLLEFFNAAAYCGNKIELRMDKGGIGFSQVCVDDRGLGVMDLFSEDFNEYVFISRSGECSVCLSIHPILTALS 86 
+                              89************************************************************************************ PP
+
+  34044_QNDS01000002.1_83  87 mvgdddyvtlkinrhglwlksehmkhsmnleedilsrtnhlpsdyvaqvelginqlrellsgirlddkadnvsfittpfitkqqvf 172
+                              mvgdddyvtlkinrhglwlksehmkhsmnleedilsrtnhlpsdyvaqvelginqlrellsgirlddkadnvsfittpfitkqqvf
+    Ga0164313_10000250_83  87 MVGDDDYVTLKINRHGLWLKSEHMKHSMNLEEDILSRTNHLPSDYVAQVELGINQLRELLSGIRLDDKADNVSFITTPFITKQQVF 172
+                              ************************************************************************************** PP
+
+  34044_QNDS01000002.1_83 173 lisygeigghfltevetgfkvlsmgagvstksrydindllhfleafpdhdaiiylgkkdypllievllgtgvlkyylsptikeekn 258
+                              lisygeigghfltevetgfkvlsmgagvstksrydindllhfleafpdhdaiiylgkkdypllievllgtgvlkyylsptikeekn
+    Ga0164313_10000250_83 173 LISYGEIGGHFLTEVETGFKVLSMGAGVSTKSRYDINDLLHFLEAFPDHDAIIYLGKKDYPLLIEVLLGTGVLKYYLSPTIKEEKN 258
+                              ************************************************************************************** PP
+
+  34044_QNDS01000002.1_83 259 v 259
+                              v
+    Ga0164313_10000250_83 259 V 259
+                              8 PP
+
+>> QNDS01000002.1_83  [3726 - 4502] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, whole
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  613.9   1.4  3.8e-189  1.2e-184       1     259 []       1     259 []       1     259 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 613.9 bits;  conditional E-value: 3.8e-189
+  34044_QNDS01000002.1_83   1 llmmelraeilqgrlleffnaaaycgnkielrmdkggigfsqvcvddrglgvmdlfsedfneyvfisrsgecsvclsihpiltals 86 
+                              +lmmelraeilqgrlleffnaaaycgnkielrmdkggigfsqvcvddrglgvmdlfsedfneyvfisrsgecsvclsihpiltals
+        QNDS01000002.1_83   1 MLMMELRAEILQGRLLEFFNAAAYCGNKIELRMDKGGIGFSQVCVDDRGLGVMDLFSEDFNEYVFISRSGECSVCLSIHPILTALS 86 
+                              89************************************************************************************ PP
+
+  34044_QNDS01000002.1_83  87 mvgdddyvtlkinrhglwlksehmkhsmnleedilsrtnhlpsdyvaqvelginqlrellsgirlddkadnvsfittpfitkqqvf 172
+                              mvgdddyvtlkinrhglwlksehmkhsmnleedilsrtnhlpsdyvaqvelginqlrellsgirlddkadnvsfittpfitkqqvf
+        QNDS01000002.1_83  87 MVGDDDYVTLKINRHGLWLKSEHMKHSMNLEEDILSRTNHLPSDYVAQVELGINQLRELLSGIRLDDKADNVSFITTPFITKQQVF 172
+                              ************************************************************************************** PP
+
+  34044_QNDS01000002.1_83 173 lisygeigghfltevetgfkvlsmgagvstksrydindllhfleafpdhdaiiylgkkdypllievllgtgvlkyylsptikeekn 258
+                              lisygeigghfltevetgfkvlsmgagvstksrydindllhfleafpdhdaiiylgkkdypllievllgtgvlkyylsptikeekn
+        QNDS01000002.1_83 173 LISYGEIGGHFLTEVETGFKVLSMGAGVSTKSRYDINDLLHFLEAFPDHDAIIYLGKKDYPLLIEVLLGTGVLKYYLSPTIKEEKN 258
+                              ************************************************************************************** PP
+
+  34044_QNDS01000002.1_83 259 v 259
+                              v
+        QNDS01000002.1_83 259 V 259
+                              8 PP
+
+>> Ga0172379_10001592_217  [12772 - 13764]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   0.0      0.66   2.1e+04     204     247 ..      57      97 ..      44     104 .. 0.65
+   2 ?   14.3   0.1   3.4e-06      0.11     181     254 ..     247     328 ..     227     331 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 0.66
+  34044_QNDS01000002.1_83 204 srydindllhfleafpdhdaiiylgkkdypllievllgtgvlky 247
+                              s++ in  + fl+ f  ++++i l kk   l  +v   t v+ y
+   Ga0172379_10001592_217  57 SKFFINT-FAFLKQFG-YNTVIGLNKKTITL-FKVDPSTNVMSY 97 
+                              5555554.45777774.56777888777654.466666666666 PP
+
+  == domain 2  score: 14.3 bits;  conditional E-value: 3.4e-06
+  34044_QNDS01000002.1_83 181 ghfltevetgfkvlsm.gagvstksrydin.....dllhfleafpdhdaiiylgkkdypllievllgtgvlk..yylsptik 254
+                                f+te et    + + g  +s + ++d+      d++ + +a+   + +i   k+++p ++e  lg+g +k  y +sp ++
+   Ga0172379_10001592_217 247 IDFITEKETSHSSIQLyGDDISIRPKHDVTlylnvDFVVMYKALNLENNVIMHAKENFPCILETKLGAGQIKhfYIISPIVR 328
+                              5799*****99877654999*****9998633334667778999999**********************9994344678765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (259 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       620  (0.00641404); expected 1933.3 (0.02)
+Passed bias filter:                      474  (0.00490363); expected 1933.3 (0.02)
+Passed Vit filter:                        22  (0.000227595); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.15u 0.01s 00:00:00.16 Elapsed: 00:00:00.04
+# Mc/sec: 23937.27
+//
+[ok]

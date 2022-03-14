@@ -1,0 +1,19 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP010426.1_19531     -            551 19531_CP010426.1_19531 -            556  6.1e-175  585.7  13.2   1   1  2.9e-179  7.1e-175  585.4  13.2     1   552     1   545     1   549 0.96 [639050 - 637398] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+LKMP01000007.1_696   -            542 19531_CP010426.1_19531 -            556  2.2e-163  547.5   0.2   1   1  1.1e-167  2.7e-163  547.2   0.2     1   551     1   538     1   541 0.96 [34082 - 35707] Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genome shotgun sequence
+CP010426.1_19511     -            563 19531_CP010426.1_19531 -            556   2.5e-07   32.4   0.0   1   2     0.016   3.9e+02    2.0   0.1   357   398    86   130    72   172 0.76 [640743 - 639055] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+CP010426.1_19511     -            563 19531_CP010426.1_19531 -            556   2.5e-07   32.4   0.0   2   2   1.2e-09   2.8e-05   25.6   0.0   345   545   286   528   285   555 0.63 [640743 - 639055] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+LKMP01000007.1_672   -            479 19531_CP010426.1_19531 -            556     0.076   14.3   0.0   1   2     0.091   2.2e+03   -0.5   0.0   354   412   204   267   191   274 0.72 [32639 - 34075] Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genome shotgun sequence
+LKMP01000007.1_672   -            479 19531_CP010426.1_19531 -            556     0.076   14.3   0.0   2   2   1.7e-05      0.42   11.8   0.0   414   533   305   430   302   460 0.76 [32639 - 34075] Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genome shotgun sequence
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/19531_CP010426.1_19531.hmm
+# Target file:     ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# Option settings: hmmsearch -o ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/19531_CP010426.1_19531.hmmsearchout --tblout ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/19531_CP010426.1_19531.tblout --domtblout ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/19531_CP010426.1_19531.domtblout --cpu 3 ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/19531_CP010426.1_19531.hmm ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa 
+# Current dir:     /media3/mauri/fusexins/analysis_mobile_elements_with_MAGs_and_Halovivax/scripts
+# Date:            Tue Aug 10 16:02:02 2021
+# [ok]

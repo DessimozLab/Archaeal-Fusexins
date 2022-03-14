@@ -1,0 +1,188 @@
+Query         P08563
+Match_columns 446
+No_of_seqs    5 out of 14
+Neff          1.3 
+Searched_HMMs 35
+Date          Wed Jul  7 10:08:21 2021
+Command       hhsuite2/bin/hhsearch -cpu 8 -d ./hhsearch.pal -i HHM_UNI/P08563Profphylotest.hhm -o ALLVSALL/P08563Profphylotestallvalltest.hhr -n 1 -B 2000 -Z 2000 -mact .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 P08563                         100.0  5E-263  1E-264 1831.8   0.0  446    1-446     1-446 (446)
+  2 P08563                          97.5 2.3E-10 6.7E-12   90.4   0.0   60  360-419   168-264 (446)
+  3 P03518                          13.0   0.077  0.0022   30.3   0.0   16  344-359   344-359 (446)
+  4 HGF63239.1                       0.7     2.9   0.084   20.8   0.0   11  355-365   408-418 (556)
+  5 WP_174701778.1                   0.5       4    0.11   20.4   0.0   18  196-213   477-494 (511)
+  6 WP_007110832                     0.3     7.1     0.2   18.1   0.0   10  432-441   104-113 (550)
+  7 P08668                           0.3     7.2     0.2   18.2   0.0   20   17-36    412-433 (457)
+  8 FsxAE                            0.3     7.6    0.22   18.2   0.0   18   20-37    391-408 (517)
+  9 Q1H8W5                           0.3     8.2    0.24   17.6   0.0   25  399-423    60-84  (412)
+ 10 P03315                           0.3     8.2    0.24   17.6   0.0   29  395-423    56-84  (415)
+
+No 1  
+>P08563
+Probab=100.00  E-value=5.1e-263  Score=1831.75  Aligned_cols=446  Identities=100%  Similarity=1.687  Sum_probs=445.4
+
+Q P08563            1 EEAFTYLCTAPGCATQTPVPVRLAGVRFESKIVDGGCFAPWDLEATGACICEIPTDVSCEGLGAWVPTAPCARIWNGTQR   80 (446)
+Q Consensus         1 eeaftylctapgcatqtpvpvrlagvrfeskivdggcfapwdleatgaciceiptDv~Ce~lga~~PtaP~ar~wngtqr   80 (446)
+                      |||||||||+|||||||||||||+||||||||||||||+|||||+||||||||||||||||||+|||++||+||||++||
+T Consensus         1 eeaftylctapgcatqtpvpvrlagvrfeskivdggcfapwdleatgaciceiptDv~Ce~lga~~PtaP~ar~wngtqr   80 (446)
+T P08563            1 EEAFTYLCTAPGCATQTPVPVRLAGVRFESKIVDGGCFAPWDLEATGACICEIPTDVSCEGLGAWVPTAPCARIWNGTQR   80 (446)
+Confidence            79999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q P08563           81 ACTFWAVNAYSSGGYAQLASYFNPGGSYYKQYHPTACEVEPAFGHSDAACWGFPTDTVMSVFALASYVQHPHKTVRVKFH  160 (446)
+Q Consensus        81 acT~~AvnayssGgyaqlasyfnp~G~~~kqy~~ta~evepa~G~SdA~~WGfP~~tvmsvfalasyvqhphktvrvkfh  160 (446)
+                      ||||||+|+||||||+||+|||||||||||||||+||||||+||||||||||||+|++||+|||||||||||||||||||
+T Consensus        81 acT~~AvnayssGgyaqlasyfnp~G~~~kqy~~ta~evepa~G~SdA~~WGfP~~tvmsvfalasyvqhphktvrvkfh  160 (446)
+T P08563           81 ACTFWAVNAYSSGGYAQLASYFNPGGSYYKQYHPTACEVEPAFGHSDAACWGFPTDTVMSVFALASYVQHPHKTVRVKFH  160 (446)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q P08563          161 TETRTVWQLSVAGVSCNVTTEHPFCNTPHGQLEVQVPPDPGDLVEYIMNYTGNQQSRWGLGSPNCHGPDWASPVCQRHSP  240 (446)
+Q Consensus       161 tetrtvwqlsvaGvsCnvttehPfcntPhGqle~qvppDpgdLveyimnytgnqqsrWgLgspnChgpdwaspvCqR~sp  240 (446)
+                      |||||||||||+|+|||+|++||||||||||+|+||||||||||||||||||||||||+|+|||||+||||||+||||+|
+T Consensus       161 tetrtvwqlsvaGvsCnvttehPfcntPhGqle~qvppDpgdLveyimnytgnqqsrWgLgspnChgpdwaspvCqR~sp  240 (446)
+T P08563          161 TETRTVWQLSVAGVSCNVTTEHPFCNTPHGQLEVQVPPDPGDLVEYIMNYTGNQQSRWGLGSPNCHGPDWASPVCQRHSP  240 (446)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q P08563          241 DCSRLVGATPERPRLRLVDADDPLLRTAPGPGEVWVTPVIGSQARKCGLHIRAGPYGHATVEMPEWIHAHTTSDPWHPPG  320 (446)
+Q Consensus       241 ~~svlvGatperprlrlvdaddpllrtapgpgevwvtpvigsqarkcglhiragpyghatvempewihaht~~~~~~p~~  320 (446)
+                      ||+||||++||||||||||+||||||||||||||||||||||||||||||||||||||||||||||||+|||||+|+|++
+T Consensus       241 ~~svlvGatperprlrlvdaddpllrtapgpgevwvtpvigsqarkcglhiragpyghatvempewihaht~~~~~~p~~  320 (446)
+T P08563          241 DCSRLVGATPERPRLRLVDADDPLLRTAPGPGEVWVTPVIGSQARKCGLHIRAGPYGHATVEMPEWIHAHTTSDPWHPPG  320 (446)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q P08563          321 PLGLKFKTVRPVALPRALAPPRNVRVTGCYQCGTPALVEGLAPGGGNCHLTVNGEDVGAFPPGKFVTAALLNTPPPYQVS  400 (446)
+Q Consensus       321 plg~~~~~~~~~~lpralapp~nvrvtgcyqcgtpalveglapgggnchltvngedvgafppgkfvtaallntpppyqvs  400 (446)
+                      |||+|||++++|+||||||||||||||||||||||+|||||+||||||||||||||||+|||||||||||||||||||||
+T Consensus       321 plg~~~~~~~~~~lpralapp~nvrvtgcyqcgtpalveglapgggnchltvngedvgafppgkfvtaallntpppyqvs  400 (446)
+T P08563          321 PLGLKFKTVRPVALPRALAPPRNVRVTGCYQCGTPALVEGLAPGGGNCHLTVNGEDVGAFPPGKFVTAALLNTPPPYQVS  400 (446)
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q P08563          401 CGGESDRASARVIDPAAQSFTGVVYGTHTTAVSETRQTWAEWAAAH  446 (446)
+Q Consensus       401 cggesdrasarvidpaaqsftgvvygthttavsetrqtwaewaaah  446 (446)
+                      |||||||||||||||+|||||||||||||||||||||||+||||||
+T Consensus       401 cggesdrasarvidpaaqsftgvvygthttavsetrqtwaewaaah  446 (446)
+T P08563          401 CGGESDRASARVIDPAAQSFTGVVYGTHTTAVSETRQTWAEWAAAH  446 (446)
+Confidence            9999999999999999999999999999999999999999999998
+
+
+No 2  
+>P08563
+Probab=97.50  E-value=2.3e-10  Score=90.40  Aligned_cols=60  Identities=22%  Similarity=0.378  Sum_probs=55.7
+
+Q P08563          360 GLAPGGGNCHLTVNGE--------DVGAFP--PGKFVTAAL---------------------------LNTPPPYQVSCG  402 (446)
+Q Consensus       360 glapgggnchltvnge--------dvgafp--pgkfvtaal---------------------------lntpppyqvscg  402 (446)
+                      +|.++|.+||+|.+++        +...||  ||+||+.++                           ++++|+++|+||
+T Consensus       168 qlsvaGvsCnvttehPfcntPhGqle~qvppDpgdLveyimnytgnqqsrWgLgspnChgpdwaspvCqR~sp~~svlvG  247 (446)
+T P08563          168 QLSVAGVSCNVTTEHPFCNTPHGQLEVQVPPDPGDLVEYIMNYTGNQQSRWGLGSPNCHGPDWASPVCQRHSPDCSRLVG  247 (446)
+Confidence            7889999999999987        889999  899999875                           899999999999
+
+
+Q P08563          403 GESDRASARVIDPAAQS  419 (446)
+Q Consensus       403 gesdrasarvidpaaqs  419 (446)
+                      ++++|.+.|+||+..++
+T Consensus       248 atperprlrlvdaddpl  264 (446)
+T P08563          248 ATPERPRLRLVDADDPL  264 (446)
+Confidence            99999999999999887
+
+
+No 3  
+>P03518
+Probab=12.97  E-value=0.077  Score=30.28  Aligned_cols=16  Identities=44%  Similarity=0.916  Sum_probs=13.5
+
+Q P08563          344 VRVTGCYQCGTPALVE  359 (446)
+Q Consensus       344 vrvtgcyqcgtpalve  359 (446)
+                      .-++|||.|..-|.++
+T Consensus       344 ~~ltGCYsC~~GA~~~  359 (446)
+T P03518          344 LNLTGCYSCNAGARVC  359 (446)
+Confidence            6789999998888775
+
+
+No 4  
+>HGF63239.1
+Probab=0.68  E-value=2.9  Score=20.80  Aligned_cols=11  Identities=64%  Similarity=1.349  Sum_probs=10.0
+
+Q P08563          355 PALVEGLAPGG  365 (446)
+Q Consensus       355 palveglapgg  365 (446)
+                      |.+|.||.|||
+T Consensus       408 pqmvtglnpgg  418 (556)
+T HGF63239.1      408 PQMVTGLNPGG  418 (556)
+Confidence            78999999998
+
+
+No 5  
+>WP_174701778.1
+Probab=0.52  E-value=4  Score=20.36  Aligned_cols=18  Identities=50%  Similarity=0.798  Sum_probs=15.1
+
+Q P08563          196 VPPDPGDLVEYIMNYTGN  213 (446)
+Q Consensus       196 vppDpgdLveyimnytgn  213 (446)
+                      ||||-.-|.|-+.|-.||
+T Consensus       477 ~~~~~~~~~~~~~~~~~~  494 (511)
+T WP_174701778.1  477 VPPDDDGLLERVTNGVGN  494 (511)
+Confidence            888888888888887777
+
+
+No 6  
+>WP_007110832
+Probab=0.30  E-value=7.1  Score=18.14  Aligned_cols=10  Identities=50%  Similarity=1.023  Sum_probs=6.8
+
+Q P08563          432 VSETRQTWAE  441 (446)
+Q Consensus       432 vsetrqtwae  441 (446)
+                      |...+|.|||
+T Consensus       104 vesrkqswae  113 (550)
+T WP_007110832    104 VESRKQSWAE  113 (550)
+Confidence            5556678876
+
+
+No 7  
+>P08668
+Probab=0.29  E-value=7.2  Score=18.24  Aligned_cols=20  Identities=30%  Similarity=0.614  Sum_probs=14.9
+
+Q P08563           17 TPVPVRLAGVR-FES-KIVDGG   36 (446)
+Q Consensus        17 tpvpvrlagvr-fes-kivdgg   36 (446)
+                      .|-=-|+.|+. .++ ||.|.|
+T Consensus       412 ~Phl~rv~~~~~~~~~~~~~dg  433 (457)
+T P08668          412 APHLDKVNGISEIENSKVYDDG  433 (457)
+Confidence            56667888888 666 788876
+
+
+No 8  
+>FsxAE
+Probab=0.28  E-value=7.6  Score=18.20  Aligned_cols=18  Identities=39%  Similarity=0.637  Sum_probs=14.7
+
+Q P08563           20 PVRLAGVRFESKIVDGGC   37 (446)
+Q Consensus        20 pvrlagvrfeskivdggc   37 (446)
+                      -|-+.-+.|+||-|-|-|
+T Consensus       391 ~v~f~S~ss~sK~ISgSC  408 (517)
+T FsxAE           391 DVAFSSVSSESKEISGSC  408 (517)
+Confidence            556677889999998888
+
+
+No 9  
+>Q1H8W5
+Probab=0.26  E-value=8.2  Score=17.63  Aligned_cols=25  Identities=32%  Similarity=0.581  Sum_probs=19.4
+
+Q P08563          399 VSCGGESDRASARVIDPAAQSFTGV  423 (446)
+Q Consensus       399 vscggesdrasarvidpaaqsftgv  423 (446)
+                      |.|=|...=.+...-|-.-+-||||
+T Consensus        60 VkCCGt~eC~~~~~pDy~CkVftGV   84 (412)
+T Q1H8W5           60 VKCCGTAECKDKNLPDYSCKVFTGV   84 (412)
+Confidence            6666666666777788888999996
+
+
+No 10 
+>P03315
+Probab=0.26  E-value=8.2  Score=17.65  Aligned_cols=29  Identities=31%  Similarity=0.504  Sum_probs=0.0
+
+Q P08563          395 PPYQVSCGGESDRASARVIDPAAQSFTGV  423 (446)
+Q Consensus       395 ppyqvscggesdrasarvidpaaqsftgv  423 (446)
+                      |+=+|.|=|...=.+...-|-.-+-||||
+T Consensus        56 psP~VkCCGt~eC~~~~~pDy~CkVftGV   84 (415)
+T P03315           56 PSPYVKCCGASECSTKEKPDYQCKVYTGV   84 (415)
+
+
+Done!

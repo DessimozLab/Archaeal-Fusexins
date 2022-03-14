@@ -1,0 +1,87 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/35679_QMYS01000134.1_102.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/35679_QMYS01000134.1_102.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/35679_QMYS01000134.1_102.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/35679_QMYS01000134.1_102.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       35679_QMYS01000134.1_102  [M=110]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    3.7e-71  238.4  10.1      4e-71  238.2  10.1    1.0  1  QMYS01000134.1_102       [4121 - 4450] Candidatus Thorarchaeo
+    3.9e-70  235.1  11.5    4.3e-70  234.9  11.5    1.0  1  DRBS01000206.1_506       [360 - 31] (REVERSE SENSE) TPA_asm: 
+  ------ inclusion threshold ------
+        0.7   12.2   0.0        0.7   12.2   0.0    1.2  1  Ga0172377_10000119_2300  [18966 - 18802] (REVERSE SENSE)
+
+
+Domain annotation for each sequence (and alignments):
+>> QMYS01000134.1_102  [4121 - 4450] Candidatus Thorarchaeota archaeon isolate B59_G1 B59_Guay1_scaffold_13974, whole ge
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  238.2  10.1   1.3e-75     4e-71       1     110 []       1     110 []       1     110 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 238.2 bits;  conditional E-value: 1.3e-75
+  35679_QMYS01000134.1_102   1 ltflknvlffmlkkvrktgnslyvpltkefkkmklrkgdfvfveqednaivlttienkgkylvpidsklydelklltknygdfne 85 
+                               +tflknvlffmlkkvrktgnslyvpltkefkkmklrkgdfvfveqednaivlttienkgkylvpidsklydelklltknygdfne
+        QMYS01000134.1_102   1 MTFLKNVLFFMLKKVRKTGNSLYVPLTKEFKKMKLRKGDFVFVEQEDNAIVLTTIENKGKYLVPIDSKLYDELKLLTKNYGDFNE 85 
+                               8************************************************************************************ PP
+
+  35679_QMYS01000134.1_102  86 yienmfrkeikkfkniltrpiriki 110
+                               yienmfrkeikkfkn+ltrpiriki
+        QMYS01000134.1_102  86 YIENMFRKEIKKFKNPLTRPIRIKI 110
+                               ***********************97 PP
+
+>> DRBS01000206.1_506  [360 - 31] (REVERSE SENSE) TPA_asm: Candidatus Desulfofervidus auxilii isolate HyVt-233 Ga0116200
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  234.9  11.5   1.3e-74   4.3e-70       1     110 []       1     110 []       1     110 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 234.9 bits;  conditional E-value: 1.3e-74
+  35679_QMYS01000134.1_102   1 ltflknvlffmlkkvrktgnslyvpltkefkkmklrkgdfvfveqednaivlttienkgkylvpidsklydelklltknygdfne 85 
+                               +tflknvlffmlkkvrktgnslyvplt+efkkmkl++gd+vfveqednai+lttienkgkylvpidsklydelklltknygdfne
+        DRBS01000206.1_506   1 MTFLKNVLFFMLKKVRKTGNSLYVPLTREFKKMKLKNGDYVFVEQEDNAIILTTIENKGKYLVPIDSKLYDELKLLTKNYGDFNE 85 
+                               8************************************************************************************ PP
+
+  35679_QMYS01000134.1_102  86 yienmfrkeikkfkniltrpiriki 110
+                               yienmf+keikkfkniltrpirik+
+        DRBS01000206.1_506  86 YIENMFKKEIKKFKNILTRPIRIKF 110
+                               ***********************97 PP
+
+>> Ga0172377_10000119_2300  [18966 - 18802] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.0   2.2e-05       0.7      11      33 ..       5      27 ..       1      52 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 2.2e-05
+  35679_QMYS01000134.1_102 11 mlkkvrktgnslyvpltkefkkm 33
+                               lk++rk g s yv l ke+  +
+   Ga0172377_10000119_2300  5 NLKQIRKIGASKYVTLPKEWGCI 27
+                              59****************98654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (110 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1106  (0.0114418); expected 1933.3 (0.02)
+Passed bias filter:                      537  (0.00555538); expected 1933.3 (0.02)
+Passed Vit filter:                        31  (0.000320702); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 8133.12
+//
+[ok]

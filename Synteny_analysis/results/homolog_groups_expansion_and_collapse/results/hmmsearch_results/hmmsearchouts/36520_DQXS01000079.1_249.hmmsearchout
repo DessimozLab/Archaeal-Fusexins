@@ -1,0 +1,346 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/36520_DQXS01000079.1_249.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/36520_DQXS01000079.1_249.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/36520_DQXS01000079.1_249.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/36520_DQXS01000079.1_249.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       36520_DQXS01000079.1_249  [M=269]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+     4e-168  559.8  15.0   4.5e-168  559.7  15.0    1.0  1  DQXS01000079.1_249      [14823 - 15629] TPA_asm: Candidatus A
+     4e-168  559.8  15.0   4.5e-168  559.7  15.0    1.0  1  Ga0116200_10000074_249  [14823 - 15629]
+    8.3e-05   24.3   0.6    8.3e-05   24.3   0.6    1.0  1  CP058579_2673           [149239 - 149099] (REVERSE SENSE) [Ha
+    0.00097   20.8   1.5    0.00097   20.8   1.5    1.0  1  CP010426.1_23654        [430052 - 429897] (REVERSE SENSE) Arc
+      0.002   19.8   0.2     0.0021   19.7   0.2    1.0  1  CP010426.1_29976        [105557 - 105390] (REVERSE SENSE) Arc
+  ------ inclusion threshold ------
+       0.01   17.4   3.7      0.011   17.4   3.7    1.0  1  CP010426.1_21573        [541653 - 541510] (REVERSE SENSE) Arc
+      0.013   17.1  18.4       0.02   16.5  18.4    1.3  1  ATYM01000002_96         [4989 - 5411] Haloplanus natans DSM 1
+      0.019   16.6   2.0       0.02   16.5   2.0    1.0  1  ATYM01000002_66         [3823 - 3948] Haloplanus natans DSM 1
+       0.02   16.5   0.2      0.021   16.5   0.2    1.1  1  CP048739_148            [8765 - 8926] [Halogeometricum borinq
+      0.052   15.1   1.2      0.065   14.8   1.2    1.1  1  LOEP01000012_1195       [35574 - 35317] (REVERSE SENSE) Halof
+      0.061   14.9   0.0      0.088   14.4   0.0    1.2  1  CP010426.1_746          [41694 - 42263] Archaeon GW2011_AR20 
+      0.078   14.6   1.7        0.2   13.2   1.7    1.6  1  ATYM01000002_107        [5845 - 6075] Haloplanus natans DSM 1
+       0.12   13.9   1.0       0.13   13.9   1.0    1.0  1  NZ_CP071597.1_2039      [57198 - 57064] (REVERSE SENSE) Halov
+       0.13   13.8   0.5       0.18   13.4   0.5    1.4  1  Ga0207718_100100_1458   [89482 - 89003] (REVERSE SENSE)
+       0.19   13.3   0.2       0.19   13.3   0.2    1.0  1  DRYJ01000053.1_523      [21579 - 21322] (REVERSE SENSE) TPA_a
+       0.19   13.3   0.2       0.19   13.3   0.2    1.0  1  Ga0065719_100268_523    [21579 - 21322] (REVERSE SENSE)
+       0.23   13.0   1.0       0.31   12.6   1.0    1.1  1  Ga0207718_100100_2076   [48898 - 48527] (REVERSE SENSE)
+       0.69   11.5   5.5       0.65   11.6   5.5    1.0  1  DQXS01000079.1_343      [20943 - 21029] TPA_asm: Candidatus A
+       0.69   11.5   5.5       0.65   11.6   5.5    1.0  1  Ga0116200_10000074_343  [20943 - 21029]
+       0.97   11.0   5.7          1   10.9   5.4    1.2  1  ATYM01000002_3254       [8290 - 7994] (REVERSE SENSE) Halopla
+        9.2    7.8  10.1      5e+02    2.1  10.1    2.4  1  CP010426.1_6891         [368335 - 368652] Archaeon GW2011_AR2
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_249  [14823 - 15629] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  559.7  15.0  9.8e-172  4.5e-168       1     269 []       1     269 []       1     269 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 559.7 bits;  conditional E-value: 9.8e-172
+  36520_DQXS01000079.1_249   1 mqkivlgfnallgieirriltpkpakkdidlvivrekgergklslfdliwevggeydrtnhhvrqlerkgllkrviiskrnvlvk 85 
+                               mqkivlgf+a+lgieir+++tpkpa+kdidlvi+re+gergklslfdliwevggeydrtnhhvrqlerkgllkrviiskrnvlvk
+        DQXS01000079.1_249   1 MQKIVLGFPAFLGIEIRPAPTPKPAPKDIDLVIIRELGERGKLSLFDLIWEVGGEYDRTNHHVRQLERKGLLKRVIISKRNVLVK 85 
+                               9************************************************************************************ PP
+
+  36520_DQXS01000079.1_249  86 ltpeglrkvklikerpelakekiiveckfcghewipindivkcpkcgkliqdisrkcafcghewipfsedtkkcprcgkrlkvrp 170
+                               ltpeglr+++like+pelakekii++ckfcghewipin+iv+cpkc+kl++disr+cafcghewipfsedtkkcprc++rlkvrp
+        DQXS01000079.1_249  86 LTPEGLRFYQLIKENPELAKEKIIITCKFCGHEWIPINGIVICPKCHKLQHDISRRCAFCGHEWIPFSEDTKKCPRCHRRLKVRP 170
+                               ************************************************************************************* PP
+
+  36520_DQXS01000079.1_249 171 ertcqycgyvwrpkkedakcpicssekkklryfktckicgyewiarkkrvkkcpvcqtrldrvdelydryehylkiveelikrve 255
+                               +rtcqycgyvwrp+ked+kcpic++ek+k+ryfktckicg+ew+arkk+v+kcpvcq++ld++d++ydry+hy+++veelikr+e
+        DQXS01000079.1_249 171 PRTCQYCGYVWRPIKEDSKCPICGGEKPKPRYFKTCKICGHEWYARKKNVRKCPVCQMPLDYFDTFYDRYNHYFTTVEELIKRGE 255
+                               ************************************************************************************* PP
+
+  36520_DQXS01000079.1_249 256 llvdelkelgidis 269
+                               l+v+elkelg+dis
+        DQXS01000079.1_249 256 LTVGELKELGMDIS 269
+                               ************96 PP
+
+>> Ga0116200_10000074_249  [14823 - 15629]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  559.7  15.0  9.8e-172  4.5e-168       1     269 []       1     269 []       1     269 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 559.7 bits;  conditional E-value: 9.8e-172
+  36520_DQXS01000079.1_249   1 mqkivlgfnallgieirriltpkpakkdidlvivrekgergklslfdliwevggeydrtnhhvrqlerkgllkrviiskrnvlvk 85 
+                               mqkivlgf+a+lgieir+++tpkpa+kdidlvi+re+gergklslfdliwevggeydrtnhhvrqlerkgllkrviiskrnvlvk
+    Ga0116200_10000074_249   1 MQKIVLGFPAFLGIEIRPAPTPKPAPKDIDLVIIRELGERGKLSLFDLIWEVGGEYDRTNHHVRQLERKGLLKRVIISKRNVLVK 85 
+                               9************************************************************************************ PP
+
+  36520_DQXS01000079.1_249  86 ltpeglrkvklikerpelakekiiveckfcghewipindivkcpkcgkliqdisrkcafcghewipfsedtkkcprcgkrlkvrp 170
+                               ltpeglr+++like+pelakekii++ckfcghewipin+iv+cpkc+kl++disr+cafcghewipfsedtkkcprc++rlkvrp
+    Ga0116200_10000074_249  86 LTPEGLRFYQLIKENPELAKEKIIITCKFCGHEWIPINGIVICPKCHKLQHDISRRCAFCGHEWIPFSEDTKKCPRCHRRLKVRP 170
+                               ************************************************************************************* PP
+
+  36520_DQXS01000079.1_249 171 ertcqycgyvwrpkkedakcpicssekkklryfktckicgyewiarkkrvkkcpvcqtrldrvdelydryehylkiveelikrve 255
+                               +rtcqycgyvwrp+ked+kcpic++ek+k+ryfktckicg+ew+arkk+v+kcpvcq++ld++d++ydry+hy+++veelikr+e
+    Ga0116200_10000074_249 171 PRTCQYCGYVWRPIKEDSKCPICGGEKPKPRYFKTCKICGHEWYARKKNVRKCPVCQMPLDYFDTFYDRYNHYFTTVEELIKRGE 255
+                               ************************************************************************************* PP
+
+  36520_DQXS01000079.1_249 256 llvdelkelgidis 269
+                               l+v+elkelg+dis
+    Ga0116200_10000074_249 256 LTVGELKELGMDIS 269
+                               ************96 PP
+
+>> CP058579_2673  [149239 - 149099] (REVERSE SENSE) [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.3   0.6   1.8e-08   8.3e-05     173     195 ..       8      31 ..       1      42 [. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 24.3 bits;  conditional E-value: 1.8e-08
+  36520_DQXS01000079.1_249 173 tcqycgyvwrpkked.akcpicss 195
+                                c  c y+w p+k++  kcp cs 
+             CP058579_2673   8 ECSNCDYQWEPRKDEpKKCPHCSI 31 
+                               455555555555555555555543 PP
+
+>> CP010426.1_23654  [430052 - 429897] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   1.5   2.1e-07   0.00097     136     164 ..      11      41 ..       4      51 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 2.1e-07
+  36520_DQXS01000079.1_249 136 qdisrkcafcghewipfs..edtkkcprcgk 164
+                               + ++ kc  cg+ew p+s  e++  cp+c+ 
+          CP010426.1_23654  11 KVKGYKCNNCGYEWLPRSskEKPLICPKCKS 41 
+                               4556788888888888862245667888864 PP
+
+>> CP010426.1_29976  [105557 - 105390] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.2   4.5e-07    0.0021     205     230 ..      15      40 ..       9      51 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 4.5e-07
+  36520_DQXS01000079.1_249 205 tckicgyewiarkkrvkkcpvcqtrl 230
+                               +c+ cg+ w a+ +++  cp+c  ++
+          CP010426.1_29976  15 VCDSCGFTWDAKTRKPETCPNCDGKM 40 
+                               69999999999999999999998665 PP
+
+>> CP010426.1_21573  [541653 - 541510] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.4   3.7   2.3e-06     0.011     133     163 ..       6      37 ..       2      47 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 2.3e-06
+  36520_DQXS01000079.1_249 133 kliqdisrkcafcghewipfsed.tkkcprcg 163
+                               k i+    kc  c hewi ++e+ +  cp+c+
+          CP010426.1_21573   6 KEIKVYECKCERCEHEWITRTEEaPIVCPKCK 37 
+                               45555555777777777776554256777775 PP
+
+>> ATYM01000002_96  [4989 - 5411] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence. 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.5  18.4   4.3e-06      0.02     115     212 ..      12     112 ..       2     133 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 4.3e-06
+  36520_DQXS01000079.1_249 115 cghewipindivkcpkcgkliqdi.srkcafcghewipfsedtkkcprcg.krlkv..rpertcqycgyvwrpkked.akcpics 194
+                               c      ++d +kcp cg  + +     c+ cg e   + ++   c  cg k++ +    +  c  c  v   ++++   cp c+
+           ATYM01000002_96  12 CEDCGKLLEDQKKCPDCGGDVVETwEEECPKCGEEHYHRPHNECNC--CGeKSVEIgmHFPVLCYECSKVLGEIRQEiNPCPNCG 94 
+                               3333334677777777776554431457777777776665554333..4314444444677777777777777777767777777 PP
+
+  36520_DQXS01000079.1_249 195 sekkklryfktckicgye 212
+                                 k +       +icg  
+           ATYM01000002_96  95 ETKGRQDGKTGLHICGNS 112
+                               777776655556677653 PP
+
+>> ATYM01000002_66  [3823 - 3948] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence. 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.5   2.0   4.4e-06      0.02     140     166 ..       5      32 ..       2      40 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 4.4e-06
+  36520_DQXS01000079.1_249 140 rkcafcghewipfse.dtkkcprcgkrl 166
+                                kc  cg+ew   s+ d + cp+c ++ 
+           ATYM01000002_66   5 EKCHKCGYEWDCDSDmDRVTCPNCSRKT 32 
+                               5788888888766543777888887764 PP
+
+>> CP048739_148  [8765 - 8926] [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.5   0.2   4.6e-06     0.021      87     120 ..      15      49 ..       7      54 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 4.6e-06
+  36520_DQXS01000079.1_249  87 tpeglrkvkl.ikerpelakekiiveckfcghewi 120
+                               +p ++r   + + ++ e  k+k  ++c++cg ew 
+              CP048739_148  15 CPGCGRDDDVvYFDKDEGKKDKRCLTCQHCGAEWS 49 
+                               89999987751579999999999999999999995 PP
+
+>> LOEP01000012_1195  [35574 - 35317] (REVERSE SENSE) Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Ha
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.8   1.2   1.4e-05     0.065     167     197 ..      40      75 ..      32      81 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 1.4e-05
+  36520_DQXS01000079.1_249 167 kvrpertcqycgyvwrpkked.....akcpicssek 197
+                               k r +  c+ cg +w+ kk++       cp c+s k
+         LOEP01000012_1195  40 KYRVKAGCEECGNIWKTKKKKdrstpNECPECGSTK 75 
+                               345566677777777765543122223577777766 PP
+
+>> CP010426.1_746  [41694 - 42263] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.0   1.9e-05     0.088     191     253 ..      71     135 ..      50     147 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 1.9e-05
+  36520_DQXS01000079.1_249 191 picssekkklryfktckicgyewiarkkrvkkcpvcqtrldrvdelydryehylk...iveelikr 253
+                                i s++k k    k      y+w+a ++  kk p+c +  +++    d ++ +++   i++el k+
+            CP010426.1_746  71 RISSGRKSKNTRRKLILGMNYQWVAEQRANKKYPNCEVVNSYFLA-KDGKNYFFEvlmIDRELGKK 135
+                               34578888887789999999******************9999854.56666665411167777666 PP
+
+>> ATYM01000002_107  [5845 - 6075] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   1.7   4.4e-05       0.2     106     167 ..      37      69 ..       3      76 .. 0.45
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 4.4e-05
+  36520_DQXS01000079.1_249 106 ekiiveckfcghew..ipindivkcpkcgkliqdisrkcafcghewipfsedtkkcprcgkrlk 167
+                                + +v c  cg  +  +p n+ v cp c+k                                lk
+          ATYM01000002_107  37 TEYVVRCIGCGDVFseVPENGRVECPTCEK-------------------------------ALK 69 
+                               234555555554332245555555555555...............................444 PP
+
+>> NZ_CP071597.1_2039  [57198 - 57064] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.9   1.0   2.7e-05      0.13     138     169 ..       6      39 ..       2      45 .] 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 13.9 bits;  conditional E-value: 2.7e-05
+  36520_DQXS01000079.1_249 138 isrkcafcghewipfsedtkk..cprcgkrlkvr 169
+                               i   c+ cg ew    ++t++  c  c++++k+ 
+        NZ_CP071597.1_2039   6 IPLTCPNCGNEWCYGGNNTRRatCSDCKHSVKIA 39 
+                               4557888888888887777644488888888874 PP
+
+>> Ga0207718_100100_1458  [89482 - 89003] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.5   3.9e-05      0.18     141     178 ..     107     148 ..      66     152 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 3.9e-05
+  36520_DQXS01000079.1_249 141 kcafcghewipfsedtkkcprcgkrlkv.rpe...rtcqycg 178
+                                c  cgh++   +++ + cp cg   ++ + e    +c+ cg
+     Ga0207718_100100_1458 107 VCRGCGHDFEEERDEQQSCPECGSGDVLtQNElvgESCPRCG 148
+                               477788888888888888888876555432221114566665 PP
+
+>> DRYJ01000053.1_523  [21579 - 21322] (REVERSE SENSE) TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga006
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.2   4.2e-05      0.19      25      77 ..       3      54 ..       1      85 [. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 4.2e-05
+  36520_DQXS01000079.1_249 25 akkdidlvivrekgergklslfdliwevggeydrtnhhvrqlerkgllkrvii 77
+                              a  +i++ i+r++ e    sl+ +  ++   y +  +hv ql +kgll +   
+        DRYJ01000053.1_523  3 ALHPIQVQIIRNLYEN-TTSLYKIAEKLNIPYPKLIYHVSQLYKKGLLVKTNK 54
+                              56799**********9.89****************************965422 PP
+
+>> Ga0065719_100268_523  [21579 - 21322] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.2   4.2e-05      0.19      25      77 ..       3      54 ..       1      85 [. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 4.2e-05
+  36520_DQXS01000079.1_249 25 akkdidlvivrekgergklslfdliwevggeydrtnhhvrqlerkgllkrvii 77
+                              a  +i++ i+r++ e    sl+ +  ++   y +  +hv ql +kgll +   
+      Ga0065719_100268_523  3 ALHPIQVQIIRNLYEN-TTSLYKIAEKLNIPYPKLIYHVSQLYKKGLLVKTNK 54
+                              56799**********9.89****************************965422 PP
+
+>> Ga0207718_100100_2076  [48898 - 48527] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   1.0   6.7e-05      0.31     151     183 ..      80     114 ..      71     121 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 6.7e-05
+  36520_DQXS01000079.1_249 151 pfsedtkkcprcgkrlkv..rpertcqycgyvwrp 183
+                                fsed   cp cg +++   r +r c++c  + r 
+     Ga0207718_100100_2076  80 EFSEDDPECPECGAQVQKtcRKPRKCRFCSTRLRT 114
+                               68899999999998886556999999999988876 PP
+
+>> DQXS01000079.1_343  [20943 - 21029] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   5.5   0.00014      0.65     157     178 ..       3      26 ..       1      29 [] 0.46
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00014
+  36520_DQXS01000079.1_249 157 kkcprcgkrlkv..rpertcqycg 178
+                               +kc +cg++++   r +  c+ycg
+        DQXS01000079.1_343   3 VKCKHCGRKIRCigRCPVRCPYCG 26 
+                               344444444443344444444444 PP
+
+>> Ga0116200_10000074_343  [20943 - 21029]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   5.5   0.00014      0.65     157     178 ..       3      26 ..       1      29 [] 0.46
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00014
+  36520_DQXS01000079.1_249 157 kkcprcgkrlkv..rpertcqycg 178
+                               +kc +cg++++   r +  c+ycg
+    Ga0116200_10000074_343   3 VKCKHCGRKIRCigRCPVRCPYCG 26 
+                               344444444443344444444444 PP
+
+>> ATYM01000002_3254  [8290 - 7994] (REVERSE SENSE) Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   5.4   0.00022         1     126     164 ..      55      97 ..      36      99 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00022
+  36520_DQXS01000079.1_249 126 vkcpkcgkliqdisrkcafcg..hewipfs..edtkkcprcgk 164
+                                 c +c  +++++s  c+ cg  + w+p++  ++  kcp+c++
+         ATYM01000002_3254  55 DDCRECSDNKKEQSGFCSNCGaaKTWQPQEggDEILKCPNCNQ 97 
+                               479*****************94457***97436789*****86 PP
+
+>> CP010426.1_6891  [368335 - 368652] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1  10.1      0.11     5e+02     174     208 ..       7      41 ..       3     105 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 2.1 bits;  conditional E-value: 0.11
+  36520_DQXS01000079.1_249 174 cqycgyvwrpkkedakcpicssekkklryfktcki 208
+                               c  cg +  pkk+d k  +c++    +r  kt +i
+           CP010426.1_6891   7 CAKCGSILAPKKDDPKKIVCTGCGYSPRQQKTLRI 41 
+                               77777777777777666666444444444444433 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (269 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1395  (0.0144316); expected 1933.3 (0.02)
+Passed bias filter:                      771  (0.00797616); expected 1933.3 (0.02)
+Passed Vit filter:                        71  (0.000734511); expected 96.7 (0.001)
+Passed Fwd filter:                        21  (0.00021725); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):              21  [number of targets reported over threshold]
+# CPU time: 0.15u 0.01s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 19889.19
+//
+[ok]

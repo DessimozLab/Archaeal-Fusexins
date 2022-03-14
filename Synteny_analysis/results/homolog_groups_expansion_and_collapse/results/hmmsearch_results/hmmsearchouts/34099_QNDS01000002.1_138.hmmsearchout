@@ -1,0 +1,63 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34099_QNDS01000002.1_138.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34099_QNDS01000002.1_138.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34099_QNDS01000002.1_138.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34099_QNDS01000002.1_138.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       34099_QNDS01000002.1_138  [M=79]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.9e-56  190.6   2.6      2e-56  190.5   2.6    1.0  1  Ga0164313_10000250_138  [7753 - 7989]
+    1.9e-56  190.6   2.6      2e-56  190.5   2.6    1.0  1  QNDS01000002.1_138      [7753 - 7989] Candidatus Fermentibact
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_138  [7753 - 7989]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  190.5   2.6   4.2e-61     2e-56       1      79 []       1      79 []       1      79 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 190.5 bits;  conditional E-value: 4.2e-61
+  34099_QNDS01000002.1_138  1 mfeylrermdldlnsdddgalfdvgliealldagfwsilhmvllmlfvvtvypfylvaekveklrgwwtsqrerrsaer 79
+                              mfeylrermdldlnsdddgalfdvgliealldagfwsilhmvllmlfvvtvypfylvaekveklrgwwtsqrerrsaer
+    Ga0164313_10000250_138  1 MFEYLRERMDLDLNSDDDGALFDVGLIEALLDAGFWSILHMVLLMLFVVTVYPFYLVAEKVEKLRGWWTSQRERRSAER 79
+                              9*****************************************************************************8 PP
+
+>> QNDS01000002.1_138  [7753 - 7989] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, whol
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  190.5   2.6   4.2e-61     2e-56       1      79 []       1      79 []       1      79 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 190.5 bits;  conditional E-value: 4.2e-61
+  34099_QNDS01000002.1_138  1 mfeylrermdldlnsdddgalfdvgliealldagfwsilhmvllmlfvvtvypfylvaekveklrgwwtsqrerrsaer 79
+                              mfeylrermdldlnsdddgalfdvgliealldagfwsilhmvllmlfvvtvypfylvaekveklrgwwtsqrerrsaer
+        QNDS01000002.1_138  1 MFEYLRERMDLDLNSDDDGALFDVGLIEALLDAGFWSILHMVLLMLFVVTVYPFYLVAEKVEKLRGWWTSQRERRSAER 79
+                              9*****************************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (79 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1866  (0.0193042); expected 1933.3 (0.02)
+Passed bias filter:                     1380  (0.0142764); expected 1933.3 (0.02)
+Passed Vit filter:                        76  (0.000786237); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 5841.06
+//
+[ok]

@@ -1,0 +1,133 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/82852_Ga0207718_100100_904.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/82852_Ga0207718_100100_904.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/82852_Ga0207718_100100_904.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/82852_Ga0207718_100100_904.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       82852_Ga0207718_100100_904  [M=286]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+   2.1e-122  410.4  32.7   2.3e-122  410.3  32.7    1.0  1  Ga0207718_100100_904         [66049 - 66894]
+   4.3e-118  396.3  24.8   4.8e-118  396.1  24.8    1.0  1  JGI12330J12834_1000008_1091  [72007 - 72804]
+  ------ inclusion threshold ------
+      0.015   17.2  11.3      0.018   16.8  11.3    1.1  1  CP058579_1041                [74623 - 74913] [Halobonum sp. N
+        1.1   11.0   0.1        1.4   10.7   0.1    1.2  1  JGI12330J12834_1000008_800   [54892 - 55101]
+        2.3    9.9   8.1        2.9    9.6   8.1    1.1  1  JABURA010000001_39           [2769 - 3110] JABURA010000001.1 
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207718_100100_904  [66049 - 66894]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  410.3  32.7  1.2e-126  2.3e-122       6     286 .]       3     282 .]       1     282 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 410.3 bits;  conditional E-value: 1.2e-126
+  82852_Ga0207718_100100_904   6 sdrdqvqeileeldidvdleedgleeldetddeelaGvdvesrevsvvkefdPeeeslkdetrefllddGsqlsvtvkkRpeC 88 
+                                 + +d++q++++++did+++e+ ++ee+ +t+d++++Gvdve+re+++vk+fdP+e++++detr+++l+dGsql+v+vkkR++C
+        Ga0207718_100100_904   3 GLYDRLQDVVDGMDIDTEAENLQFEEM-STQDQGESGVDVETREITWVKPFDPGEDQVGDETRSLVLEDGSQLVVAVKKRVKC 84 
+                                 679************************.999**************************************************** PP
+
+  82852_Ga0207718_100100_904  89 PsCgyvlaeeDePnslageCteCdrltCprcqnkCaaCgkilCsehatGhGlkdetYCeecreDveedlefeRelekreqehs 171
+                                 PsC++vl+++DeP++l+geC+eCd++tC+rcqn+CaaCg+ilC+e+++GhGlkdetYC+e+reDveed+efeR+le+r+++h+
+        Ga0207718_100100_904  85 PSCSHVLSDGDEPDQLSGECSECDVETCHRCQNECAACGAILCDECSNGHGLKDETYCSEHREDVEEDIEFERDLEERDLDHE 167
+                                 *********************************************************************************** PP
+
+  82852_Ga0207718_100100_904 172 eemdkldralkerekrkelelkeerkereqrRkdykekidllkqldekrktedekksvdaeseeggerfeaqlktkkeperql 254
+                                 ++m++l+++lke+ek+k+lel+eer++req+R+dy+++id++++l+e+r+t++e+k+vd+++e gg+ f +++++++ep++++
+        Ga0207718_100100_904 168 HRMEELEHELKEKEKEKKLELQEEREKREQVRQDYRTVIDIVRDLKEIRDTDEESKTVDPSGEGGGKPFGGTNAFSGEPSSFG 250
+                                 *********************************************************************************** PP
+
+  82852_Ga0207718_100100_904 255 dssdkqedddklddllkkaedsaedtedevfe 286
+                                 +ss++qeddd+++d++k++e+++++t++++++
+        Ga0207718_100100_904 251 NSSNSQEDDDSTPDWFKDTEKQHKETNEATQQ 282
+                                 ****************************9986 PP
+
+>> JGI12330J12834_1000008_1091  [72007 - 72804]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  396.1  24.8  2.5e-122  4.8e-118       8     280 ..       2     266 .]       1     266 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 396.1 bits;  conditional E-value: 2.5e-122
+   82852_Ga0207718_100100_904   8 rdqvqeileeldidvdleedgleeldetddeelaGvdvesrevsvvkefdPeeeslkdetrefllddGsqlsvtvkkRpeCP 89 
+                                  +dq+q+++ee+d+++d+e++++     t++++++Gv++++re++v+k+f+P++++l++et++f+l++G+qlsvtvk+RpeCP
+  JGI12330J12834_1000008_1091   2 KDQLQQLAEEFDLELDHEPEDF-----TESRDVDGVEMKAREATVIKPFNPDNGFLRNETHNFVLEGGDQLSVTVKHRPECP 78 
+                                  8*********************.....9****************************************************** PP
+
+   82852_Ga0207718_100100_904  90 sCgyvlaeeDePnslageCteCdrltCprcqnkCaaCgkilCsehatGhGlkdetYCeecreDveedlefeRelekreqehs 171
+                                  sCg+vlaeeDePn+lageC++CdrltC+r+q+kC++C+ki+C++ha+GhGlkd++YCe+c+ Dveedl+feR++e+r+q hs
+  JGI12330J12834_1000008_1091  79 SCGHVLAEEDEPNTLAGECSVCDRLTCHRNQSKCEGCEKIFCPDHACGHGLKDNSYCEDCLGDVEEDLSFERGMEERKQGHS 160
+                                  ********************************************************************************** PP
+
+   82852_Ga0207718_100100_904 172 eemdkldralkerekrkelelkeerkereqrRkdykekidllkqldekrktedekksvdaeseeggerfeaqlktkkeperq 253
+                                  eem+kld++lke+++rkelelke+r+ereq+Rkd++++i+ll++++e ++++de+k++d++s +gg++  ++l+++++p ++
+  JGI12330J12834_1000008_1091 161 EEMEKLDKQLKEEKQRKELELKEIRQEREQIRKDWNTVIQLLNTVKEPGQDDDEDKDSDSGSLTGGTG--GSLTGGGKPLHV 240
+                                  *******************************************************************9..99********99 PP
+
+   82852_Ga0207718_100100_904 254 ldssdkqedddklddllkkaedsaedt 280
+                                   d+sd+qe+dd ++d+l+++++ +edt
+  JGI12330J12834_1000008_1091 241 -DDSDEQEEDDVEPDWLDSQFHGTEDT 266
+                                  .999999******************98 PP
+
+>> CP058579_1041  [74623 - 74913] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.8  11.3   9.4e-07     0.018     103     150 ..      28      82 ..      20      85 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 16.8 bits;  conditional E-value: 9.4e-07
+  82852_Ga0207718_100100_904 103 slageCte.......CdrltCprcqnkCaaCgkilCsehatGhGlkdetYCeecr 150
+                                 +lag C+        C +++C++c ++C+ C ++lC+ ha+      + YC+++ 
+               CP058579_1041  28 QLAGVCQYaapneqgCANKICEQCIGTCDICRAVLCPHHAVRLEDGTQVYCSDHV 82 
+                                 788999888888899**************************99888999**9986 PP
+
+>> JGI12330J12834_1000008_800  [54892 - 55101]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.1     7e-05       1.4      79     121 ..      16      60 ..      13      67 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 7e-05
+  82852_Ga0207718_100100_904  79 svtvkkRpeCPsCgyvlaeeDePnslageCte..CdrltCprcqn 121
+                                 +v +   p+CP+Cg+      e + +  +      +  +Cp+c +
+  JGI12330J12834_1000008_800  16 TVKLETMPKCPECGHSEESSAEWVDFYMNTDYggAGLVVCPSCDS 60 
+                                 5677789*********99999999887766654478899999987 PP
+
+>> JABURA010000001_39  [2769 - 3110] JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   8.1   0.00015       2.9     104     134 ..      52      84 ..      43      92 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.00015
+  82852_Ga0207718_100100_904 104 lageCte..CdrltCprcqnkCaaCgkilCseh 134
+                                 ++g C+   C    C  c+  C+aCg+ lC+ h
+          JABURA010000001_39  52 YTGVCQYkgCAYSLCMTCNWSCEACGRTLCPFH 84 
+                                 588998777*********************977 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (286 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1279  (0.0132315); expected 1933.3 (0.02)
+Passed bias filter:                      732  (0.0075727); expected 1933.3 (0.02)
+Passed Vit filter:                        69  (0.00071382); expected 96.7 (0.001)
+Passed Fwd filter:                         7  (7.24165e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.16u 0.01s 00:00:00.17 Elapsed: 00:00:00.05
+# Mc/sec: 21146.12
+//
+[ok]

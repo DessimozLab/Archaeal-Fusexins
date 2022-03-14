@@ -1,0 +1,63 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/40171_VEPM01000029.1_1691.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/40171_VEPM01000029.1_1691.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/40171_VEPM01000029.1_1691.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/40171_VEPM01000029.1_1691.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       40171_VEPM01000029.1_1691  [M=48]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.3e-31  110.4   6.2    1.4e-31  110.3   6.2    1.0  1  Ga0172377_10000119_853  [38375 - 38518]
+    3.3e-31  109.1   2.8    3.5e-31  109.0   2.8    1.0  1  VEPM01000029.1_1691     [14270 - 14133] (REVERSE SENSE) Candi
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0172377_10000119_853  [38375 - 38518]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.3   6.2   2.9e-36   1.4e-31       1      48 []       1      48 []       1      48 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 110.3 bits;  conditional E-value: 2.9e-36
+  40171_VEPM01000029.1_1691  1 mnnLrTSKERVkLLKkGiiGkkIEeLYllkNgiKIlKdnvLrEInket 48
+                               m+nLrTSKERVkLLKkG++G++IE+LYllkNg+KI+Kdn+LrEIn+et
+     Ga0172377_10000119_853  1 MMNLRTSKERVKLLKKGTSGTIIEYLYLLKNGMKIVKDNTLREINNET 48
+                               9**********************************************8 PP
+
+>> VEPM01000029.1_1691  [14270 - 14133] (REVERSE SENSE) Candidatus Methanoperedens sp. isolate MnB_20 Mn.Bin2_29, whole 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.0   2.8   7.3e-36   3.5e-31       1      46 [.       1      46 []       1      46 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 109.0 bits;  conditional E-value: 7.3e-36
+  40171_VEPM01000029.1_1691  1 mnnLrTSKERVkLLKkGiiGkkIEeLYllkNgiKIlKdnvLrEInk 46
+                               mn+L+TSKERV+LLK+GiiGkkIEeLY+++N+iKIlK++vL+EI+k
+        VEPM01000029.1_1691  1 MNMLETSKERVQLLKAGIIGKKIEELYISANHIKILKYPVLFEIQK 46
+                               9********************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (48 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1404  (0.0145247); expected 1933.3 (0.02)
+Passed bias filter:                      900  (0.0093107); expected 1933.3 (0.02)
+Passed Vit filter:                        41  (0.000424154); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 3549.00
+//
+[ok]

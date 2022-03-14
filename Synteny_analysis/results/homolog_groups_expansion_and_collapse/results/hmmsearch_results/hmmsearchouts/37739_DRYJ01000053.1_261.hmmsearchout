@@ -1,0 +1,76 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37739_DRYJ01000053.1_261.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37739_DRYJ01000053.1_261.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37739_DRYJ01000053.1_261.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37739_DRYJ01000053.1_261.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37739_DRYJ01000053.1_261  [M=53]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+      5e-41  140.6   4.5    5.4e-41  140.5   4.5    1.0  1  DRYJ01000053.1_261    [15867 - 16025] TPA_asm: Candidatus Bat
+      5e-41  140.6   4.5    5.4e-41  140.5   4.5    1.0  1  Ga0065719_100268_261  [15867 - 16025]
+     0.0068   18.6   0.3     0.0069   18.5   0.3    1.0  1  CP010426.1_26210      [301044 - 300910] (REVERSE SENSE) Archa
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_261  [15867 - 16025] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.5   4.5   1.7e-45   5.4e-41       1      53 []       1      53 []       1      53 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 140.5 bits;  conditional E-value: 1.7e-45
+  37739_DRYJ01000053.1_261  1 mhnitmvksGksisidaelWikieeyakehGftisdavedivrkffekreGkk 53
+                              mhnitmvksGksisidaelWikieeyakehGftisdavedivrkffekreGkk
+        DRYJ01000053.1_261  1 MHNITMVKSGKSISIDAELWIKIEEYAKEHGFTISDAVEDIVRKFFEKREGKK 53
+                              9***************************************************9 PP
+
+>> Ga0065719_100268_261  [15867 - 16025]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.5   4.5   1.7e-45   5.4e-41       1      53 []       1      53 []       1      53 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 140.5 bits;  conditional E-value: 1.7e-45
+  37739_DRYJ01000053.1_261  1 mhnitmvksGksisidaelWikieeyakehGftisdavedivrkffekreGkk 53
+                              mhnitmvksGksisidaelWikieeyakehGftisdavedivrkffekreGkk
+      Ga0065719_100268_261  1 MHNITMVKSGKSISIDAELWIKIEEYAKEHGFTISDAVEDIVRKFFEKREGKK 53
+                              9***************************************************9 PP
+
+>> CP010426.1_26210  [301044 - 300910] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.3   2.1e-07    0.0069       8      49 ..       4      45 .]       1      45 [] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 2.1e-07
+  37739_DRYJ01000053.1_261  8 ksGksisidaelWikieeyakehGftisdavedivrkffekr 49
+                              k+  +i+id  +  k  e  k  G+ is  ve ++  f  +r
+          CP010426.1_26210  4 KTRLTITIDEKILNKFKEICKREGYKISTKVERLIEEFTKRR 45
+                              566689*****************************9997766 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (53 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       864  (0.00893827); expected 1933.3 (0.02)
+Passed bias filter:                      660  (0.00682785); expected 1933.3 (0.02)
+Passed Vit filter:                        24  (0.000248285); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 3918.69
+//
+[ok]

@@ -1,0 +1,100 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37975_DRYJ01000053.1_497.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37975_DRYJ01000053.1_497.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37975_DRYJ01000053.1_497.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37975_DRYJ01000053.1_497.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37975_DRYJ01000053.1_497  [M=160]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    1.5e-73  248.3   9.4    1.6e-73  248.2   9.4    1.0  1  DRYJ01000053.1_497    [23146 - 22661] (REVERSE SENSE) TPA_asm
+    1.5e-73  248.3   9.4    1.6e-73  248.2   9.4    1.0  1  Ga0065719_100268_497  [23146 - 22661] (REVERSE SENSE)
+  ------ inclusion threshold ------
+       0.17   14.1   0.1       0.19   13.9   0.1    1.0  1  CP058579_1570         [115776 - 116045] [Halobonum sp. NJ-3-1
+       0.93   11.7   9.2          1   11.6   9.2    1.1  1  CP010426.1_29172      [147673 - 147464] (REVERSE SENSE) Archa
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_497  [23146 - 22661] (REVERSE SENSE) TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga006
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  248.2   9.4   6.8e-78   1.6e-73       2     159 ..       4     161 ..       1     162 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 248.2 bits;  conditional E-value: 6.8e-78
+  37975_DRYJ01000053.1_497   2 mksvfkiDlDlkln.dkflkeWiktrksiLknlGlkvedvvvkes.skrGyhiwvhvesekelkdieinkvqfllGDdegrvlin 84 
+                               m++vfkiD+D+kl+ d f+++Wik++ks+L+n+Glkv+dvv+kes skrGyhiwvh+e+e+elk+i+i+k+q+++GDde+r++++
+        DRYJ01000053.1_497   4 MRYVFKIDKDRKLTfDLFKEDWIKMVKSVLSNYGLKVVDVVIKESpSKRGYHIWVHAEGEVELKPIDIAKIQYIIGDDETRSYLA 88 
+                               8************************************************************************************ PP
+
+  37975_DRYJ01000053.1_497  85 vrrierGvkewnklfskvlwkredkeqlkkleklleklkegskLtekereavvnyleelyrsvkklkellk..Geek 159
+                               v+rierG+++wnk+f+k++wkred++qlk++e++l+k    ++Lt++er++v+nyl+el++s+k+lke+++  Ge++
+        DRYJ01000053.1_497  89 VLRIERGIAHWNKMFDKIIWKREDDFQLKRCEEILFK----DRLTDDERNYVINYLRELFNSMKELKERIReiGEQN 161
+                               *************************************....******************************999997 PP
+
+>> Ga0065719_100268_497  [23146 - 22661] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  248.2   9.4   6.8e-78   1.6e-73       2     159 ..       4     161 ..       1     162 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 248.2 bits;  conditional E-value: 6.8e-78
+  37975_DRYJ01000053.1_497   2 mksvfkiDlDlkln.dkflkeWiktrksiLknlGlkvedvvvkes.skrGyhiwvhvesekelkdieinkvqfllGDdegrvlin 84 
+                               m++vfkiD+D+kl+ d f+++Wik++ks+L+n+Glkv+dvv+kes skrGyhiwvh+e+e+elk+i+i+k+q+++GDde+r++++
+      Ga0065719_100268_497   4 MRYVFKIDKDRKLTfDLFKEDWIKMVKSVLSNYGLKVVDVVIKESpSKRGYHIWVHAEGEVELKPIDIAKIQYIIGDDETRSYLA 88 
+                               8************************************************************************************ PP
+
+  37975_DRYJ01000053.1_497  85 vrrierGvkewnklfskvlwkredkeqlkkleklleklkegskLtekereavvnyleelyrsvkklkellk..Geek 159
+                               v+rierG+++wnk+f+k++wkred++qlk++e++l+k    ++Lt++er++v+nyl+el++s+k+lke+++  Ge++
+      Ga0065719_100268_497  89 VLRIERGIAHWNKMFDKIIWKREDDFQLKRCEEILFK----DRLTDDERNYVINYLRELFNSMKELKERIReiGEQN 161
+                               *************************************....******************************999997 PP
+
+>> CP058579_1570  [115776 - 116045] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.9   0.1     8e-06      0.19      65     125 ..      16      77 ..      11      89 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.9 bits;  conditional E-value: 8e-06
+  37975_DRYJ01000053.1_497  65 ieinkvqfllGDdeg.rvlinvrrierGvkewnklfskvlwkredkeqlkkleklleklkeg 125
+                               ++ + vq l+GD +   +++   r++rG  +   +  k +   e + q k++  + ++l   
+             CP058579_1570  16 EDEKTVQILIGDFKRnTTILGRNRLKRGTRSRSFIHRKCISGFERDDQGKECLAIAQHLSSS 77 
+                               56678*******76515678999*****************9999999999999988776544 PP
+
+>> CP010426.1_29172  [147673 - 147464] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   9.2   4.2e-05         1      93     149 ..       2      57 ..       1      68 [. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 4.2e-05
+  37975_DRYJ01000053.1_497  93 kewnklfskvlwkredkeqlkkleklleklkegskLtekereavvnyleelyrsvkk 149
+                                +  klfs+++++ +++e+ k+le+l e  ke +k t+k++ ++++  ++l +  kk
+          CP010426.1_29172   2 DKTQKLFSEIMKR-DENEKEKILEELKELAKEYKKETKKRQVMLKRINKKLKKRFKK 57 
+                               5778*****9865.5588888888888777777777777766666666666655554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (160 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       934  (0.00966244); expected 1933.3 (0.02)
+Passed bias filter:                      523  (0.00541055); expected 1933.3 (0.02)
+Passed Vit filter:                        22  (0.000227595); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 11830.00
+//
+[ok]

@@ -1,0 +1,91 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/33021_LKMP01000007.1_947.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/33021_LKMP01000007.1_947.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/33021_LKMP01000007.1_947.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/33021_LKMP01000007.1_947.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       33021_LKMP01000007.1_947  [M=153]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+      1e-58  199.8   0.2    1.3e-58  199.6   0.2    1.0  1  LKMP01000007.1_947  [36600 - 36109] (REVERSE SENSE) Nanohaloa
+      6e-49  168.1   0.0      7e-49  167.9   0.0    1.0  1  CP058579_1741       [125950 - 126396] [Halobonum sp. NJ-3-1 |
+    6.3e-46  158.3   0.0    7.7e-46  158.0   0.0    1.0  1  NZ_CP071597.1_915   [59884 - 60402] Halovivax sp. KZCA124 chr
+
+
+Domain annotation for each sequence (and alignments):
+>> LKMP01000007.1_947  [36600 - 36109] (REVERSE SENSE) Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genom
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  199.6   0.2   3.9e-63   1.3e-58       4     148 ..       6     160 ..       3     164 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 199.6 bits;  conditional E-value: 3.9e-63
+  33021_LKMP01000007.1_947   4 kkertlvliKPDgvqrglvgeiikrfekkglklvalkmlqaseellekhYaelkgkpffpglvkymtsgpvvamvleGenavktv 88 
+                               + ert+v++KPD v+rg++g+ii+ fe++g+k++++km++a+ e+le+hYae+ +k f++gl ++m+sgpvvamvleG nav+++
+        LKMP01000007.1_947   6 HIERTFVALKPDTVKRGITGKIIDIFEEAGFKICGMKMVWADSEILEEHYAEHVDKDFYEGLEEFMSSGPVVAMVLEGVNAVENG 90 
+                               58*********************************************************************************** PP
+
+  33021_LKMP01000007.1_947  89 RkllGatnpaeaapgtiRgdfgid...v.......grnlvhgSdsvesaereialwfkeeelveykssae 148
+                               Rkl+G+t+p+ea+p tiRg f+             ++n++h+S +v++aerei++wf+e+e++++++++e
+        LKMP01000007.1_947  91 RKLVGSTDPKEASPSTIRGRFAHMsfdHadssdtlHKNVIHASAEVDEAEREISIWFDEDEVHTFEQAHE 160
+                               *********************9643331444444577************************998876654 PP
+
+>> CP058579_1741  [125950 - 126396] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.9   0.0   2.2e-53     7e-49       5     137 ..       5     147 ..       3     149 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 167.9 bits;  conditional E-value: 2.2e-53
+  33021_LKMP01000007.1_947   5 kertlvliKPDgvqrglvgeiikrfekkglklvalkmlqaseellekhYaelkgkpffpglvkymtsgpvvamvleGenavktvR 89 
+                               +e+tlvl+KPD+v r+lvg++++rfe +gl ++al++ ++s +l+e+hY+e++gk f+pglv+++ + pvva +l+Genav+t+R
+             CP058579_1741   5 VEETLVLVKPDAVDRNLVGDVLHRFEAAGLSIAALELQHPSTTLVEEHYEEHRGKDFYPGLVAFLAENPVVAAILQGENAVTTAR 89 
+                               699********************************************************************************** PP
+
+  33021_LKMP01000007.1_947  90 kllGatnpaeaapgtiRgdfgidv.......gr...nlvhgSdsvesaereialwfke 137
+                               +++G+t+p +a+ gtiRgd+g d+       +r   nlvh  ds+++a+rei +wf +
+             CP058579_1741  90 TIAGETEPVNAEDGTIRGDLGQDTleqadaeNRalyNLVHTADSPQAAQREITMWFPD 147
+                               *********************995555554434899********************75 PP
+
+>> NZ_CP071597.1_915  [59884 - 60402] Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  158.0   0.0   2.4e-50   7.7e-46       5     137 ..      11     153 ..       7     170 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 158.0 bits;  conditional E-value: 2.4e-50
+  33021_LKMP01000007.1_947   5 kertlvliKPDgvqrglvgeiikrfekkglklvalkmlqaseellekhYaelkgkpffpglvkymtsgpvvamvleGenavktvR 89 
+                                e+tlvl+KPD+++rglvg+i++rfe++ l++ al+ +++s+el+ +hY e++++pff+gl++y+++  ++a +l G++av+tvR
+         NZ_CP071597.1_915  11 PEQTLVLLKPDAIERGLVGRILARFEDADLEIQALQTTTPSRELVAEHYTEHQDEPFFDGLLEYLSETTIIAGMLGGDDAVATVR 95 
+                               69*********************************************************************************** PP
+
+  33021_LKMP01000007.1_947  90 kllGatnpaeaapgtiRgdfgidv.......gr...nlvhgSdsvesaereialwfke 137
+                               +l+Gat+p  a++gtiRgd+g d        +r   nlvh+S++ ++a+re++lwf+ 
+         NZ_CP071597.1_915  96 ELIGATEPVAAEKGTIRGDLGDDSyqaadaeDRalyNLVHASEDRSEAQRELELWFDG 153
+                               *********************884344454434899********************74 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (153 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       453  (0.00468638); expected 1933.3 (0.02)
+Passed bias filter:                      388  (0.00401395); expected 1933.3 (0.02)
+Passed Vit filter:                        27  (0.000279321); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 11312.44
+//
+[ok]

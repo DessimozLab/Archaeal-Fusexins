@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/53252_CP058579_1810.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/53252_CP058579_1810.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/53252_CP058579_1810.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/53252_CP058579_1810.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       53252_CP058579_1810  [M=128]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    8.7e-58  196.0   0.0      1e-57  195.8   0.0    1.0  1  JGI12330J12834_1000008_691  [45246 - 45692]
+    3.8e-56  190.7   0.0    4.2e-56  190.5   0.0    1.0  1  CP058579_1810               [131505 - 131912] [Halobonum sp. 
+
+
+Domain annotation for each sequence (and alignments):
+>> JGI12330J12834_1000008_691  [45246 - 45692]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  195.8   0.0   2.1e-62     1e-57       2     126 ..      18     142 ..      17     144 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 195.8 bits;  conditional E-value: 2.1e-62
+         53252_CP058579_1810   2 klklkrirlsedatkrLrllksrtgltpNilcRlglclSLkepkiPnpeeydedgqelnrytLlGehdallvaLlkqrlledg 84 
+                                 +++++ri+++edat+rL++lk++tg+tpN+lcR+g+c+SL+ep++Pnpeeyd+dgq++nrytLlGehdal++aLlk+rl++++
+  JGI12330J12834_1000008_691  18 SQNFNRITIGEDATNRLKMLKANTGMTPNYLCRIGFCYSLNEPRPPNPEEYDNDGQTFNRYTLLGEHDALYMALLKERLIQEN 100
+                                 789******************************************************************************** PP
+
+         53252_CP058579_1810  85 ldsekdlekqfrAHlnRGvellaarvkdlsdlaelikeeqee 126
+                                 +d+e+dl+++f+AHlnRGv++++ +v+dl+dl++l++ e++ 
+  JGI12330J12834_1000008_691 101 KDPEEDLYDEFVAHLNRGVIRVHGNVRDLTDLEDLVPGEVKG 142
+                                 ************************************999876 PP
+
+>> CP058579_1810  [131505 - 131912] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  190.5   0.0   8.7e-61   4.2e-56       2     126 ..       2     126 ..       1     128 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 190.5 bits;  conditional E-value: 8.7e-61
+  53252_CP058579_1810   2 klklkrirlsedatkrLrllksrtgltpNilcRlglclSLkepkiPnpeeydedgqelnrytLlGehdallvaLlkqrlledgldsekdl 91 
+                          +++++r+++++dat+rLr+lk++t++tpN+lcR+glc+SL+ep++Pnp++yd+dgq++nrytLlGehdal++a+lk+rll++gld+e+dl
+        CP058579_1810   2 SKEFNRVQIGSDATTRLRMLKGDTQITPNFLCRIGLCYSLNEPRPPNPAQYDSDGQTFNRYTLLGEHDALYMAMLKERLLQEGLDPEEDL 91 
+                          789*************************************************************************************** PP
+
+  53252_CP058579_1810  92 ekqfrAHlnRGvellaarvkdlsdlaelikeeqee 126
+                          e+qf+AHlnRGv++++ ++++l+d+++li++  +e
+        CP058579_1810  92 EDQFVAHLNRGVIRVFGNIDNLDDFYNLIPNGLKE 126
+                          *****************************998775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (128 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       839  (0.00867964); expected 1933.3 (0.02)
+Passed bias filter:                      671  (0.00694164); expected 1933.3 (0.02)
+Passed Vit filter:                        39  (0.000403464); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 9464.00
+//
+[ok]

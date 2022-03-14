@@ -1,0 +1,179 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/19531_CP010426.1_19531.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/19531_CP010426.1_19531.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/19531_CP010426.1_19531.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/19531_CP010426.1_19531.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       19531_CP010426.1_19531  [M=556]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+   6.1e-175  585.7  13.2   7.1e-175  585.4  13.2    1.0  1  CP010426.1_19531    [639050 - 637398] (REVERSE SENSE) Archaeo
+   2.2e-163  547.5   0.2   2.7e-163  547.2   0.2    1.0  1  LKMP01000007.1_696  [34082 - 35707] Nanohaloarchaea archaeon 
+    2.5e-07   32.4   0.0    2.8e-05   25.6   0.0    3.0  2  CP010426.1_19511    [640743 - 639055] (REVERSE SENSE) Archaeo
+  ------ inclusion threshold ------
+      0.076   14.3   0.0       0.42   11.8   0.0    2.0  2  LKMP01000007.1_672  [32639 - 34075] Nanohaloarchaea archaeon 
+
+
+Domain annotation for each sequence (and alignments):
+>> CP010426.1_19531  [639050 - 637398] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  585.4  13.2  2.9e-179  7.1e-175       1     552 [.       1     545 [.       1     549 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 585.4 bits;  conditional E-value: 2.9e-179
+  19531_CP010426.1_19531   1 MptvsvkreelaellgeeytaeeleellfefgleldeveeedeilkieipaNRpDllsveGlaralraflgkek.lpkye.ese.lk 84 
+                             Mptv+++r+e+++l+g++++ eel+e ++++g++lde ++e ei  +ei++NRpDlls  Glar l+ +++++  l++y+ e++ +k
+        CP010426.1_19531   1 MPTVNLNRKEVENLIGKKLSLEELKEKITSLGTDLDEITDE-EI-IVEIFPNRPDLLSEAGLARSLAQLIEHKLgLKRYKtEKSdYK 85 
+                             9*************************************984.34.7*************************9988999*985544** PP
+
+  19531_CP010426.1_19531  85 vevdpevkkirpyvvaavlrgvkfdesslksfidlQekLhqnigrkrrlvaiGthdlDtit.pftYealkpeeinFvPlhadkelta 170
+                             ++++++vk++rpy v+av+++++++e+++k++i+lQekLh ++gr+r++vaiG+++l++i+ p+++ a++p+ei+F Pl+ ++e++a
+        CP010426.1_19531  86 IIIEDSVKQVRPYTVCAVVKNLNLNEARIKEIIQLQEKLHITYGRNRKKVAIGIYPLEKIKfPIRFLAKSPNEIKFQPLDSNNEISA 172
+                             *************************************************************************************** PP
+
+  19531_CP010426.1_19531 171 keilekyeldkgkeYlhliedspkypviaDskgkvlslpPIiNgehs.kitektknvfievtgtdltkaeivlnlivtefseygfei 256
+                             +eilek++  +gkeY hl++d ++yp+++D+++++ls+pPIiN+e+  ++ ektk+vf+e+ g dl+ ++++ln+iv+++++ +  i
+        CP010426.1_19531 173 NEILEKHS--TGKEYGHLLKDAKVYPLFIDANNNILSMPPIINSEKVgRVAEKTKDVFVECSGFDLKVLKKCLNIIVCALADLNGII 257
+                             *******9..8************************************************************************5578 PP
+
+  19531_CP010426.1_19531 257 epvevvyed..eitpdlsprkievslsyinkllGlelsaeeiaklLermglkaekskdgeklevevPptRsDilhevDiiEdvaiay 341
+                              + e +y +  eitp+l+p++++++++y+nk+lGl+l++++++klLe+mg+ ++++      +v +P++R+Dilhe+D++Ed+aiay
+        CP010426.1_19531 258 YENELTYGNkkEITPNLEPEEMRININYANKILGLDLKENDVKKLLEKMGYGYKDK------KVLIPAYRADILHEIDLVEDIAIAY 338
+                             89999998778*****************************************9763......6************************ PP
+
+  19531_CP010426.1_19531 342 GYnniepktlpktstvgkelplnklsdklrellaglGftEvltfslcskeenfeklrkeeeekkaveianpkteefqvvRtsLlpgl 428
+                             GY++++ +t+p++ t++ke++  ++++k+ ++l+gl ++Ev ++ l++k++ ++k++ +e  +++v++an +++ ++ +R++++p+l
+        CP010426.1_19531 339 GYDKFT-ETIPNIATIAKEDKYYEFKEKIIDILIGLNLIEVRNYNLTNKNNLYNKMNLNE--QETVSLANSLSQGYDALRSWIIPNL 422
+                             *****7.99************************************************544..699********************** PP
+
+  19531_CP010426.1_19531 429 LktlaenkkrelplklFEigdvvlkdekkevgarnerrlaavyagkkagfeeikgllerllkllgvkyeieeaeeptflpgraaeil 515
+                             L++l++nk++e+p+++FEig+++ k+ ++e+g+ +++rla++++++ka+f++ik++l++l+++l++ky+i+e e+++f++gra +++
+        CP010426.1_19531 423 LEILSKNKHNEYPQNIFEIGNIF-KKGNSETGVIEQERLAIAVCHNKADFTQIKQILDSLFSSLDLKYDIKEIEHNSFISGRAGRVS 508
+                             ***********************.5678899*******************99*********************************** PP
+
+  19531_CP010426.1_19531 516 vkgkkiGvlGelhpevlenfelefpvsafeidleell 552
+                             ++gk+i+++Ge+hp+vlen++le+pvsa+e++l++l+
+        CP010426.1_19531 509 LNGKNIAYIGEIHPSVLENWNLEVPVSALELNLTDLF 545
+                             ********************************99754 PP
+
+>> LKMP01000007.1_696  [34082 - 35707] Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genome shotgun sequen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  547.2   0.2  1.1e-167  2.7e-163       1     551 [.       1     538 [.       1     541 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 547.2 bits;  conditional E-value: 1.1e-167
+  19531_CP010426.1_19531   1 Mptvsvkreelaellgeeytaeeleellfefgleldevee.edeilkieipaNRpDllsveGlaralraflgkek.lpkye.es.el 83 
+                             Mp ++++r+e+++llg+++++  l+e  + +g+ +++vee +    ++e+ +NRpDllsveGlara r f+++e+ l++y+ e+ +l
+      LKMP01000007.1_696   1 MPNIEINRKEFEQLLGKKVDDSALNERASYLGAHWNHVEEeK---WDVELYPNRPDLLSVEGLARAYRSFFDVETgLKEYKtEEgSL 84 
+                             9***********************************998745...69*************************9998999*976646* PP
+
+  19531_CP010426.1_19531  84 kvevdpevkkirpyvvaavlrgvkfdesslksfidlQekLhqnigrkrrlvaiGthdlDtit.pftYealkpeeinFvPlhadkelt 169
+                             k++vd++v+++rpyv +av+++++++e++++ +i+lQek+hq++gr+r + aiG+hdl++++ pftY+a++pe+++F+Pl++dk ++
+      LKMP01000007.1_696  85 KLNVDESVADVRPYVGGAVVKNLEISERTINGLIQLQEKMHQTMGRRRDKLAIGLHDLSQVKpPFTYRAVEPEKVSFTPLEHDKDMH 171
+                             *************************************************************************************** PP
+
+  19531_CP010426.1_19531 170 akeilekyeldkgkeYlhliedspkypviaDskgkvlslpPIiNgehskitektknvfievtgtdltkaeivlnlivtefseygfei 256
+                               ei+e+++  kg+eY++++++++ yp+i Dskgkvls+pPIiN + +++t+kt+++fi+vtg d ++++++ln++ ++++e+   i
+      LKMP01000007.1_696 172 LGEIVEEHD--KGQEYAWILDGEELYPIIEDSKGKVLSFPPIINNQLTEVTDKTTDIFIDVTGKDPKTVRKALNILTMALAERDGDI 256
+                             ********9..9**********************************************************************956** PP
+
+  19531_CP010426.1_19531 257 epvevvyedeitpdlsprkievslsyinkllGlelsaeeiaklLermglkaekskdgeklevevPptRsDilhevDiiEdvaiayGY 343
+                             e+v+v    +++pdls  +  v+l+y+n++ Gl+l++e +++lLermg+ a++  d +++ev+vP++R+Di+h  D+iEdv+iayGY
+      LKMP01000007.1_696 257 ETVDVAG--KTMPDLSHSERVVDLEYLNSVSGLDLDSEGAIELLERMGYGAKAI-D-QSIEVQVPCYRTDIMHSYDLIEDVVIAYGY 339
+                             *****65..789****************************************96.6.68**************************** PP
+
+  19531_CP010426.1_19531 344 nniepktlpktstvgkelplnklsdklrellaglGftEvltfslcskeenfeklrkeeeekkaveianpkteefqvvRtsLlpglLk 430
+                             ++ie +++p++ +++ e++++k+s+ +re+l+g G  E+ tf+l+sk++ f +++++  +k++  ++n++te+++vvR+++lp+l++
+      LKMP01000007.1_696 340 DEIE-SEIPELDQIAGEKEIEKFSKIVRETLVGTGALETHTFILSSKKKLFGMMETQ--KKPHAAMSNALTEDYEVVRNWMLPSLME 423
+                             ***7.88***********************************************974..479999********************** PP
+
+  19531_CP010426.1_19531 431 tlaenkkrelplklFEigdvvlkdekkevgarnerrlaavyagkkagfeeikgllerllkllgvkyeieeaeeptfl.pgraaeilv 516
+                             +l+en++r++p+ +FE gdvv       + a+n+++l+ v ag+ +++++++++l++l + lg+k ++ e+e++ f  p+r+a+i  
+      LKMP01000007.1_696 424 ALRENRQRPYPQAFFEAGDVVS-----MPSAENKKKLCYVKAGE-VDYTDAREVLQALENTLGIKLDLVEEEKS-FAkPKRSAQIQK 503
+                             *********************5.....35689********9998.79999*****************9998876.667********* PP
+
+  19531_CP010426.1_19531 517 kgkkiGvlGelhpevlenfelefpvsafeidleel 551
+                             +g+ +G++ el+ +v +n+++e  vs feidle+l
+      LKMP01000007.1_696 504 EGEDLGFIAELSSNVTDNWGIEPRVSGFEIDLEKL 538
+                             ********************************986 PP
+
+>> CP010426.1_19511  [640743 - 639055] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.1     0.016   3.9e+02     357     398 ..      86     130 ..      72     172 .. 0.76
+   2 !   25.6   0.0   1.2e-09   2.8e-05     345     545 ..     286     528 ..     285     555 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 2.0 bits;  conditional E-value: 0.016
+  19531_CP010426.1_19531 357 vgkelplnklsdklr....ellaglGftEvltfslcskeenfeklr 398
+                             +++e++l+k+ +  r    e+l +lG+ E+ +++ ++kee  e ++
+        CP010426.1_19511  86 LKEENELSKIAEISRlqqiEVLRALGWLEAKNLIKINKEE-KEIIN 130
+                             456777888777777888999****************984.44444 PP
+
+  == domain 2  score: 25.6 bits;  conditional E-value: 1.2e-09
+  19531_CP010426.1_19531 345 niepktlpktstvgkelplnklsdklrellaglGftEvlt.................................fslcskeenfeklr 398
+                             ni+ +++p+++  g+++ +n+  + +r++  +lGf+E+                                     l ++e ++++++
+        CP010426.1_19511 286 NIQ-SEIPRIYP-GRRHFVNEAINYIRKIWLELGFKEMTGnlvqtsfwnfdalfvpqdhparemqdtffingkGKLPNSE-IVKRVK 369
+                             564.56777774.7777777777777777777777777766777777777766666666666666643333331111111.222222 PP
+
+  19531_CP010426.1_19531 399 keeeekkaveianpkteefq..............vvRtsLlpglLktlaenkkrelplklFEigdvvlkdekkevgarnerrlaavy 471
+                                    av+ +n  t   +              v+Rt+      +t+a+ +k+elp k+F +g+++ ++  +  +  + +++ +++
+        CP010426.1_19511 370 -------AVH-ENGWTTGSSgwnykwseeeakklVLRTHTTVLSARTIAALRKEELPAKFFSVGKIFRNEAIDWAHLFELHQIEGII 448
+                             .......222.2222222222222222222455589999999999**********************8765444668899******* PP
+
+  19531_CP010426.1_19531 472 agkkagfeeikgllerllkllgvk.yeieeaeep.........tflpgraaeilvkgkkiGvlGelhpevle.nfelefpvsafe 545
+                             ++++++f+++ g+l++  ++lg++ ++++++  p          ++p+r   i     ++G  G   pev++  +++++pv af 
+        CP010426.1_19511 449 IDESVNFKNLLGYLREYYNKLGIDkVKFRPSYYPytemsvdciAYIPERNKWI-----ELGGAGMFRPEVVKpLLGINVPVLAFG 528
+                             *******99**************556666555441000011113444444444.....689999999**8873578899886554 PP
+
+>> LKMP01000007.1_672  [32639 - 34075] Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genome shotgun sequen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.0     0.091   2.2e+03     354     412 ..     204     267 ..     191     274 .. 0.72
+   2 ?   11.8   0.0   1.7e-05      0.42     414     533 ..     305     430 ..     302     460 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 0.091
+  19531_CP010426.1_19531 354 tstvgkelplnklsdklrellaglGftEvltfslcskeenfeklrkeeeek.....kaveianp 412
+                             + ++g+++  +++ d  r+   ++Gf+E+    ++s+  nf++l +++++      ++  i np
+      LKMP01000007.1_672 204 LPQTGRKHFYKEVVDYARQQWLEMGFKEMKGPFIVSSFLNFDALYTPQDHParelhDTFFIRNP 267
+                             34568888888999999*99**********9999999999999985443322222344446666 PP
+
+  == domain 2  score: 11.8 bits;  conditional E-value: 1.7e-05
+  19531_CP010426.1_19531 414 teefqvvRtsLlpglLktlaen..kkrelplklFEigdvvlkdekkevgarnerrlaavyagkkagfeeikgllerllkllgvkyei 498
+                             ++e +v+Rt+  +   + l+e   +++ lp+k F +++ + +++ ++ +  +  +  ++++g++ +f+++k++++ ++ ++g++y+i
+      LKMP01000007.1_672 305 EAEKNVLRTHTTSVSAQKLHEIdiENEDLPVKYFTVSRNFRNETVDKSHLAEFLQTDGIVVGENLNFKNLKAYISMFFDKMGLRYRI 391
+                             66777777777766666666552134679***********876544455677777789999******99*****************9 PP
+
+  19531_CP010426.1_19531 499 eeaeeptflpgraaeilvkgkk......iGvlGelhpevle 533
+                              ++  p  +++ ++e+ v + +      +G  G   pev++
+      LKMP01000007.1_672 392 IPSYYP--YTEMSVEVQVYDDEldewlgLGGAGMFRPEVVK 430
+                             987776..345666666655543444446888888888875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (556 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       388  (0.00401395); expected 1933.3 (0.02)
+Passed bias filter:                      279  (0.00288632); expected 1933.3 (0.02)
+Passed Vit filter:                        12  (0.000124143); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.19u 0.01s 00:00:00.20 Elapsed: 00:00:00.06
+# Mc/sec: 34257.71
+//
+[ok]

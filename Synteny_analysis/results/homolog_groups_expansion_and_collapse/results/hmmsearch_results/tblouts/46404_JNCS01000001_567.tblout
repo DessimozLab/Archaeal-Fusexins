@@ -1,0 +1,27 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name          accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#  ------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+JNCS01000001_567       -          46404_JNCS01000001_567 -                  0 1046.7  11.7         0 1046.5  11.7   1.0   1   0   0   1   1   1   1 [38732 - 40747] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun sequence.   [Natrinema altunense strain AJ2 | 222984.5]
+ATYM01000002_653       -          46404_JNCS01000001_567 -                  0 1041.3   9.5         0 1041.1   9.5   1.0   1   0   0   1   1   1   1 [40632 - 42641] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence.   [Haloplanus natans DSM 17983 | 926690.3]
+CP010426.1_2921        -          46404_JNCS01000001_567 -            2.2e-15   58.4   0.0   3.5e-15   57.7   0.0   1.3   1   1   0   1   1   1   1 [152790 - 154274] Archaeon GW2011_AR20 chromosome, complete genome
+CP010426.1_2941        -          46404_JNCS01000001_567 -            1.2e-11   46.1   0.0   1.5e-10   42.4   0.0   2.1   1   1   1   2   2   2   1 [154279 - 155769] Archaeon GW2011_AR20 chromosome, complete genome
+JNCS01000001_605       -          46404_JNCS01000001_567 -            5.9e-10   40.5   0.0   8.9e-10   39.9   0.0   1.2   1   0   0   1   1   1   1 [42366 - 43937] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun sequence.   [Natrinema altunense strain AJ2 | 222984.5]
+ATYM01000002_688       -          46404_JNCS01000001_567 -            1.6e-08   35.7   0.0   2.4e-08   35.2   0.0   1.2   1   0   0   1   1   1   1 [44260 - 45831] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence.   [Haloplanus natans DSM 17983 | 926690.3]
+NZ_CP071597.1_1034     -          46404_JNCS01000001_567 -            0.00076   20.3   0.2    0.0031   18.3   0.1   1.9   2   0   0   2   2   2   1 [63709 - 67719] Halovivax sp. KZCA124 chromosome 1, complete sequence
+CP010426.1_22695       -          46404_JNCS01000001_567 -             0.0012   19.6   0.0    0.0013   19.5   0.0   1.1   1   0   0   1   1   1   1 [479093 - 478575] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+CP010426.1_29336       -          46404_JNCS01000001_567 -             0.0023   18.7   0.0    0.0027   18.4   0.0   1.1   1   0   0   1   1   1   1 [139551 - 138484] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+JNCS01000001_686       -          46404_JNCS01000001_567 -              0.019   15.6   0.0     0.028   15.1   0.0   1.2   1   0   0   1   1   1   0 [48790 - 49641] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun sequence.   [Natrinema altunense strain AJ2 | 222984.5]
+CP010426.1_27257       -          46404_JNCS01000001_567 -              0.026   15.2   0.0       1.4    9.4   0.0   2.0   2   0   0   2   2   2   0 [246927 - 246130] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+ATYM01000002_594       -          46404_JNCS01000001_567 -              0.034   14.8   0.2     0.041   14.6   0.2   1.2   1   0   0   1   1   1   0 [37586 - 38401] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence.   [Haloplanus natans DSM 17983 | 926690.3]
+Ga0172379_10000243_544 -          46404_JNCS01000001_567 -               0.94   10.1   0.0       1.2    9.7   0.0   1.0   1   0   0   1   1   1   0 [34499 - 34702]
+Ga0207718_100100_2116  -          46404_JNCS01000001_567 -                1.3    9.6   1.8       4.1    7.9   0.0   2.2   3   0   0   3   3   3   0 [46940 - 45684] (REVERSE SENSE)
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/46404_JNCS01000001_567.hmm
+# Target file:     ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# Option settings: hmmsearch -o ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/46404_JNCS01000001_567.hmmsearchout --tblout ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/46404_JNCS01000001_567.tblout --domtblout ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/46404_JNCS01000001_567.domtblout --cpu 3 ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/46404_JNCS01000001_567.hmm ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa 
+# Current dir:     /media3/mauri/fusexins/analysis_mobile_elements_with_MAGs_and_Halovivax/scripts
+# Date:            Tue Aug 10 16:20:34 2021
+# [ok]

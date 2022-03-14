@@ -1,0 +1,145 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/33803_QNAN01000020.1_133.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/33803_QNAN01000020.1_133.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/33803_QNAN01000020.1_133.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/33803_QNAN01000020.1_133.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       33803_QNAN01000020.1_133  [M=112]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    3.1e-58  197.1  10.6    3.4e-58  197.0  10.6    1.0  1  DQXS01000079.1_133      [7623 - 7958] TPA_asm: Candidatus Alt
+    3.1e-58  197.1  10.6    3.4e-58  197.0  10.6    1.0  1  Ga0116200_10000074_133  [7623 - 7958]
+    3.1e-58  197.1  10.6    3.4e-58  197.0  10.6    1.0  1  QNAN01000020.1_133      [7623 - 7958] Thermotogae bacterium i
+    7.4e-54  183.0   9.1    8.4e-54  182.8   9.1    1.0  1  DRBS01000206.1_112      [6182 - 6541] TPA_asm: Candidatus Des
+    1.8e-12   49.7   8.1    2.1e-12   49.5   8.1    1.0  1  DRYJ01000053.1_124      [7117 - 7446] TPA_asm: Candidatus Bat
+    1.8e-12   49.7   8.1    2.1e-12   49.5   8.1    1.0  1  Ga0065719_100268_124    [7117 - 7446]
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_133  [7623 - 7958] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  197.0  10.6   2.1e-62   3.4e-58       1     112 []       1     112 []       1     112 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 197.0 bits;  conditional E-value: 2.1e-62
+  33803_QNAN01000020.1_133   1 ladavlselaqapvvGalatlfGllvflylvyqvlvkkarkiiekvkGlkalvpiiilvilalipatalalfGaaeafvrailev 85 
+                               +ada+l+elaqapv+Gal++lfG+++flylvyq+lv+kark+ie++kG+kalvpi+ilv+l+lipat+lalfGa+eafvraile+
+        DQXS01000079.1_133   1 MADAILTELAQAPVAGALPGLFGIGAFLYLVYQTLVVKARKYIEMMKGMKALVPIAILVALTLIPATTLALFGAGEAFVRAILEI 85 
+                               9************************************************************************************ PP
+
+  33803_QNAN01000020.1_133  86 livalvGyvlalavlqivdrfapeile 112
+                               ++v+l+Gyvlalav+q+v+rfape+le
+        DQXS01000079.1_133  86 STVTLIGYVLALAVYQAVSRFAPEYLE 112
+                               *************************97 PP
+
+>> Ga0116200_10000074_133  [7623 - 7958]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  197.0  10.6   2.1e-62   3.4e-58       1     112 []       1     112 []       1     112 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 197.0 bits;  conditional E-value: 2.1e-62
+  33803_QNAN01000020.1_133   1 ladavlselaqapvvGalatlfGllvflylvyqvlvkkarkiiekvkGlkalvpiiilvilalipatalalfGaaeafvrailev 85 
+                               +ada+l+elaqapv+Gal++lfG+++flylvyq+lv+kark+ie++kG+kalvpi+ilv+l+lipat+lalfGa+eafvraile+
+    Ga0116200_10000074_133   1 MADAILTELAQAPVAGALPGLFGIGAFLYLVYQTLVVKARKYIEMMKGMKALVPIAILVALTLIPATTLALFGAGEAFVRAILEI 85 
+                               9************************************************************************************ PP
+
+  33803_QNAN01000020.1_133  86 livalvGyvlalavlqivdrfapeile 112
+                               ++v+l+Gyvlalav+q+v+rfape+le
+    Ga0116200_10000074_133  86 STVTLIGYVLALAVYQAVSRFAPEYLE 112
+                               *************************97 PP
+
+>> QNAN01000020.1_133  [7623 - 7958] Thermotogae bacterium isolate B96_G9 B96_Guay9_scaffold_13443, whole genome shotgun
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  197.0  10.6   2.1e-62   3.4e-58       1     112 []       1     112 []       1     112 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 197.0 bits;  conditional E-value: 2.1e-62
+  33803_QNAN01000020.1_133   1 ladavlselaqapvvGalatlfGllvflylvyqvlvkkarkiiekvkGlkalvpiiilvilalipatalalfGaaeafvrailev 85 
+                               +ada+l+elaqapv+Gal++lfG+++flylvyq+lv+kark+ie++kG+kalvpi+ilv+l+lipat+lalfGa+eafvraile+
+        QNAN01000020.1_133   1 MADAILTELAQAPVAGALPGLFGIGAFLYLVYQTLVVKARKYIEMMKGMKALVPIAILVALTLIPATTLALFGAGEAFVRAILEI 85 
+                               9************************************************************************************ PP
+
+  33803_QNAN01000020.1_133  86 livalvGyvlalavlqivdrfapeile 112
+                               ++v+l+Gyvlalav+q+v+rfape+le
+        QNAN01000020.1_133  86 STVTLIGYVLALAVYQAVSRFAPEYLE 112
+                               *************************97 PP
+
+>> DRBS01000206.1_112  [6182 - 6541] TPA_asm: Candidatus Desulfofervidus auxilii isolate HyVt-233 Ga0116200_10000518, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  182.8   9.1   5.2e-58   8.4e-54       1     111 [.      11     118 ..      11     120 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 182.8 bits;  conditional E-value: 5.2e-58
+  33803_QNAN01000020.1_133   1 ladavlselaqapvvGalatlfGllvflylvyqvlvkkarkiiekvkGlkalvpiiilvilalipatalalfGaaeafvrailev 85 
+                               la+av+s++++   vG+lat++Gllv++y+vyqvl+kk+r+i++kv+Gl++l+p+iil+i+a+ipata+a+fG+aeafv+ai++v
+        DRBS01000206.1_112  11 LAQAVTSTTGG---VGTLATITGLLVCFYIVYQVLAKKNREIAKKVIGLRGLTPAIILAIMAFIPATAMAVFGPAEAFVTAIFSV 92 
+                               79*********...*********************************************************************** PP
+
+  33803_QNAN01000020.1_133  86 livalvGyvlalavlqivdrfapeil 111
+                               li+a+vGy++a+++l+i+d+f+peil
+        DRBS01000206.1_112  93 LIAAFVGYIAAWGILYICDLFQPEIL 118
+                               *************************9 PP
+
+>> DRYJ01000053.1_124  [7117 - 7446] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, whole
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.5   8.1   1.3e-16   2.1e-12      14     112 .]      12     110 .]       3     110 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 49.5 bits;  conditional E-value: 1.3e-16
+  33803_QNAN01000020.1_133  14 vvGalatlfGllvflylvyqvlvkkarkiiekvkGlkalvpiiilvilalipatalalfGaaeafvrailevlivalvGyvlala 98 
+                                vG  a  + l ++l  +y ++vkk+r +ie +  +k l+p+ ++  +al patala+fG     +  il v ++a+v  ++  a
+        DRYJ01000053.1_124  12 EVGQYAPWISLITMLAGLYLMFVKKDRTFIETITSMKMLIPVSVFLGVALAPATALAVFGGFAGAMSIILGVITAAVVPLIILAA 96 
+                               4677777777777888888899***************************************99999******************* PP
+
+  33803_QNAN01000020.1_133  99 vlqivdrfapeile 112
+                               +  ++++f p ile
+        DRYJ01000053.1_124  97 LAWLIQLFYPRILE 110
+                               ***********996 PP
+
+>> Ga0065719_100268_124  [7117 - 7446]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.5   8.1   1.3e-16   2.1e-12      14     112 .]      12     110 .]       3     110 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 49.5 bits;  conditional E-value: 1.3e-16
+  33803_QNAN01000020.1_133  14 vvGalatlfGllvflylvyqvlvkkarkiiekvkGlkalvpiiilvilalipatalalfGaaeafvrailevlivalvGyvlala 98 
+                                vG  a  + l ++l  +y ++vkk+r +ie +  +k l+p+ ++  +al patala+fG     +  il v ++a+v  ++  a
+      Ga0065719_100268_124  12 EVGQYAPWISLITMLAGLYLMFVKKDRTFIETITSMKMLIPVSVFLGVALAPATALAVFGGFAGAMSIILGVITAAVVPLIILAA 96 
+                               4677777777777888888899***************************************99999******************* PP
+
+  33803_QNAN01000020.1_133  99 vlqivdrfapeile 112
+                               +  ++++f p ile
+      Ga0065719_100268_124  97 LAWLIQLFYPRILE 110
+                               ***********996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (112 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1031  (0.0106659); expected 1933.3 (0.02)
+Passed bias filter:                      593  (0.00613472); expected 1933.3 (0.02)
+Passed Vit filter:                        37  (0.000382773); expected 96.7 (0.001)
+Passed Fwd filter:                         6  (6.20713e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.06
+# Mc/sec: 6900.83
+//
+[ok]

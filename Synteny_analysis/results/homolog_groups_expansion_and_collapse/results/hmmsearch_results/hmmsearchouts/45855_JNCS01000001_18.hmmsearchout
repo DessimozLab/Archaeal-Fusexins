@@ -1,0 +1,93 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/45855_JNCS01000001_18.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/45855_JNCS01000001_18.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/45855_JNCS01000001_18.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/45855_JNCS01000001_18.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       45855_JNCS01000001_18  [M=338]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+   1.1e-179  599.2  20.3   1.2e-179  599.1  20.3    1.0  1  JNCS01000001_18   [280 - 1293] Natrinema altunense strain AJ2
+   4.7e-177  590.6  18.7   5.3e-177  590.4  18.7    1.0  1  ATYM01000002_177  [9920 - 10939] Haloplanus natans DSM 17983 
+
+
+Domain annotation for each sequence (and alignments):
+>> JNCS01000001_18  [280 - 1293] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun sequence.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  599.1  20.3  2.5e-184  1.2e-179       1     336 [.       1     337 [.       1     338 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 599.1 bits;  conditional E-value: 2.5e-184
+  45855_JNCS01000001_18   1 md.kvlksevdkedlteaqekiikiaiekpelthqkvadeadcsksyvstvhrdyleeevdadevewdnlddelyekivaGleateev 87 
+                            m+ k+lk++vdkedlteaqe+ii+iaiekpelthq++ad++++s+s+vs+vh+dyleee++ade+e+dnl+d+lye+ivaG+eateev
+        JNCS01000001_18   1 MKrKYLKQDVDKEDLTEAQEEIIEIAIEKPELTHQEIADQTKWSRSHVSGVHQDYLEEEIIADEIETDNLTDDLYEIIVAGMEATEEV 88 
+                            777************************************************************************************* PP
+
+  45855_JNCS01000001_18  88 dkverkydlelseGdskevdvavWkergryellviieCklhekpieqevvaalvrvkdnseankavlvsknGfqsGakarakdagvel 175
+                            dkver+ydl+ls+GdskevdvavW+++g++++lviieCklhek+++q+v+aa+++++dns+anka+++++nGfqsGaka+a+da++el
+        JNCS01000001_18  89 DKVERHYDLDLSRGDSKEVDVAVWITQGGHQFLVIIECKLHEKAVDQDVPAAMAWYRDNSSANKAMIIARNGFQSGAKALARDAEMEL 176
+                            **************************************************************************************** PP
+
+  45855_JNCS01000001_18 176 ytlkkledddaesrvrklnidltirnpkvevvdidvepvpdeeidgaqlnvnvtqddalfdedkeplGkslnerlreaiddkseGtyt 263
+                            y+l++l++d++es+++k+ni+l+ir++++ev+di+vep+p+e++dg+q++vnvt++dalfde+k+p+Gk+l++r++eai+dks+Gtyt
+        JNCS01000001_18 177 YRLDELTRDVGESQMMKFNINLEIRPTQAEVTDIGVEPLPNEDYDGDQMQVNVTSGDALFDENKNPIGKNLHQRVQEAIYDKSPGTYT 264
+                            **************************************************************************************** PP
+
+  45855_JNCS01000001_18 264 ediedrlllldgefyqlteieykvekldsaelefeidlldeydlvledeleededdrelvsleealeafveev 336
+                            e+i++rllll+++f++lteieykve+ld+aelefe+d+++eydl++ed+lee+++d++l+s+eea++af+e+v
+        JNCS01000001_18 265 ENIDNRLLLLNDHFFRLTEIEYKVESLDPAELEFEMDAYEEYDLYMEDVLEEGDTDLDLISIEEAITAFEEDV 337
+                            ************************************************************************9 PP
+
+>> ATYM01000002_177  [9920 - 10939] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  590.4  18.7  1.1e-181  5.3e-177       1     338 []       3     340 .]       3     340 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 590.4 bits;  conditional E-value: 1.1e-181
+  45855_JNCS01000001_18   1 mdkvlksevdkedlteaqekiikiaiekpelthqkvadeadcsksyvstvhrdyleeevdadevewdnlddelyekivaGleateevd 88 
+                            mdkv++se+++edlte+q+kiik+a+e+pe+thqkva+eadcsk+yv+tvhrdy++eevd+++v+wd++ddelye++vaGlea+++vd
+       ATYM01000002_177   3 MDKVFNSEESLEDLTETQQKIIKYATENPEWTHQKVANEADCSKGYVGTVHRDYIAEEVDVGSVSWDDIDDELYESLVAGLEAQDDVD 90 
+                            9*************************************************************************************** PP
+
+  45855_JNCS01000001_18  89 kverkydlelseGdskevdvavWkergryellviieCklhekpieqevvaalvrvkdnseankavlvsknGfqsGakarakdagvely 176
+                            +ve+kydlelseGdskevdvavWke++ryell+iieCk+he+pieqe+v++++r+k+nsean++vlvsk+Gfq+Ga+++akdagv+ly
+       ATYM01000002_177  91 RVEQKYDLELSEGDSKEVDVAVWKELERYELLIIIECKFHESPIEQEIVSGMIRNKENSEANHSVLVSKSGFQEGAISQAKDAGVDLY 178
+                            **************************************************************************************** PP
+
+  45855_JNCS01000001_18 177 tlkkledddaesrvrklnidltirnpkvevvdidvepv...pdeeidgaqlnvnvtqddalfdedkeplGkslnerlreaiddkseGt 261
+                            tlkkleddda+++v++l+++lt++np+ve+v+i+++pv   pd+ i++aqln    qd++l+ded+++lG+slne+lre++d+ks+Gt
+       ATYM01000002_177 179 TLKKLEDDDAGRYVQTLDLSLTMYNPSVEPVEIQISPVgfvPDDLISRAQLN----QDPPLWDEDYTYLGISLNEYLRELGDGKSHGT 262
+                            *************************************9999***********....******************************** PP
+
+  45855_JNCS01000001_18 262 ytediedrlllldgefyqlteiey.kvekldsaelefeidlldeydlvledeleededdrelvsleealeafveevqr 338
+                            y+ediedr++++dg+fyq+++i+y kv+k+++ae+e+eidlldeydlv++dele+deddre++sl+++le+f++ev+r
+       ATYM01000002_177 263 YREDIEDRFIEHDGVFYQIDYIKYdKVPKEPQAEYEEEIDLLDEYDLVMIDELEPDEDDREFYSLQDVLESFIDEVHR 340
+                            ****************************************************************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (338 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       409  (0.00423119); expected 1933.3 (0.02)
+Passed bias filter:                      248  (0.00256561); expected 1933.3 (0.02)
+Passed Vit filter:                        15  (0.000155178); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.15u 0.01s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 24990.88
+//
+[ok]

@@ -1,0 +1,116 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/45254_LOEP01000012_1164.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/45254_LOEP01000012_1164.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/45254_LOEP01000012_1164.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/45254_LOEP01000012_1164.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       45254_LOEP01000012_1164  [M=78]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    1.1e-41  143.1   2.1    1.2e-41  142.9   2.1    1.0  1  LOEP01000012_1164      [37747 - 37514] (REVERSE SENSE) Halofe
+    3.4e-41  141.5   1.4    4.1e-41  141.2   1.4    1.0  1  ATYM01000002_2154      [75934 - 75668] (REVERSE SENSE) Halopl
+      2e-29  103.8   9.1    2.2e-29  103.7   9.1    1.0  1  Ga0207719_100190_1182  [14035 - 13859] (REVERSE SENSE)
+      2e-29  103.8   9.1    2.2e-29  103.7   9.1    1.0  1  Ga0207733_100382_337   [22194 - 22370]
+     0.0012   21.2   0.0     0.0015   20.9   0.0    1.2  1  CP048739_1658          [57168 - 56824] (REVERSE SENSE) [Halog
+  ------ inclusion threshold ------
+       0.17   14.3   0.0       0.24   13.8   0.0    1.2  1  CP010426.1_18797       [679115 - 678777] (REVERSE SENSE) Arch
+
+
+Domain annotation for each sequence (and alignments):
+>> LOEP01000012_1164  [37747 - 37514] (REVERSE SENSE) Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Ha
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  142.9   2.1   7.5e-46   1.2e-41       1      78 []       1      78 []       1      78 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 142.9 bits;  conditional E-value: 7.5e-46
+  45254_LOEP01000012_1164  1 mrrkpenrdlrkqvhkeslmievaelhLlialaaliiiqaaavinGkkfGGvlvgfivgtliGaavfysvLvlLPqvi 78
+                             mrrkpe++++++++++++lmie+ae+hLlialaa+i+iqa++vinG+kfGGv++gfivgtliGa++f+++L+lLPqv+
+        LOEP01000012_1164  1 MRRKPESGNPVQGLCRGDLMIELAEQHLLIALAAMIVIQALTVINGRKFGGVIMGFIVGTLIGASTFWILLILLPQVM 78
+                             9****************************************************************************9 PP
+
+>> ATYM01000002_2154  [75934 - 75668] (REVERSE SENSE) Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genom
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  141.2   1.4   2.6e-45   4.1e-41       2      78 .]      12      89 .]       9      89 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 141.2 bits;  conditional E-value: 2.6e-45
+  45254_LOEP01000012_1164  2 rrkpenr.dlrkqvhkeslmievaelhLlialaaliiiqaaavinGkkfGGvlvgfivgtliGaavfysvLvlLPqvi 78
+                             rrkp+nr dlrkqvhkes+mie+a++hLlia+a+++i+q+a++i+G+k+GG+lvg++v+tl+Ga+++ysvLv+LPqvi
+        ATYM01000002_2154 12 RRKPSNRiDLRKQVHKESTMIEIAQTHLLIAFAVFLIVQVAGLIRGLKHGGPLVGYFVFTLLGAGAGYSVLVVLPQVI 89
+                             9****************************************************************************7 PP
+
+>> Ga0207719_100190_1182  [14035 - 13859] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.7   9.1   1.4e-33   2.2e-29      20      78 .]       1      59 []       1      59 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 103.7 bits;  conditional E-value: 1.4e-33
+  45254_LOEP01000012_1164 20 mievaelhLlialaaliiiqaaavinGkkfGGvlvgfivgtliGaavfysvLvlLPqvi 78
+                             m+ev++l+L++alaa+i+iq++avinGk+fGGvl++f++gt+iGaavfy+vLv+LPqv+
+    Ga0207719_100190_1182  1 MMEVQLLTLMVALAAMILIQGSAVINGKRFGGVLISFALGTTIGAAVFYTVLVFLPQVM 59
+                             9*********************************************************9 PP
+
+>> Ga0207733_100382_337  [22194 - 22370]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.7   9.1   1.4e-33   2.2e-29      20      78 .]       1      59 []       1      59 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 103.7 bits;  conditional E-value: 1.4e-33
+  45254_LOEP01000012_1164 20 mievaelhLlialaaliiiqaaavinGkkfGGvlvgfivgtliGaavfysvLvlLPqvi 78
+                             m+ev++l+L++alaa+i+iq++avinGk+fGGvl++f++gt+iGaavfy+vLv+LPqv+
+     Ga0207733_100382_337  1 MMEVQLLTLMVALAAMILIQGSAVINGKRFGGVLISFALGTTIGAAVFYTVLVFLPQVM 59
+                             9*********************************************************9 PP
+
+>> CP048739_1658  [57168 - 56824] (REVERSE SENSE) [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   0.0   9.5e-08    0.0015      17      77 ..      47     111 ..      32     112 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 9.5e-08
+  45254_LOEP01000012_1164  17 eslmievaelhLlialaaliiiqaaavinGkkfGGvl...vgf.ivgtliGaavfysvLvlLPqv 77 
+                              +  m+++a+ h++ a +   +  +  v+ G   GG     +++ ++g +i  avf+  + +LPqv
+            CP048739_1658  47 KPEMLDIALPHMMAAWSLSAVFLSGLVVLGENVGGSAsskLTYlVIGNVIAFAVFWGAVFVLPQV 111
+                              457*************99999999999********75222344156889999************9 PP
+
+>> CP010426.1_18797  [679115 - 678777] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.0   1.5e-05      0.24       7      62 ..      45     100 ..      40     108 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 1.5e-05
+  45254_LOEP01000012_1164   7 nrdlrkqvhkeslmievaelhLlialaaliiiqaaavinGkkfGGvlvgfivgtli 62 
+                              +++ +k+++ +    e  +lhL    a    +qa a+inG+ f   ++ f ++  +
+         CP010426.1_18797  45 TGNYVKKMQEKTSKFESLHLHLKEVHATKFELQAKAIINGQSFNAEIIDFNLFFAL 100
+                              5688888888888999999999999999999*******************998766 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (78 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1060  (0.0109659); expected 1933.3 (0.02)
+Passed bias filter:                      644  (0.00666232); expected 1933.3 (0.02)
+Passed Vit filter:                        28  (0.000289666); expected 96.7 (0.001)
+Passed Fwd filter:                         6  (6.20713e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.12u 0.02s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 5767.12
+//
+[ok]

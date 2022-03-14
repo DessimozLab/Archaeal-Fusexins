@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/91297_Ga0222658_1000332_164.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/91297_Ga0222658_1000332_164.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/91297_Ga0222658_1000332_164.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/91297_Ga0222658_1000332_164.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       91297_Ga0222658_1000332_164  [M=102]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    4.6e-70  234.7   8.6    5.1e-70  234.6   8.6    1.0  1  Ga0222658_1000332_164   [9763 - 10068]
+    4.6e-70  234.7   8.6    5.1e-70  234.6   8.6    1.0  1  Ga0222667_1000160_1413  [6384 - 6079] (REVERSE SENSE)
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0222658_1000332_164  [9763 - 10068]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  234.6   8.6     1e-74   5.1e-70       1     102 []       1     102 []       1     102 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 234.6 bits;  conditional E-value: 1e-74
+  91297_Ga0222658_1000332_164   1 mnmatrkigtgkckgltgvklkscnrkgwekgktgfegtkledrhrwmkkdntsrlfvhknasekkyyvgyknisnpnqvql 82 
+                                  mnmatrkigtgkckgltgvklkscnrkgwekgktgfegtkledrhrwmkkdntsrlfvhknasekkyyvgyknisnpnqvql
+        Ga0222658_1000332_164   1 MNMATRKIGTGKCKGLTGVKLKSCNRKGWEKGKTGFEGTKLEDRHRWMKKDNTSRLFVHKNASEKKYYVGYKNISNPNQVQL 82 
+                                  9********************************************************************************* PP
+
+  91297_Ga0222658_1000332_164  83 andvsknkamtiaksymenn 102
+                                  andvsknkamtiaksymenn
+        Ga0222658_1000332_164  83 ANDVSKNKAMTIAKSYMENN 102
+                                  *******************8 PP
+
+>> Ga0222667_1000160_1413  [6384 - 6079] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  234.6   8.6     1e-74   5.1e-70       1     102 []       1     102 []       1     102 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 234.6 bits;  conditional E-value: 1e-74
+  91297_Ga0222658_1000332_164   1 mnmatrkigtgkckgltgvklkscnrkgwekgktgfegtkledrhrwmkkdntsrlfvhknasekkyyvgyknisnpnqvql 82 
+                                  mnmatrkigtgkckgltgvklkscnrkgwekgktgfegtkledrhrwmkkdntsrlfvhknasekkyyvgyknisnpnqvql
+       Ga0222667_1000160_1413   1 MNMATRKIGTGKCKGLTGVKLKSCNRKGWEKGKTGFEGTKLEDRHRWMKKDNTSRLFVHKNASEKKYYVGYKNISNPNQVQL 82 
+                                  9********************************************************************************* PP
+
+  91297_Ga0222658_1000332_164  83 andvsknkamtiaksymenn 102
+                                  andvsknkamtiaksymenn
+       Ga0222667_1000160_1413  83 ANDVSKNKAMTIAKSYMENN 102
+                                  *******************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (102 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       759  (0.00785202); expected 1933.3 (0.02)
+Passed bias filter:                      517  (0.00534848); expected 1933.3 (0.02)
+Passed Vit filter:                        16  (0.000165524); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 7541.62
+//
+[ok]

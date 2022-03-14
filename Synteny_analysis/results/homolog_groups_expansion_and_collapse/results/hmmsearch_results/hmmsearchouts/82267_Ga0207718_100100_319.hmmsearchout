@@ -1,0 +1,108 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/82267_Ga0207718_100100_319.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/82267_Ga0207718_100100_319.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/82267_Ga0207718_100100_319.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/82267_Ga0207718_100100_319.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       82267_Ga0207718_100100_319  [M=404]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+   8.1e-210  699.4  12.9   9.1e-210  699.2  12.9    1.0  1  Ga0207718_100100_319        [20613 - 21902]
+   1.6e-195  652.3  11.1   1.8e-195  652.2  11.1    1.0  1  JGI12330J12834_1000008_385  [22553 - 23896]
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207718_100100_319  [20613 - 21902]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  699.2  12.9  1.9e-214  9.1e-210       1     404 []      23     430 .]      23     430 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 699.2 bits;  conditional E-value: 1.9e-214
+  82267_Ga0207718_100100_319   1 msGafyGsLaasasvfvaiLtaLLvnnyvrikserrqteaeLervseeleklrkrrdeheetvdeLvekrekdyrekaeervs 83 
+                                 msG+fyGsLaasasvfvaiLtaLLvnnyv+iks+rrqteaeLerv+eel+k++++rd+heet+deL+++re++y+++a ervs
+        Ga0207718_100100_319  23 MSGPFYGSLAASASVFVAILTALLVNNYVEIKSQRRQTEAELERVREELDKFESERDNHEETIDELTGRRERRYQQNAGERVS 105
+                                 9********************************************************************************** PP
+
+  82267_Ga0207718_100100_319  84 efieseipskisqPiekltvdeLyqqLidyhdlespeeleesdenlhhrdvLeermdeieeevLeeivssfaekyegkGkeee 166
+                                 +fie+++ps+isqPiekl++d+Ly+qL+dyh+++sp+e+e+++en +hr++Lee++d+ie++vLeei+ssfae+y+++G++++
+        Ga0207718_100100_319 106 DFIENQVPSQISQPIEKLDIDILYHQLSDYHNFGSPAEMEDGEEN-YHRQLLEEHYDQIEQAVLEEITSSFAEDYDITGRRSR 187
+                                 *********************************************.************************************* PP
+
+  82267_Ga0207718_100100_319 167 edgsrsdllee....vkdkedeeeedsessdddievkaes.deepealeldefiekykeeydLdeLreetreaLeqkydevvd 244
+                                 ++gs+sd+lee    vkdked+++eds+ss++diev+ae+ deepe++eldefie++keey+Ld+Lr+etreaLeq+y+e++d
+        Ga0207718_100100_319 188 VTGSDSDALEEaiekVKDKEDDGDEDSSSSPGDIEVSAEGvDEEPEPVELDEFIEDFKEEYGLDSLRKETREALEQQYNEFRD 270
+                                 *******99988888******************************************************************** PP
+
+  82267_Ga0207718_100100_319 245 rsqldraqssiesirdarstlslnsvfddpdkvvGLavqeqqkLeearkeLrdveneieiLerrkkrLerekegLnpedLkPv 327
+                                 rsq+dr+qssie+ir++rs++ ln+vfd+pd ++GL++qe+++L+eark+L+++en+ie+L+rrkkrLe+ek+gLn+edL+Pv
+        Ga0207718_100100_319 271 RSQMDRVQSSIERIRESRSSFGLNNVFDTPDLTTGLGIQEKARLREARKDLAHAENQIETLQRRKKRLEDEKSGLNAEDLIPV 353
+                                 *********************************************************************************** PP
+
+  82267_Ga0207718_100100_319 328 LtanvatiilsvvvPifayLlvvtettvselswvnilshtevnivlsWLlGLivvfasiylriterdlkkelaqrle 404
+                                 Ltanvatii+svvvPifayLl++t+ttv+++sw++i+shtevn++lsWLlGLi+vf++iylrit+rdlkk+l+qrl+
+        Ga0207718_100100_319 354 LTANVATIIFSVVVPIFAYLLFATNTTVTVPSWAWIISHTEVNVFLSWLLGLIIVFVEIYLRITGRDLKKYLPQRLQ 430
+                                 **************************************************************************975 PP
+
+>> JGI12330J12834_1000008_385  [22553 - 23896]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  652.2  11.1  3.7e-200  1.8e-195       1     394 [.      26     448 .]      26     448 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 652.2 bits;  conditional E-value: 3.7e-200
+  82267_Ga0207718_100100_319   1 msGafyGsLaasasvfvaiLtaLLvnnyvrikserrqteaeLervseeleklrkrrdeheetvdeLvekrekdyrekaeervs 83 
+                                 msG+fyGsLaasasvfvaiLtaLLvnnyvr+ks+rrqte+eL+r++eele+lr+rrd++eetvd+Lvekre+dyrekaee+v+
+  JGI12330J12834_1000008_385  26 MSGPFYGSLAASASVFVAILTALLVNNYVRVKSDRRQTENELNRIEEELEGLRDRRDDYEETVDTLVEKREDDYREKAEEQVN 108
+                                 9********************************************************************************** PP
+
+  82267_Ga0207718_100100_319  84 efieseipskisqPiekltvdeLyqqLidyhdlespeeleesdenlhhrdvLeermdeieeevLeeivssfaekyegkGkeee 166
+                                 efieseips+++qPiekl+v+eLyq+Li++hd+es+eele+s++nlhhrdvLeermdeie+evL+e+v++fa+kyeg+G++++
+  JGI12330J12834_1000008_385 109 EFIESEIPSEYFQPIEKLSVVELYQDLIEFHDCESSEELEHSPINLHHRDVLEERMDEIENEVLNEVVPPFASKYEGEGWDPS 191
+                                 *********************************************************************************** PP
+
+  82267_Ga0207718_100100_319 167 edgsrsdlleevkdkedeeeeds..........essdddievkaesdeepealeldefiekykeeydLdeLreetreaLeqky 239
+                                 +d++r++l+e++++++deeeed+          e+sd+dievkae+  +++al+ld+f+ekykeey+LdeL+e+t+++L+++y
+  JGI12330J12834_1000008_385 192 TDPNRTSLVERLAEMDDEEEEDDedigsedsgeEDSDPDIEVKAEN-LGRDALDLDDFLEKYKEEYGLDELDEKTKNKLSMFY 273
+                                 **********************9***********************.************************************ PP
+
+  82267_Ga0207718_100100_319 240 devvdrsqldraqssiesirdarstlslns................vfddp.........dkvvGLavqeqqkLeearkeLrd 297
+                                 devvd+++++r++ss++s+++a +t +++s                +f+dp         +kv+GL+v++qqkLeear++Lrd
+  JGI12330J12834_1000008_385 274 DEVVDTNPNPRPYSSSPSAASALNTGPFDSlepgfmdaalaasqagAFEDPladidiparNKVLGLNVRQQQKLEEARENLRD 356
+                                 *********************************************************************************** PP
+
+  82267_Ga0207718_100100_319 298 veneieiLerrkkrLerekegLnpedLkPvLtanvatiilsvvvPifayLlvvtettvselswvnilshtevnivlsWLlGLi 380
+                                 v+nei+iLe+r++rLereke+L+pedLkP+L+anvati+lsvvvPi+ayL++vte+tvsel+wvni++     i+ sWLlGLi
+  JGI12330J12834_1000008_385 357 VNNEIQILEQRQGRLEREKERLHPEDLKPTLYANVATIFLSVVVPIAAYLNTVTEFTVSELAWVNIWM-----IAGSWLLGLI 434
+                                 ********************************************************************.....********** PP
+
+  82267_Ga0207718_100100_319 381 vvfasiylriterd 394
+                                 vvfa+iylrit+++
+  JGI12330J12834_1000008_385 435 VVFAAIYLRITNDE 448
+                                 ***********997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (404 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       897  (0.00927966); expected 1933.3 (0.02)
+Passed bias filter:                      550  (0.00568987); expected 1933.3 (0.02)
+Passed Vit filter:                        39  (0.000403464); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.15u 0.02s 00:00:00.17 Elapsed: 00:00:00.06
+# Mc/sec: 24892.29
+//
+[ok]

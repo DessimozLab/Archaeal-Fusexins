@@ -1,0 +1,87 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34047_QNDS01000002.1_86.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34047_QNDS01000002.1_86.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34047_QNDS01000002.1_86.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34047_QNDS01000002.1_86.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       34047_QNDS01000002.1_86  [M=119]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    1.6e-79  266.2   6.5    1.7e-79  266.0   6.5    1.0  1  Ga0164313_10000250_86  [4468 - 4824]
+    1.6e-79  266.2   6.5    1.7e-79  266.0   6.5    1.0  1  QNDS01000002.1_86      [4468 - 4824] Candidatus Fermentibacte
+  ------ inclusion threshold ------
+       0.39   13.3   0.3        0.8   12.3   0.3    1.5  1  CP010426.1_6706        [356748 - 358235] Archaeon GW2011_AR20
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_86  [4468 - 4824]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  266.0   6.5   5.4e-84   1.7e-79       1     119 []       1     119 []       1     119 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 266.0 bits;  conditional E-value: 5.4e-84
+  34047_QNDS01000002.1_86   1 mlvqqsrrkkmskneeekqeikhinfvvarevdekfteklrransrrrikklpplnkqdvlsqhfakmaevgildesyvdsiirdk 86 
+                              mlvqqsrrkkmskneeekqeikhinfvvarevdekfteklrransrrrikklpplnkqdvlsqhfakmaevgildesyvdsiirdk
+    Ga0164313_10000250_86   1 MLVQQSRRKKMSKNEEEKQEIKHINFVVAREVDEKFTEKLRRANSRRRIKKLPPLNKQDVLSQHFAKMAEVGILDESYVDSIIRDK 86 
+                              89************************************************************************************ PP
+
+  34047_QNDS01000002.1_86  87 aeilrkvaktlskqvfnetgyptgveeiirktr 119
+                              aeilrkvaktlskqvfnetgyptgveeiirktr
+    Ga0164313_10000250_86  87 AEILRKVAKTLSKQVFNETGYPTGVEEIIRKTR 119
+                              ********************************8 PP
+
+>> QNDS01000002.1_86  [4468 - 4824] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, whole
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  266.0   6.5   5.4e-84   1.7e-79       1     119 []       1     119 []       1     119 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 266.0 bits;  conditional E-value: 5.4e-84
+  34047_QNDS01000002.1_86   1 mlvqqsrrkkmskneeekqeikhinfvvarevdekfteklrransrrrikklpplnkqdvlsqhfakmaevgildesyvdsiirdk 86 
+                              mlvqqsrrkkmskneeekqeikhinfvvarevdekfteklrransrrrikklpplnkqdvlsqhfakmaevgildesyvdsiirdk
+        QNDS01000002.1_86   1 MLVQQSRRKKMSKNEEEKQEIKHINFVVAREVDEKFTEKLRRANSRRRIKKLPPLNKQDVLSQHFAKMAEVGILDESYVDSIIRDK 86 
+                              89************************************************************************************ PP
+
+  34047_QNDS01000002.1_86  87 aeilrkvaktlskqvfnetgyptgveeiirktr 119
+                              aeilrkvaktlskqvfnetgyptgveeiirktr
+        QNDS01000002.1_86  87 AEILRKVAKTLSKQVFNETGYPTGVEEIIRKTR 119
+                              ********************************8 PP
+
+>> CP010426.1_6706  [356748 - 358235] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.3   2.5e-05       0.8      17      66 ..     412     461 ..     406     493 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 2.5e-05
+  34047_QNDS01000002.1_86  17 ekqeikhinfvvarevdekfteklrransrrrikklpplnkqdvlsqhfa 66 
+                              ++++i   nf+v+r+ +e+f +     n+   ik l  lnk d    +f 
+          CP010426.1_6706 412 DRKNIIDDNFLVSRNAEERFNDVNEIYNTALEIKALEALNKYDANYIYFD 461
+                              56778888**********************************98777765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (119 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       705  (0.00729338); expected 1933.3 (0.02)
+Passed bias filter:                      439  (0.00454155); expected 1933.3 (0.02)
+Passed Vit filter:                        19  (0.000196559); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 8798.56
+//
+[ok]

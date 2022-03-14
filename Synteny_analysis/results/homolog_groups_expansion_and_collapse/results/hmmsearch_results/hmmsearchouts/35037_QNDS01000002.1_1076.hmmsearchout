@@ -1,0 +1,103 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/35037_QNDS01000002.1_1076.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/35037_QNDS01000002.1_1076.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/35037_QNDS01000002.1_1076.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/35037_QNDS01000002.1_1076.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       35037_QNDS01000002.1_1076  [M=60]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    1.3e-44  152.7   4.3    1.4e-44  152.5   4.3    1.0  1  Ga0164313_10000250_1076  [17667 - 17488] (REVERSE SENSE)
+    1.3e-44  152.7   4.3    1.4e-44  152.5   4.3    1.0  1  QNDS01000002.1_1076      [17667 - 17488] (REVERSE SENSE) Cand
+     0.0004   23.0   0.9    0.00061   22.4   0.4    1.5  2  Ga0164313_10000250_1201  [11155 - 10949] (REVERSE SENSE)
+     0.0004   23.0   0.9    0.00061   22.4   0.4    1.5  2  QNDS01000002.1_1201      [11155 - 10949] (REVERSE SENSE) Cand
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_1076  [17667 - 17488] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.5   4.3     6e-49   1.4e-44       1      60 []       1      60 []       1      60 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 152.5 bits;  conditional E-value: 6e-49
+  35037_QNDS01000002.1_1076  1 mnPmkldstyvdvavPinkfslGryvqnaaknlvkldksiieikiiahkrllvmikeskk 60
+                               mnPmkldstyvdvavPinkfslGryvqnaaknlvkldksiieikiiahkrllvmikeskk
+    Ga0164313_10000250_1076  1 MNPMKLDSTYVDVAVPINKFSLGRYVQNAAKNLVKLDKSIIEIKIIAHKRLLVMIKESKK 60
+                               9**********************************************************9 PP
+
+>> QNDS01000002.1_1076  [17667 - 17488] (REVERSE SENSE) Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_s
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.5   4.3     6e-49   1.4e-44       1      60 []       1      60 []       1      60 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 152.5 bits;  conditional E-value: 6e-49
+  35037_QNDS01000002.1_1076  1 mnPmkldstyvdvavPinkfslGryvqnaaknlvkldksiieikiiahkrllvmikeskk 60
+                               mnPmkldstyvdvavPinkfslGryvqnaaknlvkldksiieikiiahkrllvmikeskk
+        QNDS01000002.1_1076  1 MNPMKLDSTYVDVAVPINKFSLGRYVQNAAKNLVKLDKSIIEIKIIAHKRLLVMIKESKK 60
+                               9**********************************************************9 PP
+
+>> Ga0164313_10000250_1201  [11155 - 10949] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.4   0.4   2.5e-08   0.00061      31      59 ..      11      40 ..       5      41 .. 0.85
+   2 ?   -2.4   0.0       1.4   3.4e+04       8      17 ..      49      58 ..      46      63 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 22.4 bits;  conditional E-value: 2.5e-08
+  35037_QNDS01000002.1_1076 31 knlvkldksii.eikiiahkrllvmikesk 59
+                               k lv+  ksii   +   hkrll+mikes 
+    Ga0164313_10000250_1201 11 KFLVRSSKSIIiKNRTTPHKRLLLMIKESN 40
+                               789******862677899**********95 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 1.4
+  35037_QNDS01000002.1_1076  8 styvdvavPi 17
+                               s+ +d a+ +
+    Ga0164313_10000250_1201 49 SSMIDAAIRV 58
+                               6667777655 PP
+
+>> QNDS01000002.1_1201  [11155 - 10949] (REVERSE SENSE) Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_s
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.4   0.4   2.5e-08   0.00061      31      59 ..      11      40 ..       5      41 .. 0.85
+   2 ?   -2.4   0.0       1.4   3.4e+04       8      17 ..      49      58 ..      46      63 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 22.4 bits;  conditional E-value: 2.5e-08
+  35037_QNDS01000002.1_1076 31 knlvkldksii.eikiiahkrllvmikesk 59
+                               k lv+  ksii   +   hkrll+mikes 
+        QNDS01000002.1_1201 11 KFLVRSSKSIIiKNRTTPHKRLLLMIKESN 40
+                               789******862677899**********95 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 1.4
+  35037_QNDS01000002.1_1076  8 styvdvavPi 17
+                               s+ +d a+ +
+        QNDS01000002.1_1201 49 SSMIDAAIRV 58
+                               6667777655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (60 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       802  (0.00829687); expected 1933.3 (0.02)
+Passed bias filter:                      532  (0.00550366); expected 1933.3 (0.02)
+Passed Vit filter:                        18  (0.000186214); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.12u 0.01s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 4436.25
+//
+[ok]

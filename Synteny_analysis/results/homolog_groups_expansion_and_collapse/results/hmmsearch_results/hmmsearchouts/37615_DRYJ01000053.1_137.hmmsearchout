@@ -1,0 +1,170 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37615_DRYJ01000053.1_137.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37615_DRYJ01000053.1_137.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37615_DRYJ01000053.1_137.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37615_DRYJ01000053.1_137.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37615_DRYJ01000053.1_137  [M=182]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.3e-87  294.5  11.2    1.5e-87  294.3  11.2    1.0  1  DRYJ01000053.1_137      [7637 - 8209] TPA_asm: Candidatus Bat
+    1.3e-87  294.5  11.2    1.5e-87  294.3  11.2    1.0  1  Ga0065719_100268_137    [7637 - 8209]
+      2e-35  124.5   3.4    2.6e-35  124.1   3.4    1.1  1  Ga0075122_10000557_495  [27391 - 27966]
+    1.3e-32  115.3   2.2    1.4e-32  115.2   2.2    1.0  1  Ga0222658_1000332_194   [11403 - 11960]
+    1.3e-32  115.3   2.2    1.4e-32  115.2   2.2    1.0  1  Ga0222667_1000160_1443  [4744 - 4187] (REVERSE SENSE)
+      4e-08   35.5   0.1    5.2e-08   35.1   0.1    1.1  1  LOEP01000012_107        [4807 - 5445] Haloferax sp. Q22 scaff
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_137  [7637 - 8209] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, whole
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  294.3  11.2   9.6e-92   1.5e-87       1     182 []      17     191 .]      17     191 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 294.3 bits;  conditional E-value: 9.6e-92
+  37615_DRYJ01000053.1_137   1 mekkvllgvlallvvlGaivaikllyknnnfelvkssdalkydgevcvvvradGneelvGcsqnvitnsGknlvkaaleGtavnv 85 
+                               m++k +l++l++lvvlGai+ai+ll+knnnf++  +s++++y+gevcv++    neelvGc+qn+i+nsGk+lv++al+Gt+vnv
+        DRYJ01000053.1_137  17 MNEK-ALYKLISLVVLGAIIAIPLLHKNNNFQP--ISNGINYHGEVCVWI----NEELVGCNQNLIVNSGKDLVYYALTGTTVNV 94 
+                               8999.****************************..9**************....******************************* PP
+
+  37615_DRYJ01000053.1_137  86 nqlavanrtapldatDtslqgeyttcGLsratvdttvslgvGnWsvnklftstcdnvvinvtglyatdgtlfaeatftsvtLqtd 170
+                               nq+avanrt+pld++Dtslqge+ttcGL+r+tvdttv++g+GnW+++kl+t+tcdnv+in+t+lya+d+tlfaeat++++tL+++
+        DRYJ01000053.1_137  95 NQMAVANRTTPLDPSDTSLQGEWTTCGLTRGTVDTTVRNGYGNWTLSKLWTVTCDNVIINATALYASDNTLFAEATIPTHTLYNS 179
+                               ************************************************************************************* PP
+
+  37615_DRYJ01000053.1_137 171 Dqlrvsytiwvs 182
+                               Dqlr+s+tiwvs
+        DRYJ01000053.1_137 180 DQLRISWTIWVS 191
+                               ***********7 PP
+
+>> Ga0065719_100268_137  [7637 - 8209]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  294.3  11.2   9.6e-92   1.5e-87       1     182 []      17     191 .]      17     191 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 294.3 bits;  conditional E-value: 9.6e-92
+  37615_DRYJ01000053.1_137   1 mekkvllgvlallvvlGaivaikllyknnnfelvkssdalkydgevcvvvradGneelvGcsqnvitnsGknlvkaaleGtavnv 85 
+                               m++k +l++l++lvvlGai+ai+ll+knnnf++  +s++++y+gevcv++    neelvGc+qn+i+nsGk+lv++al+Gt+vnv
+      Ga0065719_100268_137  17 MNEK-ALYKLISLVVLGAIIAIPLLHKNNNFQP--ISNGINYHGEVCVWI----NEELVGCNQNLIVNSGKDLVYYALTGTTVNV 94 
+                               8999.****************************..9**************....******************************* PP
+
+  37615_DRYJ01000053.1_137  86 nqlavanrtapldatDtslqgeyttcGLsratvdttvslgvGnWsvnklftstcdnvvinvtglyatdgtlfaeatftsvtLqtd 170
+                               nq+avanrt+pld++Dtslqge+ttcGL+r+tvdttv++g+GnW+++kl+t+tcdnv+in+t+lya+d+tlfaeat++++tL+++
+      Ga0065719_100268_137  95 NQMAVANRTTPLDPSDTSLQGEWTTCGLTRGTVDTTVRNGYGNWTLSKLWTVTCDNVIINATALYASDNTLFAEATIPTHTLYNS 179
+                               ************************************************************************************* PP
+
+  37615_DRYJ01000053.1_137 171 Dqlrvsytiwvs 182
+                               Dqlr+s+tiwvs
+      Ga0065719_100268_137 180 DQLRISWTIWVS 191
+                               ***********7 PP
+
+>> Ga0075122_10000557_495  [27391 - 27966]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.1   3.4   1.6e-39   2.6e-35       1     181 [.       2     191 ..       2     192 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 124.1 bits;  conditional E-value: 1.6e-39
+  37615_DRYJ01000053.1_137   1 mekkvllgvlallvvlGaivaikllyknnnfelvkssdalkydgevcvvv..rad......GneelvGcsqnvitnsGknlvkaa 77 
+                               m+k+++l ++a++++   ++ i+l+ +n++ +   +  ++ y+++vc+      +      G  el+ c++n++ nsGknl+++ 
+    Ga0075122_10000557_495   2 MKKRLILSMIAVMFIS--MFCIALIPNNSDDN--PNDVSITYNSNVCISTtgDFEgretplGGIELIQCEHNLLYNSGKNLIRTY 82 
+                               99**999999999987..99999995554434..58889*********99444552223334457888***************** PP
+
+  37615_DRYJ01000053.1_137  78 l..eGtav.nvnqlavanrtap...ldatDtslqgeyttcGLsratvdttvslgvGnWsvnklftstcdnvvinvtglyatdgtl 156
+                               l  +G +   ++ + ++n ta+    +a + +  +  ++cGL+++++ t+v  g+GnWs+++ fts cdn+ +nvt l+ ++  +
+    Ga0075122_10000557_495  83 LsdTGSIDdEIDWIELCNATAGcgtPQANNGETYNAIASCGLQKSAG-TYVAGGTGNWSISHQFTSSCDNLATNVTRLLNEEADI 166
+                               *877777689***********976667888999999***********.************************************* PP
+
+  37615_DRYJ01000053.1_137 157 faeatftsvtLqtdDqlrvsytiwv 181
+                               fa+++f++v L  dDql +++t+ v
+    Ga0075122_10000557_495 167 FAGNSFPEVNLMSDDQLLINWTLSV 191
+                               **********************988 PP
+
+>> Ga0222658_1000332_194  [11403 - 11960]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  115.2   2.2     9e-37   1.4e-32       1     182 []       3     186 .]       1     186 [] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 115.2 bits;  conditional E-value: 9e-37
+  37615_DRYJ01000053.1_137   1 mekkvllgvlallvvlGaivaikllyknnnfelvkssdalkydgevcvvv.radGneelvGcsqnvitnsGknlvkaal..eGta 82 
+                               m kk+ +  + ll+v+ +++a +++ + n +++   s ++ y+++vc +v radG++e   cs+n++  sGk+l+++ l  +G a
+     Ga0222658_1000332_194   3 MTKKIFIIPALLLAVI-GVFAFAMIPSAN-MDN-PDSVSITYNSDVCKTVtRADGTVEPTECSHNLLFTSGKELIEKYLgdTGGA 84 
+                               7799888888999999.799**9996665.666.56778**********99****************************999999 PP
+
+  37615_DRYJ01000053.1_137  83 v..nvnqlavanrtap...ldatDtslqgeyttcGLsratvdttvslgvGnWsvnklftstcdnvvinvtglyatdgtlfaeatf 162
+                               v   v+ ++++n + +    +a+ t+  +e +t GLs +++  + s g+GnW+++++f +t   v +nvt l ++++t+fa+++f
+     Ga0222658_1000332_194  85 VddEVDLISLCNAAIGcdePTAAGTEAFNELATLGLSETAG-SYSSVGEGNWTISNTFQATG-SVSTNVTRL-SNSDTVFAGNSF 166
+                               9888**********996666799******************.9*****************97.589****98.56789******* PP
+
+  37615_DRYJ01000053.1_137 163 tsvtLqtdDqlrvsytiwvs 182
+                               t v L+  D l++s++iwvs
+     Ga0222658_1000332_194 167 TLVSLESGDELSISWNIWVS 186
+                               *******************7 PP
+
+>> Ga0222667_1000160_1443  [4744 - 4187] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  115.2   2.2     9e-37   1.4e-32       1     182 []       3     186 .]       1     186 [] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 115.2 bits;  conditional E-value: 9e-37
+  37615_DRYJ01000053.1_137   1 mekkvllgvlallvvlGaivaikllyknnnfelvkssdalkydgevcvvv.radGneelvGcsqnvitnsGknlvkaal..eGta 82 
+                               m kk+ +  + ll+v+ +++a +++ + n +++   s ++ y+++vc +v radG++e   cs+n++  sGk+l+++ l  +G a
+    Ga0222667_1000160_1443   3 MTKKIFIIPALLLAVI-GVFAFAMIPSAN-MDN-PDSVSITYNSDVCKTVtRADGTVEPTECSHNLLFTSGKELIEKYLgdTGGA 84 
+                               7799888888999999.799**9996665.666.56778**********99****************************999999 PP
+
+  37615_DRYJ01000053.1_137  83 v..nvnqlavanrtap...ldatDtslqgeyttcGLsratvdttvslgvGnWsvnklftstcdnvvinvtglyatdgtlfaeatf 162
+                               v   v+ ++++n + +    +a+ t+  +e +t GLs +++  + s g+GnW+++++f +t   v +nvt l ++++t+fa+++f
+    Ga0222667_1000160_1443  85 VddEVDLISLCNAAIGcdePTAAGTEAFNELATLGLSETAG-SYSSVGEGNWTISNTFQATG-SVSTNVTRL-SNSDTVFAGNSF 166
+                               9888**********996666799******************.9*****************97.589****98.56789******* PP
+
+  37615_DRYJ01000053.1_137 163 tsvtLqtdDqlrvsytiwvs 182
+                               t v L+  D l++s++iwvs
+    Ga0222667_1000160_1443 167 TLVSLESGDELSISWNIWVS 186
+                               *******************7 PP
+
+>> LOEP01000012_107  [4807 - 5445] Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Haloferax sp. Q22 | 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   0.1   3.3e-12   5.2e-08      11     154 ..      24     174 ..      16     186 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 3.3e-12
+  37615_DRYJ01000053.1_137  11 allvvlGaivaikllyknnnfel.vkssdalkydgevcvvv.radGneelvGcsqnvitnsGknlvkaal..eGtavnvnqlava 91 
+                                + +++ a+v+++ l  +++++  v++ ++l++dg+v + +   +G+  +   ++n++t++G++ +++    +    ++++++++
+          LOEP01000012_107  24 LSFILAAALVSVPQL-PDQSVQDpVETGETLQWDGNVTTEIyNKEGELIHSSFQENLVTDEGRDYLADRSlgQASEPTISHIGLS 107
+                               34455689*******.55667777*****************9999**99***************99986625555559******* PP
+
+  37615_DRYJ01000053.1_137  92 nrtap.ldatDtslqgeytt..cGLsratvd.ttvslgvGnWsvnklftstcdnvvinvtglyatdg 154
+                               n ++  + at   l+ge  +  + L+r+ +  + +++g+G   v+ ++ +      i  tgl++ d+
+          LOEP01000012_107 108 NASSFsASATRGYLKGEIEAdsTNLTRGDASyVRQKTGTGCLEVEATWVADEYVDGIKGTGLFVADE 174
+                               *987548889999***987511566666653134466788888888887665555577888886665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (182 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       612  (0.00633127); expected 1933.3 (0.02)
+Passed bias filter:                      436  (0.00451052); expected 1933.3 (0.02)
+Passed Vit filter:                        26  (0.000268976); expected 96.7 (0.001)
+Passed Fwd filter:                         6  (6.20713e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.15u 0.00s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 13456.62
+//
+[ok]

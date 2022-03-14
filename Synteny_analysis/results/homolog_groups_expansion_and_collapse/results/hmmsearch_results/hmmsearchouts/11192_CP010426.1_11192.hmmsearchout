@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/11192_CP010426.1_11192.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/11192_CP010426.1_11192.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/11192_CP010426.1_11192.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/11192_CP010426.1_11192.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       11192_CP010426.1_11192  [M=123]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+    1.6e-42  146.5   1.4    1.7e-42  146.4   1.4    1.0  1  CP010426.1_11192    [590584 - 590916] Archaeon GW2011_AR20 ch
+      8e-29  102.2   0.1    8.9e-29  102.1   0.1    1.0  1  LKMP01000007.1_811  [42193 - 42543] Nanohaloarchaea archaeon 
+
+
+Domain annotation for each sequence (and alignments):
+>> CP010426.1_11192  [590584 - 590916] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  146.4   1.4   3.6e-47   1.7e-42       9     123 .]       1     111 []       1     111 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 146.4 bits;  conditional E-value: 3.6e-47
+  11192_CP010426.1_11192   9 lklvlvvrkdLkmgkGKiaaqcaHAalkavkkaqkskpeilkkWeeegqkkvvlkvdseeellelaekakeaglvtslirDaGrTqi 95 
+                             +k+v++vrkdLk+++GK+a+qc+HA+++av k+    +e +++W++   kkvvlkv++e+ell+l++ a++++lvt+li+DaGrT+i
+        CP010426.1_11192   1 MKQVILVRKDLKLSRGKLASQCSHASVEAVLKSD---KEKINEWRKF-SKKVVLKVRDEKELLDLKKLADREKLVTALIKDAGRTEI 83 
+                             79***************************99986...56899**875.78************************************* PP
+
+  11192_CP010426.1_11192  96 epgtktvlaiGPapeekidkitgklkll 123
+                             +pgt+t+laiGP++++kidkitgklk+l
+        CP010426.1_11192  84 KPGTITCLAIGPDEDKKIDKITGKLKIL 111
+                             **************************86 PP
+
+>> LKMP01000007.1_811  [42193 - 42543] Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genome shotgun sequen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.1   0.1   1.9e-33   8.9e-29       3     109 ..      14     116 ..      12     117 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 102.1 bits;  conditional E-value: 1.9e-33
+  11192_CP010426.1_11192   3 kaskeelklvlvvrkdLkmgkGKiaaqcaHAalkavkkaqkskpeilkkWeeegqkkvvlkvdseeellelaekakeaglvtslirD 89 
+                             +++++++k+++++ + L+m+kGK+aaq++HA+++a+ ka+k+   + ++W+ +g++k+vl+   +e++ e+ ++a++ +++++ + D
+      LKMP01000007.1_811  14 NSRDKKIKQAIIIDQSLDMSKGKLAAQACHASVNAYIKASKD---VQDDWHLNGARKIVLEKG-NENFDEIMSQAERLNIPQYEVCD 96 
+                             567899********************************9765...999************986.678******************** PP
+
+  11192_CP010426.1_11192  90 aGrTqiepgtktvlaiGPap 109
+                             aG T++epgt+t+l++GP++
+      LKMP01000007.1_811  97 AGLTELEPGTVTALGLGPDK 116
+                             ******************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (123 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       393  (0.00406567); expected 1933.3 (0.02)
+Passed bias filter:                      324  (0.00335185); expected 1933.3 (0.02)
+Passed Vit filter:                        22  (0.000227595); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 9094.31
+//
+[ok]

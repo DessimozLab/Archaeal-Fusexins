@@ -1,0 +1,100 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/33966_QNDS01000002.1_5.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/33966_QNDS01000002.1_5.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/33966_QNDS01000002.1_5.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/33966_QNDS01000002.1_5.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       33966_QNDS01000002.1_5  [M=98]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    2.4e-67  225.9   0.6    2.6e-67  225.8   0.6    1.0  1  Ga0164313_10000250_5     [15 - 308]
+    2.4e-67  225.9   0.6    2.6e-67  225.8   0.6    1.0  1  QNDS01000002.1_5         [15 - 308] Candidatus Fermentibacter
+  ------ inclusion threshold ------
+       0.02   17.6   0.0      0.028   17.2   0.0    1.3  1  Ga0164313_10000250_1133  [14253 - 14056] (REVERSE SENSE)
+       0.02   17.6   0.0      0.028   17.2   0.0    1.3  1  QNDS01000002.1_1133      [14253 - 14056] (REVERSE SENSE) Cand
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_5  [15 - 308]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  225.8   0.6   1.1e-71   2.6e-67       1      98 []       1      98 []       1      98 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 225.8 bits;  conditional E-value: 1.1e-71
+  33966_QNDS01000002.1_5  1 lrqnlnsiiefavgsprtlvvggchsfgepqadaivgvcqhrgmktkkeeikeiptkalidatlleeiskankicafsgfdtpeskaic 89
+                            +rqnlnsiiefavgsprtlvvggchsfgepqadaivgvcqhrgmktkkeeikeiptkalidatlleeiskankicafsgfdtpeskaic
+    Ga0164313_10000250_5  1 MRQNLNSIIEFAVGSPRTLVVGGCHSFGEPQADAIVGVCQHRGMKTKKEEIKEIPTKALIDATLLEEISKANKICAFSGFDTPESKAIC 89
+                            8**************************************************************************************** PP
+
+  33966_QNDS01000002.1_5 90 msgiiarks 98
+                            msgiiarks
+    Ga0164313_10000250_5 90 MSGIIARKS 98
+                            ********8 PP
+
+>> QNDS01000002.1_5  [15 - 308] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  225.8   0.6   1.1e-71   2.6e-67       1      98 []       1      98 []       1      98 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 225.8 bits;  conditional E-value: 1.1e-71
+  33966_QNDS01000002.1_5  1 lrqnlnsiiefavgsprtlvvggchsfgepqadaivgvcqhrgmktkkeeikeiptkalidatlleeiskankicafsgfdtpeskaic 89
+                            +rqnlnsiiefavgsprtlvvggchsfgepqadaivgvcqhrgmktkkeeikeiptkalidatlleeiskankicafsgfdtpeskaic
+        QNDS01000002.1_5  1 MRQNLNSIIEFAVGSPRTLVVGGCHSFGEPQADAIVGVCQHRGMKTKKEEIKEIPTKALIDATLLEEISKANKICAFSGFDTPESKAIC 89
+                            8**************************************************************************************** PP
+
+  33966_QNDS01000002.1_5 90 msgiiarks 98
+                            msgiiarks
+        QNDS01000002.1_5 90 MSGIIARKS 98
+                            ********8 PP
+
+>> Ga0164313_10000250_1133  [14253 - 14056] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.2   0.0   1.2e-06     0.028       3      19 ..      26      42 ..      24      57 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 17.2 bits;  conditional E-value: 1.2e-06
+   33966_QNDS01000002.1_5  3 qnlnsiiefavgsprtl 19
+                              nlnsiiefavgsp  +
+  Ga0164313_10000250_1133 26 ANLNSIIEFAVGSPFQI 42
+                             69************654 PP
+
+>> QNDS01000002.1_1133  [14253 - 14056] (REVERSE SENSE) Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_s
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.2   0.0   1.2e-06     0.028       3      19 ..      26      42 ..      24      57 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 17.2 bits;  conditional E-value: 1.2e-06
+  33966_QNDS01000002.1_5  3 qnlnsiiefavgsprtl 19
+                             nlnsiiefavgsp  +
+     QNDS01000002.1_1133 26 ANLNSIIEFAVGSPFQI 42
+                            69************654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (98 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       667  (0.00690026); expected 1933.3 (0.02)
+Passed bias filter:                      544  (0.0056278); expected 1933.3 (0.02)
+Passed Vit filter:                        33  (0.000341392); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 7245.88
+//
+[ok]

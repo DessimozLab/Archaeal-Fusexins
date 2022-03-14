@@ -1,0 +1,86 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/44419_LOEP01000012_329.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/44419_LOEP01000012_329.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/44419_LOEP01000012_329.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/44419_LOEP01000012_329.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       44419_LOEP01000012_329  [M=110]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+    2.8e-63  213.5   7.3    3.1e-63  213.4   7.3    1.0  1  ATYM01000002_871    [57455 - 57784] Haloplanus natans DSM 179
+    4.3e-47  161.4   2.8    4.9e-47  161.3   2.8    1.0  1  LOEP01000012_329    [20068 - 20352] Haloferax sp. Q22 scaffol
+     0.0015   21.3   0.1     0.0018   21.0   0.1    1.1  1  NZ_CP071597.1_2134  [51314 - 51012] (REVERSE SENSE) Halovivax
+
+
+Domain annotation for each sequence (and alignments):
+>> ATYM01000002_871  [57455 - 57784] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequenc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  213.4   7.3   9.5e-68   3.1e-63       1     110 []       1     110 []       1     110 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 213.4 bits;  conditional E-value: 9.5e-68
+  44419_LOEP01000012_329   1 maitqvnfppknkkkhvkydnkmselkdfrddkidqlkedvltlleendGevtsrklatdeldsddyswsenslkkalsklrdklee 87 
+                             maitqvnfppknkkkhvkydnkm+elkdfr+dkidql+edvltlleendGe+++rklatdeldsd+yswsenslk+alsklrd+lee
+        ATYM01000002_871   1 MAITQVNFPPKNKKKHVKYDNKMTELKDFRSDKIDQLREDVLTLLEENDGEIYNRKLATDELDSDTYSWSENSLKMALSKLRDQLEE 87 
+                             8************************************************************************************** PP
+
+  44419_LOEP01000012_329  88 eGkikvekedsdsvaekkkwvkt 110
+                             eGkikveked+dsva++k+wvkt
+        ATYM01000002_871  88 EGKIKVEKEDTDSVAQAKLWVKT 110
+                             **********************8 PP
+
+>> LOEP01000012_329  [20068 - 20352] Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Haloferax sp. Q22 |
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  161.3   2.8   1.5e-51   4.9e-47      23     110 .]       1      87 [.       1      87 [. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 161.3 bits;  conditional E-value: 1.5e-51
+  44419_LOEP01000012_329  23 mselkdfrddkidqlkedvltlleendGevtsrklatdeldsddyswsenslkkalsklrdkleeeGkikvekedsdsvaekkkwvk 109
+                             ms+++df+d+k++qlk+dv+++le++dGevts++la+++l+++dy+wse++l+kal++lr+k+++eGki++++eds ++aek+kw+k
+        LOEP01000012_329   1 MSKYEDFADHKMKQLKRDVDHELEHGDGEVTSYRLAYNVLNPEDYPWSEGTLEKALTALREKWKDEGKIRIIEEDS-GIAEKQKWEK 86 
+                             9***************************************************************************.********** PP
+
+  44419_LOEP01000012_329 110 t 110
+                             t
+        LOEP01000012_329  87 T 87 
+                             8 PP
+
+>> NZ_CP071597.1_2134  [51314 - 51012] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.0   0.1   5.5e-08    0.0018      28      98 ..      16      88 ..       4      97 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 21.0 bits;  conditional E-value: 5.5e-08
+  44419_LOEP01000012_329 28 dfrddkidqlkedvltlleendGevtsrklatdeldsddyswsenslkk.alsklrdkleeeGkikvek...eds 98
+                            d+r+  +  +  d+++ l ++dG      +  delds++y + + s++   l ++r+ l+e+G i v +   ed 
+      NZ_CP071597.1_2134 16 DYREANLLEIWSDIKEILRKQDGLCG-EEI-ADELDSKTYGYRDASIRNgILPRIREPLNEQGFISVTEvpgEDE 88
+                            89999999999************665.445.59**************873589************9987332443 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (110 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       535  (0.00553469); expected 1933.3 (0.02)
+Passed bias filter:                      344  (0.00355876); expected 1933.3 (0.02)
+Passed Vit filter:                        16  (0.000165524); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.04
+# Mc/sec: 10166.41
+//
+[ok]

@@ -1,0 +1,117 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/35068_QNDS01000002.1_1107.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/35068_QNDS01000002.1_1107.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/35068_QNDS01000002.1_1107.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/35068_QNDS01000002.1_1107.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       35068_QNDS01000002.1_1107  [M=43]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+      2e-30  107.0  13.4    2.1e-30  106.9  13.4    1.0  1  Ga0164313_10000250_1107  [16024 - 15896] (REVERSE SENSE)
+      2e-30  107.0  13.4    2.1e-30  106.9  13.4    1.0  1  QNDS01000002.1_1107      [16024 - 15896] (REVERSE SENSE) Cand
+      0.002   20.6   1.0     0.0028   20.1   1.0    1.2  1  Ga0164313_10000250_1024  [20232 - 20068] (REVERSE SENSE)
+      0.002   20.6   1.0     0.0028   20.1   1.0    1.2  1  QNDS01000002.1_1024      [20232 - 20068] (REVERSE SENSE) Cand
+  ------ inclusion threshold ------
+        2.4   10.7  12.5        2.5   10.7   0.3    3.3  3  Ga0208375_1000150_1058   [58929 - 59339]
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_1107  [16024 - 15896] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.9  13.4   1.1e-34   2.1e-30       1      43 []       1      43 []       1      43 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 106.9 bits;  conditional E-value: 1.1e-34
+  35068_QNDS01000002.1_1107  1 mvvvvDeRvvGGvvDvDvvDvvviGAAkHtPPeHPAGqsitLL 43
+                               mvvvvDeRvvGGvvDvDvvDvvviGAAkHtPPeHPAGqsitLL
+    Ga0164313_10000250_1107  1 MVVVVDERVVGGVVDVDVVDVVVIGAAKHTPPEHPAGQSITLL 43
+                               9*****************************************8 PP
+
+>> QNDS01000002.1_1107  [16024 - 15896] (REVERSE SENSE) Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_s
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.9  13.4   1.1e-34   2.1e-30       1      43 []       1      43 []       1      43 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 106.9 bits;  conditional E-value: 1.1e-34
+  35068_QNDS01000002.1_1107  1 mvvvvDeRvvGGvvDvDvvDvvviGAAkHtPPeHPAGqsitLL 43
+                               mvvvvDeRvvGGvvDvDvvDvvviGAAkHtPPeHPAGqsitLL
+        QNDS01000002.1_1107  1 MVVVVDERVVGGVVDVDVVDVVVIGAAKHTPPEHPAGQSITLL 43
+                               9*****************************************8 PP
+
+>> Ga0164313_10000250_1024  [20232 - 20068] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   1.0   1.5e-07    0.0028      13      38 ..      19      43 ..      11      48 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 1.5e-07
+  35068_QNDS01000002.1_1107 13 vvDvDvvDvvviGAAkHtPPeHPAGq 38
+                               vv v + Dvvv+   +H P  HP Gq
+    Ga0164313_10000250_1024 19 VV-VVMDDVVVVVSVRHSPLKHPSGQ 43
+                               44.33559*****************9 PP
+
+>> QNDS01000002.1_1024  [20232 - 20068] (REVERSE SENSE) Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_s
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   1.0   1.5e-07    0.0028      13      38 ..      19      43 ..      11      48 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 1.5e-07
+  35068_QNDS01000002.1_1107 13 vvDvDvvDvvviGAAkHtPPeHPAGq 38
+                               vv v + Dvvv+   +H P  HP Gq
+        QNDS01000002.1_1024 19 VV-VVMDDVVVVVSVRHSPLKHPSGQ 43
+                               44.33559*****************9 PP
+
+>> Ga0208375_1000150_1058  [58929 - 59339]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.3   0.00013       2.5      27      41 ..      64      78 ..      48      80 .. 0.90
+   2 ?   -1.6   0.1      0.86   1.7e+04      29      35 ..      84      91 ..      81      96 .. 0.69
+   3 ?    7.0   1.4    0.0018        36      27      34 ..     129     136 ..     122     137 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00013
+  35068_QNDS01000002.1_1107 27 AkHtPPeHPAGqsit 41
+                               A H P  HP Gqsi 
+     Ga0208375_1000150_1058 64 AVHCPSVHPLGQSIA 78
+                               78***********96 PP
+
+  == domain 2  score: -1.6 bits;  conditional E-value: 0.86
+  35068_QNDS01000002.1_1107 29 HtPPeH.P 35
+                               HtP  H P
+     Ga0208375_1000150_1058 84 HTPLSHtP 91
+                               78877734 PP
+
+  == domain 3  score: 7.0 bits;  conditional E-value: 0.0018
+  35068_QNDS01000002.1_1107  27 AkHtPPeH 34 
+                                A HtPPeH
+     Ga0208375_1000150_1058 129 ADHTPPEH 136
+                                89****** PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (43 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       884  (0.00914517); expected 1933.3 (0.02)
+Passed bias filter:                      608  (0.00628989); expected 1933.3 (0.02)
+Passed Vit filter:                        41  (0.000424154); expected 96.7 (0.001)
+Passed Fwd filter:                         5  (5.17261e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.04
+# Mc/sec: 3974.14
+//
+[ok]

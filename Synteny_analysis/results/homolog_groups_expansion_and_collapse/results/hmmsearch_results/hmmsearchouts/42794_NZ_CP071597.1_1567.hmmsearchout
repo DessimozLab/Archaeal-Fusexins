@@ -1,0 +1,84 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/42794_NZ_CP071597.1_1567.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/42794_NZ_CP071597.1_1567.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/42794_NZ_CP071597.1_1567.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/42794_NZ_CP071597.1_1567.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       42794_NZ_CP071597.1_1567  [M=57]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+    1.3e-36  127.0   6.1    1.4e-36  126.9   6.1    1.0  1  NZ_CP071597.1_1567  [87814 - 87644] (REVERSE SENSE) Halovivax
+    1.9e-36  126.5   7.1      2e-36  126.4   7.1    1.0  1  CP048739_156        [9332 - 9502] [Halogeometricum borinquens
+  ------ inclusion threshold ------
+        0.5   13.1   1.5         24    7.6   0.0    2.1  2  NZ_CP071597.1_2023  [58244 - 58050] (REVERSE SENSE) Halovivax
+
+
+Domain annotation for each sequence (and alignments):
+>> NZ_CP071597.1_1567  [87814 - 87644] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.9   6.1   4.3e-41   1.4e-36       1      57 []       1      57 []       1      57 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 126.9 bits;  conditional E-value: 4.3e-41
+  42794_NZ_CP071597.1_1567  1 mmYeCPdeCGstrFvqvvkqakrvtvdeaGevirvdtvGePevlelvCkdCGAevev 57
+                              mmYeCP+eCG++rFvq+++qakrvtv+e+Gevir+++vGeP+++e++Ck+CGAeve+
+        NZ_CP071597.1_1567  1 MMYECPNECGGQRFVQAIVQAKRVTVNERGEVIRQGGVGEPSISEPRCKQCGAEVEA 57
+                              9*******************************************************7 PP
+
+>> CP048739_156  [9332 - 9502] [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.4   7.1   6.3e-41     2e-36       1      57 []       1      57 []       1      57 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 126.4 bits;  conditional E-value: 6.3e-41
+  42794_NZ_CP071597.1_1567  1 mmYeCPdeCGstrFvqvvkqakrvtvdeaGevirvdtvGePevlelvCkdCGAevev 57
+                              mmYeCPd+CGst+F+qvvkq+++vt+d+aG+v++vdt+G+PevlelvC+dCGAevev
+              CP048739_156  1 MMYECPDGCGSTSFTQVVKQQETVTTDGAGSVAHVDTNGNPEVLELVCCDCGAEVEV 57
+                              9*******************************************************8 PP
+
+>> NZ_CP071597.1_2023  [58244 - 58050] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.6   0.0   0.00076        24      29      54 ..       7      32 ..       3      35 .. 0.87
+   2 ?    4.9   0.5    0.0052   1.7e+02      46      52 ..      51      57 ..      33      60 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 7.6 bits;  conditional E-value: 0.00076
+  42794_NZ_CP071597.1_1567 29 aGevirvdtvGePevlelvCkdCGAe 54
+                              + +v +++   e  v    C  CGA 
+        NZ_CP071597.1_2023  7 RMSVLQQGWPAEMAVAQKLCDRCGAR 32
+                              5689999999999***********97 PP
+
+  == domain 2  score: 4.9 bits;  conditional E-value: 0.0052
+  42794_NZ_CP071597.1_1567 46 lvCkdCG 52
+                               +Ck+CG
+        NZ_CP071597.1_2023 51 YRCKQCG 57
+                              69****9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (57 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1146  (0.0118556); expected 1933.3 (0.02)
+Passed bias filter:                      717  (0.00741752); expected 1933.3 (0.02)
+Passed Vit filter:                        48  (0.000496571); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 4214.44
+//
+[ok]

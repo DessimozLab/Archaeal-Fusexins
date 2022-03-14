@@ -1,0 +1,182 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/65181_Ga0075122_10000557_1016.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/65181_Ga0075122_10000557_1016.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/65181_Ga0075122_10000557_1016.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/65181_Ga0075122_10000557_1016.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       65181_Ga0075122_10000557_1016  [M=558]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+          0 1122.1  20.2          0 1121.9  20.2    1.0  1  Ga0075122_10000557_1016  [8910 - 7237] (REVERSE SENSE)
+   7.5e-303 1007.5  26.5   8.4e-303 1007.4  26.5    1.0  1  Ga0222667_1000160_552    [22942 - 24588]
+     0.0013   19.7   6.5     0.0054   17.7   2.9    2.5  2  Ga0164313_10000250_554   [35551 - 38232]
+     0.0013   19.7   6.5     0.0054   17.7   2.9    2.5  2  QNDS01000002.1_554       [35551 - 38232] Candidatus Fermentib
+  ------ inclusion threshold ------
+        1.7    9.5   1.2        1.7    9.5   1.2    1.0  1  LKMP01000007.1_1198      [23758 - 23477] (REVERSE SENSE) Nano
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0075122_10000557_1016  [8910 - 7237] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1121.9  20.2         0         0       1     558 []       1     558 []       1     558 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1121.9 bits;  conditional E-value: 0
+  65181_Ga0075122_10000557_1016   1 myqrylkilkrrktgkikrilstillallllnfvsasveadisssialkcdesysrefesGeeisltvgvisdddtigyi 80 
+                                    myqrylk+lkrrkt+kik+ilstill+l+l+nfvsa++eadi++sialkc+e+ysr+f++Ge+i+ltvg+++++dtigyi
+        Ga0075122_10000557_1016   1 MYQRYLKRLKRRKTMKIKTILSTILLTLFLINFVSANPEADIPTSIALKCSETYSRSFNFGEQINLTVGIMTSTDTIGYI 80 
+                                    9******************************************************************************* PP
+
+  65181_Ga0075122_10000557_1016  81 maityisatqvlylslfqesnyvclaGdkkfsfkindevkevgvnvsedlfeldvitlreGesldvGGkiefkvltsGed 160
+                                    m++t+++a+qvlyls+f+esnyvc+aG++kf+fk+n+e++e++vnv+edl+eldvitlreGe+l+vGG+++fkv+tsGe+
+        Ga0075122_10000557_1016  81 MGATPTTANQVLYLSFFPESNYVCHAGKSKFTFKANNENYEIWVNVTEDLWELDVITLREGETLNVGGVADFKVSTSGET 160
+                                    ******************************************************************************** PP
+
+  65181_Ga0075122_10000557_1016 161 tlrytlegcdediedilevGesidvicdGevirfeledsfsdldavkikvfssesGyaltkdtdlnnygdaecvlGldtl 240
+                                    ++++tlegcdedied+levG++id++cdGevirf+ledsf+dl+avkikvfssesG++ltkd+++nnygd+ecvlGldt+
+        Ga0075122_10000557_1016 161 NAMFTLEGCDEDIEDFLEVGNFIDATCDGEVIRFWLEDSFPDLGAVKIKVFSSESGFTLTKDGQTNNYGDSECVLGLDTM 240
+                                    ******************************************************************************** PP
+
+  65181_Ga0075122_10000557_1016 241 GakvkrGnvfaiktinvvenkrvdnvlvtvldqeGeesfieGvssniGlfskrlaeeyeqdlivelekeGcepstqvilf 320
+                                    Ga+vkrGnvfaiktinvvenkrv+nvlvt+ldqeGe+sfieG+ssn+Glfskrl+eey+qdlivelekeGcepstq+ilf
+        Ga0075122_10000557_1016 241 GALVKRGNVFAIKTINVVENKRVPNVLVTILDQEGELSFIEGTSSNTGLFSKRLHEEYGQDLIVELEKEGCEPSTQIILF 320
+                                    ******************************************************************************** PP
+
+  65181_Ga0075122_10000557_1016 321 essysdyledkeseelsktlkldqleelyilGseivltvtnlkneaiekakvkltkpddvsvevitselGlikftpeeaG 400
+                                    ++sy+dyl+dkesee+++tl+++qlee+y++Gs+ivltvtnl+ne+iekakvk+t+p++vsvev+t++lG+++ftp+e+G
+        Ga0075122_10000557_1016 321 QQSYNDYLQDKESEERQTTLIINQLEENYNFGSDIVLTVTNLVNESIEKAKVKITNPSGVSVEVETNSLGQFTFTPTENG 400
+                                    ******************************************************************************** PP
+
+  65181_Ga0075122_10000557_1016 401 lhkiqvskddyitsellevniksaeyiiklvdGeeevfdrfkkndkivfeliddndsivtldveaeynddkvefldGise 480
+                                    +hkiqvsk+dyitselle+niksaey+ik+++Geeevfd+fk+nd+i+fe+iddnd+i++l++e+eynd++++fldGise
+        Ga0075122_10000557_1016 401 IHKIQVSKYDYITSELLETNIKSAEYTIKMIRGEEEVFDGFKINDIIHFEMIDDNDTIIPLTFEGEYNDNPISFLDGISE 480
+                                    ******************************************************************************** PP
+
+  65181_Ga0075122_10000557_1016 481 evdfvsdtelvipeinGyeeedykvkkkesnlikwilfgggsllliliiivvvskakkansvkkkenkmevklprtea 558
+                                    ev+f+++t+lvip+i+G+ee+d+kvkkk+snl+kwi+fgggsllliliii++v+k++k++sv+k+enkm++klpr+ea
+        Ga0075122_10000557_1016 481 EVKFIGMTDLVIPAIGGFEENDFKVKKKDSNLMKWIYFGGGSLLLILIIIFIVNKSGKGGSVPKTENKMSFKLPRGEA 558
+                                    ***************************************************************************986 PP
+
+>> Ga0222667_1000160_552  [22942 - 24588]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1007.4  26.5  4.4e-307  8.4e-303       6     558 .]       2     549 .]       1     549 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1007.4 bits;  conditional E-value: 4.4e-307
+  65181_Ga0075122_10000557_1016   6 lkilkrrktgki.krilsti..llallllnfvsa.sveadisssialkcdesysref....esGeeisltvgvisdddti 77 
+                                    +kil++r+tgk+ kr+l+ti  ++all+l+f+sa sv+++isssi+l+cdesy++ef    esGeeislt++visdd+  
+          Ga0222667_1000160_552   2 IKILTSRRTGKMnKRGLTTIicMMALLSLGFSSAySVSPTISSSISLNCDESYNQEFiitpESGEEISLTPMVISDDN-- 79 
+                                    9*******************9*********************************************************.. PP
+
+  65181_Ga0075122_10000557_1016  78 gyimaityisatqvlylslfqesnyvclaGdkkfsfkindevkevgvnvsedlfeldvitlreGesldvGGkiefkvlts 157
+                                     ++maityis+t+++ylslfq+s  +cl+Gdk+fsfkind+vk+vgvnvs+dlfel++itl+eG+s+dvGGkief+vlts
+          Ga0222667_1000160_552  80 -MQMAITYISNTNHFYLSLFQTS--TCLPGDKQFSFKINDDVKNVGVNVSADLFELGSITLSEGRSMDVGGKIEFSVLTS 156
+                                    .**********************..******************************************************* PP
+
+  65181_Ga0075122_10000557_1016 158 GedtlrytlegcdediedilevGesidvicdGevirfeledsfsdldavkikvfssesGyaltk.dtdlnnygdaecvlG 236
+                                    G+dtlry++e cd+++e+il+vGes+dvic+Ge++rfeledsfsdlda++ikvfssesGya+tk dtdlnn   aec+lG
+          Ga0222667_1000160_552 157 GDDTLRYMIE-CDTTEEGILDVGESYDVICSGESFRFELEDSFSDLDASIIKVFSSESGYAITKtDTDLNN---AECILG 232
+                                    **********.************************************************************...****** PP
+
+  65181_Ga0075122_10000557_1016 237 ldtlGakvkrGnvfaiktinvvenkrvdnvlvtvldqeGeesfieGvssniGlfskrlaeeyeqdlivelekeGcepstq 316
+                                    +dtlGakvkrGn+faiktin+++n++vd+v+vtvldq+G+es+i+GvssniG+fs+rlaeeyeqd+iv+lekeGcep+t+
+          Ga0222667_1000160_552 233 IDTLGAKVKRGNIFAIKTINSNNNHYVDGVSVTVLDQTGDESPISGVSSNIGFFSERLAEEYEQDIIVQLEKEGCEPYTN 312
+                                    ******************************************************************************** PP
+
+  65181_Ga0075122_10000557_1016 317 vilfessysdyledkeseelsktlkldqleelyilGseivltvtnlkneaiekakvkltkpddvsvevitselGlikftp 396
+                                    vilfessysdy+edk++eelsktlkld +++l+i+G+e+++tvtnlk++aie+a+vkltkpdd+++e+itse+Glikftp
+          Ga0222667_1000160_552 313 VILFESSYSDYIEDKTQEELSKTLKLD-MDSLFIMGQETTATVTNLKGAAIETAVVKLTKPDDTTFEIITSESGLIKFTP 391
+                                    ***************************.**************************************************** PP
+
+  65181_Ga0075122_10000557_1016 397 eeaGlhkiqvskddyitsellevniksaey.iiklvdGeeevfdrfkkndkivfeliddndsivtldveaeynddkvefl 475
+                                    e+aGl+kiqv+kd+y+ts+l+ev+++s+ey ii+lvdG+e+  +rf+k+dkivfel+d+ndsivtldveaey++dkvef+
+          Ga0222667_1000160_552 392 EVAGLWKIQVTKDNYETSDLYEVQSISGEYdIIALVDGDET--SRFEKGDKIVFELRDSNDSIVTLDVEAEYGNDKVEFV 469
+                                    *****************************************..************************************* PP
+
+  65181_Ga0075122_10000557_1016 476 dGiseevdfvsdtelvipeinGyeeedykvkkke..snlikwilfgggsllliliiivvvskakkansvkkkenkmevkl 553
+                                    +Giseevdfvsd+el+ipeinGy+eedyk++k+e  sn+i+wil    ++++ilii+vvvs+ak+an++kkk+nkmev+l
+          Ga0222667_1000160_552 470 QGISEEVDFVSDYELTIPEINGYDEEDYKTRKVEgsSNFIYWIL----GIAVILIIFVVVSRAKGANPGKKKVNKMEVQL 545
+                                    ***********************************9********....9******************************* PP
+
+  65181_Ga0075122_10000557_1016 554 prtea 558
+                                     +t++
+          Ga0222667_1000160_552 546 -GTQN 549
+                                    .8875 PP
+
+>> Ga0164313_10000250_554  [35551 - 38232]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   2.9   2.8e-07    0.0054     335     414 ..     598     676 ..     590     694 .. 0.82
+   2 !    2.8   0.1    0.0092   1.8e+02     384     410 ..     794     820 ..     750     848 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 2.8e-07
+  65181_Ga0075122_10000557_1016 335 elsktlkldqleelyilGseivltvtnlkneaiekakvkltkpddvsvevitselGlikftpeeaGlhkiqvskddyits 414
+                                    e +  l + + + +y l + i l +t   n+ ++ a v +  pdd   e  t++ G+i+f  +e G +ki   k+dy  +
+         Ga0164313_10000250_554 598 ETEDKLTITKSKPKYYLDDTIELIIT-CDNKGVDDATVTVEFPDDDEKEYTTDSDGKIEFDANEYGTYKITAEKEDYDKT 676
+                                    56667888888889998877777666.6899**********************************************754 PP
+
+  == domain 2  score: 2.8 bits;  conditional E-value: 0.0092
+  65181_Ga0075122_10000557_1016 384 vitselGlikftpeeaGlhkiqvskdd 410
+                                    +++     i+ftp+e Gl+ i v  + 
+         Ga0164313_10000250_554 794 IESGTRAEITFTPTEPGLYSIIVDGKT 820
+                                    34456678*************995443 PP
+
+>> QNDS01000002.1_554  [35551 - 38232] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   2.9   2.8e-07    0.0054     335     414 ..     598     676 ..     590     694 .. 0.82
+   2 !    2.8   0.1    0.0092   1.8e+02     384     410 ..     794     820 ..     750     848 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 2.8e-07
+  65181_Ga0075122_10000557_1016 335 elsktlkldqleelyilGseivltvtnlkneaiekakvkltkpddvsvevitselGlikftpeeaGlhkiqvskddyits 414
+                                    e +  l + + + +y l + i l +t   n+ ++ a v +  pdd   e  t++ G+i+f  +e G +ki   k+dy  +
+             QNDS01000002.1_554 598 ETEDKLTITKSKPKYYLDDTIELIIT-CDNKGVDDATVTVEFPDDDEKEYTTDSDGKIEFDANEYGTYKITAEKEDYDKT 676
+                                    56667888888889998877777666.6899**********************************************754 PP
+
+  == domain 2  score: 2.8 bits;  conditional E-value: 0.0092
+  65181_Ga0075122_10000557_1016 384 vitselGlikftpeeaGlhkiqvskdd 410
+                                    +++     i+ftp+e Gl+ i v  + 
+             QNDS01000002.1_554 794 IESGTRAEITFTPTEPGLYSIIVDGKT 820
+                                    34456678*************995443 PP
+
+>> LKMP01000007.1_1198  [23758 - 23477] (REVERSE SENSE) Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole geno
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.5   1.2   8.7e-05       1.7      22      74 ..      15      68 ..       2      87 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 8.7e-05
+  65181_Ga0075122_10000557_1016 22 stillallllnfvsasveadisssialkcdesysref.esGeeisltvgvisdd 74
+                                    t l++ +  +f+s s ++ isss +l c+  +s++f es   is++   is++
+            LKMP01000007.1_1198 15 ITSLISSICEAFTSLSLKSPISSSWSLICSLFFSESFlESFAPISVSRPSISSS 68
+                                   45577777889**************************98888999876555543 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (558 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       606  (0.0062692); expected 1933.3 (0.02)
+Passed bias filter:                      383  (0.00396222); expected 1933.3 (0.02)
+Passed Vit filter:                        13  (0.000134488); expected 96.7 (0.001)
+Passed Fwd filter:                         6  (6.20713e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.21u 0.00s 00:00:00.21 Elapsed: 00:00:00.06
+# Mc/sec: 34380.94
+//
+[ok]

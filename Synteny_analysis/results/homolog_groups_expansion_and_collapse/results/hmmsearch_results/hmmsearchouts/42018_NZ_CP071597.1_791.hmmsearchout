@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/42018_NZ_CP071597.1_791.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/42018_NZ_CP071597.1_791.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/42018_NZ_CP071597.1_791.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/42018_NZ_CP071597.1_791.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       42018_NZ_CP071597.1_791  [M=139]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+      6e-78  261.9   3.4    6.6e-78  261.7   3.4    1.0  1  CP058579_1610      [118384 - 118800] [Halobonum sp. NJ-3-1 | 
+    9.5e-78  261.2   3.5    1.1e-77  261.0   3.5    1.0  1  NZ_CP071597.1_791  [51550 - 52026] Halovivax sp. KZCA124 chro
+
+
+Domain annotation for each sequence (and alignments):
+>> CP058579_1610  [118384 - 118800] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.7   3.4   1.4e-82   6.6e-78       1     139 []       1     139 []       1     139 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 261.7 bits;  conditional E-value: 1.4e-82
+  42018_NZ_CP071597.1_791   1 iavavvvetgkamrvevtitadetelsaivnliaqleeeaeldvsadeedsqsdldlteeeryviaalqespesalrvvhrvatel 86 
+                              ++++vvv+tg+amrvevti+adetel++i++li+++e+eael+v++dee+++sdldlt+e+ryviaalqespesalrvvhrvatel
+            CP058579_1610   1 MTAGVVVGTGDAMRVEVTIVADETELPQIRSLIDGIEDEAELTVTDDEENDPSDLDLTNEQRYVIAALQESPESALRVVHRVATEL 86 
+                              789*********************************************************************************** PP
+
+  42018_NZ_CP071597.1_791  87 dGtpfdsydeedGwnderqevrdllwslksdglvdndGqlwyptdeapsdvle 139
+                              +Gtpfd+y+eedGw+derq++rd+lws+ksdglvdndGqlwy+tdeap++vle
+            CP058579_1610  87 EGTPFDDYQEEDGWTDERQHIRDMLWSMKSDGLVDNDGQLWYATDEAPPYVLE 139
+                              ***************************************************96 PP
+
+>> NZ_CP071597.1_791  [51550 - 52026] Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.0   3.5   2.3e-82   1.1e-77       1     139 []      22     159 .]      22     159 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 261.0 bits;  conditional E-value: 2.3e-82
+  42018_NZ_CP071597.1_791   1 iavavvvetgkamrvevtitadetelsaivnliaqleeeaeldvsadeedsqsdldlteeeryviaalqespesalrvvhrvatel 86 
+                              iava+vvetgkam+vev+itadetelsa++nliaqleeeaeldvs+++e+s +dldlteeery+iaal+e+p+salrvvhrvat+l
+        NZ_CP071597.1_791  22 IAVATVVETGKAMQVEVSITADETELSAVTNLIAQLEEEAELDVSTQSERS-NDLDLTEEERYIIAALHEQPRSALRVVHRVATNL 106
+                              699************************************************.********************************** PP
+
+  42018_NZ_CP071597.1_791  87 dGtpfdsydeedGwnderqevrdllwslksdglvdndGqlwyptdeapsdvle 139
+                              dG+pfds+de++Gwn+erq+vrdllws+k+dglvdndGqlw+ptd+aps+vl+
+        NZ_CP071597.1_791 107 DGSPFDSFDEDNGWNEERQNVRDLLWSMKNDGLVDNDGQLWFPTDQAPSHVLN 159
+                              ***************************************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (139 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       338  (0.00349668); expected 1933.3 (0.02)
+Passed bias filter:                      269  (0.00278286); expected 1933.3 (0.02)
+Passed Vit filter:                        10  (0.000103452); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.06
+# Mc/sec: 8564.43
+//
+[ok]

@@ -1,0 +1,127 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34116_QNDS01000002.1_155.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34116_QNDS01000002.1_155.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34116_QNDS01000002.1_155.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34116_QNDS01000002.1_155.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       34116_QNDS01000002.1_155  [M=432]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+          0 1043.8   3.6          0 1043.6   3.6    1.0  1  Ga0164313_10000250_155  [7996 - 9291]
+          0 1043.8   3.6          0 1043.6   3.6    1.0  1  QNDS01000002.1_155      [7996 - 9291] Candidatus Fermentibact
+  ------ inclusion threshold ------
+       0.71   11.0   0.0       0.94   10.6   0.0    1.1  1  NZ_CP071597.1_1870      [68511 - 67900] (REVERSE SENSE) Halov
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_155  [7996 - 9291]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1043.6   3.6         0         0       1     432 []       1     432 []       1     432 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1043.6 bits;  conditional E-value: 0
+  34116_QNDS01000002.1_155   1 lnakgdnftmphsnsrlkdvidlitdpvsgllgsepmyvrelarraadmreydsptigryfscskqnrgdtlirrapvgwtecva 85 
+                               +nakgdnftmphsnsrlkdvidlitdpvsgllgsepmyvrelarraadmreydsptigryfscskqnrgdtlirrapvgwtecva
+    Ga0164313_10000250_155   1 MNAKGDNFTMPHSNSRLKDVIDLITDPVSGLLGSEPMYVRELARRAADMREYDSPTIGRYFSCSKQNRGDTLIRRAPVGWTECVA 85 
+                               8************************************************************************************ PP
+
+  34116_QNDS01000002.1_155  86 alktlnnstrtlrhaprelvnllsgiyvgrsfvrgsivpvaifirydqasfpdtgginyvpnhiylltgrfeddvryrralqrki 170
+                               alktlnnstrtlrhaprelvnllsgiyvgrsfvrgsivpvaifirydqasfpdtgginyvpnhiylltgrfeddvryrralqrki
+    Ga0164313_10000250_155  86 ALKTLNNSTRTLRHAPRELVNLLSGIYVGRSFVRGSIVPVAIFIRYDQASFPDTGGINYVPNHIYLLTGRFEDDVRYRRALQRKI 170
+                               ************************************************************************************* PP
+
+  34116_QNDS01000002.1_155 171 taigrassagfrnarnweimaadvvsrkafpqvpsvlshfnspepdilvdrkmlaieittrstnpldedylavklanippfydmf 255
+                               taigrassagfrnarnweimaadvvsrkafpqvpsvlshfnspepdilvdrkmlaieittrstnpldedylavklanippfydmf
+    Ga0164313_10000250_155 171 TAIGRASSAGFRNARNWEIMAADVVSRKAFPQVPSVLSHFNSPEPDILVDRKMLAIEITTRSTNPLDEDYLAVKLANIPPFYDMF 255
+                               ************************************************************************************* PP
+
+  34116_QNDS01000002.1_155 256 lltttrltetaekfiprimlggylvegavhvryfpskavvesqrqdvgiisgsvvggqlhgtavitpssnrdarairslhrsvrq 340
+                               lltttrltetaekfiprimlggylvegavhvryfpskavvesqrqdvgiisgsvvggqlhgtavitpssnrdarairslhrsvrq
+    Ga0164313_10000250_155 256 LLTTTRLTETAEKFIPRIMLGGYLVEGAVHVRYFPSKAVVESQRQDVGIISGSVVGGQLHGTAVITPSSNRDARAIRSLHRSVRQ 340
+                               ************************************************************************************* PP
+
+  34116_QNDS01000002.1_155 341 ytraemegwlyrairdmfyrlstniyviyrrlyylkehskprkvlyrqaeaflyhtlemtpdrvekqmmrlknngwiqykdkrha 425
+                               ytraemegwlyrairdmfyrlstniyviyrrlyylkehskprkvlyrqaeaflyhtlemtpdrvekqmmrlknngwiqykdkrha
+    Ga0164313_10000250_155 341 YTRAEMEGWLYRAIRDMFYRLSTNIYVIYRRLYYLKEHSKPRKVLYRQAEAFLYHTLEMTPDRVEKQMMRLKNNGWIQYKDKRHA 425
+                               ************************************************************************************* PP
+
+  34116_QNDS01000002.1_155 426 iefmrql 432
+                               iefmrql
+    Ga0164313_10000250_155 426 IEFMRQL 432
+                               ******8 PP
+
+>> QNDS01000002.1_155  [7996 - 9291] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, whol
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1043.6   3.6         0         0       1     432 []       1     432 []       1     432 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1043.6 bits;  conditional E-value: 0
+  34116_QNDS01000002.1_155   1 lnakgdnftmphsnsrlkdvidlitdpvsgllgsepmyvrelarraadmreydsptigryfscskqnrgdtlirrapvgwtecva 85 
+                               +nakgdnftmphsnsrlkdvidlitdpvsgllgsepmyvrelarraadmreydsptigryfscskqnrgdtlirrapvgwtecva
+        QNDS01000002.1_155   1 MNAKGDNFTMPHSNSRLKDVIDLITDPVSGLLGSEPMYVRELARRAADMREYDSPTIGRYFSCSKQNRGDTLIRRAPVGWTECVA 85 
+                               8************************************************************************************ PP
+
+  34116_QNDS01000002.1_155  86 alktlnnstrtlrhaprelvnllsgiyvgrsfvrgsivpvaifirydqasfpdtgginyvpnhiylltgrfeddvryrralqrki 170
+                               alktlnnstrtlrhaprelvnllsgiyvgrsfvrgsivpvaifirydqasfpdtgginyvpnhiylltgrfeddvryrralqrki
+        QNDS01000002.1_155  86 ALKTLNNSTRTLRHAPRELVNLLSGIYVGRSFVRGSIVPVAIFIRYDQASFPDTGGINYVPNHIYLLTGRFEDDVRYRRALQRKI 170
+                               ************************************************************************************* PP
+
+  34116_QNDS01000002.1_155 171 taigrassagfrnarnweimaadvvsrkafpqvpsvlshfnspepdilvdrkmlaieittrstnpldedylavklanippfydmf 255
+                               taigrassagfrnarnweimaadvvsrkafpqvpsvlshfnspepdilvdrkmlaieittrstnpldedylavklanippfydmf
+        QNDS01000002.1_155 171 TAIGRASSAGFRNARNWEIMAADVVSRKAFPQVPSVLSHFNSPEPDILVDRKMLAIEITTRSTNPLDEDYLAVKLANIPPFYDMF 255
+                               ************************************************************************************* PP
+
+  34116_QNDS01000002.1_155 256 lltttrltetaekfiprimlggylvegavhvryfpskavvesqrqdvgiisgsvvggqlhgtavitpssnrdarairslhrsvrq 340
+                               lltttrltetaekfiprimlggylvegavhvryfpskavvesqrqdvgiisgsvvggqlhgtavitpssnrdarairslhrsvrq
+        QNDS01000002.1_155 256 LLTTTRLTETAEKFIPRIMLGGYLVEGAVHVRYFPSKAVVESQRQDVGIISGSVVGGQLHGTAVITPSSNRDARAIRSLHRSVRQ 340
+                               ************************************************************************************* PP
+
+  34116_QNDS01000002.1_155 341 ytraemegwlyrairdmfyrlstniyviyrrlyylkehskprkvlyrqaeaflyhtlemtpdrvekqmmrlknngwiqykdkrha 425
+                               ytraemegwlyrairdmfyrlstniyviyrrlyylkehskprkvlyrqaeaflyhtlemtpdrvekqmmrlknngwiqykdkrha
+        QNDS01000002.1_155 341 YTRAEMEGWLYRAIRDMFYRLSTNIYVIYRRLYYLKEHSKPRKVLYRQAEAFLYHTLEMTPDRVEKQMMRLKNNGWIQYKDKRHA 425
+                               ************************************************************************************* PP
+
+  34116_QNDS01000002.1_155 426 iefmrql 432
+                               iefmrql
+        QNDS01000002.1_155 426 IEFMRQL 432
+                               ******8 PP
+
+>> NZ_CP071597.1_1870  [68511 - 67900] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0   2.9e-05      0.94      34      75 ..     137     178 ..     128     200 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 2.9e-05
+  34116_QNDS01000002.1_155  34 sepmyvrelarraadmreydsptigryfscskqnrgdtlirr 75 
+                                ep+   el  raad+re   p + + +  ++q++gdtl   
+        NZ_CP071597.1_1870 137 HEPLNKIELLFRAADIRERLKPVLKQIVKDAQQDHGDTLWAD 178
+                               6899999*******************************9754 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (432 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       641  (0.00663129); expected 1933.3 (0.02)
+Passed bias filter:                      518  (0.00535882); expected 1933.3 (0.02)
+Passed Vit filter:                        31  (0.000320702); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.18u 0.00s 00:00:00.18 Elapsed: 00:00:00.06
+# Mc/sec: 26617.50
+//
+[ok]

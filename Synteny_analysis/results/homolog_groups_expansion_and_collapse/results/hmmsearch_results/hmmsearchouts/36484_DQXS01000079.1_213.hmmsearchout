@@ -1,0 +1,368 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/36484_DQXS01000079.1_213.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/36484_DQXS01000079.1_213.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/36484_DQXS01000079.1_213.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/36484_DQXS01000079.1_213.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       36484_DQXS01000079.1_213  [M=1370]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+          0 3294.0 101.2          0 3293.9 101.2    1.0  1  DQXS01000079.1_213      [8977 - 13086] TPA_asm: Candidatus Al
+          0 3294.0 101.2          0 3293.9 101.2    1.0  1  Ga0116200_10000074_213  [8977 - 13086]
+    3.2e-20   73.7  28.2    3.2e-20   73.7  28.2    1.7  2  Ga0164313_10000250_494  [32166 - 33320]
+    3.2e-20   73.7  28.2    3.2e-20   73.7  28.2    1.7  2  QNDS01000002.1_494      [32166 - 33320] Candidatus Fermentiba
+    2.9e-11   44.0  34.4      5e-07   29.9   7.4    4.3  5  Ga0208375_1000150_2284  [99452 - 97155] (REVERSE SENSE)
+  ------ inclusion threshold ------
+       0.25   11.1   0.0       0.27   11.0   0.0    1.0  1  CP048739_400            [27576 - 27764] [Halogeometricum bori
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_213  [8977 - 13086] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, w
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 3293.9 101.2         0         0       1    1370 []       1    1370 []       1    1370 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 3293.9 bits;  conditional E-value: 0
+  36484_DQXS01000079.1_213    1 mvscrkmktniiillalicftlpasawwdssyhyrrlincsniddgipivingsggfdlgcgkqivwtycsgtgtalyynncs 83  
+                                mvscrkmktniiillalicftlpasawwdssyhyrrlincsniddgipivingsggfdlgcgkqivwtycsgtgtalyynncs
+        DQXS01000079.1_213    1 MVSCRKMKTNIIILLALICFTLPASAWWDSSYHYRRLINCSNIDDGIPIVINGSGGFDLGCGKQIVWTYCSGTGTALYYNNCS 83  
+                                9********************************************************************************** PP
+
+  36484_DQXS01000079.1_213   84 dyvvandttqlpmevemgngtsynptqlwsdtvgvyhfgknaqledssplnndltnygatwmecgiggcfdfdgtddylqsgg 166 
+                                dyvvandttqlpmevemgngtsynptqlwsdtvgvyhfgknaqledssplnndltnygatwmecgiggcfdfdgtddylqsgg
+        DQXS01000079.1_213   84 DYVVANDTTQLPMEVEMGNGTSYNPTQLWSDTVGVYHFGKNAQLEDSSPLNNDLTNYGATWMECGIGGCFDFDGTDDYLQSGG 166 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  167 nigivgntprtviwlvnhdtlpdgtagsqqaytcwgvsssgqafcsmvykdteyyfvgygsaydwdtptssvsstwlmqvlty 249 
+                                nigivgntprtviwlvnhdtlpdgtagsqqaytcwgvsssgqafcsmvykdteyyfvgygsaydwdtptssvsstwlmqvlty
+        DQXS01000079.1_213  167 NIGIVGNTPRTVIWLVNHDTLPDGTAGSQQAYTCWGVSSSGQAFCSMVYKDTEYYFVGYGSAYDWDTPTSSVSSTWLMQVLTY 249 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  250 ngttlewfvnatsigtadrdlntgdsqltigrrydasewfidgkfsevriyndtvlsdseisqmyenyigtagygnlgaeeis 332 
+                                ngttlewfvnatsigtadrdlntgdsqltigrrydasewfidgkfsevriyndtvlsdseisqmyenyigtagygnlgaeeis
+        DQXS01000079.1_213  250 NGTTLEWFVNATSIGTADRDLNTGDSQLTIGRRYDASEWFIDGKFSEVRIYNDTVLSDSEISQMYENYIGTAGYGNLGAEEIS 332 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  333 gllivssptegsiyntqtitisgtitknanityefdnngtiymacincssfsntstlsdgshnvtiiatnynnasdtdsitin 415 
+                                gllivssptegsiyntqtitisgtitknanityefdnngtiymacincssfsntstlsdgshnvtiiatnynnasdtdsitin
+        DQXS01000079.1_213  333 GLLIVSSPTEGSIYNTQTITISGTITKNANITYEFDNNGTIYMACINCSSFSNTSTLSDGSHNVTIIATNYNNASDTDSITIN 415 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  416 ftidtilptiqilslqnnaeytvnniltldatanedisewrydlngngnvtfsppmtitslwgqnnltvwakdlagnwnysmi 498 
+                                ftidtilptiqilslqnnaeytvnniltldatanedisewrydlngngnvtfsppmtitslwgqnnltvwakdlagnwnysmi
+        DQXS01000079.1_213  416 FTIDTILPTIQILSLQNNAEYTVNNILTLDATANEDISEWRYDLNGNGNVTFSPPMTITSLWGQNNLTVWAKDLAGNWNYSMI 498 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  499 tftysgdvwrdefnttdaiseknnvyllnseailnktyrgfiehivisdstteegglretrevldinndtfpdiifnnitscp 581 
+                                tftysgdvwrdefnttdaiseknnvyllnseailnktyrgfiehivisdstteegglretrevldinndtfpdiifnnitscp
+        DQXS01000079.1_213  499 TFTYSGDVWRDEFNTTDAISEKNNVYLLNSEAILNKTYRGFIEHIVISDSTTEEGGLRETREVLDINNDTFPDIIFNNITSCP 581 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  582 cplhwaensgnlnswtihkasgyteldnltrfvkyefndktgyydilairyasgsfldvvvinytdpydfstwkvrntgatgt 664 
+                                cplhwaensgnlnswtihkasgyteldnltrfvkyefndktgyydilairyasgsfldvvvinytdpydfstwkvrntgatgt
+        DQXS01000079.1_213  582 CPLHWAENSGNLNSWTIHKASGYTELDNLTRFVKYEFNDKTGYYDILAIRYASGSFLDVVVINYTDPYDFSTWKVRNTGATGT 664 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  665 wvgcgstnsehsgavkdidndgdldfylsvrgnnitwverdgenfithlikqgdypidvcsgdltgdgddcdvlilldegyga 747 
+                                wvgcgstnsehsgavkdidndgdldfylsvrgnnitwverdgenfithlikqgdypidvcsgdltgdgddcdvlilldegyga
+        DQXS01000079.1_213  665 WVGCGSTNSEHSGAVKDIDNDGDLDFYLSVRGNNITWVERDGENFITHLIKQGDYPIDVCSGDLTGDGDDCDVLILLDEGYGA 747 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  748 evrecpdnpaswsgewelvwsdssigadprscaildvdddgdndiliaeettyntvflffnngtggfenktrilnvswahdld 830 
+                                evrecpdnpaswsgewelvwsdssigadprscaildvdddgdndiliaeettyntvflffnngtggfenktrilnvswahdld
+        DQXS01000079.1_213  748 EVRECPDNPASWSGEWELVWSDSSIGADPRSCAILDVDDDGDNDILIAEETTYNTVFLFFNNGTGGFENKTRILNVSWAHDLD 830 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  831 igdidgdgkidvlygagmtnkptgtigwlnrtdnpsvwddnvvvsgsdykeqyqailkdmdndydldfvfgfdtpdrirvfeh 913 
+                                igdidgdgkidvlygagmtnkptgtigwlnrtdnpsvwddnvvvsgsdykeqyqailkdmdndydldfvfgfdtpdrirvfeh
+        DQXS01000079.1_213  831 IGDIDGDGKIDVLYGAGMTNKPTGTIGWLNRTDNPSVWDDNVVVSGSDYKEQYQAILKDMDNDYDLDFVFGFDTPDRIRVFEH 913 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  914 kgswkgnitsklltlpsgrswdkfyaksegnvtfkilssdntvlktcsriealngcdissisenqirlsaefrgssvdswnvt 996 
+                                kgswkgnitsklltlpsgrswdkfyaksegnvtfkilssdntvlktcsriealngcdissisenqirlsaefrgssvdswnvt
+        DQXS01000079.1_213  914 KGSWKGNITSKLLTLPSGRSWDKFYAKSEGNVTFKILSSDNTVLKTCSRIEALNGCDISSISENQIRLSAEFRGSSVDSWNVT 996 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  997 ttstnqppqisnlqfdqatiytdttpvncsftitdadndvmnvtvylynssnlikqcswtnqangttlncgmtntsewvkgna 1079
+                                ttstnqppqisnlqfdqatiytdttpvncsftitdadndvmnvtvylynssnlikqcswtnqangttlncgmtntsewvkgna
+        DQXS01000079.1_213  997 TTSTNQPPQISNLQFDQATIYTDTTPVNCSFTITDADNDVMNVTVYLYNSSNLIKQCSWTNQANGTTLNCGMTNTSEWVKGNA 1079
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213 1080 lycnvsvtdgtntttdsvskivsntaptittpltsvsvnsgstwtydynatdpdvddgvdtltwsdnttlfdinsatgeisdt 1162
+                                lycnvsvtdgtntttdsvskivsntaptittpltsvsvnsgstwtydynatdpdvddgvdtltwsdnttlfdinsatgeisdt
+        DQXS01000079.1_213 1080 LYCNVSVTDGTNTTTDSVSKIVSNTAPTITTPLTSVSVNSGSTWTYDYNATDPDVDDGVDTLTWSDNTTLFDINSATGEISDT 1162
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213 1163 pteaeagnysiritvsdgtatdtddfiyeitvttttsttstitattiipigggtytppplattvgasppslfvnesgiknitl 1245
+                                pteaeagnysiritvsdgtatdtddfiyeitvttttsttstitattiipigggtytppplattvgasppslfvnesgiknitl
+        DQXS01000079.1_213 1163 PTEAEAGNYSIRITVSDGTATDTDDFIYEITVTTTTSTTSTITATTIIPIGGGTYTPPPLATTVGASPPSLFVNESGIKNITL 1245
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213 1246 qwmgdvglcsinisteisryvelpdvyygeyitpevvvspgenvvnlyikaeepaqgiiefdckslteeatikipviiepapl 1328
+                                qwmgdvglcsinisteisryvelpdvyygeyitpevvvspgenvvnlyikaeepaqgiiefdckslteeatikipviiepapl
+        DQXS01000079.1_213 1246 QWMGDVGLCSINISTEISRYVELPDVYYGEYITPEVVVSPGENVVNLYIKAEEPAQGIIEFDCKSLTEEATIKIPVIIEPAPL 1328
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213 1329 nltseeipssskfilppaivvilfligfylifskgnegeiyr 1370
+                                nltseeipssskfilppaivvilfligfylifskgnegeiyr
+        DQXS01000079.1_213 1329 NLTSEEIPSSSKFILPPAIVVILFLIGFYLIFSKGNEGEIYR 1370
+                                *****************************************8 PP
+
+>> Ga0116200_10000074_213  [8977 - 13086]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 3293.9 101.2         0         0       1    1370 []       1    1370 []       1    1370 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 3293.9 bits;  conditional E-value: 0
+  36484_DQXS01000079.1_213    1 mvscrkmktniiillalicftlpasawwdssyhyrrlincsniddgipivingsggfdlgcgkqivwtycsgtgtalyynncs 83  
+                                mvscrkmktniiillalicftlpasawwdssyhyrrlincsniddgipivingsggfdlgcgkqivwtycsgtgtalyynncs
+    Ga0116200_10000074_213    1 MVSCRKMKTNIIILLALICFTLPASAWWDSSYHYRRLINCSNIDDGIPIVINGSGGFDLGCGKQIVWTYCSGTGTALYYNNCS 83  
+                                9********************************************************************************** PP
+
+  36484_DQXS01000079.1_213   84 dyvvandttqlpmevemgngtsynptqlwsdtvgvyhfgknaqledssplnndltnygatwmecgiggcfdfdgtddylqsgg 166 
+                                dyvvandttqlpmevemgngtsynptqlwsdtvgvyhfgknaqledssplnndltnygatwmecgiggcfdfdgtddylqsgg
+    Ga0116200_10000074_213   84 DYVVANDTTQLPMEVEMGNGTSYNPTQLWSDTVGVYHFGKNAQLEDSSPLNNDLTNYGATWMECGIGGCFDFDGTDDYLQSGG 166 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  167 nigivgntprtviwlvnhdtlpdgtagsqqaytcwgvsssgqafcsmvykdteyyfvgygsaydwdtptssvsstwlmqvlty 249 
+                                nigivgntprtviwlvnhdtlpdgtagsqqaytcwgvsssgqafcsmvykdteyyfvgygsaydwdtptssvsstwlmqvlty
+    Ga0116200_10000074_213  167 NIGIVGNTPRTVIWLVNHDTLPDGTAGSQQAYTCWGVSSSGQAFCSMVYKDTEYYFVGYGSAYDWDTPTSSVSSTWLMQVLTY 249 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  250 ngttlewfvnatsigtadrdlntgdsqltigrrydasewfidgkfsevriyndtvlsdseisqmyenyigtagygnlgaeeis 332 
+                                ngttlewfvnatsigtadrdlntgdsqltigrrydasewfidgkfsevriyndtvlsdseisqmyenyigtagygnlgaeeis
+    Ga0116200_10000074_213  250 NGTTLEWFVNATSIGTADRDLNTGDSQLTIGRRYDASEWFIDGKFSEVRIYNDTVLSDSEISQMYENYIGTAGYGNLGAEEIS 332 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  333 gllivssptegsiyntqtitisgtitknanityefdnngtiymacincssfsntstlsdgshnvtiiatnynnasdtdsitin 415 
+                                gllivssptegsiyntqtitisgtitknanityefdnngtiymacincssfsntstlsdgshnvtiiatnynnasdtdsitin
+    Ga0116200_10000074_213  333 GLLIVSSPTEGSIYNTQTITISGTITKNANITYEFDNNGTIYMACINCSSFSNTSTLSDGSHNVTIIATNYNNASDTDSITIN 415 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  416 ftidtilptiqilslqnnaeytvnniltldatanedisewrydlngngnvtfsppmtitslwgqnnltvwakdlagnwnysmi 498 
+                                ftidtilptiqilslqnnaeytvnniltldatanedisewrydlngngnvtfsppmtitslwgqnnltvwakdlagnwnysmi
+    Ga0116200_10000074_213  416 FTIDTILPTIQILSLQNNAEYTVNNILTLDATANEDISEWRYDLNGNGNVTFSPPMTITSLWGQNNLTVWAKDLAGNWNYSMI 498 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  499 tftysgdvwrdefnttdaiseknnvyllnseailnktyrgfiehivisdstteegglretrevldinndtfpdiifnnitscp 581 
+                                tftysgdvwrdefnttdaiseknnvyllnseailnktyrgfiehivisdstteegglretrevldinndtfpdiifnnitscp
+    Ga0116200_10000074_213  499 TFTYSGDVWRDEFNTTDAISEKNNVYLLNSEAILNKTYRGFIEHIVISDSTTEEGGLRETREVLDINNDTFPDIIFNNITSCP 581 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  582 cplhwaensgnlnswtihkasgyteldnltrfvkyefndktgyydilairyasgsfldvvvinytdpydfstwkvrntgatgt 664 
+                                cplhwaensgnlnswtihkasgyteldnltrfvkyefndktgyydilairyasgsfldvvvinytdpydfstwkvrntgatgt
+    Ga0116200_10000074_213  582 CPLHWAENSGNLNSWTIHKASGYTELDNLTRFVKYEFNDKTGYYDILAIRYASGSFLDVVVINYTDPYDFSTWKVRNTGATGT 664 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  665 wvgcgstnsehsgavkdidndgdldfylsvrgnnitwverdgenfithlikqgdypidvcsgdltgdgddcdvlilldegyga 747 
+                                wvgcgstnsehsgavkdidndgdldfylsvrgnnitwverdgenfithlikqgdypidvcsgdltgdgddcdvlilldegyga
+    Ga0116200_10000074_213  665 WVGCGSTNSEHSGAVKDIDNDGDLDFYLSVRGNNITWVERDGENFITHLIKQGDYPIDVCSGDLTGDGDDCDVLILLDEGYGA 747 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  748 evrecpdnpaswsgewelvwsdssigadprscaildvdddgdndiliaeettyntvflffnngtggfenktrilnvswahdld 830 
+                                evrecpdnpaswsgewelvwsdssigadprscaildvdddgdndiliaeettyntvflffnngtggfenktrilnvswahdld
+    Ga0116200_10000074_213  748 EVRECPDNPASWSGEWELVWSDSSIGADPRSCAILDVDDDGDNDILIAEETTYNTVFLFFNNGTGGFENKTRILNVSWAHDLD 830 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  831 igdidgdgkidvlygagmtnkptgtigwlnrtdnpsvwddnvvvsgsdykeqyqailkdmdndydldfvfgfdtpdrirvfeh 913 
+                                igdidgdgkidvlygagmtnkptgtigwlnrtdnpsvwddnvvvsgsdykeqyqailkdmdndydldfvfgfdtpdrirvfeh
+    Ga0116200_10000074_213  831 IGDIDGDGKIDVLYGAGMTNKPTGTIGWLNRTDNPSVWDDNVVVSGSDYKEQYQAILKDMDNDYDLDFVFGFDTPDRIRVFEH 913 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  914 kgswkgnitsklltlpsgrswdkfyaksegnvtfkilssdntvlktcsriealngcdissisenqirlsaefrgssvdswnvt 996 
+                                kgswkgnitsklltlpsgrswdkfyaksegnvtfkilssdntvlktcsriealngcdissisenqirlsaefrgssvdswnvt
+    Ga0116200_10000074_213  914 KGSWKGNITSKLLTLPSGRSWDKFYAKSEGNVTFKILSSDNTVLKTCSRIEALNGCDISSISENQIRLSAEFRGSSVDSWNVT 996 
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213  997 ttstnqppqisnlqfdqatiytdttpvncsftitdadndvmnvtvylynssnlikqcswtnqangttlncgmtntsewvkgna 1079
+                                ttstnqppqisnlqfdqatiytdttpvncsftitdadndvmnvtvylynssnlikqcswtnqangttlncgmtntsewvkgna
+    Ga0116200_10000074_213  997 TTSTNQPPQISNLQFDQATIYTDTTPVNCSFTITDADNDVMNVTVYLYNSSNLIKQCSWTNQANGTTLNCGMTNTSEWVKGNA 1079
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213 1080 lycnvsvtdgtntttdsvskivsntaptittpltsvsvnsgstwtydynatdpdvddgvdtltwsdnttlfdinsatgeisdt 1162
+                                lycnvsvtdgtntttdsvskivsntaptittpltsvsvnsgstwtydynatdpdvddgvdtltwsdnttlfdinsatgeisdt
+    Ga0116200_10000074_213 1080 LYCNVSVTDGTNTTTDSVSKIVSNTAPTITTPLTSVSVNSGSTWTYDYNATDPDVDDGVDTLTWSDNTTLFDINSATGEISDT 1162
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213 1163 pteaeagnysiritvsdgtatdtddfiyeitvttttsttstitattiipigggtytppplattvgasppslfvnesgiknitl 1245
+                                pteaeagnysiritvsdgtatdtddfiyeitvttttsttstitattiipigggtytppplattvgasppslfvnesgiknitl
+    Ga0116200_10000074_213 1163 PTEAEAGNYSIRITVSDGTATDTDDFIYEITVTTTTSTTSTITATTIIPIGGGTYTPPPLATTVGASPPSLFVNESGIKNITL 1245
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213 1246 qwmgdvglcsinisteisryvelpdvyygeyitpevvvspgenvvnlyikaeepaqgiiefdckslteeatikipviiepapl 1328
+                                qwmgdvglcsinisteisryvelpdvyygeyitpevvvspgenvvnlyikaeepaqgiiefdckslteeatikipviiepapl
+    Ga0116200_10000074_213 1246 QWMGDVGLCSINISTEISRYVELPDVYYGEYITPEVVVSPGENVVNLYIKAEEPAQGIIEFDCKSLTEEATIKIPVIIEPAPL 1328
+                                *********************************************************************************** PP
+
+  36484_DQXS01000079.1_213 1329 nltseeipssskfilppaivvilfligfylifskgnegeiyr 1370
+                                nltseeipssskfilppaivvilfligfylifskgnegeiyr
+    Ga0116200_10000074_213 1329 NLTSEEIPSSSKFILPPAIVVILFLIGFYLIFSKGNEGEIYR 1370
+                                *****************************************8 PP
+
+>> Ga0164313_10000250_494  [32166 - 33320]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.7  28.2     2e-24   3.2e-20     332     496 ..      24     191 ..      16     214 .. 0.85
+   2 ?   -1.2   0.8     0.081   1.3e+03    1085    1156 ..     222     290 ..     198     338 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 73.7 bits;  conditional E-value: 2e-24
+  36484_DQXS01000079.1_213 332 sgllivssptegsiyntqtitisgtitknanityefdnngtiymac..incssfsntst.lsdgshnvtiiatnynnasdtdsit 413
+                               s  l v++p eg  y t  itisg   + +nit+efd ngtiy +      +sfsntst l+dgshn+ti a n+  a    si 
+    Ga0164313_10000250_494  24 SMNLTVTTPVEGGNY-TSPITISGITNESSNITWEFDANGTIYKSTnaTGITSFSNTSTaLADGSHNITIFAYNFTSAGVNSSIV 107
+                               567899*******99.679************************875115679*****9869************************ PP
+
+  36484_DQXS01000079.1_213 414 inftidtilptiqilslqnnaeytvnniltldataned.isewrydlngn.gnvtfsppmt.itslwgqnnltvwakdlagnwny 495
+                               +nftid i p + i +l   + ++vnni t+++t n+       y l+g   nv++    t   +  g++ l + akd+agn n 
+    Ga0164313_10000250_494 108 LNFTIDNIYPNVTI-NLPTATSFSVNNI-TINTTINDTnNMVCVYSLDGWvTNVSYDCNYTtFVTTDGNKVLRISAKDIAGNNNN 190
+                               ***********987.79999*******8.6777777651456789**995379**9987651677889999***********886 PP
+
+  36484_DQXS01000079.1_213 496 s 496
+                               +
+    Ga0164313_10000250_494 191 T 191
+                               4 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 0.081
+  36484_DQXS01000079.1_213 1085 svtdgtntttdsvskivsntaptittpltsvsvnsgstwtydynatdpdvddgv.dtltws.dnttlfdinsat 1156
+                                sv   +  +t s++ +      ++   +t+ s     t   +++ ++  +  gv d+l w  + t+ fd+n+a 
+    Ga0164313_10000250_494  222 SVESTAADATSSITCVY-----SLDGFVTNTSFTCSETQEIEFEESENTLSIGVkDALGWVtQRTSTFDVNTAL 290 
+                                33332222333332222.....3344455556666666777777777777777656777751456677777764 PP
+
+>> QNDS01000002.1_494  [32166 - 33320] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.7  28.2     2e-24   3.2e-20     332     496 ..      24     191 ..      16     214 .. 0.85
+   2 ?   -1.2   0.8     0.081   1.3e+03    1085    1156 ..     222     290 ..     198     338 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 73.7 bits;  conditional E-value: 2e-24
+  36484_DQXS01000079.1_213 332 sgllivssptegsiyntqtitisgtitknanityefdnngtiymac..incssfsntst.lsdgshnvtiiatnynnasdtdsit 413
+                               s  l v++p eg  y t  itisg   + +nit+efd ngtiy +      +sfsntst l+dgshn+ti a n+  a    si 
+        QNDS01000002.1_494  24 SMNLTVTTPVEGGNY-TSPITISGITNESSNITWEFDANGTIYKSTnaTGITSFSNTSTaLADGSHNITIFAYNFTSAGVNSSIV 107
+                               567899*******99.679************************875115679*****9869************************ PP
+
+  36484_DQXS01000079.1_213 414 inftidtilptiqilslqnnaeytvnniltldataned.isewrydlngn.gnvtfsppmt.itslwgqnnltvwakdlagnwny 495
+                               +nftid i p + i +l   + ++vnni t+++t n+       y l+g   nv++    t   +  g++ l + akd+agn n 
+        QNDS01000002.1_494 108 LNFTIDNIYPNVTI-NLPTATSFSVNNI-TINTTINDTnNMVCVYSLDGWvTNVSYDCNYTtFVTTDGNKVLRISAKDIAGNNNN 190
+                               ***********987.79999*******8.6777777651456789**995379**9987651677889999***********886 PP
+
+  36484_DQXS01000079.1_213 496 s 496
+                               +
+        QNDS01000002.1_494 191 T 191
+                               4 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 0.081
+  36484_DQXS01000079.1_213 1085 svtdgtntttdsvskivsntaptittpltsvsvnsgstwtydynatdpdvddgv.dtltws.dnttlfdinsat 1156
+                                sv   +  +t s++ +      ++   +t+ s     t   +++ ++  +  gv d+l w  + t+ fd+n+a 
+        QNDS01000002.1_494  222 SVESTAADATSSITCVY-----SLDGFVTNTSFTCSETQEIEFEESENTLSIGVkDALGWVtQRTSTFDVNTAL 290 
+                                33332222333332222.....3344455556666666777777777777777656777751456677777764 PP
+
+>> Ga0208375_1000150_2284  [99452 - 97155] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.9   5.0   1.8e-05      0.28     773     900 ..      63     187 ..      44     187 .. 0.76
+   2 !   16.5   5.1   3.7e-07    0.0059     654     793 ..      96     244 ..      78     248 .. 0.71
+   3 !   10.1   2.6     3e-05      0.49     777     866 ..     320     411 ..     299     459 .. 0.73
+   4 !    2.6   1.5    0.0057        92     761     856 ..     356     464 ..     346     494 .. 0.53
+   5 !   29.9   7.4   3.1e-11     5e-07     662     843 ..     566     749 ..     536     765 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 1.8e-05
+  36484_DQXS01000079.1_213 773 gadprscaildvdddgdndiliaeettyntvflffnngtggfenktriln..vswahdldigdidgdgkidvlygagmtnkptgt 855
+                               g +  +  +ld+d dg +d+++++ +t  +v+ + +  tg    k  i n  ++     d  did dg +d+ +           
+    Ga0208375_1000150_2284  63 GNQQTASMVLDIDKDGIDDMVVTDRSTTPSVVWYKKTATGWD--KYVIDNnpLTIEAGGDFYDIDNDGDLDISFAGDWQS--NKI 143
+                               666778899******************999988777777653..44444412556667899***********98654432..234 PP
+
+  36484_DQXS01000079.1_213 856 igwlnrtdnpsvwddnvvvsgsdykeqyqailkdmdndydldfvf 900
+                                 w n   n   w    +   +  k++++ i+ d+dnd   ++vf
+    Ga0208375_1000150_2284 144 WWWENPYPNKENWVRREI-KNTGSKQHHDQIFGDFDNDGKTELVF 187
+                               567888899999987654.34455888899********9988887 PP
+
+  == domain 2  score: 16.5 bits;  conditional E-value: 3.7e-07
+  36484_DQXS01000079.1_213 654 wkvrntgatgtwvgcgstnsehsgavkdidndgdldfyls..vrgnnitwver...dgenfithlikqg..dypidvcsgdltgd 731
+                               +k   tg     +       e  g   didndgdld+ ++   + n+i w e    + en++ + ik+       d   gd+  d
+    Ga0208375_1000150_2284  96 YKKTATGWDKYVIDNNPLTIEAGGDFYDIDNDGDLDISFAgdWQSNKIWWWENpypNKENWVRREIKNTgsKQHHDQIFGDFDND 180
+                               4555566655666666677899999**********9766522689******9744478********985124568999****999 PP
+
+  36484_DQXS01000079.1_213 732 gddcdvlilldegygaevrecpdnp...aswsgewelvwsdssigadprscaildvdddgdndil 793
+                               g   +++   +   g  + e p np   +sw+      ++ ++        a +dvd dg  di+
+    Ga0208375_1000150_2284 181 GKT-ELVFWNQGANGLFIAEIPTNPrtsSSWTFAQIYTYTGTATNQKLEGFAKIDVDGDGKLDIV 244
+                               975.4444445557888899999983224555555555666666667778999*******99986 PP
+
+  == domain 3  score: 10.1 bits;  conditional E-value: 3e-05
+  36484_DQXS01000079.1_213 777 rscaildvdddgdndiliaeettynt...vflffnngtggfenktrilnvswahdldigdidgdgkidvlygagmtnkptgtigw 858
+                               +s  + d++ dg  di++ e + +n+    ++++ +g g f+ k+ +      h+  +gd+dgdg +d++      n p   +  
+    Ga0208375_1000150_2284 320 HSIRVADINKDGHLDIFLGEMSLHNAnprSWILYGDGKGNFK-KSDLSSGIDHHESRLGDLDGDGDLDIMGKPYNGNAPRIDVWL 403
+                               5778899*************9999863336899999999997.55566666679999***********99877777877766644 PP
+
+  36484_DQXS01000079.1_213 859 lnrtdnps 866
+                                ++t + s
+    Ga0208375_1000150_2284 404 QEKTTKLS 411
+                               45555554 PP
+
+  == domain 4  score: 2.6 bits;  conditional E-value: 0.0057
+  36484_DQXS01000079.1_213 761 gewelvwsdssigadprscaildvdddgdndil..........iaeettyntvflffnngtggfenktri.lnvswah..dldig 832
+                               g+ ++  sd s g d +   + d+d dgd di+          i      +t  l + n    + +++r+   +sw     + i 
+    Ga0208375_1000150_2284 356 GKGNFKKSDLSSGIDHHESRLGDLDGDGDLDIMgkpyngnaprIDVWLQEKTTKLSLTNWQYKLVDNARVkYGISWYEyfGIYIQ 440
+                               4455566777777777777777777777777762221111111111112233344444444444444454245777641145567 PP
+
+  36484_DQXS01000079.1_213 833 didgdgkidvlygagmtnkptgti 856
+                               di gdg  d++ g  + ++p g +
+    Ga0208375_1000150_2284 441 DITGDGLGDIVSGKYVYKNPGGDM 464
+                               777777777777777776666654 PP
+
+  == domain 5  score: 29.9 bits;  conditional E-value: 3.1e-11
+  36484_DQXS01000079.1_213 662 tgtwvgcgstnsehsg.avkdidndgdldfylsvrgnnitwverdgenfithlikqgdypidvcsgdltg.dgddcdvlilldeg 744
+                               t tw     t +   g  + did dg ld+  ++  +n+ w +  g   +    + gd  ++    +++  dgd  + +i+ +e 
+    Ga0208375_1000150_2284 566 TDTWTITRLTSAGGDGiGIGDIDGDGRLDL--AIGQKNVKWYQNPGTLTLWTGYNVGDTDVNADRFNIADiDGDGLQEIIVAEET 648
+                               67787777777666662589******9995..67789*********99998889999998888777765448999999******* PP
+
+  36484_DQXS01000079.1_213 745 ygaevrecpdnpasws.gewelvwsdssi..gadprscaildvdddgdndiliaeettyntvflffnngtggfenktrilnv.sw 825
+                               y              s       w+ s +  g   +s  + d+d+dgdndi++ e    n ++++ n+g g f +  ri+     
+    Ga0208375_1000150_2284 649 YPNPDTFLTKAYIFKSsNPKSGSWTRSVLaeGYGFQSMDVTDMDNDGDNDIILGEHKPPNRIMIYENDGKGQFIQ--RIVSTgKE 731
+                               *875544443333222022333444443322677899************************************86..56554167 PP
+
+  36484_DQXS01000079.1_213 826 ahdldigdidgdgkidvl 843
+                               +h l i di+ dgk d+ 
+    Ga0208375_1000150_2284 732 SHGLFITDINNDGKKDIA 749
+                               9*************9985 PP
+
+>> CP048739_400  [27576 - 27764] [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   1.7e-05      0.27     405     459 ..       3      57 ..       1      61 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 1.7e-05
+  36484_DQXS01000079.1_213 405 nasdtdsitinftidtilptiqilslqnnaeytvnniltldatanedisewrydl 459
+                                as t  +t+n ti  +    q        +yt ++i t   +a   is wr  l
+              CP048739_400   3 TASATSRLTVNSTIRPVAKRTQSYRKTRANQYTTEKIWTWMISARAGISHWRCGL 57 
+                               5899************************************************876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (1370 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       809  (0.00836928); expected 1933.3 (0.02)
+Passed bias filter:                      503  (0.00520365); expected 1933.3 (0.02)
+Passed Vit filter:                        25  (0.00025863); expected 96.7 (0.001)
+Passed Fwd filter:                         6  (6.20713e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.44u 0.04s 00:00:00.48 Elapsed: 00:00:00.14
+# Mc/sec: 36176.56
+//
+[ok]

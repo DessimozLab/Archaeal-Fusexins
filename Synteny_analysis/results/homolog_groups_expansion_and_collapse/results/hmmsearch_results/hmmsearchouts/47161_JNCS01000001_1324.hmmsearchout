@@ -1,0 +1,247 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/47161_JNCS01000001_1324.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/47161_JNCS01000001_1324.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/47161_JNCS01000001_1324.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/47161_JNCS01000001_1324.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       47161_JNCS01000001_1324  [M=108]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    5.4e-51  173.7   1.5    5.9e-51  173.6   1.5    1.0  1  JGI12330J12834_1000008_1369  [91132 - 91455]
+    3.3e-50  171.2   2.9    3.6e-50  171.0   2.9    1.0  1  Ga0207718_100100_1123        [84641 - 84964]
+    1.8e-47  162.3   4.1    1.9e-47  162.2   4.1    1.0  1  Ga0207733_100382_863         [5664 - 5347] (REVERSE SENSE)
+      6e-47  160.7   4.5    6.5e-47  160.6   4.5    1.0  1  Ga0207719_100190_491         [30522 - 30839]
+    9.6e-47  160.0   5.1    1.1e-46  159.9   5.1    1.0  1  JNCS01000001_1324            [89513 - 89199] (REVERSE SENSE) 
+      5e-46  157.7   5.9    5.6e-46  157.5   5.9    1.0  1  ATYM01000002_1469            [96525 - 96857] Haloplanus natan
+    2.8e-09   39.5   6.5    6.8e-09   38.2   3.4    2.7  2  ATYM01000002_2830            [34057 - 33128] (REVERSE SENSE) 
+      8e-09   38.0   3.1    2.6e-08   36.4   1.8    2.4  2  JGI12330J12834_1000008_814   [55128 - 56066]
+    3.2e-06   29.6   1.0    3.2e-06   29.6   1.0    2.9  3  Ga0207718_100100_714         [49059 - 50012]
+    0.00038   23.0   0.6     0.0015   21.1   0.1    2.3  2  JNCS01000001_1752            [63355 - 62225] (REVERSE SENSE) 
+
+
+Domain annotation for each sequence (and alignments):
+>> JGI12330J12834_1000008_1369  [91132 - 91455]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  173.6   1.5   6.1e-55   5.9e-51       1     107 [.       1     107 [.       1     108 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 173.6 bits;  conditional E-value: 6.1e-55
+      47161_JNCS01000001_1324   1 meeveydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyfsvetgdgvrydliyldekegvda 82 
+                                  m++veydPel+epl+G+ill+d++y++P++le+ek+r+iledqaed+++d++g+rqPyfs++tgdg+rydl+yl++++g++a
+  JGI12330J12834_1000008_1369   1 MGYVEYDPELSEPLNGSILLHDGDYTIPVELEEEKARSILEDQAEDYGHDISGTRQPYFSIDTGDGERYDLVYLPTRQGLQA 82 
+                                  889******************************************************************************* PP
+
+      47161_JNCS01000001_1324  83 vaeydvdegevldfyeiddlvegek 107
+                                  va+yd+++ge+l+f++idd++ege+
+  JGI12330J12834_1000008_1369  83 VARYDTEQGETLNFHKIDDILEGET 107
+                                  ***********************97 PP
+
+>> Ga0207718_100100_1123  [84641 - 84964]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  171.0   2.9   3.7e-54   3.6e-50       1     107 [.       1     107 [.       1     108 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 171.0 bits;  conditional E-value: 3.7e-54
+  47161_JNCS01000001_1324   1 meeveydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyfsvetgdgvrydliyldekegvdavaey 86 
+                              me+v+ydP++n+p+gG++ll+d+ey++P+d+e+e +r+i+edqa+d+++d+rgsrqPyfs+++g+g+rydliyl+++eg++ava+y
+    Ga0207718_100100_1123   1 MEHVDYDPDRNGPAGGSTLLYDGEYTVPVDFEEELSRSIVEDQADDLGHDIRGSRQPYFSIDLGNGERYDLIYLPTREGLQAVAHY 86 
+                              99************************************************************************************ PP
+
+  47161_JNCS01000001_1324  87 dvdegevldfyeiddlvegek 107
+                              d++e+e+++fyei+d++ege+
+    Ga0207718_100100_1123  87 DQEEDETIKFYEIEDMLEGET 107
+                              *******************97 PP
+
+>> Ga0207733_100382_863  [5664 - 5347] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.2   4.1     2e-51   1.9e-47       2     107 ..       5     106 .]       1     106 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 162.2 bits;  conditional E-value: 2e-51
+  47161_JNCS01000001_1324   2 eeveydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyfsvetgdgvrydliyldekegvdavaeyd 87 
+                              +e++y+Pelne+lgGti++g+d yl+Prdl+a+kvr+ile+   dqda+v+gs+ P+f+vetgdg+ryd+i+ldek++vda+++yd
+     Ga0207733_100382_863   5 TEPRYNPELNEGLGGTIEFGED-YLFPRDLPAGKVRQILEE---DQDAEVYGSQLPQFEVETGDGIRYDIIRLDEKDPVDAIGVYD 86 
+                              799****************999.******************...****************************************** PP
+
+  47161_JNCS01000001_1324  88 vdegevldfyeiddlvegek 107
+                              +degevldfye++dlveg+k
+     Ga0207733_100382_863  87 IDEGEVLDFYEVEDLVEGVK 106
+                              *****************986 PP
+
+>> Ga0207719_100190_491  [30522 - 30839]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.6   4.5   6.7e-51   6.5e-47       2     107 ..       5     106 .]       1     106 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 160.6 bits;  conditional E-value: 6.7e-51
+  47161_JNCS01000001_1324   2 eeveydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyfsvetgdgvrydliyldekegvdavaeyd 87 
+                              +e++y+Pelne+lgGti+lg+d yl+Prdl+a+kvr+ile+   dqda+v+gs+ P+f+vetgdg+ryd+i+ldek++vda+++yd
+     Ga0207719_100190_491   5 TEPRYNPELNEGLGGTIQLGED-YLFPRDLPAGKVRQILEE---DQDAEVYGSQLPQFEVETGDGIRYDIIRLDEKDPVDAIGVYD 86 
+                              799****************999.******************...****************************************** PP
+
+  47161_JNCS01000001_1324  88 vdegevldfyeiddlvegek 107
+                              +de+evld+ye++dlveg+k
+     Ga0207719_100190_491  87 IDEREVLDYYEVEDLVEGVK 106
+                              *****************986 PP
+
+>> JNCS01000001_1324  [89513 - 89199] (REVERSE SENSE) Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  159.9   5.1   1.1e-50   1.1e-46       3     107 ..       2     105 .]       1     105 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 159.9 bits;  conditional E-value: 1.1e-50
+  47161_JNCS01000001_1324   3 eveydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyfsvetgdgvrydliyldekegvdavaeydv 88 
+                              e+eydP++n+p+gGti+l d++y++P+++++++++ki++dqaed++++vr+s++Pyfs+etg+++rydl+y++++egv+avaeydv
+        JNCS01000001_1324   2 ELEYDPDRNAPAGGTIIL-DQQYQWPEEFDIDTMQKIVVDQAEDYGHTVRDSTDPYFSIETGGDLRYDLLYTRPEEGVKAVAEYDV 86 
+                              89****************.999**************************************************************** PP
+
+  47161_JNCS01000001_1324  89 degevldfyeiddlvegek 107
+                              d+gev+df++id++ve+++
+        JNCS01000001_1324  87 DVGEVVDFQKIDEIVEDSM 105
+                              ****************985 PP
+
+>> ATYM01000002_1469  [96525 - 96857] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.5   5.9   5.8e-50   5.6e-46       2     107 ..       5     109 ..       1     110 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 157.5 bits;  conditional E-value: 5.8e-50
+  47161_JNCS01000001_1324   2 eeveydPelneplgGtillgdd..eyllPrdleaekvrkiledqaedqdadvrgsrqPyfsvetgdgvrydliyldekegvdavae 85 
+                              ee++y+Pelne+lgGt+++g+d  eyl+Prdl+a+kvrkiled   dqdad++gs++P f+vet++gvryd+i+ld +e+vda+++
+        ATYM01000002_1469   5 EEPQYNPELNEGLGGTVEFGEDneEYLFPRDLPADKVRKILED---DQDADIYGSEFPGFRVETSQGVRYDVIHLDGSEPVDAIGI 87 
+                              799*****************99889******************...**************************************** PP
+
+  47161_JNCS01000001_1324  86 ydvdegevldfyeiddlvegek 107
+                              ydvdegevl+fye+ddlve+++
+        ATYM01000002_1469  88 YDVDEGEVLEFYEMDDLVEEVD 109
+                              *******************986 PP
+
+>> ATYM01000002_2830  [34057 - 33128] (REVERSE SENSE) Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genom
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7   0.1      0.33   3.2e+03      65      94 ..      14      43 ..       4      59 .. 0.81
+   2 !   38.2   3.4     7e-13   6.8e-09       2     106 ..      95     207 ..      94     209 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.33
+  47161_JNCS01000001_1324 65 dgvrydliyldekegvdavaeydvdegevl 94
+                             dg  y  i +d   g    a+y  ++ ev+
+        ATYM01000002_2830 14 DGAEYQFIGVDAAAGHTHFARYTPEHAEVI 43
+                             788999999999999999999999999987 PP
+
+  == domain 2  score: 38.2 bits;  conditional E-value: 7e-13
+  47161_JNCS01000001_1324   2 eeveydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyfsvetgdg.vrydl...iy....ldekeg 79 
+                              +++ey+Pelne+l+G+i+l d+ey lP   + + v +ile +aed +    + r  y+++   +  ++y l   ++    +   + 
+        ATYM01000002_2830  95 TDPEYNPELNEALEGSIQLDDGEYVLPFRAPFNAVADILETEAEDENDVFVDYRPDYLELAPENAlEKYQLeptVRghneITGTKI 180
+                              679******************************************99999999999999988776368988433331111344566 PP
+
+  47161_JNCS01000001_1324  80 vdavaeydvdegevldfyeiddlvege 106
+                              +d + + d   +ev d +++d+l e++
+        ATYM01000002_2830 181 LDKIHILDRGSEEVYDSFQVDELAEDH 207
+                              89999999999***********99985 PP
+
+>> JGI12330J12834_1000008_814  [55128 - 56066]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.0      0.75   7.2e+03      15      27 ..      10      22 ..       3      66 .. 0.78
+   2 !   36.4   1.8   2.7e-12   2.6e-08       3     105 ..      97     207 ..      95     210 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 0.75
+     47161_JNCS01000001_1324 15 gGtillgddeyll 27
+                                  t++++d+ey +
+  JGI12330J12834_1000008_814 10 PETVQFHDHEYHF 22
+                                5578888888876 PP
+
+  == domain 2  score: 36.4 bits;  conditional E-value: 2.7e-12
+     47161_JNCS01000001_1324   3 eveydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyf.svetgdg.vrydli.yldekeg... 79 
+                                 ++e+dPelne+lgG+ill ++ey +P   +  ++ +ile++++d d d++    P f ++  ++  ++y l   l+ ++    
+  JGI12330J12834_1000008_814  97 DPEFDPELNEALGGSILLDNGEYVVPFRAPFSTTADILEQETQDAD-DIYVDYRPDFlELTPSNAlEKYQLTpELRGSNEvtg 178
+                                 689*************************************888876.788888898835555555368999644554443111 PP
+
+     47161_JNCS01000001_1324  80 ...vdavaeydvdegevldfyeiddlveg 105
+                                    +d v + d   +ev d +++d+l e+
+  JGI12330J12834_1000008_814 179 tkiLDEVHILDRGSEEVYDTFQVDELAEQ 207
+                                 11167889999999999999999999986 PP
+
+>> Ga0207718_100100_714  [49059 - 50012]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.0      0.99   9.5e+03      87      99 ..      10      22 ..       5      32 .. 0.73
+   2 !   29.6   1.0   3.3e-10   3.2e-06       3     104 ..     101     210 ..      99     213 .. 0.78
+   3 ?   -2.1   0.1       2.5   2.4e+04      84      95 ..     258     269 ..     248     280 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 0.99
+  47161_JNCS01000001_1324 87 dvdegevldfyei 99
+                             d+d  e+++f++ 
+     Ga0207718_100100_714 10 DIDAPEIIEFHDH 22
+                             7777777777764 PP
+
+  == domain 2  score: 29.6 bits;  conditional E-value: 3.3e-10
+  47161_JNCS01000001_1324   3 eveydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyfsvetgdg..vrydliy.......ldekeg 79 
+                              ++ +dP ln++lgG+ill d++y lP   +  ++ +ile +     +d++    P f   t ++  ++y l         +   + 
+     Ga0207718_100100_714 101 DPAFDPGLNDALGGSILLDDGDYVLPFRAPFSTAADILEAE-TQESNDIYVDYRPDFLELTPEDslEKYQLTSelrgtneITGTKI 185
+                              6789***********************************94.455789********966565553468998642112111334455 PP
+
+  47161_JNCS01000001_1324  80 vdavaeydvdegevldfyeiddlve 104
+                              +d + + d   +ev d +++ddl +
+     Ga0207718_100100_714 186 LDEIHILDRGSEEVYDTFHVDDLAQ 210
+                              7889999999999999999999976 PP
+
+  == domain 3  score: -2.1 bits;  conditional E-value: 2.5
+  47161_JNCS01000001_1324  84 aeydvdegevld 95 
+                               +ydvd +e  +
+     Ga0207718_100100_714 258 NKYDVDAHELFN 269
+                              579999988765 PP
+
+>> JNCS01000001_1752  [63355 - 62225] (REVERSE SENSE) Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.6   0.1       3.5   3.4e+04      68      93 ..      71      96 ..      61     107 .. 0.57
+   2 !   21.1   0.1   1.5e-07    0.0015       4      59 ..     150     203 ..     147     261 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: -2.6 bits;  conditional E-value: 3.5
+  47161_JNCS01000001_1324 68 rydliyldekegvdavaeydvdegev 93
+                              y  + +d++ g +   +y+ +  ev
+        JNCS01000001_1752 71 EYRFLGTDTEAGHHHFYRYEPEYAEV 96
+                             34444555555555555555555555 PP
+
+  == domain 2  score: 21.1 bits;  conditional E-value: 1.5e-07
+  47161_JNCS01000001_1324   4 veydPelneplgGtillgddeyllPrdleaekvrkiledqaedqdadvrgsrqPyf 59 
+                              +e+  eln +lgG++ll  +ey lP   +  ++ ++ledqa + d  v     P+f
+        JNCS01000001_1752 150 PEFASELNSGLGGSLLLDGGEYVLPFRSQFSTAAEVLEDQAGEGD--VFVDYRPQF 203
+                              78999************999*******************998654..555566776 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (108 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       366  (0.00378635); expected 1933.3 (0.02)
+Passed bias filter:                      272  (0.0028139); expected 1933.3 (0.02)
+Passed Vit filter:                        23  (0.00023794); expected 96.7 (0.001)
+Passed Fwd filter:                        10  (0.000103452); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):              10  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 7985.25
+//
+[ok]

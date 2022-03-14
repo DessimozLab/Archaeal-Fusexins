@@ -1,0 +1,266 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/48320_JNCS01000001_2483.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/48320_JNCS01000001_2483.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/48320_JNCS01000001_2483.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/48320_JNCS01000001_2483.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       48320_JNCS01000001_2483  [M=807]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+          0 1521.5  32.1          0 1521.3  32.1    1.0  1  JNCS01000001_2483            [19631 - 17205] (REVERSE SENSE) 
+          0 1487.1  32.9          0 1486.8  32.9    1.1  1  Ga0207718_100100_2531        [18899 - 16215] (REVERSE SENSE)
+          0 1438.0  30.1          0 1437.9  30.1    1.0  1  JGI12330J12834_1000008_2717  [20862 - 18367] (REVERSE SENSE)
+    1.5e-41  145.2   9.7      6e-32  113.4   8.2    2.0  2  Ga0078972_1006503_334        [13998 - 15824]
+
+
+Domain annotation for each sequence (and alignments):
+>> JNCS01000001_2483  [19631 - 17205] (REVERSE SENSE) Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1521.3  32.1         0         0       1     807 []       2     809 .]       2     809 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1521.3 bits;  conditional E-value: 0
+  48320_JNCS01000001_2483   1 laldkPfkflkdledvltkynegqkensennnlvveGiprsGkgqvtgWakehalegdhiklfevhaskishlaeilqfllPngff 86 
+                              +aldkPf+fl+dl+++lt+ynegqkens+nnnlvv+GiprsGkgqvtgWakeh+leg+hiklfevhaskishlae++qfl+Pngff
+        JNCS01000001_2483   2 IALDKPFEFLYDLNHILTTYNEGQKENSQNNNLVVPGIPRSGKGQVTGWAKEHGLEGGHIKLFEVHASKISHLAEVFQFLFPNGFF 87 
+                              79************************************************************************************ PP
+
+  48320_JNCS01000001_2483  87 lnresr......evvesikkelerdsyrdpvldvddiedllelfeeekpprriekldellekeendslrqrleearekqveirerl 166
+                              lnr+++      e+++++k++l++d+y+dp+++v+died++e+feeekpprriekldel+e+e+ndslrqrleearekqveir+rl
+        JNCS01000001_2483  88 LNRKAKkeldheEEPKGVKQLLKQDRYSDPDTTVSDIEDVIEVFEEEKPPRRIEKLDELIEAESNDSLRQRLEEAREKQVEIRDRL 173
+                              ***********99************************************************************************* PP
+
+  48320_JNCS01000001_2483 167 kqikkygytnsdlpdlfrknytdglnksfdvkvftPisrnlPtcevPdffePfavpvddleryeelkwglkiihgdryekykkiyg 252
+                              +qi+++gytnsdlpdlfr+ny++gln+sf+++vftPisrn+Ptc+vPdffePfavpvdd+erye+lkwgl+iih+dr+++yk++yg
+        JNCS01000001_2483 174 QQIYNWGYTNSDLPDLFRRNYSNGLNSSFSIQVFTPISRNMPTCDVPDFFEPFAVPVDDFERYEQLKWGLRIIHPDRFNQYKDFYG 259
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 253 ravkvgdtsledlknvdelkesdhfvtkeygdGesfkdtrvaeekdikkkfqrdwdgrfktegvvcssdfeyklrerlkeamlsde 338
+                              ravkvgdts++dl+nvd+lkesdhfv+keygdGesfkdtrva++kdik+kfqrdwdgrf tegvvcssdfeyklr+rlkeamlsde
+        JNCS01000001_2483 260 RAVKVGDTSYQDLRNVDDLKESDHFVSKEYGDGESFKDTRVAHQKDIKGKFQRDWDGRF-TEGVVCSSDFEYKLRPRLKEAMLSDE 344
+                              ***********************************************************.************************** PP
+
+  48320_JNCS01000001_2483 339 qdivvlytGflsdetlrkfvivyfietmfdivrnlsgkelrkldrqfiasileaqevikkskkdnslsaadkvfnrflkealndsr 424
+                              +div+lytGf+sdetlrkfv+vyf+etmfdivrnlsg+el+kld+qfiasileaqevikks+k+nslsaad++fnrf++ea+nds+
+        JNCS01000001_2483 345 PDIVTLYTGFISDETLRKFVMVYFMETMFDIVRNLSGTELQKLDCQFIASILEAQEVIKKSSKSNSLSAADRAFNRFIWEAMNDSG 430
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 425 hynfnfWldskPsethkdllskvskriitrlnkedvrswydgdtrdklkkafnddrdyasldgsypefgyGfiylddkvveweksg 510
+                              hynfnfW+d+kPseth++llsk+skri+tr+nkedvrswy+g+trd++ +af+ +rdy++ldgsypefgyGfiy dd+vv+w+k+g
+        JNCS01000001_2483 431 HYNFNFWFDTKPSETHGNLLSKASKRIVTRMNKEDVRSWYTGSTRDDILEAFS-TRDYRQLDGSYPEFGYGFIY-DDNVVDWRKNG 514
+                              *****************************************************.********************.*********** PP
+
+  48320_JNCS01000001_2483 511 rkryGhrlPlprmcvqdPvdeisnedwsffieele.ldemdfkeyldelfkedweksaepyieeskrkerekkkekekrekdkkel 595
+                              r+ryGhrlP+prmcvqdPvdeisnedws+f+eel+ +++m+f+ey+d+lfkedweksaepyieeskrk+rek+ke+e+rek++ke+
+        JNCS01000001_2483 515 RTRYGHRLPTPRMCVQDPVDEISNEDWSLFTEELDrWGTMNFQEYMDALFKEDWEKSAEPYIEESKRKQREKEKEEEEREKNRKEM 600
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 596 lkekareklkkkveerGevPdkWtslakeileelhdegraedwdhlrnvmdatkdlreeleeefakseaskldaeevaeelkrerd 681
+                              l+e+arekl+ kve+rG++Pd+Wtsl++eilee+h+egraedw+h++n+md+tkdlr+eleeefa ++a+++daee++ee++r++d
+        JNCS01000001_2483 601 LQEMAREKLRLKVEQRGGIPDSWTSLSEEILEEMHEEGRAEDWEHPKNIMDPTKDLRDELEEEFA-AQADDFDAEEISEEMRRDED 685
+                              *****************************************************************.******************** PP
+
+  48320_JNCS01000001_2483 682 akvafvyGakskgekeyelkkfireeyeevdedvaedkaeeavskalmdlkleGviddsyqPiddvekeevreevdeqdseaeeed 767
+                              a+v+f++Ga+s++ek+y++kkfi+++ye+v++dvae+ ae+a+++++m+lk++G++++++qP  dvekee+ree+++q+se+ee+d
+        JNCS01000001_2483 686 AIVRFLFGATSTDEKVYQMKKFIQDRYEDVPSDVAEELAEDAAKETWMWLKMQGYMTNGHQP--DVEKEEFREEMEFQGSEPEEDD 769
+                              **************************************************************..9********************* PP
+
+  48320_JNCS01000001_2483 768 eeeeveapgeewscrcgalnegdrsvcrsctksyeevkee 807
+                              +++eve+pgeew+crcga+n+gdr+vcrsc+++yee++e+
+        JNCS01000001_2483 770 SGSEVEPPGEEWNCRCGAWNQGDRVVCRSCGGNYEETRES 809
+                              *************************************985 PP
+
+>> Ga0207718_100100_2531  [18899 - 16215] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1486.8  32.9         0         0       1     806 [.       1     891 [.       1     892 [. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1486.8 bits;  conditional E-value: 0
+  48320_JNCS01000001_2483   1 laldkPfkflkdledvltkynegqkensennnlvveGiprsGkgqvtgWakehalegdhiklfevhaskishlaeilqfllPngff 86 
+                              ++l++Pfkfl+dledvlt+ynegqkensennnlvv+GiprsGkgqvtgWakeh+l+gdhiklfe+ha+kishlaei+qfllPngff
+    Ga0207718_100100_2531   1 MGLATPFKFLEDLEDVLTSYNEGQKENSENNNLVVPGIPRSGKGQVTGWAKEHGLAGDHIKLFETHATKISHLAEIFQFLLPNGFF 86 
+                              79************************************************************************************ PP
+
+  48320_JNCS01000001_2483  87 lnresrevvesikkelerdsyrdpvldvddiedllelfeeekpprriekldellekeendslrqrleearekqveirerlkqikky 172
+                              lnr+srevvesi+k+ler+syr+pvld+dd++dllel+e+++pp+riek+de+lekeen+sl+qrleear+kqve+rerl+qi+++
+    Ga0207718_100100_2531  87 LNRDSREVVESIRKQLERGSYREPVLDADDMDDLLELHESAPPPQRIEKIDEFLEKEENYSLQQRLEEARSKQVEVRERLEQIHNQ 172
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 173 gytnsdlpdlfrknytdglnksfdvkvftPisrnlPtcevPdffePfavpvddleryeelkwglkiihgdr.yekykkiygravkv 257
+                              +ytn+d+pd+frknytdgln+sfdv+vftPis+n+Pt+evPdffePfavpvd++e+ye+lkwgl+i+hgd+ y++yk+iy+rav+v
+    Ga0207718_100100_2531 173 CYTNPDVPDTFRKNYTDGLNRSFDVQVFTPISPNMPTGEVPDFFEPFAVPVDAFEKYENLKWGLQIVHGDQsYGDYKYIYRRAVDV 258
+                              **********************************************************************99************** PP
+
+  48320_JNCS01000001_2483 258 gdtsledlknvdelkesdhfvtkeygdGesfkdtrvaeekdikkkfqrdwdgrfktegvvcssdfeyklrerlkeamlsdeqdivv 343
+                              gdts+edlknvdelkes+h++t+eygdGesf++trv++e++++k+f+rdw+++f+t+gvvcssdf+++lrerlkeamlsd+qdi++
+    Ga0207718_100100_2531 259 GDTSFEDLKNVDELKESKHSTTREYGDGESFTVTRVVNEENARKAFERDWEDTFGTQGVVCSSDFDHTLRERLKEAMLSDDQDIIC 344
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 344 lytGflsdetlrkfvivyfietmfdivrnlsgkelrkldrqfiasileaqevikkskkdnslsaadkvfnrflkealndsrhynfn 429
+                              lytGflsdet+rkfv+vyf+etmfdivrnlsgkelrkldrqfias++eaqev+kks+kd++ls+adkvfnrf+kea+nds+hynfn
+    Ga0207718_100100_2531 345 LYTGFLSDETVRKFVMVYFMETMFDIVRNLSGKELRKLDRQFIASMIEAQEVVKKSTKDTKLSTADKVFNRFVKEAMNDSGHYNFN 430
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 430 fWldskPsethkdllskvskriitrlnkedvrswydgdtrdklkkafnddrdyasldgsypefgyGfiylddkvvewe.ksgrkry 514
+                              fW+dskPseth++llsk+skriitr+nkedv+swy+gdtr+klkkafndd+dyasldg+ypefgyGfiy++d+vvewe +sg+k+y
+    Ga0207718_100100_2531 431 FWVDSKPSETHQILLSKASKRIITRMNKEDVESWYNGDTRKKLKKAFNDDQDYASLDGRYPEFGYGFIYMSDGVVEWEtTSGLKTY 516
+                              ******************************************************************************999***** PP
+
+  48320_JNCS01000001_2483 515 GhrlPlprmcvqdPvdeisnedwsffieeleldemdfkeyldelfkedweksaepyieeskrkerekkkekekrekdkkellkeka 600
+                              GhrlP+prmcvqdP+deisn+dwsff+eel++d+m+f++y+d+lfkedwe+sae+yiee++rkerek+keke++e+dkk+ll++++
+    Ga0207718_100100_2531 517 GHRLPCPRMCVQDPLDEISNSDWSFFTEELGMDAMSFQPYQDALFKEDWEASAEDYIEERERKEREKQKEKEQEEQDKKDLLEATV 602
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 601 reklkkkveerGevPdkWtslakeileelhdegraedwdhlrnvmdatkdlreeleeefa.kseaskldaeevaeelkr.erdakv 684
+                              reklk+kv+erGevPd+Wt+lakeileelhdeg+aedwdh+rnvmdat+dlr+++ee+f+ +s++s++d+e+va+elk+ er++++
+    Ga0207718_100100_2531 603 REKLKSKVGERGEVPDTWTPLAKEILEELHDEGMAEDWDHHRNVMDATLDLRKNPEESFNlGSGESAVDVEQVASELKTlERNGQP 688
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 685 afvyGakskgekeyelkkfireeyeevdedvaedkaeeavskalmdlkleGviddsyqPid..................dvekeev 752
+                              afvyG+kskg+ke+++k++i ++y++vde+vaedkaeeavs+almdlkleG+iddsy+P+d                  d+e+e++
+    Ga0207718_100100_2531 689 AFVYGPKSKGDKEILAKQYILKNYDGVDEGVAEDKAEEAVSIALMDLKLEGIIDDSYRPTDeyenpeeyrdimgmgrveDSEQESK 774
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 753 reevdeqdse.............................................................aeeedeeeeveapge 777
+                              +ee+d++ds+                                                             ae+ +eee++eapge
+    Ga0207718_100100_2531 775 TEEEDTEDSRaedpdvagedvddeteyvkvrvkssipefrgtdlevygpfdegeevelprdnaeifvnrgnAELLEEEENPEAPGE 860
+                              ************************************************************************************** PP
+
+  48320_JNCS01000001_2483 778 ewscrcgalnegdrsvcr..sctksyeevke 806
+                              ew c+cg+lne+d+svc+  +ctksy+ev++
+    Ga0207718_100100_2531 861 EWLCDCGQLNEEDKSVCKnpKCTKSYDEVNN 891
+                              *****************************98 PP
+
+>> JGI12330J12834_1000008_2717  [20862 - 18367] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1437.9  30.1         0         0       1     807 []       1     831 [.       1     831 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 1437.9 bits;  conditional E-value: 0
+      48320_JNCS01000001_2483   1 laldkPfkflkdledvltkynegqkensennnlvveGiprsGkgqvtgWakehalegdhiklfevhaskishlaeilqfllP 82 
+                                  +ald+Pf+flkdledvlt+ynegq+en+e+++++++G++++Gkg+++gW+kehal+gdh+k+fe+hask+shlaei+qfllP
+  JGI12330J12834_1000008_2717   1 MALDTPFTFLKDLEDVLTAYNEGQIENDESASMLYTGLSGTGKGHTSGWSKEHALAGDHAKIFELHASKTSHLAEIFQFLLP 82 
+                                  89******************************************************************************** PP
+
+      48320_JNCS01000001_2483  83 ngfflnresrevvesikkelerdsyrdpvldvddiedllelfeeekpprriekldellekeendslrqrleearekqveire 164
+                                  ng+flnresrevvesi +eler+syrdpvl+++di++llel++e++pp+rie++de+l+keen+sl+qrl+ea+ekq+ei++
+  JGI12330J12834_1000008_2717  83 NGWFLNRESREVVESILQELERESYRDPVLGKKDIKELLELHDEGSPPERIELIDEFLGKEENHSLCQRLKEAKEKQEEIQA 164
+                                  ********************************************************************************** PP
+
+      48320_JNCS01000001_2483 165 rlkqikkygytnsdlpdlfrknytdglnksfdvkvftPisrnlPtcevPdffePfavpvddleryeelkwglkiihgdryek 246
+                                  rl+qi++ygytn+d+pdlfrknytd+ln+sf+vkvftPisrn+PtcevPdffePf+vp+d++eryeel ++lk+ih+dr+e+
+  JGI12330J12834_1000008_2717 165 RLRQIHRYGYTNDDIPDLFRKNYTDTLNQSFNVKVFTPISRNMPTCEVPDFFEPFGVPADAFERYEELGAALKVIHPDRFEQ 246
+                                  ********************************************************************************** PP
+
+      48320_JNCS01000001_2483 247 ykkiygravkvgdtsledlknvdelkesdhfvtkeygdGesfkdtrvaeekdikkkfqrdwdgrfktegvvcssdfeyklre 328
+                                  yk++ygr+v++gdtsl+dlknvdel+esdh+v++++gdG++++dtrv++ek+i++kfqrdwdg+f tegv+cssdfeyklr+
+  JGI12330J12834_1000008_2717 247 YKNFYGRVVEIGDTSLQDLKNVDELNESDHYVERMFGDGQTYRDTRVQNEKNIREKFQRDWDGTF-TEGVACSSDFEYKLRG 327
+                                  *****************************************************************.**************** PP
+
+      48320_JNCS01000001_2483 329 rlkeamlsdeqdivvlytGflsdetlrkfvivyfietmfdivrnlsgkelrkldrqfiasileaqevikkskkdnslsaadk 410
+                                  rlkeaml+d++div+lytGflsd+tlrkfvi+yf+e+mfdi+rnlsgke+r+ldr+fi+s++eaq+v+++s+k+nsl++ad+
+  JGI12330J12834_1000008_2717 328 RLKEAMLDDDVDIVTLYTGFLSDHTLRKFVITYFTEIMFDIARNLSGKEVRNLDRAFIGSMIEAQDVVEISTKENSLTSADR 409
+                                  ********************************************************************************** PP
+
+      48320_JNCS01000001_2483 411 vfnrflkealndsrhynfnfWldskPsethkdllskvskriitrlnkedvrswydgdtrdklkkafnddrdyasldgsypef 492
+                                  vfn++l+e+lnd+rh+nf+fW+d+kP++thk llsk+++r+it+lnked++swy+++ + +l+kafn +++y+s+dgsypef
+  JGI12330J12834_1000008_2717 410 VFNKYLWERLNDARHENFHFWFDTKPAQTHKLLLSKIPRRVITQLNKEDRQSWYQSPLKGQLEKAFN-SSGYTSMDGSYPEF 490
+                                  *******************************************************************.************** PP
+
+      48320_JNCS01000001_2483 493 gyGfiylddkvvewe.ksgrkryGhrlPlprmcvqdPvdeisnedwsffieeleldemdfkeyldelfkedweksaepyiee 573
+                                  g+Gfiy +d++vewe +++rkryGhrlP+prmcv+dPvde+sn+dwsffi+el++d+m+f++y++elf+edw+k+aepyiee
+  JGI12330J12834_1000008_2717 491 GTGFIY-NDNFVEWEdRYSRKRYGHRLPCPRMCVHDPVDEFSNDDWSFFIDELGMDSMQFEQYQEELFNEDWQKNAEPYIEE 571
+                                  ******.********9****************************************************************** PP
+
+      48320_JNCS01000001_2483 574 skrkerekkkekekrekdkkellkekareklkkkveerGevPdkWtslakeileelhdegraedwdhlrnvmdatkdlreel 655
+                                  skrke++kkke+e++e+dkkellke++reklk+kv+erGevP+kWt++akeileelhd+g+aedw+h+rnvmd+t+dlr++l
+  JGI12330J12834_1000008_2717 572 SKRKEEQKKKEEEQEEQDKKELLKETVREKLKSKVNERGEVPSKWTPMAKEILEELHDRGMAEDWEHHRNVMDVTLDLRNDL 653
+                                  ********************************************************************************** PP
+
+      48320_JNCS01000001_2483 656 eeefakseaskldaeevaeelkr.erdakvafvyGakskgekeyelkkfireeyeevdedvaedkaeeavskalmdlkleGv 736
+                                  ee+f+ s++s+ld+eevae+lkr er++k+afvyGakskg+ke+++k+fi++ey +vde+vaed+aeeavs+al+dlkl+Gv
+  JGI12330J12834_1000008_2717 654 EENFN-SGGSNLDTEEVAEQLKRmERSGKPAFVYGAKSKGDKEILAKQFIMREY-GVDEKVAEDVAEEAVSIALTDLKLQGV 733
+                                  *****.************************************************.*************************** PP
+
+      48320_JNCS01000001_2483 737 iddsyqPid..................dvekeevreevdeqdse.......aeeedeeeeveapgeewscrcgalnegdrsv 793
+                                  i+dsyqP+d                  +++ eev+eevdeq+         +eeede++++eapg+ewsc+cg+lneg+r+v
+  JGI12330J12834_1000008_2717 734 INDSYQPQDpfkecpeeyrelmgmnqgNTQGEEVGEEVDEQEDFssstedrSEEEDEDDKPEAPGQEWSCTCGTLNEGGRGV 815
+                                  **************************************9996546677888******************************* PP
+
+      48320_JNCS01000001_2483 794 cr..sctksyeevkee 807
+                                  cr  sc++syeevk+e
+  JGI12330J12834_1000008_2717 816 CRnpSCLSSYEEVKDE 831
+                                  *************986 PP
+
+>> Ga0078972_1006503_334  [13998 - 15824]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.2   0.0   1.8e-11   4.3e-07      23      93 ..      51     121 ..      30     128 .. 0.89
+   2 !  113.4   8.2   2.5e-36     6e-32     192     606 ..     136     556 ..     127     566 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 31.2 bits;  conditional E-value: 1.8e-11
+  48320_JNCS01000001_2483  23 gqkensennnlvveGiprsGkgqvtgWakehalegdhiklfevhaskishlaeilqfllPngfflnresre 93 
+                               +k ns+ n+  ++G ++sGk+ +++W  e +++ + iklf +++++ + l+e l++++ n   + r+ +e
+    Ga0078972_1006503_334  51 LKKRNSDINHTAFHGASGSGKTYLADWISEIGIDAGLIKLFLINVTDPARLSEALSYMFWNEEGIKRKPQE 121
+                              5799******************************************************9998777777666 PP
+
+  == domain 2  score: 113.4 bits;  conditional E-value: 2.5e-36
+  48320_JNCS01000001_2483 192 nksfdvkvftPisrnlPtcevPdffePfavpvddleryeelkwglkiihgdr.yekykkiygravkvgdtsledlknvdelke... 273
+                              ++s++v+v++P+s+n P+ ++Pdff Pf++p  d+      +  lk+++g +     ++ y  a+k    s    + vd lke   
+    Ga0078972_1006503_334 136 PHSYKVRVYIPVSENAPN-KLPDFFVPFTIPLTDFS-----DRELKLLYGMQeISSVRSEYLTAIKTMSKSDGFGQLVDRLKEhts 215
+                              689***************.****************9.....677888888776788888888888776655444444555554111 PP
+
+  48320_JNCS01000001_2483 274 sdhfvtkeygdGesfkdtrvaeekdikkkfqrdwdgrfktegvvcssdfeyklrerlkeamlsdeqdivvlytGflsdetlrkfvi 359
+                              + h++  ++ +G  +        +++ + f   ++  +++eg+ +s +f ++l+++l  ++++++ +iv+lyt +l+ e++r f +
+    Ga0078972_1006503_334 216 KSHSYVSRSFQGAKVLMFASGTMRQSADSFIHRIN-MLNQEGLLSSENFPFNLKQQLEKEIQDQK-TIVILYTYYLRSEIMRYFCM 299
+                              4455555555675666666677889999*******.888******************99988877.******************** PP
+
+  48320_JNCS01000001_2483 360 vyfietmfdivrnlsgkelrkldrqfiasileaqevikkskkdnslsaadkvfnrflkealndsrhynfnfWl.dskPsethkdll 444
+                               yf++++ d++  ++++   kld ++++   ea  +i k ++++  +    +++ +++  l + rh n++  +    P+ + +d+ 
+    Ga0078972_1006503_334 300 LYFLKCLQDLM--FKKQYREKLDYKLVVRFDEAGFLIPK-ERSKAFAEHHYALQDLFHFILREGRHGNIESQIiSQSPTFLSEDIY 382
+                              *******9996..57777779******************.99***************************9876155799******* PP
+
+  48320_JNCS01000001_2483 445 skvskriitrlnkedvrswy..dgdtrdk.lkkafnddrdyasldgsypefgyGfiyld..dkvveweksgrk..ryGhrlPlprm 523
+                               +v+  +  r + e+   w    g+ r++ l++++ + +  a+l  +y  f    i ++  d ++ w  sg +   +G+r+P pr 
+    Ga0078972_1006503_334 383 TNVRSVYFCRSESEEDIEWLatRGNLRKDlLNNVMRQWKLLADLKREY-RFAIPSIAQEhlDAIPAWFYSGTRkfEFGFRVPRPRL 467
+                              ***********9966666652257888883556677667777777777.57777787554489****9666541268********* PP
+
+  48320_JNCS01000001_2483 524 cvqdPvdeis.nedwsffi....eele.ldemdfkeyl.delfkedweksaepyieeskrkerekkkekekrekdkkellkekare 602
+                              +      ++   +dw  +i    e+ +   e++++  + + l+ke+ e+s +p ie++++  +  +++ +++ + +ke   +ka+e
+    Ga0078972_1006503_334 468 SYYGNDGKVPfVQDWDKLIglifEKTGvKYELSTNMKQaKMLLKEEIEESYKPLIEKRQKHLEYIEEKTKEKMESEKEN-AKKALE 552
+                              *987755554258997655111155664446666654415689**************9887655444444444444444.345777 PP
+
+  48320_JNCS01000001_2483 603 klkk 606
+                              +lk 
+    Ga0078972_1006503_334 553 LLKM 556
+                              7775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (807 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       731  (0.00756236); expected 1933.3 (0.02)
+Passed bias filter:                      373  (0.00385877); expected 1933.3 (0.02)
+Passed Vit filter:                        31  (0.000320702); expected 96.7 (0.001)
+Passed Fwd filter:                         5  (5.17261e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.25u 0.02s 00:00:00.27 Elapsed: 00:00:00.07
+# Mc/sec: 42619.69
+//
+[ok]

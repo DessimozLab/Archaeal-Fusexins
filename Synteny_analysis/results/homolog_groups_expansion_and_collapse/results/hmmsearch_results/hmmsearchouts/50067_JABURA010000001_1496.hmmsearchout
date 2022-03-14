@@ -1,0 +1,87 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/50067_JABURA010000001_1496.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/50067_JABURA010000001_1496.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/50067_JABURA010000001_1496.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/50067_JABURA010000001_1496.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       50067_JABURA010000001_1496  [M=122]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    5.8e-78  261.5   3.3    6.4e-78  261.3   3.3    1.0  1  JABURA010000001_1496  [89533 - 89168] (REVERSE SENSE) JABURA0
+    1.6e-67  227.8   2.9    1.8e-67  227.6   2.9    1.1  1  CP058579_1591         [116870 - 117301] [Halobonum sp. NJ-3-1
+  ------ inclusion threshold ------
+        1.2   11.9   0.2          2   11.2   0.2    1.3  1  JNCS01000001_1484     [78975 - 78151] (REVERSE SENSE) Natrine
+
+
+Domain annotation for each sequence (and alignments):
+>> JABURA010000001_1496  [89533 - 89168] (REVERSE SENSE) JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.3   3.3     2e-82   6.4e-78       1     122 []       1     122 []       1     122 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 261.3 bits;  conditional E-value: 2e-82
+  50067_JABURA010000001_1496   1 irvrteyvdaedenqdfskvvvkgprynrkpacrehgalnkvyvdeekafwqcqaitergdghlevvdtcdaackevevedpv 83 
+                                 +rvrteyvdae+enqdfskvvvkgprynrkp+crehgalnkvyvdeekafwqcqaitergdghle+vdtcdaacke+e+edp+
+        JABURA010000001_1496   1 MRVRTEYVDAEGENQDFSKVVVKGPRYNRKPYCREHGALNKVYVDEEKAFWQCQAITERGDGHLEIVDTCDAACKEIEAEDPI 83 
+                                 79********************************************************************************* PP
+
+  50067_JABURA010000001_1496  84 gfeldaeydepriapeitarsskyrtgddgedeeqgddr 122
+                                 gfeldaey+epriapeitar+skyrtgddgedeeqgd+r
+        JABURA010000001_1496  84 GFELDAEYPEPRIAPEITARTSKYRTGDDGEDEEQGDTR 122
+                                 *************************************98 PP
+
+>> CP058579_1591  [116870 - 117301] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  227.6   2.9   5.7e-72   1.8e-67       1     108 [.      35     141 ..      35     144 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 227.6 bits;  conditional E-value: 5.7e-72
+  50067_JABURA010000001_1496   1 irvrteyvdaedenqdfskvvvkgprynrkpacrehgalnkvyvdeekafwqcqaitergdghlevvdtcdaackevevedpv 83 
+                                 i+v+t+y+d++d+nqdfs+v+++gpr+nrkpacr+hga+nkvyvd+ekafwqcqaitergdghlev++tcdaackev+vedpv
+               CP058579_1591  35 IPVQTDYTDPDDDNQDFSNVIIQGPRHNRKPACRDHGAMNKVYVDDEKAFWQCQAITERGDGHLEVTETCDAACKEVQVEDPV 117
+                                 79********************************************************************************* PP
+
+  50067_JABURA010000001_1496  84 gfeldaeydepriapeitarsskyr 108
+                                 gf+++a+yd+pri+p++t+rs+ +r
+               CP058579_1591 118 GFAFNADYDQPRIDPANTPRST-FR 141
+                                 *********************9.88 PP
+
+>> JNCS01000001_1484  [78975 - 78151] (REVERSE SENSE) Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.2   6.2e-05         2      44      81 ..      97     141 ..      86     160 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 6.2e-05
+  50067_JABURA010000001_1496  44 vdeekafwqcqaitergdg.hlevvdtcdaa......ckeveved 81 
+                                 +d++     c a+  rgdg h  vv+tc         c ev + d
+           JNCS01000001_1484  97 LDDDLGVLHCVAVQARGDGvHRRVVETCAEGvavhppCGEVSAAD 141
+                                 68889999**********98999*****64211222255555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (122 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       487  (0.00503812); expected 1933.3 (0.02)
+Passed bias filter:                      392  (0.00405533); expected 1933.3 (0.02)
+Passed Vit filter:                        16  (0.000165524); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.06
+# Mc/sec: 7516.98
+//
+[ok]

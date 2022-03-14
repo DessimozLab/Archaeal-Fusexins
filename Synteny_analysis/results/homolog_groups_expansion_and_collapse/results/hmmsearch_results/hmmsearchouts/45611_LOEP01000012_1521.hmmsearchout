@@ -1,0 +1,144 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/45611_LOEP01000012_1521.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/45611_LOEP01000012_1521.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/45611_LOEP01000012_1521.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/45611_LOEP01000012_1521.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       45611_LOEP01000012_1521  [M=259]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+     8e-139  463.9   4.7   9.1e-139  463.7   4.7    1.0  1  Ga0207718_100100_2085        [48732 - 47767] (REVERSE SENSE)
+   5.8e-133  444.7   5.0   6.5e-133  444.5   5.0    1.0  1  JNCS01000001_2304            [30153 - 29374] (REVERSE SENSE) 
+   4.6e-126  422.1   5.0   5.2e-126  421.9   5.0    1.0  1  JGI12330J12834_1000008_2194  [53391 - 52612] (REVERSE SENSE)
+   2.4e-124  416.5   1.7   2.6e-124  416.3   1.7    1.0  1  LOEP01000012_1521            [15465 - 14695] (REVERSE SENSE) 
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207718_100100_2085  [48732 - 47767] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  463.7   4.7  3.8e-143  9.1e-139       1     259 []      64     322 .]      64     322 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 463.7 bits;  conditional E-value: 3.8e-143
+  45611_LOEP01000012_1521   1 rkdllfkkdeewikekleknfdgrfcrvevdkePektkegkkvlfsdGervkaesviedvrkdeirfePltavskPnPeeppetGy 86 
+                              r+dllf++deewik++l++nf+grfcr++vdkePe+t+eg++vlfsdGe+v+aes+iedv+kd+ir+ePltav+kP+Peepp+tGy
+    Ga0207718_100100_2085  64 RMDLLFRRDEEWIKNHLYQNFTGRFCRLQVDKEPEQTSEGEIVLFSDGEQVRAESYIEDVGKDSIRVEPLTAVQKPHPEEPPGTGY 149
+                              79************************************************************************************ PP
+
+  45611_LOEP01000012_1521  87 eyvdaedcgkysikfmGveysyetlhdlveailekreearndedvlchiiWtevedldlndyedfaerldrgeilrvrdelqvkrg 172
+                              eyv+aedcgkysi+fmG+ey+yetlhdl+eailek++++r+dedvlchiiW+evedldlnd++df er+dr++i+rvrd+lqvkrg
+    Ga0207718_100100_2085 150 EYVEAEDCGKYSIEFMGMEYVYETLHDLIEAILEKKPVTRIDEDVLCHIIWAEVEDLDLNDRADFLERFDRADIVRVRDDLQVKRG 235
+                              ************************************************************************************** PP
+
+  45611_LOEP01000012_1521 173 ayPPtdPdevrsrykesakasriyeslknyveqvkefydedgeeevvekleesfsfdgesqkekvkelvreavakrdld.elrgea 257
+                              ++PP++Pdevr+ry++sakasriyeslknyveqvkefy+e+g+++vve++e++fsfd ++qkek++++vrea+a+rdld e+rg+a
+    Ga0207718_100100_2085 236 RFPPMEPDEVRNRYSGSAKASRIYESLKNYVEQVKEFYGERGRDTVVERMEGAFSFD-DDQKEKRIQMVREAAAGRDLDgEFRGDA 320
+                              *********************************************************.***************************9 PP
+
+  45611_LOEP01000012_1521 258 aa 259
+                              +a
+    Ga0207718_100100_2085 321 SA 322
+                              86 PP
+
+>> JNCS01000001_2304  [30153 - 29374] (REVERSE SENSE) Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  444.5   5.0  2.7e-137  6.5e-133       1     259 []       1     259 [.       1     259 [. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 444.5 bits;  conditional E-value: 2.7e-137
+  45611_LOEP01000012_1521   1 rkdllfkkdeewikekleknfdgrfcrvevdkePektkegkkvlfsdGervkaesviedvrkdeirfePltavskPnPeeppetGy 86 
+                              +kdllf+++eew+k++l+ +++grfcrv+v++ePe ++e++++lfsdGerv++esvi+d+rk+e+rfePltav+kPnPeeppe+G+
+        JNCS01000001_2304   1 MKDLLFQMREEWVKKHLQGRYEGRFCRVPVRQEPELSGEEQRILFSDGERVIGESVISDIRKGEVRFEPLTAVRKPNPEEPPENGF 86 
+                              89************************************************************************************ PP
+
+  45611_LOEP01000012_1521  87 eyvdaedcgkysikfmGveysyetlhdlveailekreearndedvlchiiWtevedldlndyedfaerldrgeilrvrdelqvkrg 172
+                              eyvdaedc++ysi+f+Gve++yetlhd+vea+l+kreearn+++vlchi+Wteve+ldln+y++faerldrg++l+vrde+qv+rg
+        JNCS01000001_2304  87 EYVDAEDCPRYSIRFHGVEHGYETLHDVVEAVLDKREEARNSDEVLCHIFWTEVEGLDLNKYREFAERLDRGTLLGVRDEFQVQRG 172
+                              ************************************************************************************** PP
+
+  45611_LOEP01000012_1521 173 ayPPtdPdevrsrykesakasriyeslknyveqvkefydedgeeevvekleesfsfdgesqkekvkelvreavakrdldelrgeaa 258
+                              +yPPtdP++v++rykesa+a+riy+s+k+yve+v+e+y+edg+e+++e+++e+++f+ges++e+++e+vre+v+k++++e+++e+a
+        JNCS01000001_2304 173 VYPPTDPEMVVKRYKESARATRIYGSIKGYVETVQEYYREDGQEDLAEEIGERVEFPGESESERSNEVVRERVSKISYSEVGRETA 258
+                              ************************************************************************************99 PP
+
+  45611_LOEP01000012_1521 259 a 259
+                              a
+        JNCS01000001_2304 259 A 259
+                              7 PP
+
+>> JGI12330J12834_1000008_2194  [53391 - 52612] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  421.9   5.0  2.1e-130  5.2e-126       1     258 [.       2     260 .]       2     260 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 421.9 bits;  conditional E-value: 2.1e-130
+      45611_LOEP01000012_1521   1 rkdllfkkdeewikekleknfdgrfcrvevdkePektkegkkvlfsdGervkaesviedvrkdeirfePltavskPnPeepp 82 
+                                  r+dllfkk+e+wi+e+lekn+d++fcrvev+++P++t+eg+kvlf+dG++vkae++i++vr++e+rf+Pl++v+kP Pe++p
+  JGI12330J12834_1000008_2194   2 RMDLLFKKSEDWIQERLEKNTDSYFCRVEVQEKPVQTGEGSKVLFTDGDAVKAEGRIQEVRDNEVRFAPLEPVFKPLPEDAP 83 
+                                  79******************************************************************************** PP
+
+      45611_LOEP01000012_1521  83 etGyeyvdaedcgkysikfmGveysyetlhdlveailekreearndedvlchiiWtevedldlndyedfaerldrgeilrvr 164
+                                  +tGye+vdaedcgky+++f+G+ey++et+hdl++++l++++e+rndedv+ch++W++v+dldlnd++++++rl+r+eilr+r
+  JGI12330J12834_1000008_2194  84 GTGYEFVDAEDCGKYTVEFDGKEYGFETFHDLTRGVLKHVPESRNDEDVFCHVVWSRVQDLDLNDVDEYRKRLKRSEILRIR 165
+                                  ********************************************************************************** PP
+
+      45611_LOEP01000012_1521 165 delqvkrgayPPtdPdevrsrykesakasriyeslknyveqvkefydedgeeevvekleesfsfd.gesqkekvkelvreav 245
+                                  de+qv ++a+PPt+P+e+rsry++++kasr+y++l+nyveqvk+fy++++e e+v++l++sf+f+ g+++ e++kelvr++v
+  JGI12330J12834_1000008_2194 166 DEIQVLKMAFPPTEPGEIRSRYSSMSKASRVYQGLENYVEQVKRFYAKRREGEIVYELDTSFDFSnGNERLEECKELVRDRV 247
+                                  ****************************************************************99**************** PP
+
+      45611_LOEP01000012_1521 246 akrdldelrgeaa 258
+                                  a+r+++e+rge+a
+  JGI12330J12834_1000008_2194 248 AGRTFPEMRGEEA 260
+                                  **********986 PP
+
+>> LOEP01000012_1521  [15465 - 14695] (REVERSE SENSE) Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Ha
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  416.3   1.7  1.1e-128  2.6e-124       1     248 [.       1     257 []       1     257 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 416.3 bits;  conditional E-value: 1.1e-128
+  45611_LOEP01000012_1521   1 rkdllfkkdeewikekleknfdgrfcrv.evdkePektkegkkvlfsdGervkaesviedvrkdeirfePltavskPnPeeppetG 85 
+                              +kd+l+++++e+ik+kl++nfdgrfc++ ++d++Pektk+gkk+lfs+G+rv+aes+i+++++d+irf+Plt+vs+PnP++p+++G
+        LOEP01000012_1521   1 MKDVLVQETREDIKSKLSPNFDGRFCYYrDLDGKPEKTKAGKKILFSTGQRVIAESTIIEIEEDYIRFDPLTPVSRPNPASPSKRG 86 
+                              89**************************9********************************************************* PP
+
+  45611_LOEP01000012_1521  86 yeyvdaedcgkysikfmGveysyetlhdlveailekreearndedvlchiiWtevedldlndyedfaerldrgeilrvrdelqvkr 171
+                              +eyvda++cgky+ik+mG+e+sy+++h+lv++ile+r+earnd+d+l+hiiWt+++dldl+dyedf+er+++g+i++v++e+q+++
+        LOEP01000012_1521  87 LEYVDADSCGKYDIKIMGIEHSYKNTHKLVRGILENRMEARNDRDLLKHIIWTKAQDLDLSDYEDFQERIEPGYIEKVANEIQLQN 172
+                              ************************************************************************************** PP
+
+  45611_LOEP01000012_1521 172 gayPPtdPdevrsrykesakasriyeslknyveqvkefydedgeeevvekleesfsfdges........qkekvkelvreavakr 248
+                              +ayPPtdPd+++s++k+s+k++r+++sl+++v+++++fyd+dg++++++k+++sfsf+g+s        q+++vke+v+++va++
+        LOEP01000012_1521 173 CAYPPTDPDVLKSMFKHSKKVNRHFDSLEQFVNSAVKFYDRDGSKSEAKKINSSFSFQGSStvspgagnQMDSVKEKVKQVVARD 257
+                              ***********************************************************************************85 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (259 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       444  (0.00459328); expected 1933.3 (0.02)
+Passed bias filter:                      304  (0.00314495); expected 1933.3 (0.02)
+Passed Vit filter:                        17  (0.000175869); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.15u 0.01s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 19149.81
+//
+[ok]

@@ -1,0 +1,86 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/60120_ATYM01000002_1457.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/60120_ATYM01000002_1457.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/60120_ATYM01000002_1457.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/60120_ATYM01000002_1457.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       60120_ATYM01000002_1457  [M=109]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    2.4e-67  226.3   2.4    2.7e-67  226.2   2.4    1.0  1  Ga0207733_100382_854  [6193 - 5867] (REVERSE SENSE)
+    2.7e-67  226.2   2.3      3e-67  226.0   2.3    1.0  1  Ga0207719_100190_479  [29802 - 30134]
+    1.9e-41  143.0   4.5    2.1e-41  142.9   4.5    1.0  1  ATYM01000002_1457     [95825 - 96061] Haloplanus natans DSM 1
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207733_100382_854  [6193 - 5867] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.2   2.4   8.2e-72   2.7e-67       1     109 []       1     109 []       1     109 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 226.2 bits;  conditional E-value: 8.2e-72
+  60120_ATYM01000002_1457   1 mtswtiwkksiqylktfinkckqlvdtmkatarekipvqvqpesnpvpeavqnhrqqkeedeeddelGivkrakesdftaismqdk 86 
+                              mtswtiwk++iqylktfinkckqlvdtmkatarekipvqvqpesnpvpeavq+hrqqke+deeddelGivkrakes+f+aismqd+
+     Ga0207733_100382_854   1 MTSWTIWKRGIQYLKTFINKCKQLVDTMKATAREKIPVQVQPESNPVPEAVQKHRQQKEVDEEDDELGIVKRAKESGFSAISMQDQ 86 
+                              9************************************************************************************* PP
+
+  60120_ATYM01000002_1457  87 asnsessveaeslkkyldgenqr 109
+                              +snsessve+eslk++l+genq+
+     Ga0207733_100382_854  87 GSNSESSVESESLKSFLNGENQQ 109
+                              *********************97 PP
+
+>> Ga0207719_100190_479  [29802 - 30134]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.0   2.3   9.3e-72     3e-67       1     109 []       1     111 []       1     111 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 226.0 bits;  conditional E-value: 9.3e-72
+  60120_ATYM01000002_1457   1 mtswtiwkksiqylktfinkckqlvdtmkatarekipvqvqpesnpvpeavqnhrqq..keedeeddelGivkrakesdftaismq 84 
+                              mtswtiw+ksiqylktfinkckqlvdtmkatarekipvqvqpesnpvpeavqnhrqq  +e+d+eddelGivkrakesdfta+smq
+     Ga0207719_100190_479   1 MTSWTIWRKSIQYLKTFINKCKQLVDTMKATAREKIPVQVQPESNPVPEAVQNHRQQqrQEDDGEDDELGIVKRAKESDFTAFSMQ 86 
+                              9******************************************************9988899************************ PP
+
+  60120_ATYM01000002_1457  85 dkasnsessveaeslkkyldgenqr 109
+                              dkasnse+sveaeslkkyldgen+r
+     Ga0207719_100190_479  87 DKASNSEDSVEAESLKKYLDGENPR 111
+                              ***********************86 PP
+
+>> ATYM01000002_1457  [95825 - 96061] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  142.9   4.5   6.5e-46   2.1e-41      25     103 ..       1      79 []       1      79 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 142.9 bits;  conditional E-value: 6.5e-46
+  60120_ATYM01000002_1457  25 vdtmkatarekipvqvqpesnpvpeavqnhrqqkeedeeddelGivkrakesdftaismqdkasnsessveaeslkkyl 103
+                              ++tm++++r++++vq++pe+n+vpeavqnhr++++edee+de+Givkrak+sdftaismqd+as+++ss++++sl++yl
+        ATYM01000002_1457   1 MKTMTSSGRSTVQVQPEPEINSVPEAVQNHRREQQEDEEEDEPGIVKRAKNSDFTAISMQDQASTDSSSNPDSSLEDYL 79 
+                              79****************************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (109 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       709  (0.00733476); expected 1933.3 (0.02)
+Passed bias filter:                      561  (0.00580367); expected 1933.3 (0.02)
+Passed Vit filter:                        31  (0.000320702); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 8059.19
+//
+[ok]

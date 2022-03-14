@@ -1,0 +1,320 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34166_QNDS01000002.1_205.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34166_QNDS01000002.1_205.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34166_QNDS01000002.1_205.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34166_QNDS01000002.1_205.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       34166_QNDS01000002.1_205  [M=397]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+   3.3e-288  957.1  28.9   3.7e-288  956.9  28.9    1.0  1  Ga0164313_10000250_205       [11031 - 12221]
+   3.3e-288  957.1  28.9   3.7e-288  956.9  28.9    1.0  1  QNDS01000002.1_205           [11031 - 12221] Candidatus Ferme
+    1.4e-07   33.0  16.0    1.4e-07   33.0  16.0    2.0  2  Ga0164313_10000250_260       [15471 - 16202]
+    1.4e-07   33.0  16.0    1.4e-07   33.0  16.0    2.0  2  QNDS01000002.1_260           [15471 - 16202] Candidatus Ferme
+    4.5e-06   28.0  14.7    4.5e-06   28.0  14.7    2.3  2  DQXS01000079.1_74            [3673 - 4815] TPA_asm: Candidatu
+    4.5e-06   28.0  14.7    4.5e-06   28.0  14.7    2.3  2  Ga0116200_10000074_74        [3673 - 4815]
+    4.5e-06   28.0  14.7    4.5e-06   28.0  14.7    2.3  2  QNAN01000020.1_74            [3673 - 4815] Thermotogae bacter
+     0.0068   17.6   0.9     0.0068   17.6   0.9    2.1  1  Ga0164313_10000250_294       [17456 - 18310]
+     0.0068   17.6   0.9     0.0068   17.6   0.9    2.1  1  QNDS01000002.1_294           [17456 - 18310] Candidatus Ferme
+  ------ inclusion threshold ------
+      0.036   15.2  52.7      0.034   15.3  17.8    3.4  3  Ga0164313_10000250_324       [18839 - 20452]
+      0.036   15.2  52.7      0.034   15.3  17.8    3.4  3  QNDS01000002.1_324           [18839 - 20452] Candidatus Ferme
+       0.16   13.0   0.9       0.14   13.2   0.9    1.0  1  JGI12330J12834_1000008_2410  [39126 - 38929] (REVERSE SENSE)
+        3.3    8.7  10.0        3.3    8.7  10.0    1.0  1  Ga0075122_10000557_679       [23043 - 22867] (REVERSE SENSE)
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_205  [11031 - 12221]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  956.9  28.9    5e-292  3.7e-288       1     397 []       1     397 []       1     397 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 956.9 bits;  conditional E-value: 5e-292
+  34166_QNDS01000002.1_205   1 mellsliisnnllcgvvlffiimdlddrtknflkilavvlviglavwwttpqtivvwvydkttgepisginvafrgsgtedrtyk 85 
+                               mellsliisnnllcgvvlffiimdlddrtknflkilavvlviglavwwttpqtivvwvydkttgepisginvafrgsgtedrtyk
+    Ga0164313_10000250_205   1 MELLSLIISNNLLCGVVLFFIIMDLDDRTKNFLKILAVVLVIGLAVWWTTPQTIVVWVYDKTTGEPISGINVAFRGSGTEDRTYK 85 
+                               9************************************************************************************ PP
+
+  34166_QNDS01000002.1_205  86 ttgssgrvvfdgkqgssygidvnyggfggyssehltageyggsmvntkkvylvpgggehpactvgqmqcqvnkvkrcqvvgsvpa 170
+                               ttgssgrvvfdgkqgssygidvnyggfggyssehltageyggsmvntkkvylvpgggehpactvgqmqcqvnkvkrcqvvgsvpa
+    Ga0164313_10000250_205  86 TTGSSGRVVFDGKQGSSYGIDVNYGGFGGYSSEHLTAGEYGGSMVNTKKVYLVPGGGEHPACTVGQMQCQVNKVKRCQVVGSVPA 170
+                               ************************************************************************************* PP
+
+  34166_QNDS01000002.1_205 171 wvtvstcdseggvcscssstncycstaqcpagwackdryhkgmlksdctwsnvafcgagkkcvsgecvqeyactaawrckdantr 255
+                               wvtvstcdseggvcscssstncycstaqcpagwackdryhkgmlksdctwsnvafcgagkkcvsgecvqeyactaawrckdantr
+    Ga0164313_10000250_205 171 WVTVSTCDSEGGVCSCSSSTNCYCSTAQCPAGWACKDRYHKGMLKSDCTWSNVAFCGAGKKCVSGECVQEYACTAAWRCKDANTR 255
+                               ************************************************************************************* PP
+
+  34166_QNDS01000002.1_205 256 gyqtqtcawtnvvhcpygcvsgscknapttttttttttttttpptpplhetttttttpttvtlppeiapyfptpgvpgiveepea 340
+                               gyqtqtcawtnvvhcpygcvsgscknapttttttttttttttpptpplhetttttttpttvtlppeiapyfptpgvpgiveepea
+    Ga0164313_10000250_205 256 GYQTQTCAWTNVVHCPYGCVSGSCKNAPTTTTTTTTTTTTTTPPTPPLHETTTTTTTPTTVTLPPEIAPYFPTPGVPGIVEEPEA 340
+                               ************************************************************************************* PP
+
+  34166_QNDS01000002.1_205 341 pappveeklkatdylmiavaacvilivlalllkkkkpqtplimlpeslmrrppeggv 397
+                               pappveeklkatdylmiavaacvilivlalllkkkkpqtplimlpeslmrrppeggv
+    Ga0164313_10000250_205 341 PAPPVEEKLKATDYLMIAVAACVILIVLALLLKKKKPQTPLIMLPESLMRRPPEGGV 397
+                               ********************************************************8 PP
+
+>> QNDS01000002.1_205  [11031 - 12221] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  956.9  28.9    5e-292  3.7e-288       1     397 []       1     397 []       1     397 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 956.9 bits;  conditional E-value: 5e-292
+  34166_QNDS01000002.1_205   1 mellsliisnnllcgvvlffiimdlddrtknflkilavvlviglavwwttpqtivvwvydkttgepisginvafrgsgtedrtyk 85 
+                               mellsliisnnllcgvvlffiimdlddrtknflkilavvlviglavwwttpqtivvwvydkttgepisginvafrgsgtedrtyk
+        QNDS01000002.1_205   1 MELLSLIISNNLLCGVVLFFIIMDLDDRTKNFLKILAVVLVIGLAVWWTTPQTIVVWVYDKTTGEPISGINVAFRGSGTEDRTYK 85 
+                               9************************************************************************************ PP
+
+  34166_QNDS01000002.1_205  86 ttgssgrvvfdgkqgssygidvnyggfggyssehltageyggsmvntkkvylvpgggehpactvgqmqcqvnkvkrcqvvgsvpa 170
+                               ttgssgrvvfdgkqgssygidvnyggfggyssehltageyggsmvntkkvylvpgggehpactvgqmqcqvnkvkrcqvvgsvpa
+        QNDS01000002.1_205  86 TTGSSGRVVFDGKQGSSYGIDVNYGGFGGYSSEHLTAGEYGGSMVNTKKVYLVPGGGEHPACTVGQMQCQVNKVKRCQVVGSVPA 170
+                               ************************************************************************************* PP
+
+  34166_QNDS01000002.1_205 171 wvtvstcdseggvcscssstncycstaqcpagwackdryhkgmlksdctwsnvafcgagkkcvsgecvqeyactaawrckdantr 255
+                               wvtvstcdseggvcscssstncycstaqcpagwackdryhkgmlksdctwsnvafcgagkkcvsgecvqeyactaawrckdantr
+        QNDS01000002.1_205 171 WVTVSTCDSEGGVCSCSSSTNCYCSTAQCPAGWACKDRYHKGMLKSDCTWSNVAFCGAGKKCVSGECVQEYACTAAWRCKDANTR 255
+                               ************************************************************************************* PP
+
+  34166_QNDS01000002.1_205 256 gyqtqtcawtnvvhcpygcvsgscknapttttttttttttttpptpplhetttttttpttvtlppeiapyfptpgvpgiveepea 340
+                               gyqtqtcawtnvvhcpygcvsgscknapttttttttttttttpptpplhetttttttpttvtlppeiapyfptpgvpgiveepea
+        QNDS01000002.1_205 256 GYQTQTCAWTNVVHCPYGCVSGSCKNAPTTTTTTTTTTTTTTPPTPPLHETTTTTTTPTTVTLPPEIAPYFPTPGVPGIVEEPEA 340
+                               ************************************************************************************* PP
+
+  34166_QNDS01000002.1_205 341 pappveeklkatdylmiavaacvilivlalllkkkkpqtplimlpeslmrrppeggv 397
+                               pappveeklkatdylmiavaacvilivlalllkkkkpqtplimlpeslmrrppeggv
+        QNDS01000002.1_205 341 PAPPVEEKLKATDYLMIAVAACVILIVLALLLKKKKPQTPLIMLPESLMRRPPEGGV 397
+                               ********************************************************8 PP
+
+>> Ga0164313_10000250_260  [15471 - 16202]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   2.5     0.094     7e+02     256     280 ..      76      98 ..      32     111 .. 0.71
+   2 !   33.0  16.0   1.8e-11   1.4e-07     244     373 ..     126     241 ..      90     244 .] 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.094
+  34166_QNDS01000002.1_205 256 gyqtqtcawtnvvhcpygcvsgsck 280
+                               g+  q  +   v++c ygc  g+c 
+    Ga0164313_10000250_260  76 GW--QQKSPVTVMKCLYGCKDGACF 98 
+                               33..334456899*********995 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 1.8e-11
+  34166_QNDS01000002.1_205 244 taawrckdantrgyqtqtcawtnvvhcpygcvsgscknapttttttttttttttpptpplhetttttttpttvtlppeiapyfpt 328
+                                  +rc d        +  ++++v+ cp gc  g c  ap ttt+tt  +t+ttppt       ++ttt   + +pp    yf  
+    Ga0164313_10000250_260 126 RIRYRCSDYLCE----ERRSYSKVMDCPAGCSGGVCLAAPITTTSTT--STSTTPPTTR-----SSTTTTIQIIVPPPTVRYFEP 199
+                               455666664433....3457899*****************9877655..5567788743.....334444566777777888853 PP
+
+  34166_QNDS01000002.1_205 329 pgvpgiveepeapappveeklkatdylmiavaacvilivlalllk 373
+                                  p +v+   +pa    +k++ td ++ a++ + +l+ l +l k
+    Ga0164313_10000250_260 200 --HPIVVDHGITPAYA-PKKVELTDEIVFAITVAAVLLTLFILYK 241
+                               ..46678888888864.579999*****99999999999988876 PP
+
+>> QNDS01000002.1_260  [15471 - 16202] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   2.5     0.094     7e+02     256     280 ..      76      98 ..      32     111 .. 0.71
+   2 !   33.0  16.0   1.8e-11   1.4e-07     244     373 ..     126     241 ..      90     244 .] 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.094
+  34166_QNDS01000002.1_205 256 gyqtqtcawtnvvhcpygcvsgsck 280
+                               g+  q  +   v++c ygc  g+c 
+        QNDS01000002.1_260  76 GW--QQKSPVTVMKCLYGCKDGACF 98 
+                               33..334456899*********995 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 1.8e-11
+  34166_QNDS01000002.1_205 244 taawrckdantrgyqtqtcawtnvvhcpygcvsgscknapttttttttttttttpptpplhetttttttpttvtlppeiapyfpt 328
+                                  +rc d        +  ++++v+ cp gc  g c  ap ttt+tt  +t+ttppt       ++ttt   + +pp    yf  
+        QNDS01000002.1_260 126 RIRYRCSDYLCE----ERRSYSKVMDCPAGCSGGVCLAAPITTTSTT--STSTTPPTTR-----SSTTTTIQIIVPPPTVRYFEP 199
+                               455666664433....3457899*****************9877655..5567788743.....334444566777777888853 PP
+
+  34166_QNDS01000002.1_205 329 pgvpgiveepeapappveeklkatdylmiavaacvilivlalllk 373
+                                  p +v+   +pa    +k++ td ++ a++ + +l+ l +l k
+        QNDS01000002.1_260 200 --HPIVVDHGITPAYA-PKKVELTDEIVFAITVAAVLLTLFILYK 241
+                               ..46678888888864.579999*****99999999999988876 PP
+
+>> DQXS01000079.1_74  [3673 - 4815] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0  14.7   6.1e-10   4.5e-06     213     280 ..     148     221 ..     120     230 .. 0.81
+   2 ?   -4.3  30.1       4.1     3e+04     281     347 ..     249     314 ..     226     325 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 28.0 bits;  conditional E-value: 6.1e-10
+  34166_QNDS01000002.1_205 213 mlksdctwsnvafcgagkk..cvsg.ecvqeyactaawrckdantrgyqtqtcawtnvvhcpyg...cvsgsck 280
+                                 k+   w  v  cg+g++  cvs  ec     c a w+ck +n rgy t tc w nv  cp     c  g c 
+         DQXS01000079.1_74 148 YNKAKQRWELVEECGSGEEcqCVSKfECKCVSFCVAGWKCKATNVRGYLTGTCEWRNVQPCPQStpyCYEGECV 221
+                               4577789**********8622577459999999****************************9754447777775 PP
+
+  == domain 2  score: -4.3 bits;  conditional E-value: 4.1
+  34166_QNDS01000002.1_205 281 napttttttttttttttpptpplhetttttttpttvtlppe.iapyfptpgvpgiveepeapappvee 347
+                                ap tttttt   ttt  pt     ttt   t t +t+pp    p +p+  v    ee +   p   +
+         DQXS01000079.1_74 249 GAPPTTTTTTVRPTTTIAPTT--TTTTTVKPTTTVITIPPVtTVPSLPSVAVCTTDEECDDGDPCTLD 314
+                               355555555555555555543..233333444556799996257999999999999998887776555 PP
+
+>> Ga0116200_10000074_74  [3673 - 4815]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0  14.7   6.1e-10   4.5e-06     213     280 ..     148     221 ..     120     230 .. 0.81
+   2 ?   -4.3  30.1       4.1     3e+04     281     347 ..     249     314 ..     226     325 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 28.0 bits;  conditional E-value: 6.1e-10
+  34166_QNDS01000002.1_205 213 mlksdctwsnvafcgagkk..cvsg.ecvqeyactaawrckdantrgyqtqtcawtnvvhcpyg...cvsgsck 280
+                                 k+   w  v  cg+g++  cvs  ec     c a w+ck +n rgy t tc w nv  cp     c  g c 
+     Ga0116200_10000074_74 148 YNKAKQRWELVEECGSGEEcqCVSKfECKCVSFCVAGWKCKATNVRGYLTGTCEWRNVQPCPQStpyCYEGECV 221
+                               4577789**********8622577459999999****************************9754447777775 PP
+
+  == domain 2  score: -4.3 bits;  conditional E-value: 4.1
+  34166_QNDS01000002.1_205 281 napttttttttttttttpptpplhetttttttpttvtlppe.iapyfptpgvpgiveepeapappvee 347
+                                ap tttttt   ttt  pt     ttt   t t +t+pp    p +p+  v    ee +   p   +
+     Ga0116200_10000074_74 249 GAPPTTTTTTVRPTTTIAPTT--TTTTTVKPTTTVITIPPVtTVPSLPSVAVCTTDEECDDGDPCTLD 314
+                               355555555555555555543..233333444556799996257999999999999998887776555 PP
+
+>> QNAN01000020.1_74  [3673 - 4815] Thermotogae bacterium isolate B96_G9 B96_Guay9_scaffold_13443, whole genome shotgun 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0  14.7   6.1e-10   4.5e-06     213     280 ..     148     221 ..     120     230 .. 0.81
+   2 ?   -4.3  30.1       4.1     3e+04     281     347 ..     249     314 ..     226     325 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 28.0 bits;  conditional E-value: 6.1e-10
+  34166_QNDS01000002.1_205 213 mlksdctwsnvafcgagkk..cvsg.ecvqeyactaawrckdantrgyqtqtcawtnvvhcpyg...cvsgsck 280
+                                 k+   w  v  cg+g++  cvs  ec     c a w+ck +n rgy t tc w nv  cp     c  g c 
+         QNAN01000020.1_74 148 YNKAKQRWELVEECGSGEEcqCVSKfECKCVSFCVAGWKCKATNVRGYLTGTCEWRNVQPCPQStpyCYEGECV 221
+                               4577789**********8622577459999999****************************9754447777775 PP
+
+  == domain 2  score: -4.3 bits;  conditional E-value: 4.1
+  34166_QNDS01000002.1_205 281 napttttttttttttttpptpplhetttttttpttvtlppe.iapyfptpgvpgiveepeapappvee 347
+                                ap tttttt   ttt  pt     ttt   t t +t+pp    p +p+  v    ee +   p   +
+         QNAN01000020.1_74 249 GAPPTTTTTTVRPTTTIAPTT--TTTTTVKPTTTVITIPPVtTVPSLPSVAVCTTDEECDDGDPCTLD 314
+                               355555555555555555543..233333444556799996257999999999999998887776555 PP
+
+>> Ga0164313_10000250_294  [17456 - 18310]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.9   9.2e-07    0.0068       3      36 ..      13      45 ..      11      68 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 9.2e-07
+  34166_QNDS01000002.1_205  3 llsliisnnllcgvvlffiimdlddrtknflkil 36
+                              llslii+nnllc ++l+  imdl + tk f    
+    Ga0164313_10000250_294 13 LLSLIITNNLLCAIILI-SIMDLSNFTKFFAAFW 45
+                              89***********9986.68********987654 PP
+
+>> QNDS01000002.1_294  [17456 - 18310] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.9   9.2e-07    0.0068       3      36 ..      13      45 ..      11      68 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 9.2e-07
+  34166_QNDS01000002.1_205  3 llsliisnnllcgvvlffiimdlddrtknflkil 36
+                              llslii+nnllc ++l+  imdl + tk f    
+        QNDS01000002.1_294 13 LLSLIITNNLLCAIILI-SIMDLSNFTKFFAAFW 45
+                              89***********9986.68********987654 PP
+
+>> Ga0164313_10000250_324  [18839 - 20452]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.5       0.4   2.9e+03     302     319 ..     284     302 ..     252     316 .. 0.67
+   2 ?    8.9  22.4    0.0004         3     259     315 ..     338     393 ..     326     399 .. 0.59
+   3 ?   15.3  17.8   4.5e-06     0.034     242     295 ..     396     448 ..     393     537 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 0.4
+  34166_QNDS01000002.1_205 302 plhe.tttttttpttvtlp 319
+                                l e tttttt p+ v   
+    Ga0164313_10000250_324 284 GLPEpTTTTTTQPACVDTD 302
+                               4544255556667766554 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0004
+  34166_QNDS01000002.1_205 259 tqtcawtnvvhcpygcvsgscknapttttttttttttttpptpplhettttt.ttptt 315
+                               t+  a  ++  cpygcv g c     ttttt  + tttt     l++t tt+ tt tt
+    Ga0164313_10000250_324 338 TDETAGYKLHTCPYGCVDGRCIPRSETTTTTRPSFTTTTTT--TLYQTVTTSsTTSTT 393
+                               444455566679*********87776666665444444433..344443333033333 PP
+
+  == domain 3  score: 15.3 bits;  conditional E-value: 4.5e-06
+  34166_QNDS01000002.1_205 242 actaawrckdantrgyqtqtcawtnvvhcpygcvsgscknaptttttttttttt 295
+                               +c   w ck++  r y +q c      +cp gc+sg c    tttt++ tttt 
+    Ga0164313_10000250_324 396 TCVEGWVCKES-YRTYVSQDCKDVTKQYCPLGCLSGECLTETTTTTSSITTTTE 448
+                               7999*****97.69************************9877777666555553 PP
+
+>> QNDS01000002.1_324  [18839 - 20452] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.5       0.4   2.9e+03     302     319 ..     284     302 ..     252     316 .. 0.67
+   2 ?    8.9  22.4    0.0004         3     259     315 ..     338     393 ..     326     399 .. 0.59
+   3 ?   15.3  17.8   4.5e-06     0.034     242     295 ..     396     448 ..     393     537 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 0.4
+  34166_QNDS01000002.1_205 302 plhe.tttttttpttvtlp 319
+                                l e tttttt p+ v   
+        QNDS01000002.1_324 284 GLPEpTTTTTTQPACVDTD 302
+                               4544255556667766554 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0004
+  34166_QNDS01000002.1_205 259 tqtcawtnvvhcpygcvsgscknapttttttttttttttpptpplhettttt.ttptt 315
+                               t+  a  ++  cpygcv g c     ttttt  + tttt     l++t tt+ tt tt
+        QNDS01000002.1_324 338 TDETAGYKLHTCPYGCVDGRCIPRSETTTTTRPSFTTTTTT--TLYQTVTTSsTTSTT 393
+                               444455566679*********87776666665444444433..344443333033333 PP
+
+  == domain 3  score: 15.3 bits;  conditional E-value: 4.5e-06
+  34166_QNDS01000002.1_205 242 actaawrckdantrgyqtqtcawtnvvhcpygcvsgscknaptttttttttttt 295
+                               +c   w ck++  r y +q c      +cp gc+sg c    tttt++ tttt 
+        QNDS01000002.1_324 396 TCVEGWVCKES-YRTYVSQDCKDVTKQYCPLGCLSGECLTETTTTTSSITTTTE 448
+                               7999*****97.69************************9877777666555553 PP
+
+>> JGI12330J12834_1000008_2410  [39126 - 38929] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.9   1.9e-05      0.14     180     201 ..      29      50 ..       5      63 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 1.9e-05
+     34166_QNDS01000002.1_205 180 eggvcscssstncycstaqcpa 201
+                                  + g cscss+  c+c    cp 
+  JGI12330J12834_1000008_2410  29 NCGRCSCSSAFACWCGLVSCPG 50 
+                                  6899****************96 PP
+
+>> Ga0075122_10000557_679  [23043 - 22867] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.7  10.0   0.00045       3.3     280     313 ..      11      40 ..       3      54 .. 0.54
+
+  Alignments for each domain:
+  == domain 1  score: 8.7 bits;  conditional E-value: 0.00045
+  34166_QNDS01000002.1_205 280 knapttttttttttttttpptpplhetttttttp 313
+                                    +++ttttttttt+ p  p+  + t+ttt 
+    Ga0075122_10000557_679  11 V----SSSTTTTTTTTTSFPIRPMCISITSTTTI 40 
+                               2....33444555555555665655444444432 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (397 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1627  (0.0168317); expected 1933.3 (0.02)
+Passed bias filter:                      993  (0.0102728); expected 1933.3 (0.02)
+Passed Vit filter:                       114  (0.00117936); expected 96.7 (0.001)
+Passed Fwd filter:                        19  (0.000196559); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.24u 0.01s 00:00:00.25 Elapsed: 00:00:00.08
+# Mc/sec: 18345.74
+//
+[ok]

@@ -1,0 +1,111 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/43381_NZ_CP071597.1_2154.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/43381_NZ_CP071597.1_2154.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/43381_NZ_CP071597.1_2154.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/43381_NZ_CP071597.1_2154.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       43381_NZ_CP071597.1_2154  [M=277]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+   2.9e-171  570.3   1.5   3.3e-171  570.1   1.5    1.0  1  JABURA010000001_2151  [49674 - 48844] (REVERSE SENSE) JABURA0
+   1.1e-140  470.0   1.4   1.3e-140  469.7   1.4    1.0  1  NZ_CP071597.1_2154    [50244 - 49399] (REVERSE SENSE) Haloviv
+    2.3e-24   88.4   0.0    2.6e-24   88.2   0.0    1.0  1  CP048739_564          [39990 - 40481] [Halogeometricum borinq
+
+
+Domain annotation for each sequence (and alignments):
+>> JABURA010000001_2151  [49674 - 48844] (REVERSE SENSE) JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  570.1   1.5    1e-175  3.3e-171       1     277 []       1     277 []       1     277 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 570.1 bits;  conditional E-value: 1e-175
+  43381_NZ_CP071597.1_2154   1 mrtaascresegwpeinattahsvdsdeysarelrdmhrlkrkrlirdilkeetavsvrelaerldilvlkmtkddtryrllrka 85 
+                               mr++++cr++e+wpe+nattahsvdsdeys+rel+dmhr++rkrl+rdilk+etavsvre++erl+ilv++mtkd+t+y+l+rk+
+      JABURA010000001_2151   1 MRYPHPCRIPERWPEMNATTAHSVDSDEYSYRELHDMHRIWRKRLFRDILKQETAVSVREMGERLGILVPRMTKDCTQYGLIRKT 85 
+                               89*********************************************************************************** PP
+
+  43381_NZ_CP071597.1_2154  86 lealvddGivnkleettpvryylktgvdetltreerlfkrwedalktenGwfdfeeleeltasvspepvsdslitpflayvndrd 170
+                               leal+ddGivnkl+ettp+ryyl+tgvd++ltreerlf+rwedalktenGwfdfee+eeltasvspepvsdslitpf+ayvndrd
+      JABURA010000001_2151  86 LEALIDDGIVNKLTETTPTRYYLRTGVDQPLTREERLFQRWEDALKTENGWFDFEEIEELTASVSPEPVSDSLITPFIAYVNDRD 170
+                               ************************************************************************************* PP
+
+  43381_NZ_CP071597.1_2154 171 kvqirksdksGvptrfvkdtestdryeelkerlpaGkdvvdeavakGkrpsviaavveyvldedvlqeeaadlfdtspvsvrsnr 255
+                               kv+i+ksd+sGvpt+fvk++estdrye+lkerlpaGk+vvd+avakG+rpsv+aa+v+yvldedv+qeeaadlfdtspvs+rsnr
+      JABURA010000001_2151 171 KVWIQKSDHSGVPTYFVKGCESTDRYEHLKERLPAGKHVVDTAVAKGRRPSVTAATVQYVLDEDVTQEEAADLFDTSPVSIRSNR 255
+                               ************************************************************************************* PP
+
+  43381_NZ_CP071597.1_2154 256 dwvrerledtgieidheleGds 277
+                               dwvre+ledtgieidhe+eGds
+      JABURA010000001_2151 256 DWVREQLEDTGIEIDHEPEGDS 277
+                               ********************96 PP
+
+>> NZ_CP071597.1_2154  [50244 - 49399] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  469.7   1.4    4e-145  1.3e-140       2     274 ..      22     277 ..      21     282 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 469.7 bits;  conditional E-value: 4e-145
+  43381_NZ_CP071597.1_2154   2 rtaasc.resegwpeinattahsvdsdeysarelrdmhrlkrkrlirdilkeetavsvrelaerldilvlkmtkddtryrllrka 85 
+                               +taasc resegwp+i+a         ey+a+elr+m++lkrk+lird+lke+++++v+ela++ld+++lk++++d+ryrllr+a
+        NZ_CP071597.1_2154  22 HTAASCvRESEGWPTITA---------EYTAGELREMGLLKRKQLIRDMLKEYQQITVPELARYLDMTPLKPREGDRRYRLLRSA 97 
+                               899***************.........********************************************************** PP
+
+  43381_NZ_CP071597.1_2154  86 lealvddGivnkleettpvryylktgvdetltreerlfkrwedalktenGwfdfeeleeltasvspepvsdslitpflayvndrd 170
+                               +ealvddGiv+k+e+++pv+yylk++++et+t+ee+lfkrwed+l++++Gw++fe+l+++t+s++++p++d+li+pfl++vn+r+
+        NZ_CP071597.1_2154  98 CEALVDDGIVGKIEDRYPVEYYLKNTRRETATHEEILFKRWEDELANHHGWHGFEDLKQITGSTTMTPLTDYLISPFLEFVNKRG 182
+                               ************************************************************************************* PP
+
+  43381_NZ_CP071597.1_2154 171 kvqirksdksGvptrfvkdtestdryeelkerlpaGkdvvdeavakGkrpsviaavveyvldedvlqeeaadlfdtspvsvrsnr 255
+                               ++qir+++k+G+++r+++dt+++dry+elk++lpaG+d++dea++kGk+ps+iaav+e+ l++d+lq+eaa+++d++p++vr+nr
+        NZ_CP071597.1_2154 183 RIQIRRTKKGGNGRRYFVDTQNPDRYKELKADLPAGEDLIDEALNKGKSPSTIAAVIEW-LTTDKLQKEAAQKYDRTPEAVRNNR 266
+                               ***********************************************************.************************* PP
+
+  43381_NZ_CP071597.1_2154 256 dwvrerledtgieidhele 274
+                               dwv++rl+        ele
+        NZ_CP071597.1_2154 267 DWVEARLA--------ELE 277
+                               *******9........333 PP
+
+>> CP048739_564  [39990 - 40481] [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.0   8.2e-29   2.6e-24     121     268 ..      12     160 ..       3     164 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 8.2e-29
+  43381_NZ_CP071597.1_2154 121 rlfkrwedalktenGwfdfeeleeltasvspepvsdslitp.flayvndrdkvqirksdksGvptrfvkdtestdryeelkerlp 204
+                                 f+ we  l +e G f ++el +l    +   ++ s i p f+++vndr+ v+i  s  +G+++r++ + +    y +  ++lp
+              CP048739_564  12 EAFETWEARLDEEYGRFRYQELADLLNPLTDINLTPSQILPlFIEWVNDRGTVRIDSSSAAGNGKRYFINRDRGPDYSKQLDQLP 96 
+                               469*********************************9999979**************************99998889888899** PP
+
+  43381_NZ_CP071597.1_2154 205 aGkd.vvdeavakGkrpsviaavveyvldedvlqeeaadlfdtspvsvrsnrdwvrerledtgie 268
+                                  + v d  v++G +p viaa+++  l +     eaa+ f  sp+ vr+n   vre l++ gi+
+              CP048739_564  97 EETHpVFDRFVSQGYSPRVIAAAIDS-LATYDSVVEAAEAFGCSPEGVRNNLSAVREALAEYGID 160
+                               9877588*******************.555555679*************************9997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (277 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       525  (0.00543124); expected 1933.3 (0.02)
+Passed bias filter:                      399  (0.00412774); expected 1933.3 (0.02)
+Passed Vit filter:                        19  (0.000196559); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.15u 0.01s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 20480.69
+//
+[ok]

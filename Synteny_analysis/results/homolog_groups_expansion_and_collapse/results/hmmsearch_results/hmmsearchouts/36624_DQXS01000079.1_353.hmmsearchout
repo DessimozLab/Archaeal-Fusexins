@@ -1,0 +1,76 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/36624_DQXS01000079.1_353.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/36624_DQXS01000079.1_353.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/36624_DQXS01000079.1_353.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/36624_DQXS01000079.1_353.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       36624_DQXS01000079.1_353  [M=81]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+      5e-57  192.1   3.9    5.4e-57  191.9   3.9    1.0  1  DQXS01000079.1_353      [21357 - 21599] TPA_asm: Candidatus A
+      5e-57  192.1   3.9    5.4e-57  191.9   3.9    1.0  1  Ga0116200_10000074_353  [21357 - 21599]
+     0.0011   21.1   0.0     0.0013   20.8   0.0    1.2  1  Ga0208375_1000150_1341  [75157 - 75417]
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_353  [21357 - 21599] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  191.9   3.9   1.7e-61   5.4e-57       1      81 []       1      81 []       1      81 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 191.9 bits;  conditional E-value: 1.7e-61
+  36624_DQXS01000079.1_353  1 mveipipkkkvfipgcvtepdgtvkckpklikgdikleaprpiimrkiesekgrfmeilddgdaqaelidelrryvekrhl 81
+                              mveipipkkkvfipgcvtepdgtvkckpklikgdikleaprpiimrkiesekgrfmeilddgdaqaelidelrryvekrhl
+        DQXS01000079.1_353  1 MVEIPIPKKKVFIPGCVTEPDGTVKCKPKLIKGDIKLEAPRPIIMRKIESEKGRFMEILDDGDAQAELIDELRRYVEKRHL 81
+                              9*******************************************************************************8 PP
+
+>> Ga0116200_10000074_353  [21357 - 21599]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  191.9   3.9   1.7e-61   5.4e-57       1      81 []       1      81 []       1      81 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 191.9 bits;  conditional E-value: 1.7e-61
+  36624_DQXS01000079.1_353  1 mveipipkkkvfipgcvtepdgtvkckpklikgdikleaprpiimrkiesekgrfmeilddgdaqaelidelrryvekrhl 81
+                              mveipipkkkvfipgcvtepdgtvkckpklikgdikleaprpiimrkiesekgrfmeilddgdaqaelidelrryvekrhl
+    Ga0116200_10000074_353  1 MVEIPIPKKKVFIPGCVTEPDGTVKCKPKLIKGDIKLEAPRPIIMRKIESEKGRFMEILDDGDAQAELIDELRRYVEKRHL 81
+                              9*******************************************************************************8 PP
+
+>> Ga0208375_1000150_1341  [75157 - 75417]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0   4.2e-08    0.0013      22      78 ..      30      84 ..       6      86 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 4.2e-08
+  36624_DQXS01000079.1_353 22 gtvkckpklikgdik.leaprpiimrkiesekgrfmeilddgdaqaelidelrryvek 78
+                                + c+p+l   d k l   rp+   +i  ekgr  +i+ddg +  e+i  l +y+ k
+    Ga0208375_1000150_1341 30 VVLECQPQLHLPDGKvLTGERPM---QIVLEKGRPPQIVDDGGTPEEMIGRLEKYIHK 84
+                              3468****999998845678886...6889**************************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (81 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       564  (0.0058347); expected 1933.3 (0.02)
+Passed bias filter:                      447  (0.00462431); expected 1933.3 (0.02)
+Passed Vit filter:                        20  (0.000206904); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 5988.94
+//
+[ok]

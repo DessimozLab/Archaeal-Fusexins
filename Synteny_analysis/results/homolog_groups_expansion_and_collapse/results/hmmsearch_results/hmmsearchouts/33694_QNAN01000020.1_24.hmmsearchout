@@ -1,0 +1,89 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/33694_QNAN01000020.1_24.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/33694_QNAN01000020.1_24.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/33694_QNAN01000020.1_24.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/33694_QNAN01000020.1_24.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       33694_QNAN01000020.1_24  [M=70]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    1.6e-51  174.6   5.2    1.7e-51  174.5   5.2    1.0  1  DQXS01000079.1_24      [1367 - 1576] TPA_asm: Candidatus Alti
+    1.6e-51  174.6   5.2    1.7e-51  174.5   5.2    1.0  1  Ga0116200_10000074_24  [1367 - 1576]
+    1.6e-51  174.6   5.2    1.7e-51  174.5   5.2    1.0  1  QNAN01000020.1_24      [1367 - 1576] Thermotogae bacterium is
+     0.0054   19.1   2.1      0.025   17.0   2.1    1.9  1  QMYS01000134.1_161     [1976 - 1686] (REVERSE SENSE) Candidat
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_24  [1367 - 1576] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  174.5   5.2   7.2e-56   1.7e-51       1      70 []       1      70 []       1      70 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 174.5 bits;  conditional E-value: 7.2e-56
+  33694_QNAN01000020.1_24  1 mdkriitllamfgiafllmnvqvteqqkeipckgfddcmeiakrygidktavicetekgikkckvivtsg 70
+                             mdkriitllamfgiafllmnvqvteqqkeipckgfddcmeiakrygidktavicetekgikkckvivtsg
+        DQXS01000079.1_24  1 MDKRIITLLAMFGIAFLLMNVQVTEQQKEIPCKGFDDCMEIAKRYGIDKTAVICETEKGIKKCKVIVTSG 70
+                             9********************************************************************8 PP
+
+>> Ga0116200_10000074_24  [1367 - 1576]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  174.5   5.2   7.2e-56   1.7e-51       1      70 []       1      70 []       1      70 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 174.5 bits;  conditional E-value: 7.2e-56
+  33694_QNAN01000020.1_24  1 mdkriitllamfgiafllmnvqvteqqkeipckgfddcmeiakrygidktavicetekgikkckvivtsg 70
+                             mdkriitllamfgiafllmnvqvteqqkeipckgfddcmeiakrygidktavicetekgikkckvivtsg
+    Ga0116200_10000074_24  1 MDKRIITLLAMFGIAFLLMNVQVTEQQKEIPCKGFDDCMEIAKRYGIDKTAVICETEKGIKKCKVIVTSG 70
+                             9********************************************************************8 PP
+
+>> QNAN01000020.1_24  [1367 - 1576] Thermotogae bacterium isolate B96_G9 B96_Guay9_scaffold_13443, whole genome shotgun 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  174.5   5.2   7.2e-56   1.7e-51       1      70 []       1      70 []       1      70 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 174.5 bits;  conditional E-value: 7.2e-56
+  33694_QNAN01000020.1_24  1 mdkriitllamfgiafllmnvqvteqqkeipckgfddcmeiakrygidktavicetekgikkckvivtsg 70
+                             mdkriitllamfgiafllmnvqvteqqkeipckgfddcmeiakrygidktavicetekgikkckvivtsg
+        QNAN01000020.1_24  1 MDKRIITLLAMFGIAFLLMNVQVTEQQKEIPCKGFDDCMEIAKRYGIDKTAVICETEKGIKKCKVIVTSG 70
+                             9********************************************************************8 PP
+
+>> QMYS01000134.1_161  [1976 - 1686] (REVERSE SENSE) Candidatus Thorarchaeota archaeon isolate B59_G1 B59_Guay1_scaffold
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   2.1     1e-06     0.025       4      62 ..      19      89 ..      14      93 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 1e-06
+  33694_QNAN01000020.1_24  4 riitllamfgiafllmnvq........vteqqkeipckgfddcmeiakrygidk....tavicetekgikk 62
+                              ++ +la+ gi f+l   +            + e+pc+ f++c    k yg        +v ce +k   k
+       QMYS01000134.1_161 19 VLLIILAIVGIVFVLYSSEekyrlfqnSIPTNIELPCHSFEECRTFLKAYGYTNeqieESVFCEDDKCYMK 89
+                             56778999999999987541111111122345799****************86522225799999997655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (70 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1162  (0.0120211); expected 1933.3 (0.02)
+Passed bias filter:                      860  (0.00889689); expected 1933.3 (0.02)
+Passed Vit filter:                        51  (0.000527606); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 5175.62
+//
+[ok]

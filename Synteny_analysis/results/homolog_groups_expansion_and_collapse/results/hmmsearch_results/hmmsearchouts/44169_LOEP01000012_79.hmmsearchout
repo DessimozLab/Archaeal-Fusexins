@@ -1,0 +1,156 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/44169_LOEP01000012_79.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/44169_LOEP01000012_79.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/44169_LOEP01000012_79.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/44169_LOEP01000012_79.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       44169_LOEP01000012_79  [M=50]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    7.7e-32  111.6   3.7    8.4e-32  111.4   3.7    1.0  1  LOEP01000012_79              [3513 - 3665] Haloferax sp. Q22 
+    1.3e-30  107.6   5.3    1.4e-30  107.5   5.3    1.0  1  JABURA010000001_569          [40888 - 41037] JABURA010000001.
+    7.9e-27   95.5   3.2    8.6e-27   95.4   3.2    1.0  1  JNCS01000001_2188            [37636 - 37502] (REVERSE SENSE) 
+    2.9e-23   84.1   1.4      4e-23   83.7   1.4    1.2  1  ATYM01000002_767             [51078 - 51344] Haloplanus natan
+    3.4e-17   64.7   2.8    5.1e-17   64.1   2.8    1.3  1  JGI12330J12834_1000008_2163  [54919 - 54683] (REVERSE SENSE)
+  ------ inclusion threshold ------
+       0.33   13.5   0.9       0.53   12.8   0.9    1.3  1  Ga0172377_10000119_2129      [29656 - 29477] (REVERSE SENSE)
+       0.33   13.5   3.5       0.34   13.4   1.0    1.9  2  JABURA010000001_571          [41050 - 41199] JABURA010000001.
+        1.7   11.2   3.1         35    7.0   0.6    2.5  2  CP058579_2446                [163241 - 163002] (REVERSE SENSE
+
+
+Domain annotation for each sequence (and alignments):
+>> LOEP01000012_79  [3513 - 3665] Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Haloferax sp. Q22 | 15
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.4   3.7   6.9e-36   8.4e-32       1      50 []       1      51 []       1      51 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 111.4 bits;  conditional E-value: 6.9e-36
+  44169_LOEP01000012_79  1 msaqnPqslGvCPfCraEilrrhtlieYEtesG.eevwaECPeCrdVVdPe 50
+                           m+aq+Pq+lGvCPfCr+Ei+rrhtli+YE++sG ee+w+ECP+C++VV+Pe
+        LOEP01000012_79  1 MAAQEPQRLGVCPFCREEIYRRHTLIRYENQSGeEEAWTECPSCNEVVHPE 51
+                           9********************************99***************8 PP
+
+>> JABURA010000001_569  [40888 - 41037] JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.5   5.3   1.2e-34   1.4e-30       1      50 []       1      50 []       1      50 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 107.5 bits;  conditional E-value: 1.2e-34
+  44169_LOEP01000012_79  1 msaqnPqslGvCPfCraEilrrhtlieYEtesGeevwaECPeCrdVVdPe 50
+                           ms++nP+s+G+CPfC+aEi+++++++eYEte+G++v+aECPeCrdVV+P+
+    JABURA010000001_569  1 MSTTNPPSTGTCPFCQAEITTIDVILEYETETGPAVYAECPECRDVVNPQ 50
+                           9************************************************8 PP
+
+>> JNCS01000001_2188  [37636 - 37502] (REVERSE SENSE) Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.4   3.2   7.1e-31   8.6e-27       1      50 []       1      45 []       1      45 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.4 bits;  conditional E-value: 7.1e-31
+  44169_LOEP01000012_79  1 msaqnPqslGvCPfCraEilrrhtlieYEtesGeevwaECPeCrdVVdPe 50
+                           msaqnP +lG+CP+C++Eil+rhtlieYE+    +vwaECP+CrdVVdPe
+      JNCS01000001_2188  1 MSAQNP-GLGDCPHCGCEILPRHTLIEYEG----GVWAECPDCRDVVDPE 45
+                           9*****.***********************....***************8 PP
+
+>> ATYM01000002_767  [51078 - 51344] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequenc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.7   1.4   3.3e-27     4e-23       1      50 []      39      89 .]      39      89 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 83.7 bits;  conditional E-value: 3.3e-27
+  44169_LOEP01000012_79  1 msaqnPqslGvCPfCraEilrrhtlieYEtesG.eevwaECPeCrdVVdPe 50
+                           m+aq+  +lG CP C++Eil+rhtli+YEt  G +e+w+ECP+C +VV+P+
+       ATYM01000002_767 39 MAAQKSSRLGFCPLCNEEILPRHTLIRYETGEGeQEAWTECPNCSEVVHPQ 89
+                           9********************************99***************8 PP
+
+>> JGI12330J12834_1000008_2163  [54919 - 54683] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.1   2.8   4.2e-21   5.1e-17       1      50 []      30      78 ..      30      78 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 64.1 bits;  conditional E-value: 4.2e-21
+        44169_LOEP01000012_79  1 msaqnPqslGvCPfCraEilrrhtlieYEtesGeevwaECPeCrdVVdPe 50
+                                 ms q P +lG+CP C+ Ei + h+lieYE+e G   w EC  C +VVdP+
+  JGI12330J12834_1000008_2163 30 MSVQSP-RLGDCPRCGDEIREAHVLIEYESEDGTRYWCECRGCGEVVDPD 78
+                                 9*****.******************************************6 PP
+
+>> Ga0172377_10000119_2129  [29656 - 29477] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.9   4.4e-05      0.53      11      44 ..      10      40 ..       6      44 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 4.4e-05
+    44169_LOEP01000012_79 11 vCPfCraEilrrhtlieYEtesGeevwaECPeCr 44
+                              CP C+ ++++++   +YEt  G  +   C +C+
+  Ga0172377_10000119_2129 10 ICPICKVDLYEKN---RYETTGGTHIEIRCSKCN 40
+                             5***********8...9***888**********8 PP
+
+>> JABURA010000001_571  [41050 - 41199] JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.2      0.16     2e+03      35      48 ..      17      30 ..      13      32 .. 0.75
+   2 ?   13.4   1.0   2.8e-05      0.34       7      24 ..      31      48 ..      25      49 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 0.16
+  44169_LOEP01000012_79 35 evwaECPeCrdVVd 48
+                           +v  EC  C   Vd
+    JABURA010000001_571 17 DVVYECRRCGTTVD 30
+                           56669999987776 PP
+
+  == domain 2  score: 13.4 bits;  conditional E-value: 2.8e-05
+  44169_LOEP01000012_79  7 qslGvCPfCraEilrrht 24
+                           + +G+CP C+aE + +h 
+    JABURA010000001_571 31 KDTGTCPACGAEAIVQHR 48
+                           689*********988875 PP
+
+>> CP058579_2446  [163241 - 163002] (REVERSE SENSE) [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.0   0.6    0.0029        35      30      43 ..      28      40 ..       7      44 .. 0.88
+   2 ?    4.8   0.1     0.014   1.7e+02      37      44 ..      57      63 ..      46      70 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.0029
+  44169_LOEP01000012_79 30 tesGeevwaECPeC 43
+                           ++sG + +a CP+C
+          CP058579_2446 28 GQSGRATYA-CPDC 40
+                           79******9.**** PP
+
+  == domain 2  score: 4.8 bits;  conditional E-value: 0.014
+  44169_LOEP01000012_79 37 waECPeCr 44
+                           ++ CP+Cr
+          CP058579_2446 57 FT-CPSCR 63
+                           54.88887 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (50 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1407  (0.0145557); expected 1933.3 (0.02)
+Passed bias filter:                      871  (0.00901069); expected 1933.3 (0.02)
+Passed Vit filter:                        53  (0.000548297); expected 96.7 (0.001)
+Passed Fwd filter:                         8  (8.27618e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 3696.88
+//
+[ok]

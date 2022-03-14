@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/44177_LOEP01000012_87.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/44177_LOEP01000012_87.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/44177_LOEP01000012_87.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/44177_LOEP01000012_87.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       44177_LOEP01000012_87  [M=112]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    4.7e-71  238.4   2.3    5.2e-71  238.3   2.3    1.0  1  LOEP01000012_87   [3861 - 4196] Haloferax sp. Q22 scaffold12,
+    1.5e-59  201.3   1.5    1.7e-59  201.2   1.5    1.0  1  ATYM01000002_777  [51562 - 51873] Haloplanus natans DSM 17983
+
+
+Domain annotation for each sequence (and alignments):
+>> LOEP01000012_87  [3861 - 4196] Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Haloferax sp. Q22 | 15
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  238.3   2.3   1.1e-75   5.2e-71       1     112 []       1     112 []       1     112 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 238.3 bits;  conditional E-value: 1.1e-75
+  44177_LOEP01000012_87   1 lfygeagitdvefedgafdvaddndksecelpeeivekwiyrgkgiqlydsidkqllfvhqktvvvtdysprrdiwlveqvfrssgfr 88 
+                            +fygeagitdvefedgafdvaddndksecelpeeivekwiyrgkgiqlydsidkq+lfvhqktvvvtdysprrd+w+veqvfrssgfr
+        LOEP01000012_87   1 MFYGEAGITDVEFEDGAFDVADDNDKSECELPEEIVEKWIYRGKGIQLYDSIDKQFLFVHQKTVVVTDYSPRRDTWIVEQVFRSSGFR 88 
+                            8*************************************************************************************** PP
+
+  44177_LOEP01000012_87  89 rkkgldrysdvdpedfkrsrrenq 112
+                            rkkgldrysdvdpedfkrs+renq
+        LOEP01000012_87  89 RKKGLDRYSDVDPEDFKRSCRENQ 112
+                            ***********************8 PP
+
+>> ATYM01000002_777  [51562 - 51873] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequenc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  201.2   1.5   3.5e-64   1.7e-59       8     112 .]       1     104 []       1     104 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 201.2 bits;  conditional E-value: 3.5e-64
+  44177_LOEP01000012_87   8 itdvefedgafdvaddndksecelpeeivekwiyrgkgiqlydsidkqllfvhqktvvvtdysprrdiwlveqvfrssgfrrkkgldr 95 
+                            +tdvef+d+af+++d+++ks+c+lpe+i+ekw++r+kg+q+yd+++++llf+hqktvvvtdy+p++diwl+++v+rs++ ++k+gl+r
+       ATYM01000002_777   1 MTDVEFTDHAFERVDGSEKSRCKLPESIIEKWVHRRKGNQFYDREEDTLLFIHQKTVVVTDYEPEDDIWLIVTVYRSQS-PGKAGLER 87 
+                            8******************************************************************************.******** PP
+
+  44177_LOEP01000012_87  96 ysdvdpedfkrsrrenq 112
+                            ys+vdpedfk+srr+nq
+       ATYM01000002_777  88 YSKVDPEDFKESRRKNQ 104
+                            ****************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (112 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       549  (0.00567953); expected 1933.3 (0.02)
+Passed bias filter:                      438  (0.00453121); expected 1933.3 (0.02)
+Passed Vit filter:                        23  (0.00023794); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 8281.00
+//
+[ok]

@@ -1,0 +1,405 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37736_DRYJ01000053.1_258.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37736_DRYJ01000053.1_258.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37736_DRYJ01000053.1_258.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37736_DRYJ01000053.1_258.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37736_DRYJ01000053.1_258  [M=2535]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+          0 6123.8 155.6          0 6123.7 155.6    1.0  1  DRYJ01000053.1_258     [8242 - 15846] TPA_asm: Candidatus Bat
+          0 6123.8 155.6          0 6123.7 155.6    1.0  1  Ga0065719_100268_258   [8242 - 15846]
+    6.1e-20   72.0  11.8    6.1e-20   72.0  11.8    2.3  3  JAADFW010000227.1_484  [14592 - 11767] (REVERSE SENSE) Chloro
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_258  [8242 - 15846] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, whol
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 6123.7 155.6         0         0       1    2535 []       1    2535 []       1    2535 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 6123.7 bits;  conditional E-value: 0
+  37736_DRYJ01000053.1_258    1 mismkikgvvrigmfiilaifiislvlmftsskassnrrdfslilvsnnvdfsgacteyrldfssfdfnsadsfgfiglvktl 83  
+                                mismkikgvvrigmfiilaifiislvlmftsskassnrrdfslilvsnnvdfsgacteyrldfssfdfnsadsfgfiglvktl
+        DRYJ01000053.1_258    1 MISMKIKGVVRIGMFIILAIFIISLVLMFTSSKASSNRRDFSLILVSNNVDFSGACTEYRLDFSSFDFNSADSFGFIGLVKTL 83  
+                                9********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258   84 nvsrikevhgnlknirielminetynvsvpvygelfsnitcryenettnqtiygswelvngseyscsllnitmnclevysvnf 166 
+                                nvsrikevhgnlknirielminetynvsvpvygelfsnitcryenettnqtiygswelvngseyscsllnitmnclevysvnf
+        DRYJ01000053.1_258   84 NVSRIKEVHGNLKNIRIELMINETYNVSVPVYGELFSNITCRYENETTNQTIYGSWELVNGSEYSCSLLNITMNCLEVYSVNF 166 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  167 tndtclynytgvvgyrdeerwrwnyvtllerskkggervknlgsiggkifeqvrnskylgfricgnyslertekgwsvsidhi 249 
+                                tndtclynytgvvgyrdeerwrwnyvtllerskkggervknlgsiggkifeqvrnskylgfricgnyslertekgwsvsidhi
+        DRYJ01000053.1_258  167 TNDTCLYNYTGVVGYRDEERWRWNYVTLLERSKKGGERVKNLGSIGGKIFEQVRNSKYLGFRICGNYSLERTEKGWSVSIDHI 249 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  250 pyfngieytefawwnaswlyrrpvtinntqntntltdyqvlvtldtaslitegkmrddcgdirfvdsdgttllnywiesgcns 332 
+                                pyfngieytefawwnaswlyrrpvtinntqntntltdyqvlvtldtaslitegkmrddcgdirfvdsdgttllnywiesgcns
+        DRYJ01000053.1_258  250 PYFNGIEYTEFAWWNASWLYRRPVTINNTQNTNTLTDYQVLVTLDTASLITEGKMRDDCGDIRFVDSDGTTLLNYWIESGCNS 332 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  333 tdtkiwvkvpeipassrkiiyvyygnpnatsmsngtttfdffddfttldtnvwvsrqltyslsdkgiildvgaivtqnfvgsf 415 
+                                tdtkiwvkvpeipassrkiiyvyygnpnatsmsngtttfdffddfttldtnvwvsrqltyslsdkgiildvgaivtqnfvgsf
+        DRYJ01000053.1_258  333 TDTKIWVKVPEIPASSRKIIYVYYGNPNATSMSNGTTTFDFFDDFTTLDTNVWVSRQLTYSLSDKGIILDVGAIVTQNFVGSF 415 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  416 petiaeakitwlgastatwggfaatgdpdgfnnadathqagygpyvvilpgssggyfrfaaddgatanyiegaewhilnipfi 498 
+                                petiaeakitwlgastatwggfaatgdpdgfnnadathqagygpyvvilpgssggyfrfaaddgatanyiegaewhilnipfi
+        DRYJ01000053.1_258  416 PETIAEAKITWLGASTATWGGFAATGDPDGFNNADATHQAGYGPYVVILPGSSGGYFRFAADDGATANYIEGAEWHILNIPFI 498 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  499 eslytnasgnywyrnyefvaslslpwtgnyyilfgeddldgtanypnfevdfvrvrkytspepttsvpiitiysplnqtydfp 581 
+                                eslytnasgnywyrnyefvaslslpwtgnyyilfgeddldgtanypnfevdfvrvrkytspepttsvpiitiysplnqtydfp
+        DRYJ01000053.1_258  499 ESLYTNASGNYWYRNYEFVASLSLPWTGNYYILFGEDDLDGTANYPNFEVDFVRVRKYTSPEPTTSVPIITIYSPLNQTYDFP 581 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  582 ynfefkfkvesseptfevkaflddeviyhdtnyqsstvitlyrnltyktynftvlanisndivtktviftirllkyrrpvtid 664 
+                                ynfefkfkvesseptfevkaflddeviyhdtnyqsstvitlyrnltyktynftvlanisndivtktviftirllkyrrpvtid
+        DRYJ01000053.1_258  582 YNFEFKFKVESSEPTFEVKAFLDDEVIYHDTNYQSSTVITLYRNLTYKTYNFTVLANISNDIVTKTVIFTIRLLKYRRPVTID 664 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  665 ntqnnntltdyqvlvtldtaslitegkmrddcgdirfvdsddttllnywiesgcnstdtkiwvkvpeipasstktiyvyygns 747 
+                                ntqnnntltdyqvlvtldtaslitegkmrddcgdirfvdsddttllnywiesgcnstdtkiwvkvpeipasstktiyvyygns
+        DRYJ01000053.1_258  665 NTQNNNTLTDYQVLVTLDTASLITEGKMRDDCGDIRFVDSDDTTLLNYWIESGCNSTDTKIWVKVPEIPASSTKTIYVYYGNS 747 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  748 eatslssetaifilgevealttytktswgtgssypedtyntkyhdarneiiytftdfyngsavylvplkvayiklqryeapgr 830 
+                                eatslssetaifilgevealttytktswgtgssypedtyntkyhdarneiiytftdfyngsavylvplkvayiklqryeapgr
+        DRYJ01000053.1_258  748 EATSLSSETAIFILGEVEALTTYTKTSWGTGSSYPEDTYNTKYHDARNEIIYTFTDFYNGSAVYLVPLKVAYIKLQRYEAPGR 830 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  831 alanyriryqlttatsvgtsftttdwtliwgptthtpvdgwntydvsdfywtannlrldlsrddtaytsgggmyrrtgltpak 913 
+                                alanyriryqlttatsvgtsftttdwtliwgptthtpvdgwntydvsdfywtannlrldlsrddtaytsgggmyrrtgltpak
+        DRYJ01000053.1_258  831 ALANYRIRYQLTTATSVGTSFTTTDWTLIWGPTTHTPVDGWNTYDVSDFYWTANNLRLDLSRDDTAYTSGGGMYRRTGLTPAK 913 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  914 mctyysdsgrswpfdgsctqrdyapaiifggllrkytdpepttsvgseestspeiiittydenyveedlfevgskiiirsnit 996 
+                                mctyysdsgrswpfdgsctqrdyapaiifggllrkytdpepttsvgseestspeiiittydenyveedlfevgskiiirsnit
+        DRYJ01000053.1_258  914 MCTYYSDSGRSWPFDGSCTQRDYAPAIIFGGLLRKYTDPEPTTSVGSEESTSPEIIITTYDENYVEEDLFEVGSKIIIRSNIT 996 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  997 iagvsidkalvsiidnssvvrvsnetmtliysnsyylyeynytlplfprgtwtiivyansstglestesknifvyrryeenvs 1079
+                                iagvsidkalvsiidnssvvrvsnetmtliysnsyylyeynytlplfprgtwtiivyansstglestesknifvyrryeenvs
+        DRYJ01000053.1_258  997 IAGVSIDKALVSIIDNSSVVRVSNETMTLIYSNSYYLYEYNYTLPLFPRGTWTIIVYANSSTGLESTESKNIFVYRRYEENVS 1079
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1080 sllsiysnitsslslfnseqvkteynastsihietiksiilsyftrlfeqlsnilsltifhftyaavypsiilfteettygln 1162
+                                sllsiysnitsslslfnseqvkteyn stsihietiksiilsyftrlfeqlsnilsltifhfty  vypsiilfteettygln
+        DRYJ01000053.1_258 1080 SLLSIYSNITSSLSLFNSEQVKTEYNXSTSIHIETIKSIILSYFTRLFEQLSNILSLTIFHFTYXXVYPSIILFTEETTYGLN 1162
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1163 etvavngtiilsrnplanaeialyehnetysnyagsvysdahgkfnftwrtltkgnwtlearyyvdvddytsanvtlniidpi 1245
+                                etv vngtiilsrnplan ei lyehnetysny gsvysd hgkfnftwrtltkgnwtlearyyvdvddytsanvtlniidpi
+        DRYJ01000053.1_258 1163 ETVXVNGTIILSRNPLANXEIXLYEHNETYSNYXGSVYSDXHGKFNFTWRTLTKGNWTLEARYYVDVDDYTSANVTLNIIDPI 1245
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1246 syqiispdwlydrmlneknyygsvlnimsnryirkiefdntnqylqpfymkelygayhncenlkpnevcyaiyrysnlpngti 1328
+                                syqiispdwlydrmlneknyygsvlnimsnryirkiefdntnqylqpfymkelygayhncenlkpnevcyaiyrysnlpngti
+        DRYJ01000053.1_258 1246 SYQIISPDWLYDRMLNEKNYYGSVLNIMSNRYIRKIEFDNTNQYLQPFYMKELYGAYHNCENLKPNEVCYAIYRYSNLPNGTI 1328
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1329 nidinytiqytkggsyfssvntsmfvkfmikndsymiietpeftlatpyvtgssigldcyscnsyttdvyylgwnlstfsyti 1411
+                                nidinytiqytkggsyfssvntsmfvkfmikndsymiietpeftlatpyvtgssigldcyscnsyttdvyylgwnlstfsyti
+        DRYJ01000053.1_258 1329 NIDINYTIQYTKGGSYFSSVNTSMFVKFMIKNDSYMIIETPEFTLATPYVTGSSIGLDCYSCNSYTTDVYYLGWNLSTFSYTI 1411
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1412 ntsdyyyalmevildtypkytyigrrygvaanvylddvllsidddtkprlvvcecgqfidstcgylykdvggkmiykippgyh 1494
+                                ntsdyyyalmevildtypkytyigrrygvaanvylddvllsidddtkprlvvcecgqfidstcgylykdvggkmiykippgyh
+        DRYJ01000053.1_258 1412 NTSDYYYALMEVILDTYPKYTYIGRRYGVAANVYLDDVLLSIDDDTKPRLVVCECGQFIDSTCGYLYKDVGGKMIYKIPPGYH 1494
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1495 tinisiseglpdstcryslpdivvkvrfylfnktnfmevvyngthnttigfskyfdisniydigynsylfmiyrplrdtrkys 1577
+                                tinisiseglpdstcryslpdivvkvrfylfnktnfmevvyngthnttigfskyfdisniydigynsylfmiyrplrdtrkys
+        DRYJ01000053.1_258 1495 TINISISEGLPDSTCRYSLPDIVVKVRFYLFNKTNFMEVVYNGTHNTTIGFSKYFDISNIYDIGYNSYLFMIYRPLRDTRKYS 1577
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1578 vkwslndetktiyvmssyyiiptftystpyrytrfrsgtnvidvyqitdckhindnpftdckgkvvnaylyiplndyniqlvs 1660
+                                vkwslndetktiyvmssyyiiptftystpyrytrfrsgtnvidvyqitdckhindnpftdckgkvvnaylyiplndyniqlvs
+        DRYJ01000053.1_258 1578 VKWSLNDETKTIYVMSSYYIIPTFTYSTPYRYTRFRSGTNVIDVYQITDCKHINDNPFTDCKGKVVNAYLYIPLNDYNIQLVS 1660
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1661 itdqypenrkdiqgyvlwlgknqtifikvknnspfdqeptidiytphyiiatpnttkislspgeekiiavnvatpdievlrgf 1743
+                                itdqypenrkdiqgyvlwlgknqtifikvknnspfdqeptidiytphyiiatpnttkislspgeekiiavnv tpdievlrgf
+        DRYJ01000053.1_258 1661 ITDQYPENRKDIQGYVLWLGKNQTIFIKVKNNSPFDQEPTIDIYTPHYIIATPNTTKISLSPGEEKIIAVNVXTPDIEVLRGF 1743
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1744 gldsiwvvassergdfgyahfpvrilpyndvqvfinspdivqagslfsiyitysprryslfyphilldldgtfgfevgtstse 1826
+                                gldsiwvvassergdfgyahfpvrilpyndvqvfinspdivqagslfsiyitysprryslfyphilldldgtfgfevgtstse
+        DRYJ01000053.1_258 1744 GLDSIWVVASSERGDFGYAHFPVRILPYNDVQVFINSPDIVQAGSLFSIYITYSPRRYSLFYPHILLDLDGTFGFEVGTSTSE 1826
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1827 lmtgrqssrcfdvtiwstdyepgvalayilsdagvtftdqslrmvpqhnflvydkygflnipkneeydigkiligygilepgd 1909
+                                lmtgrqssrcfdvtiwstdyepgvalayilsdagvtftdqslrmvpqhnflvydkygflnipkneeydigkiligygilepgd
+        DRYJ01000053.1_258 1827 LMTGRQSSRCFDVTIWSTDYEPGVALAYILSDAGVTFTDQSLRMVPQHNFLVYDKYGFLNIPKNEEYDIGKILIGYGILEPGD 1909
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1910 wrmygmydfmlngftaevgtiysdwrfghqylykflditevpqsinvitningtlrsvqlgterespsiynkimwwaknfpvy 1992
+                                wrmygmydfmlngftaevgtiysdwrfghqylykflditevpqsinvitningtlrsvqlgterespsiynkimwwaknfpvy
+        DRYJ01000053.1_258 1910 WRMYGMYDFMLNGFTAEVGTIYSDWRFGHQYLYKFLDITEVPQSINVITNINGTLRSVQLGTERESPSIYNKIMWWAKNFPVY 1992
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1993 iyrgadgnfyvrefpydpstywvpclssgyspvippfnlyveyiktgenaftipageklakisnevvepfdlakgvnfkaiap 2075
+                                iyrgadgnfyvrefpydpstywvpclssgyspvippfnlyveyiktgenaftipageklakisnevvepfdlakgvnfkaiap
+        DRYJ01000053.1_258 1993 IYRGADGNFYVREFPYDPSTYWVPCLSSGYSPVIPPFNLYVEYIKTGENAFTIPAGEKLAKISNEVVEPFDLAKGVNFKAIAP 2075
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2076 lkpgiynisvivyddaetglywvqtkqirvvsylpraqiavseedfpaeevwaratdnnvtmirrvlvtnyqgfndtqvswys 2158
+                                lkpgiynisvivyddaetglywvqtkqirvvsylpraqiavseedfpaeevwaratdnnvtmirrvlvtnyqgfndtqvswys
+        DRYJ01000053.1_258 2076 LKPGIYNISVIVYDDAETGLYWVQTKQIRVVSYLPRAQIAVSEEDFPAEEVWARATDNNVTMIRRVLVTNYQGFNDTQVSWYS 2158
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2159 tplpidavyisgatagvidylcdgctenpsnityvvpgvvyiidkisydstyveaggnvsgkvsfyvydkskstsftnvkvni 2241
+                                tplpidavyisgatagvidylcdgctenpsnityvvpgvvyiidkisydstyve ggnvsgkvsfyvydkskstsftnvkvni
+        DRYJ01000053.1_258 2159 TPLPIDAVYISGATAGVIDYLCDGCTENPSNITYVVPGVVYIIDKISYDSTYVEXGGNVSGKVSFYVYDKSKSTSFTNVKVNI 2241
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2242 sellpydsvsdreilivdrilpnqylfyqvpwtsrtgyeviwsisqptvnyvyeariyfynnnskdidvwykiplvrlpafds 2324
+                                sellpydsvsdreilivdrilpnqylfyqvpwtsrtgyeviwsisqptvnyvyeariyfynnnskdidvwykiplvrlpafds
+        DRYJ01000053.1_258 2242 SELLPYDSVSDREILIVDRILPNQYLFYQVPWTSRTGYEVIWSISQPTVNYVYEARIYFYNNNSKDIDVWYKIPLVRLPAFDS 2324
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2325 rnivkltvdgnpdigffttstefvvilrnmtageaevyleyypytpptpspglgggvgvlpvikldpkeynytgrptnltiwy 2407
+                                rnivkltvdgnpdigffttstefvvilrnmtage evyleyypytpptpspglgggvgvlpvikldpkeynytgrptnltiwy
+        DRYJ01000053.1_258 2325 RNIVKLTVDGNPDIGFFTTSTEFVVILRNMTAGEXEVYLEYYPYTPPTPSPGLGGGVGVLPVIKLDPKEYNYTGRPTNLTIWY 2407
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2408 tvraeqtscavvvvpsgpyskwveiphesrygwtragflavpkdadvrfpvyvnipeatpdgrynitiivedistrvqargii 2490
+                                tvr eqtscavvvvpsgpyskwveiphesrygwtragflavpkdadvrfpvyvnipeatpdgrynitiivedistrvqargii
+        DRYJ01000053.1_258 2408 TVRXEQTSCAVVVVPSGPYSKWVEIPHESRYGWTRAGFLAVPKDADVRFPVYVNIPEATPDGRYNITIIVEDISTRVQARGII 2490
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2491 nititrvvippidprklllvfalvamifvyinrksimkllksrva 2535
+                                nititrvvippidprklllvfalvamifvyinrksimkllksrva
+        DRYJ01000053.1_258 2491 NITITRVVIPPIDPRKLLLVFALVAMIFVYINRKSIMKLLKSRVA 2535
+                                *******************************************97 PP
+
+>> Ga0065719_100268_258  [8242 - 15846]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 6123.7 155.6         0         0       1    2535 []       1    2535 []       1    2535 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 6123.7 bits;  conditional E-value: 0
+  37736_DRYJ01000053.1_258    1 mismkikgvvrigmfiilaifiislvlmftsskassnrrdfslilvsnnvdfsgacteyrldfssfdfnsadsfgfiglvktl 83  
+                                mismkikgvvrigmfiilaifiislvlmftsskassnrrdfslilvsnnvdfsgacteyrldfssfdfnsadsfgfiglvktl
+      Ga0065719_100268_258    1 MISMKIKGVVRIGMFIILAIFIISLVLMFTSSKASSNRRDFSLILVSNNVDFSGACTEYRLDFSSFDFNSADSFGFIGLVKTL 83  
+                                9********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258   84 nvsrikevhgnlknirielminetynvsvpvygelfsnitcryenettnqtiygswelvngseyscsllnitmnclevysvnf 166 
+                                nvsrikevhgnlknirielminetynvsvpvygelfsnitcryenettnqtiygswelvngseyscsllnitmnclevysvnf
+      Ga0065719_100268_258   84 NVSRIKEVHGNLKNIRIELMINETYNVSVPVYGELFSNITCRYENETTNQTIYGSWELVNGSEYSCSLLNITMNCLEVYSVNF 166 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  167 tndtclynytgvvgyrdeerwrwnyvtllerskkggervknlgsiggkifeqvrnskylgfricgnyslertekgwsvsidhi 249 
+                                tndtclynytgvvgyrdeerwrwnyvtllerskkggervknlgsiggkifeqvrnskylgfricgnyslertekgwsvsidhi
+      Ga0065719_100268_258  167 TNDTCLYNYTGVVGYRDEERWRWNYVTLLERSKKGGERVKNLGSIGGKIFEQVRNSKYLGFRICGNYSLERTEKGWSVSIDHI 249 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  250 pyfngieytefawwnaswlyrrpvtinntqntntltdyqvlvtldtaslitegkmrddcgdirfvdsdgttllnywiesgcns 332 
+                                pyfngieytefawwnaswlyrrpvtinntqntntltdyqvlvtldtaslitegkmrddcgdirfvdsdgttllnywiesgcns
+      Ga0065719_100268_258  250 PYFNGIEYTEFAWWNASWLYRRPVTINNTQNTNTLTDYQVLVTLDTASLITEGKMRDDCGDIRFVDSDGTTLLNYWIESGCNS 332 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  333 tdtkiwvkvpeipassrkiiyvyygnpnatsmsngtttfdffddfttldtnvwvsrqltyslsdkgiildvgaivtqnfvgsf 415 
+                                tdtkiwvkvpeipassrkiiyvyygnpnatsmsngtttfdffddfttldtnvwvsrqltyslsdkgiildvgaivtqnfvgsf
+      Ga0065719_100268_258  333 TDTKIWVKVPEIPASSRKIIYVYYGNPNATSMSNGTTTFDFFDDFTTLDTNVWVSRQLTYSLSDKGIILDVGAIVTQNFVGSF 415 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  416 petiaeakitwlgastatwggfaatgdpdgfnnadathqagygpyvvilpgssggyfrfaaddgatanyiegaewhilnipfi 498 
+                                petiaeakitwlgastatwggfaatgdpdgfnnadathqagygpyvvilpgssggyfrfaaddgatanyiegaewhilnipfi
+      Ga0065719_100268_258  416 PETIAEAKITWLGASTATWGGFAATGDPDGFNNADATHQAGYGPYVVILPGSSGGYFRFAADDGATANYIEGAEWHILNIPFI 498 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  499 eslytnasgnywyrnyefvaslslpwtgnyyilfgeddldgtanypnfevdfvrvrkytspepttsvpiitiysplnqtydfp 581 
+                                eslytnasgnywyrnyefvaslslpwtgnyyilfgeddldgtanypnfevdfvrvrkytspepttsvpiitiysplnqtydfp
+      Ga0065719_100268_258  499 ESLYTNASGNYWYRNYEFVASLSLPWTGNYYILFGEDDLDGTANYPNFEVDFVRVRKYTSPEPTTSVPIITIYSPLNQTYDFP 581 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  582 ynfefkfkvesseptfevkaflddeviyhdtnyqsstvitlyrnltyktynftvlanisndivtktviftirllkyrrpvtid 664 
+                                ynfefkfkvesseptfevkaflddeviyhdtnyqsstvitlyrnltyktynftvlanisndivtktviftirllkyrrpvtid
+      Ga0065719_100268_258  582 YNFEFKFKVESSEPTFEVKAFLDDEVIYHDTNYQSSTVITLYRNLTYKTYNFTVLANISNDIVTKTVIFTIRLLKYRRPVTID 664 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  665 ntqnnntltdyqvlvtldtaslitegkmrddcgdirfvdsddttllnywiesgcnstdtkiwvkvpeipasstktiyvyygns 747 
+                                ntqnnntltdyqvlvtldtaslitegkmrddcgdirfvdsddttllnywiesgcnstdtkiwvkvpeipasstktiyvyygns
+      Ga0065719_100268_258  665 NTQNNNTLTDYQVLVTLDTASLITEGKMRDDCGDIRFVDSDDTTLLNYWIESGCNSTDTKIWVKVPEIPASSTKTIYVYYGNS 747 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  748 eatslssetaifilgevealttytktswgtgssypedtyntkyhdarneiiytftdfyngsavylvplkvayiklqryeapgr 830 
+                                eatslssetaifilgevealttytktswgtgssypedtyntkyhdarneiiytftdfyngsavylvplkvayiklqryeapgr
+      Ga0065719_100268_258  748 EATSLSSETAIFILGEVEALTTYTKTSWGTGSSYPEDTYNTKYHDARNEIIYTFTDFYNGSAVYLVPLKVAYIKLQRYEAPGR 830 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  831 alanyriryqlttatsvgtsftttdwtliwgptthtpvdgwntydvsdfywtannlrldlsrddtaytsgggmyrrtgltpak 913 
+                                alanyriryqlttatsvgtsftttdwtliwgptthtpvdgwntydvsdfywtannlrldlsrddtaytsgggmyrrtgltpak
+      Ga0065719_100268_258  831 ALANYRIRYQLTTATSVGTSFTTTDWTLIWGPTTHTPVDGWNTYDVSDFYWTANNLRLDLSRDDTAYTSGGGMYRRTGLTPAK 913 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  914 mctyysdsgrswpfdgsctqrdyapaiifggllrkytdpepttsvgseestspeiiittydenyveedlfevgskiiirsnit 996 
+                                mctyysdsgrswpfdgsctqrdyapaiifggllrkytdpepttsvgseestspeiiittydenyveedlfevgskiiirsnit
+      Ga0065719_100268_258  914 MCTYYSDSGRSWPFDGSCTQRDYAPAIIFGGLLRKYTDPEPTTSVGSEESTSPEIIITTYDENYVEEDLFEVGSKIIIRSNIT 996 
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258  997 iagvsidkalvsiidnssvvrvsnetmtliysnsyylyeynytlplfprgtwtiivyansstglestesknifvyrryeenvs 1079
+                                iagvsidkalvsiidnssvvrvsnetmtliysnsyylyeynytlplfprgtwtiivyansstglestesknifvyrryeenvs
+      Ga0065719_100268_258  997 IAGVSIDKALVSIIDNSSVVRVSNETMTLIYSNSYYLYEYNYTLPLFPRGTWTIIVYANSSTGLESTESKNIFVYRRYEENVS 1079
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1080 sllsiysnitsslslfnseqvkteynastsihietiksiilsyftrlfeqlsnilsltifhftyaavypsiilfteettygln 1162
+                                sllsiysnitsslslfnseqvkteyn stsihietiksiilsyftrlfeqlsnilsltifhfty  vypsiilfteettygln
+      Ga0065719_100268_258 1080 SLLSIYSNITSSLSLFNSEQVKTEYNXSTSIHIETIKSIILSYFTRLFEQLSNILSLTIFHFTYXXVYPSIILFTEETTYGLN 1162
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1163 etvavngtiilsrnplanaeialyehnetysnyagsvysdahgkfnftwrtltkgnwtlearyyvdvddytsanvtlniidpi 1245
+                                etv vngtiilsrnplan ei lyehnetysny gsvysd hgkfnftwrtltkgnwtlearyyvdvddytsanvtlniidpi
+      Ga0065719_100268_258 1163 ETVXVNGTIILSRNPLANXEIXLYEHNETYSNYXGSVYSDXHGKFNFTWRTLTKGNWTLEARYYVDVDDYTSANVTLNIIDPI 1245
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1246 syqiispdwlydrmlneknyygsvlnimsnryirkiefdntnqylqpfymkelygayhncenlkpnevcyaiyrysnlpngti 1328
+                                syqiispdwlydrmlneknyygsvlnimsnryirkiefdntnqylqpfymkelygayhncenlkpnevcyaiyrysnlpngti
+      Ga0065719_100268_258 1246 SYQIISPDWLYDRMLNEKNYYGSVLNIMSNRYIRKIEFDNTNQYLQPFYMKELYGAYHNCENLKPNEVCYAIYRYSNLPNGTI 1328
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1329 nidinytiqytkggsyfssvntsmfvkfmikndsymiietpeftlatpyvtgssigldcyscnsyttdvyylgwnlstfsyti 1411
+                                nidinytiqytkggsyfssvntsmfvkfmikndsymiietpeftlatpyvtgssigldcyscnsyttdvyylgwnlstfsyti
+      Ga0065719_100268_258 1329 NIDINYTIQYTKGGSYFSSVNTSMFVKFMIKNDSYMIIETPEFTLATPYVTGSSIGLDCYSCNSYTTDVYYLGWNLSTFSYTI 1411
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1412 ntsdyyyalmevildtypkytyigrrygvaanvylddvllsidddtkprlvvcecgqfidstcgylykdvggkmiykippgyh 1494
+                                ntsdyyyalmevildtypkytyigrrygvaanvylddvllsidddtkprlvvcecgqfidstcgylykdvggkmiykippgyh
+      Ga0065719_100268_258 1412 NTSDYYYALMEVILDTYPKYTYIGRRYGVAANVYLDDVLLSIDDDTKPRLVVCECGQFIDSTCGYLYKDVGGKMIYKIPPGYH 1494
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1495 tinisiseglpdstcryslpdivvkvrfylfnktnfmevvyngthnttigfskyfdisniydigynsylfmiyrplrdtrkys 1577
+                                tinisiseglpdstcryslpdivvkvrfylfnktnfmevvyngthnttigfskyfdisniydigynsylfmiyrplrdtrkys
+      Ga0065719_100268_258 1495 TINISISEGLPDSTCRYSLPDIVVKVRFYLFNKTNFMEVVYNGTHNTTIGFSKYFDISNIYDIGYNSYLFMIYRPLRDTRKYS 1577
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1578 vkwslndetktiyvmssyyiiptftystpyrytrfrsgtnvidvyqitdckhindnpftdckgkvvnaylyiplndyniqlvs 1660
+                                vkwslndetktiyvmssyyiiptftystpyrytrfrsgtnvidvyqitdckhindnpftdckgkvvnaylyiplndyniqlvs
+      Ga0065719_100268_258 1578 VKWSLNDETKTIYVMSSYYIIPTFTYSTPYRYTRFRSGTNVIDVYQITDCKHINDNPFTDCKGKVVNAYLYIPLNDYNIQLVS 1660
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1661 itdqypenrkdiqgyvlwlgknqtifikvknnspfdqeptidiytphyiiatpnttkislspgeekiiavnvatpdievlrgf 1743
+                                itdqypenrkdiqgyvlwlgknqtifikvknnspfdqeptidiytphyiiatpnttkislspgeekiiavnv tpdievlrgf
+      Ga0065719_100268_258 1661 ITDQYPENRKDIQGYVLWLGKNQTIFIKVKNNSPFDQEPTIDIYTPHYIIATPNTTKISLSPGEEKIIAVNVXTPDIEVLRGF 1743
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1744 gldsiwvvassergdfgyahfpvrilpyndvqvfinspdivqagslfsiyitysprryslfyphilldldgtfgfevgtstse 1826
+                                gldsiwvvassergdfgyahfpvrilpyndvqvfinspdivqagslfsiyitysprryslfyphilldldgtfgfevgtstse
+      Ga0065719_100268_258 1744 GLDSIWVVASSERGDFGYAHFPVRILPYNDVQVFINSPDIVQAGSLFSIYITYSPRRYSLFYPHILLDLDGTFGFEVGTSTSE 1826
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1827 lmtgrqssrcfdvtiwstdyepgvalayilsdagvtftdqslrmvpqhnflvydkygflnipkneeydigkiligygilepgd 1909
+                                lmtgrqssrcfdvtiwstdyepgvalayilsdagvtftdqslrmvpqhnflvydkygflnipkneeydigkiligygilepgd
+      Ga0065719_100268_258 1827 LMTGRQSSRCFDVTIWSTDYEPGVALAYILSDAGVTFTDQSLRMVPQHNFLVYDKYGFLNIPKNEEYDIGKILIGYGILEPGD 1909
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1910 wrmygmydfmlngftaevgtiysdwrfghqylykflditevpqsinvitningtlrsvqlgterespsiynkimwwaknfpvy 1992
+                                wrmygmydfmlngftaevgtiysdwrfghqylykflditevpqsinvitningtlrsvqlgterespsiynkimwwaknfpvy
+      Ga0065719_100268_258 1910 WRMYGMYDFMLNGFTAEVGTIYSDWRFGHQYLYKFLDITEVPQSINVITNINGTLRSVQLGTERESPSIYNKIMWWAKNFPVY 1992
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 1993 iyrgadgnfyvrefpydpstywvpclssgyspvippfnlyveyiktgenaftipageklakisnevvepfdlakgvnfkaiap 2075
+                                iyrgadgnfyvrefpydpstywvpclssgyspvippfnlyveyiktgenaftipageklakisnevvepfdlakgvnfkaiap
+      Ga0065719_100268_258 1993 IYRGADGNFYVREFPYDPSTYWVPCLSSGYSPVIPPFNLYVEYIKTGENAFTIPAGEKLAKISNEVVEPFDLAKGVNFKAIAP 2075
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2076 lkpgiynisvivyddaetglywvqtkqirvvsylpraqiavseedfpaeevwaratdnnvtmirrvlvtnyqgfndtqvswys 2158
+                                lkpgiynisvivyddaetglywvqtkqirvvsylpraqiavseedfpaeevwaratdnnvtmirrvlvtnyqgfndtqvswys
+      Ga0065719_100268_258 2076 LKPGIYNISVIVYDDAETGLYWVQTKQIRVVSYLPRAQIAVSEEDFPAEEVWARATDNNVTMIRRVLVTNYQGFNDTQVSWYS 2158
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2159 tplpidavyisgatagvidylcdgctenpsnityvvpgvvyiidkisydstyveaggnvsgkvsfyvydkskstsftnvkvni 2241
+                                tplpidavyisgatagvidylcdgctenpsnityvvpgvvyiidkisydstyve ggnvsgkvsfyvydkskstsftnvkvni
+      Ga0065719_100268_258 2159 TPLPIDAVYISGATAGVIDYLCDGCTENPSNITYVVPGVVYIIDKISYDSTYVEXGGNVSGKVSFYVYDKSKSTSFTNVKVNI 2241
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2242 sellpydsvsdreilivdrilpnqylfyqvpwtsrtgyeviwsisqptvnyvyeariyfynnnskdidvwykiplvrlpafds 2324
+                                sellpydsvsdreilivdrilpnqylfyqvpwtsrtgyeviwsisqptvnyvyeariyfynnnskdidvwykiplvrlpafds
+      Ga0065719_100268_258 2242 SELLPYDSVSDREILIVDRILPNQYLFYQVPWTSRTGYEVIWSISQPTVNYVYEARIYFYNNNSKDIDVWYKIPLVRLPAFDS 2324
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2325 rnivkltvdgnpdigffttstefvvilrnmtageaevyleyypytpptpspglgggvgvlpvikldpkeynytgrptnltiwy 2407
+                                rnivkltvdgnpdigffttstefvvilrnmtage evyleyypytpptpspglgggvgvlpvikldpkeynytgrptnltiwy
+      Ga0065719_100268_258 2325 RNIVKLTVDGNPDIGFFTTSTEFVVILRNMTAGEXEVYLEYYPYTPPTPSPGLGGGVGVLPVIKLDPKEYNYTGRPTNLTIWY 2407
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2408 tvraeqtscavvvvpsgpyskwveiphesrygwtragflavpkdadvrfpvyvnipeatpdgrynitiivedistrvqargii 2490
+                                tvr eqtscavvvvpsgpyskwveiphesrygwtragflavpkdadvrfpvyvnipeatpdgrynitiivedistrvqargii
+      Ga0065719_100268_258 2408 TVRXEQTSCAVVVVPSGPYSKWVEIPHESRYGWTRAGFLAVPKDADVRFPVYVNIPEATPDGRYNITIIVEDISTRVQARGII 2490
+                                *********************************************************************************** PP
+
+  37736_DRYJ01000053.1_258 2491 nititrvvippidprklllvfalvamifvyinrksimkllksrva 2535
+                                nititrvvippidprklllvfalvamifvyinrksimkllksrva
+      Ga0065719_100268_258 2491 NITITRVVIPPIDPRKLLLVFALVAMIFVYINRKSIMKLLKSRVA 2535
+                                *******************************************97 PP
+
+>> JAADFW010000227.1_484  [14592 - 11767] (REVERSE SENSE) Chlorobi bacterium isolate M_MaxBin.088 contig-127_5253, whole
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.0  11.8   1.9e-24   6.1e-20     256     395 ..      34     167 ..      24     174 .. 0.90
+   2 ?  -18.0  17.8         3   9.7e+04     566     651 ..     463     548 ..     301     645 .. 0.46
+   3 ?  -16.5  17.5         3   9.7e+04    1164    1264 ..     572     685 ..     472     702 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 72.0 bits;  conditional E-value: 1.9e-24
+  37736_DRYJ01000053.1_258 256 eytefawwnaswlyrrpvtinntqntntltdyqvlvtldtaslitegkmrddcgdirfvdsdgttllnywiesgcnstdtkiwvk 340
+                                +    wwn ++ly +p+ti +t  t tl++y +l+ +       + +m  d  d+rf+ sd tt l ywi++   st++ ++vk
+     JAADFW010000227.1_484  34 YFVSAIWWNNTFLYNKPITITETSGT-TLSNYSILMNISY-----DSHMNADFSDLRFIGSDNTTELGYWIKNYTSSTNAWVYVK 112
+                               566778****************9876.9*******98765.....66899*********************************** PP
+
+  37736_DRYJ01000053.1_258 341 vpeipassrkiiyvyygnpnatsmsngtttfdffddfttldtnvwvsrqltysls 395
+                               vp + ass   iy+yygn  a++ sn    + + ddf+t +    ++    ys s
+     JAADFW010000227.1_484 113 VPTLTASSNTTIYMYYGNSGASTTSNENNVMYMSDDFSTTEILSKLNNYYYYSTS 167
+                               **************************************99887777766666655 PP
+
+  == domain 2  score: -18.0 bits;  conditional E-value: 3
+  37736_DRYJ01000053.1_258 566 piitiyspln..qtydfpynfefkfkvessep.tfevkaflddeviyhdtnyqsstvitlyrnltyktynftvlanisndivtkt 647
+                               p iti sp    +t ++ +n+ f   v + +  +++v      +vi  d   + s  +  y+ ++   y + v+an +n   t+t
+     JAADFW010000227.1_484 463 PQITINSPTAtmNTNNVTFNYTFTNPVGTLDYcSYNVT-NTSLNVIIADNPINCSNPV-EYQTISDGQYILNVFANETNGN-TNT 544
+                               45555555431134444555555555544433023332.2333445555444444433.3555555555555555555432.222 PP
+
+  37736_DRYJ01000053.1_258 648 vift 651
+                                 f 
+     JAADFW010000227.1_484 545 TSFN 548
+                               2222 PP
+
+  == domain 3  score: -16.5 bits;  conditional E-value: 3
+  37736_DRYJ01000053.1_258 1164 tvavngtiilsrnplanaeialyehnet...ysnyagsvysda...hgkfnf..t.wrtltkgnwtlearyyvdvd....dyt 1233
+                                t  +   + l    + n+  ++y+ n t   ys   g+ + ++    g++n+  t w t  + n t   +  vd        t
+     JAADFW010000227.1_484  572 TSYIPINVSLQETFFKNVTFNFYNTNGTlisYSYTDGTRFINKsfpDGNYNYnvTvWTTTDQTNSTNTRKVLVDTTfpsvSIT 654 
+                                33334444455555666667777777663323433454443221113444442233666666777777777777542211334 PP
+
+  37736_DRYJ01000053.1_258 1234 sanvtlniidpisyqiispdwlydrmlnekn 1264
+                                +   t  iid i y i   d   d    +  
+     JAADFW010000227.1_484  655 NPYGTYSIIDQIPYSINVTDTNLDSCYYNVT 685 
+                                4455778888888888777777776655544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (2535 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       799  (0.00826583); expected 1933.3 (0.02)
+Passed bias filter:                      442  (0.00457259); expected 1933.3 (0.02)
+Passed Vit filter:                        23  (0.00023794); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.73u 0.09s 00:00:00.82 Elapsed: 00:00:00.27
+# Mc/sec: 34709.55
+//
+[ok]

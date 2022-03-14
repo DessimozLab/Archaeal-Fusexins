@@ -1,0 +1,27 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- -----     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Ga0164313_10000250_554 -            894 34515_QNDS01000002.1_554 -            894         0 2134.2  41.2   1   1         0         0 2134.0  41.2     1   894     1   894     1   894 1.00 [35551 - 38232]
+QNDS01000002.1_554     -            894 34515_QNDS01000002.1_554 -            894         0 2134.2  41.2   1   1         0         0 2134.0  41.2     1   894     1   894     1   894 1.00 [35551 - 38232] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, whole genome shotgun sequence
+Ga0208375_1000150_1220 -            649 34515_QNDS01000002.1_554 -            894   3.1e-17   64.5   7.7   1   4      0.24   2.9e+03   -1.6   0.5   751   810    55   113    49   121 0.79 [65675 - 67621]
+Ga0208375_1000150_1220 -            649 34515_QNDS01000002.1_554 -            894   3.1e-17   64.5   7.7   2   4      0.92   1.1e+04   -3.5   0.0   245   260   128   143   121   150 0.84 [65675 - 67621]
+Ga0208375_1000150_1220 -            649 34515_QNDS01000002.1_554 -            894   3.1e-17   64.5   7.7   3   4      0.43   5.2e+03   -2.4   0.2   715   769   206   256   161   310 0.64 [65675 - 67621]
+Ga0208375_1000150_1220 -            649 34515_QNDS01000002.1_554 -            894   3.1e-17   64.5   7.7   4   4   2.6e-21   3.1e-17   64.5   7.7   619   856   392   628   325   639 0.83 [65675 - 67621]
+DQXS01000079.1_273     -            530 34515_QNDS01000002.1_554 -            894     9e-10   39.8   4.0   1   2       0.9   1.1e+04   -3.5   0.3   141   195    34    89    22    99 0.64 [15704 - 17293] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, whole genome shotgun sequence
+DQXS01000079.1_273     -            530 34515_QNDS01000002.1_554 -            894     9e-10   39.8   4.0   2   2   7.5e-14     9e-10   39.8   4.0   598   852   240   502   221   523 0.78 [15704 - 17293] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, whole genome shotgun sequence
+Ga0116200_10000074_273 -            530 34515_QNDS01000002.1_554 -            894     9e-10   39.8   4.0   1   2       0.9   1.1e+04   -3.5   0.3   141   195    34    89    22    99 0.64 [15704 - 17293]
+Ga0116200_10000074_273 -            530 34515_QNDS01000002.1_554 -            894     9e-10   39.8   4.0   2   2   7.5e-14     9e-10   39.8   4.0   598   852   240   502   221   523 0.78 [15704 - 17293]
+Ga0164313_10000250_478 -            225 34515_QNDS01000002.1_554 -            894      0.01   16.5   0.0   1   1   1.1e-06     0.013   16.1   0.0    27   114    15   110     4   130 0.74 [31431 - 32105]
+QNDS01000002.1_478     -            225 34515_QNDS01000002.1_554 -            894      0.01   16.5   0.0   1   1   1.1e-06     0.013   16.1   0.0    27   114    15   110     4   130 0.74 [31431 - 32105] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, whole genome shotgun sequence
+Ga0075120_10000694_6   -            107 34515_QNDS01000002.1_554 -            894       1.8    9.0   1.5   1   2    0.0091   1.1e+02    3.1   0.1    30    65     1    35     1    61 0.72 [114 - 434]
+Ga0075120_10000694_6   -            107 34515_QNDS01000002.1_554 -            894       1.8    9.0   1.5   2   2    0.0015        18    5.7   0.1   825   856    71   103    61   106 0.73 [114 - 434]
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34515_QNDS01000002.1_554.hmm
+# Target file:     ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# Option settings: hmmsearch -o ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34515_QNDS01000002.1_554.hmmsearchout --tblout ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34515_QNDS01000002.1_554.tblout --domtblout ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34515_QNDS01000002.1_554.domtblout --cpu 3 ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34515_QNDS01000002.1_554.hmm ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa 
+# Current dir:     /media3/mauri/fusexins/analysis_mobile_elements_with_MAGs_and_Halovivax/scripts
+# Date:            Tue Aug 10 23:40:42 2021
+# [ok]

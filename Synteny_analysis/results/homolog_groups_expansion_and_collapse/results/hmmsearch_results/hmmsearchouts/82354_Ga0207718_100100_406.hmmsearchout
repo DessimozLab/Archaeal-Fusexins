@@ -1,0 +1,91 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/82354_Ga0207718_100100_406.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/82354_Ga0207718_100100_406.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/82354_Ga0207718_100100_406.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/82354_Ga0207718_100100_406.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       82354_Ga0207718_100100_406  [M=147]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    1.9e-81  273.8   3.2    2.1e-81  273.7   3.2    1.0  1  Ga0207718_100100_406        [27285 - 27722]
+    5.7e-81  272.3   5.1    6.4e-81  272.1   5.1    1.0  1  JGI12330J12834_1000008_429  [26789 - 27262]
+    1.3e-79  267.8   3.6    1.7e-79  267.5   3.6    1.1  1  JNCS01000001_316            [21671 - 22378] Natrinema altunen
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207718_100100_406  [27285 - 27722]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  273.7   3.2   6.7e-86   2.1e-81       1     147 []       1     146 []       1     146 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 273.7 bits;  conditional E-value: 6.7e-86
+  82354_Ga0207718_100100_406   1 ldiedavqkiidrdnfkpgkkyklktitekegknGGtllnkqelkptrelklkrdppkgtsiydlkdkddfkryfekrfgnld 83 
+                                 +dieda+q +id++nfkpgkky+l+tite++gknGGtllnkq+++p+r+l+l+rdp+kgtsiydlkd+ddf++yfek+fgnl+
+        Ga0207718_100100_406   1 MDIEDALQLFIDNRNFKPGKKYALYTITEIDGKNGGTLLNKQKYRPRRNLYLPRDPVKGTSIYDLKDQDDFEHYFEKQFGNLP 83 
+                                 8********************************************************************************** PP
+
+  82354_Ga0207718_100100_406  84 nGvyaaitsrGGndGiatlfklrlenGkvvkwikksqaenkykgysstyyalpyyfklreelgv 147
+                                 nGvyaa+tsrGGndG+a+lfklrlenG+v+kw+kksq+en++++ sstyy++pyyf+lreelgv
+        Ga0207718_100100_406  84 NGVYAAMTSRGGNDGWAWLFKLRLENGEVDKWWKKSQPENTRQN-SSTYYGFPYYFNLREELGV 146
+                                 ********************************************.*****************98 PP
+
+>> JGI12330J12834_1000008_429  [26789 - 27262]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  272.1   5.1     2e-85   6.4e-81       1     147 []      13     158 .]      13     158 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 272.1 bits;  conditional E-value: 2e-85
+  82354_Ga0207718_100100_406   1 ldiedavqkiidrdnfkpgkkyklktitekegknGGtllnkqelkptrelklkrdppkgtsiydlkdkddfkryfekrfgnld 83 
+                                 l++e+avq+i++rdnfkpgkky+lk+++ekeg+nGGtl++++el ptr+++lkrdpp++t++ydl+d+ddfkr+fek++gnld
+  JGI12330J12834_1000008_429  13 LNPEEAVQQIRQRDNFKPGKKYHLKKVEEKEGRNGGTLEDHEEL-PTRTFQLKRDPPLETGLYDLEDDDDFKRFFEKNYGNLD 94 
+                                 699*****************************************.************************************** PP
+
+  82354_Ga0207718_100100_406  84 nGvyaaitsrGGndGiatlfklrlenGkvvkwikksqaenkykgysstyyalpyyfklreelgv 147
+                                 nGvy++itsrGGndGiat+fklrlenGkvvkw+kksqa+n+y+gysstyy++pyyfk+re+lgv
+  JGI12330J12834_1000008_429  95 NGVYKVITSRGGNDGIATFFKLRLENGKVVKWWKKSQANNPYEGYSSTYYTFPYYFKTREDLGV 158
+                                 **************************************************************98 PP
+
+>> JNCS01000001_316  [21671 - 22378] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun seque
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  267.5   3.6   5.2e-84   1.7e-79       1     147 []      89     236 .]      89     236 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 267.5 bits;  conditional E-value: 5.2e-84
+  82354_Ga0207718_100100_406   1 ldiedavqkiidrdnfkpgkkyklktitekegknGGtllnkqelkptrelklkrdppkg.tsiydlkdkddfkryfekrfgnl 82 
+                                 +d+edavqkii+++nf+p++kykl+titeke+k+GG+l+n+q++kp+re+kl+r+pp+g tsiydl+dkddf++yfe+rf++l
+            JNCS01000001_316  89 VDTEDAVQKIINQYNFRPSRKYKLETITEKETKTGGVLWNYQTHKPPREIKLPRNPPSGyTSIYDLRDKDDFFQYFENRFPDL 171
+                                 599******************************************************************************** PP
+
+  82354_Ga0207718_100100_406  83 dnGvyaaitsrGGndGiatlfklrlenGkvvkwikksqaenkykgysstyyalpyyfklreelgv 147
+                                 ++G+y+a+ts+GGn+Gi+tlf+l+++nG+v++wik+s+++nkykgy+++yyalp+yf+lr+el+v
+            JNCS01000001_316 172 PDGRYCARTSAGGNNGISTLFILDYRNGQVTNWIKQSNPKNKYKGYRARYYALPKYFRLRDELNV 236
+                                 ***************************************************************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (147 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       611  (0.00632093); expected 1933.3 (0.02)
+Passed bias filter:                      409  (0.00423119); expected 1933.3 (0.02)
+Passed Vit filter:                        27  (0.000279321); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 10868.81
+//
+[ok]

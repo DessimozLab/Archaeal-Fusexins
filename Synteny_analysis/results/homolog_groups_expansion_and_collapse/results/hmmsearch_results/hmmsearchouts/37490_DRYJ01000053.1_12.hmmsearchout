@@ -1,0 +1,108 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37490_DRYJ01000053.1_12.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37490_DRYJ01000053.1_12.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37490_DRYJ01000053.1_12.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37490_DRYJ01000053.1_12.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37490_DRYJ01000053.1_12  [M=198]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   4.1e-124  413.7   1.4   4.6e-124  413.6   1.4    1.0  1  DRYJ01000053.1_12      [110 - 703] TPA_asm: Candidatus Bathya
+   4.1e-124  413.7   1.4   4.6e-124  413.6   1.4    1.0  1  Ga0065719_100268_12    [110 - 703]
+    1.4e-05   26.8   4.5      3e-05   25.8   4.2    1.6  2  Ga0208375_1000150_487  [31936 - 32469]
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_12  [110 - 703] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, whole ge
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  413.6   1.4  1.4e-128  4.6e-124       1     198 []       1     198 []       1     198 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 413.6 bits;  conditional E-value: 1.4e-128
+  37490_DRYJ01000053.1_12   1 mkkkllapilvllgvgvalaavshlisnslvlelsvesplvvefvevsdgltiddntvsgtiyagstiwfkitstnrannpieryp 86 
+                              m+kkllapilvllgvgvalaavsh+isnslv+elsvesp+vvefvevsdglti++ntvsgtiy+gstiwf+itstnrannpieryp
+        DRYJ01000053.1_12   1 MNKKLLAPILVLLGVGVALAAVSHIISNSLVMELSVESPIVVEFVEVSDGLTINGNTVSGTIYGGSTIWFNITSTNRANNPIERYP 86 
+                              9************************************************************************************* PP
+
+  37490_DRYJ01000053.1_12  87 vllvksdqglsagvpeienviyqdangkiditdrlycvntstgsltqlrscpaakadeevvlffdndgdataqpykigaeettwfk 172
+                              v++vksdqg+s+gvpeienv+yqd+ngk++itdrlycvntstgsltqlrscp+aka+eevv+ffdndg+ataqpykiga+ettwfk
+        DRYJ01000053.1_12  87 VFIVKSDQGISPGVPEIENVTYQDPNGKWNITDRLYCVNTSTGSLTQLRSCPGAKANEEVVIFFDNDGNATAQPYKIGAGETTWFK 172
+                              ************************************************************************************** PP
+
+  37490_DRYJ01000053.1_12 173 vevklssgiseqnltvryeewftltp 198
+                              v+vklssgis+qnltvryeewftltp
+        DRYJ01000053.1_12 173 VTVKLSSGISPQNLTVRYEEWFTLTP 198
+                              *************************9 PP
+
+>> Ga0065719_100268_12  [110 - 703]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  413.6   1.4  1.4e-128  4.6e-124       1     198 []       1     198 []       1     198 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 413.6 bits;  conditional E-value: 1.4e-128
+  37490_DRYJ01000053.1_12   1 mkkkllapilvllgvgvalaavshlisnslvlelsvesplvvefvevsdgltiddntvsgtiyagstiwfkitstnrannpieryp 86 
+                              m+kkllapilvllgvgvalaavsh+isnslv+elsvesp+vvefvevsdglti++ntvsgtiy+gstiwf+itstnrannpieryp
+      Ga0065719_100268_12   1 MNKKLLAPILVLLGVGVALAAVSHIISNSLVMELSVESPIVVEFVEVSDGLTINGNTVSGTIYGGSTIWFNITSTNRANNPIERYP 86 
+                              9************************************************************************************* PP
+
+  37490_DRYJ01000053.1_12  87 vllvksdqglsagvpeienviyqdangkiditdrlycvntstgsltqlrscpaakadeevvlffdndgdataqpykigaeettwfk 172
+                              v++vksdqg+s+gvpeienv+yqd+ngk++itdrlycvntstgsltqlrscp+aka+eevv+ffdndg+ataqpykiga+ettwfk
+      Ga0065719_100268_12  87 VFIVKSDQGISPGVPEIENVTYQDPNGKWNITDRLYCVNTSTGSLTQLRSCPGAKANEEVVIFFDNDGNATAQPYKIGAGETTWFK 172
+                              ************************************************************************************** PP
+
+  37490_DRYJ01000053.1_12 173 vevklssgiseqnltvryeewftltp 198
+                              v+vklssgis+qnltvryeewftltp
+      Ga0065719_100268_12 173 VTVKLSSGISPQNLTVRYEEWFTLTP 198
+                              *************************9 PP
+
+>> Ga0208375_1000150_487  [31936 - 32469]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   4.2   9.3e-10     3e-05       3      98 ..      11     104 ..       9     138 .. 0.85
+   2 ?   -0.2   0.1     0.084   2.7e+03      37      71 ..     114     149 ..     102     157 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 9.3e-10
+  37490_DRYJ01000053.1_12   3 kkllapilvllgvgvalaavshlisnslvlelsvesplvvefvevsdgltiddntvsgtiyagstiwfkitstnrannpierypvl 88 
+                              +k++  i+ ll vgv  aa++  +sn +  +++v+sp+ +  +  sdg+  d++     +++g+t+    ++ n an  i    ++
+    Ga0208375_1000150_487  11 RKIFYVIMGLLFVGVGSAALVTYLSNMVSTTMNVQSPMSI--TTSSDGIIYDGDPKIFDMFGGETMTVYAKTKNLANATITGTALI 94 
+                              67887888899**************************986..688**************************************999 PP
+
+  37490_DRYJ01000053.1_12  89 lvksdqglsa 98 
+                               v   +g++ 
+    Ga0208375_1000150_487  95 TVNNPDGVTC 104
+                              9999999875 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 0.084
+  37490_DRYJ01000053.1_12  37 esplvvefvevsdglti.ddntvsgtiyagstiwfk 71 
+                              ++ +v e+ +v+   ++  + +++   y+ s+i f+
+    Ga0208375_1000150_487 114 RTGIVNEYLDVTTLCSViSGTSITFQAYTSSSIAFQ 149
+                              677888888888876654888888888888888876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (198 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       565  (0.00584505); expected 1933.3 (0.02)
+Passed bias filter:                      400  (0.00413809); expected 1933.3 (0.02)
+Passed Vit filter:                        17  (0.000175869); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 14639.62
+//
+[ok]

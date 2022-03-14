@@ -1,0 +1,253 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/42832_NZ_CP071597.1_1605.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/42832_NZ_CP071597.1_1605.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/42832_NZ_CP071597.1_1605.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/42832_NZ_CP071597.1_1605.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       42832_NZ_CP071597.1_1605  [M=251]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+    4.8e-81  274.3   0.0    5.9e-81  274.0   0.0    1.0  1  JNCS01000001_686    [48790 - 49641] Natrinema altunense strai
+    6.1e-78  264.1   0.1    6.7e-78  264.0   0.1    1.0  1  ATYM01000002_594    [37586 - 38401] Haloplanus natans DSM 179
+    2.5e-71  242.4   0.0    3.1e-71  242.1   0.0    1.0  1  NZ_CP071597.1_1605  [85895 - 85080] (REVERSE SENSE) Halovivax
+      4e-18   68.1   1.8    1.6e-17   66.2   0.0    2.4  3  CP010426.1_2921     [152790 - 154274] Archaeon GW2011_AR20 ch
+      2e-16   62.5   0.0    3.5e-16   61.8   0.0    1.3  1  JNCS01000001_605    [42366 - 43937] Natrinema altunense strai
+    8.6e-16   60.5   0.0    1.8e-15   59.4   0.0    1.5  1  ATYM01000002_688    [44260 - 45831] Haloplanus natans DSM 179
+    6.2e-11   44.6   0.0    1.3e-10   43.5   0.0    1.6  1  CP010426.1_2941     [154279 - 155769] Archaeon GW2011_AR20 ch
+    0.00011   24.1   1.3       0.18   13.6   0.0    2.9  3  CP058579_950        [62388 - 65831] [Halobonum sp. NJ-3-1 | 2
+     0.0021   19.9   0.0        1.9   10.2   0.0    2.4  2  NZ_CP071597.1_1034  [63709 - 67719] Halovivax sp. KZCA124 chr
+  ------ inclusion threshold ------
+       0.35   12.6   0.0       0.68   11.7   0.0    1.4  1  CP010426.1_29336    [139551 - 138484] (REVERSE SENSE) Archaeo
+
+
+Domain annotation for each sequence (and alignments):
+>> JNCS01000001_686  [48790 - 49641] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun seque
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  274.0   0.0   6.1e-85   5.9e-81       5     234 ..      31     255 ..      21     277 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 274.0 bits;  conditional E-value: 6.1e-85
+  42832_NZ_CP071597.1_1605   5 keaeealkellklleki.arglsrsrvFeDfldlsllalsreekeeeYleiikkygkeeadlfaealaelvlameeenkDvLGel 88 
+                               ++++ea+++++++le++ ++g+s++rv++D+ldl+l++l++  ++e+Y+++i++yg+++a++f++a+ael+ am+e++ D+LG +
+          JNCS01000001_686  31 SHYKEAADPVVNELEAVqRSGHSMHRVYDDWLDLMLYSLQG--DDENYIDTIDDYGEKDAQHFSKAFAELQYAMSETDGDILGVV 113
+                               6788999**********************************..****************************************** PP
+
+  42832_NZ_CP071597.1_1605  89 YeelelsneenGQfFTPesvcelmAeltledeeevekkegktvlDPaCGSGrmllaaakalrkavfvgqDiDstCakMtalnlal 173
+                               Yeel+ s++++GQ+FTP+s++++ Ae+++++  e+ ++e+ tv+DPa+GSGr+l++a+k++++ +f+g+D+DstCakMtalnl++
+          JNCS01000001_686 114 YEELGQSSDHFGQHFTPHSLSDVKAEMVIGE--EHGDNEPYTVMDPASGSGRLLMSASKINPNGEFYGIDKDSTCAKMTALNLTF 196
+                               ******************************8..4469************************************************ PP
+
+  42832_NZ_CP071597.1_1605 174 nglkgevvhgdsLslevkkvwkinatillggvirelekeeaeelleeeleekekepeeeeq 234
+                               ++l+g+++hgdsL++++++ w++n+ti lgg irel+++e+++ ++e+++++ ++  ee++
+          JNCS01000001_686 197 FNLDGYAIHGDSLKMDYHRIWRTNQTI-LGGEIRELDADEWQSPYRENQQQD-ADYVEEDP 255
+                               ***************************.9************99998886444.33333332 PP
+
+>> ATYM01000002_594  [37586 - 38401] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequenc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  264.0   0.1   6.9e-82   6.7e-78       7     243 ..       7     245 ..       1     265 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 264.0 bits;  conditional E-value: 6.9e-82
+  42832_NZ_CP071597.1_1605   7 aeealkellklleki..arglsrsrvFeDfldlsllalsreekeeeYleiikkygkeeadlfaealaelvlameeenkDvLGelY 89 
+                               ++ea+++++++le+i    g+sr++vFeDfldlsl+al+r  ++e+Yl++++kyg++ea+l++ea+ el++a e+ n+DvLG +Y
+          ATYM01000002_594   7 YKEAAEPVVDKLEEIqfIGGYSRHQVFEDFLDLSLYALQR--DDESYLDVMDKYGEKEAQLYSEAFDELLNASESANHDVLGVVY 89 
+                               678899*********9999*********************..******************************************* PP
+
+  42832_NZ_CP071597.1_1605  90 eelelsneenGQfFTPesvcelmAeltledeeevekkegktvlDPaCGSGrmllaaakalr...kavfvgqDiDstCakMtalnl 171
+                               eel+ s++++GQ+FTP++++++ Ae+++++  +  ++++ +vlDPa+GSGr+l++aak+l+   + +f+++D+DstCakM+alnl
+          ATYM01000002_594  90 EELGNSSDHFGQHFTPHNLSDMNAEMVIDEDPDPGREDPYSVLDPAAGSGRLLISAAKQLPegtQGEFYAVDKDSTCAKMAALNL 174
+                               *****************************98889*************************************************** PP
+
+  42832_NZ_CP071597.1_1605 172 alnglkgevvhgdsLslevkkvwkinatillggvirelekeeaeelleeel.........eekekepeeeeqekeekqeks 243
+                               ++++++g+vvhgdsL+ ++++vw ++ +  +gg+++el+++++++ +++e+         e         ++ +e+++e++
+          ATYM01000002_594 175 TFFNMDGYVVHGDSLTQDYHTVWATEGSA-FGGSVHELDDDQWTNPYDQEVseepednvdE---------KEIQEDTEENQ 245
+                               *****************************.9************998888874433333322.........33322221111 PP
+
+>> NZ_CP071597.1_1605  [85895 - 85080] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  242.1   0.0   3.2e-75   3.1e-71       6     233 ..      12     247 ..       5     270 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 242.1 bits;  conditional E-value: 3.2e-75
+  42832_NZ_CP071597.1_1605   6 eaeealkellklleki.arglsrsrvFeDfldlsllalsreekeeeYleiikky......gkeeadlfaealaelvlameeenkD 83 
+                               ++e+a+ ++l+ le++ ++g+sr++vF+D+ldl+l+al++  +++ Yl+i++ky      gk+  dl+++a+++l  ++ ++n+D
+        NZ_CP071597.1_1605  12 RYEDAVAPILDRLETVeQYGWSRYDVFTDWLDLMLYALQG--RDDPYLDIVNKYdcdrshGKRAPDLYKQAFTTLRYQTPRTNAD 94 
+                               5789999*********************************..******************************************* PP
+
+  42832_NZ_CP071597.1_1605  84 vLGelYeelelsneenGQfFTPesvcelmAeltledeee......vekkegktvlDPaCGSGrmllaaakalrkavfvgqDiDst 162
+                               +LG +Ye++++ ++++GQ+FTP++ +++ Ae++l+  ++       e+ +++tv+DPaCGSGr+l+ aa++ ++a+++g+D+D+t
+        NZ_CP071597.1_1605  95 LLGVIYETYGMASDAFGQYFTPHNASRMNAEIALDGLDAatvrarREQGNPVTVQDPACGSGRLLVGAAQQFPAAQYWGMDKDAT 179
+                               ***********************************877777888889999*********************************** PP
+
+  42832_NZ_CP071597.1_1605 163 CakMtalnlalnglkgevvhgdsLslevkkvwkinatillggvirelekeeaeelleeeleekekepeeee 233
+                               CakMtaln+ l++++g+vvhgdsL+le +++w++++t+ lgg++ ele++e     + +++  ++++ e++
+        NZ_CP071597.1_1605 180 CAKMTALNFQLHNVDGVVVHGDSLTLESFATWRTRRTM-LGGTMVELEDAEPFADSTDSAS--HRNTGENN 247
+                               **************************************.9********9998444444332..22222222 PP
+
+>> CP010426.1_2921  [152790 - 154274] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.1      0.21   2.1e+03      45      75 ..      45      76 ..      28     123 .. 0.83
+   2 !   66.2   0.0   1.6e-21   1.6e-17      79     188 ..     139     261 ..     120     267 .. 0.85
+   3 ?   -2.7   0.4       1.7   1.6e+04      41      75 ..     436     473 ..     409     485 .. 0.52
+
+  Alignments for each domain:
+  == domain 1  score: 0.3 bits;  conditional E-value: 0.21
+  42832_NZ_CP071597.1_1605 45 eekeeeYleiikky.gkeeadlfaealaelvl 75
+                              + ++eeY++++kk+ g+eea+ ++e ++ ++ 
+           CP010426.1_2921 45 DVYDEEYQSALKKFdGDEEAASYPENFSFIIS 76
+                              57899*********999999999999876654 PP
+
+  == domain 2  score: 66.2 bits;  conditional E-value: 1.6e-21
+  42832_NZ_CP071597.1_1605  79 e.......enkDvLGelYeel.....elsneenGQfFTPesvcelmAeltledeeevekkegktvlDPaCGSGrmllaaakalr. 150
+                                        + D+LG+ Ye l     +l+n+ +G f+TP  v +lm ++  ++       e+ t++DPaCGSG+mll+a +  + 
+           CP010426.1_2921 139 TknlskenVEPDILGQAYEYLikkfaDLTNKTAGEFYTPRAVVHLMGNILKPK-------EKDTIYDPACGSGGMLLEAFNFVKn 216
+                               34444444778********976666679999*******************997.......678*****************99999 PP
+
+  42832_NZ_CP071597.1_1605 151 ......kavfvgqDiDstCakMtalnlalnglk.gevvhgdsLsl 188
+                                     +++++gq ++ t   ++ +nl+l+g++  +++ gd+L++
+           CP010426.1_2921 217 kggdvrTLKLYGQEKNLTTSAIARINLFLHGVEdFQIIRGDTLRN 261
+                               9*******************************72589******87 PP
+
+  == domain 3  score: -2.7 bits;  conditional E-value: 1.7
+  42832_NZ_CP071597.1_1605  41 alsreekeeeYleiikky....gkeeadlfaealaelvl 75 
+                               +ls+  +e+e+   i++y    ++e+  +++ea++e+++
+           CP010426.1_2921 436 SLSE-IEENEFNLNISRYvvklDEEDKITLKEAYTEMLN 473
+                               3333.4444444455555555544444445555555544 PP
+
+>> JNCS01000001_605  [42366 - 43937] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun seque
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.8   0.0   3.6e-20   3.5e-16      70     191 ..     147     281 ..     122     311 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 61.8 bits;  conditional E-value: 3.6e-20
+  42832_NZ_CP071597.1_1605  70 laelvlamee.........enkDvLGelYeelelsneen.....GQfFTPesvcelmAeltledeeevekkegktvlDPaCGSGr 140
+                               l+ l+++++e         +++Dv G +Ye +  +  ++     G f+TP++v el+ e+  +         + ++ DP CGSG+
+          JNCS01000001_605 147 LEGLLNEFSEldlgngkdtQDEDVFGRVYEYFIKEFAREeghrgGEFYTPKHVVELLVEILEPF--------EGRIFDPFCGSGG 223
+                               34444444444444555669*********9863332222345679***************9994........689********** PP
+
+  42832_NZ_CP071597.1_1605 141 mllaaakalr.......kavfvgqDiDstCakMtalnlalnglkgevvhgdsLslevk 191
+                               m ++++k l+       ++ ++gq +++   +++ +nl+l+g++g + +gds++ + +
+          JNCS01000001_605 224 MFVQSHKFLErkggdedQISIYGQEVNEATWRICKMNLFLRGIDGNIQLGDSIRDDKF 281
+                               *********9******************************************998766 PP
+
+>> ATYM01000002_688  [44260 - 45831] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequenc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.4   0.0   1.9e-19   1.8e-15      78     192 ..     154     281 ..     120     312 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 59.4 bits;  conditional E-value: 1.9e-19
+  42832_NZ_CP071597.1_1605  78 ee.........enkDvLGelYeelelsneen.....GQfFTPesvcelmAeltledeeevekkegktvlDPaCGSGrmllaaaka 148
+                               +e         +++Dv G +Ye +  +  ++     G f+TP++v el+ e+  +         + ++ DP CGSG+m ++++k 
+          ATYM01000002_688 154 SEldlgngqdtQDEDVFGRVYEYFIKEFAREeghrgGEFYTPKHVVELLVEILEPF--------EGRIFDPFCGSGGMFVQSHKF 230
+                               333333334459*********9863332222345679***************9994........689****************** PP
+
+  42832_NZ_CP071597.1_1605 149 lr.......kavfvgqDiDstCakMtalnlalnglkgevvhgdsLslevkk 192
+                               l+       ++ ++gq +++   +++ +nl l+g++g +  gds++ + + 
+          ATYM01000002_688 231 LErkggdedQISIYGQEVNEATWRICKMNLYLRGIDGNIQRGDSIRDDKFG 281
+                               *9******************************************9987765 PP
+
+>> CP010426.1_2941  [154279 - 155769] Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   0.0   1.4e-14   1.3e-10      68     188 ..     135     261 ..      53     273 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 1.4e-14
+  42832_NZ_CP071597.1_1605  68 ealaelvlameeenkDvLGelYeel.....elsneenGQfFTPesvcelmAeltledeeevekkegktvlDPaCGSGrmllaaak 147
+                               e ++ l l++++  +D  G+ Ye l     + s + ++ f+T  +v ++mA ++ ++        g++++DP+CGSG+mll++a 
+           CP010426.1_2941 135 EHFSSLNLSTKNVPQDEFGTAYEFLikkfaDDSGHTAAEFYTNRTVVRIMALIMNPK-------PGESIYDPTCGSGGMLLNSAL 212
+                               678888888888999999999998522111122334499**************9996.......799*****************9 PP
+
+  42832_NZ_CP071597.1_1605 148 alr.......kavfvgqDiDstCakMtalnlalnglkg.evvhgdsLsl 188
+                                 +        ++++gq i+ +   ++ +n++++g +   +v gd+L+ 
+           CP010426.1_2941 213 LVKekgqeyrGLKLYGQEINLITSGIARMNMFIHGFNEfHIVRGDTLKH 261
+                               9999999999*************************98527999***985 PP
+
+>> CP058579_950  [62388 - 65831] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.4   0.0   0.00073         7      83     118 ..     382     419 ..     373     434 .. 0.75
+   2 !   13.6   0.0   1.9e-05      0.18     123     167 ..     455     523 ..     435     533 .. 0.80
+   3 ?   -3.5   0.2       3.1     3e+04     183     221 ..     827     866 ..     825     890 .. 0.45
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.00073
+  42832_NZ_CP071597.1_1605  83 DvLGelYeelelsneen...GQfFTPesvcelmAeltle 118
+                               +++G ++e + ++++e+   G f+TP++++  m + +l+
+              CP058579_950 382 EFIGRIFEMF-MQEDERsevGAFYTPKPITAYMTKNALK 419
+                               5678777774.333333355************9987665 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 1.9e-05
+  42832_NZ_CP071597.1_1605 123 vekkegktvlDPaCGSGrmllaaakalr........................kavfvgqDiDstCakMt 167
+                                ++ ++ tvlDPa GSG++++a+ ++l                         + +++g+DiD+  + ++
+              CP058579_950 455 NNALRSATVLDPAVGSGAFIIAMLEELVavsealddstgdgrsrfqlkeefiADTLYGVDIDAGGIELC 523
+                               4456789*****************999888999999999999999999888888889999998766666 PP
+
+  == domain 3  score: -3.5 bits;  conditional E-value: 3.1
+  42832_NZ_CP071597.1_1605 183 gdsLslevkkvwkinatillggvirelekeea..eelleee 221
+                                d+L+  +++  ++n+   + +++++++      e++l+  
+              CP058579_950 827 KDTLRSAFFEPTETNMRL-HDQFMSRIKSLAEewESELQDV 866
+                               567777777777777777.4555555544332112222222 PP
+
+>> NZ_CP071597.1_1034  [63709 - 67719] Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.0   0.0    0.0019        18      84     119 ..     465     508 ..     430     520 .. 0.75
+   2 !   10.2   0.0    0.0002       1.9     126     169 ..     557     624 ..     542     633 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.0019
+  42832_NZ_CP071597.1_1605  84 vLGelYeelelsneen.........GQfFTPesvcelmAeltled 119
+                               +LG+++e+  +++  +         G ++TP++++++ Ae t++ 
+        NZ_CP071597.1_1034 465 ILGNVFEK-TINYITTdaadqqkelGAYYTPDEITRFCAEQTVQP 508
+                               67777777.3332222222333445***************99875 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.0002
+  42832_NZ_CP071597.1_1605 126 kegktvlDPaCGSGrmllaaakalr........................kavfvgqDiDstCakMtal 169
+                                ++ + lDPaCGSG +l +++++l                            ++g+Di   ++ ++ l
+        NZ_CP071597.1_1034 557 VDHFRALDPACGSGHFLTSVQNELVgirralydkhddnpedwelhketvIKNIYGVDIVDPAVEIAKL 624
+                               5677899**********999998776666666666666666666555544445566665555555555 PP
+
+>> CP010426.1_29336  [139551 - 138484] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0     7e-05      0.68     112     158 ..     172     211 ..     166     218 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 7e-05
+  42832_NZ_CP071597.1_1605 112 mAeltledeeevekkegktvlDPaCGSGrmllaaakalrkavfvgqD 158
+                               +A++ ++      ++ +k++lDP CG+G ml +a     ++ ++g D
+          CP010426.1_29336 172 LAKILINL-----SQAKKEILDPFCGAGTMLQEALLM--NLDAYGLD 211
+                               56666664.....35699************9776433..45555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (251 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       702  (0.00726234); expected 1933.3 (0.02)
+Passed bias filter:                      589  (0.00609333); expected 1933.3 (0.02)
+Passed Vit filter:                        53  (0.000548297); expected 96.7 (0.001)
+Passed Fwd filter:                        10  (0.000103452); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):              10  [number of targets reported over threshold]
+# CPU time: 0.15u 0.02s 00:00:00.17 Elapsed: 00:00:00.06
+# Mc/sec: 15465.26
+//
+[ok]

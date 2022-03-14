@@ -1,0 +1,90 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/36591_DQXS01000079.1_320.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/36591_DQXS01000079.1_320.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/36591_DQXS01000079.1_320.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/36591_DQXS01000079.1_320.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       36591_DQXS01000079.1_320  [M=31]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    7.9e-24   85.3   8.6    8.4e-24   85.2   8.6    1.0  1  DQXS01000079.1_320       [19696 - 19788] TPA_asm: Candidatus 
+    7.9e-24   85.3   8.6    8.4e-24   85.2   8.6    1.0  1  Ga0116200_10000074_320   [19696 - 19788]
+  ------ inclusion threshold ------
+       0.44   12.5   0.4       0.44   12.5   0.4    1.1  1  Ga0172379_10000243_3298  [107126 - 107076] (REVERSE SENSE)
+          5    9.2   5.8         19    7.3   5.8    1.8  1  DTNV01000008.1_42        [2029 - 2145] TPA_asm: Candidatus Mi
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_320  [19696 - 19788] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.2   8.6   3.5e-28   8.4e-24       1      31 []       1      31 []       1      31 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 85.2 bits;  conditional E-value: 3.5e-28
+  36591_DQXS01000079.1_320  1 MKLDELFRKKKKKKRGVVELIKSTIDECLGR 31
+                              MKLDELFRKKKKKKRGVVELIKSTIDECLGR
+        DQXS01000079.1_320  1 MKLDELFRKKKKKKRGVVELIKSTIDECLGR 31
+                              ******************************9 PP
+
+>> Ga0116200_10000074_320  [19696 - 19788]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.2   8.6   3.5e-28   8.4e-24       1      31 []       1      31 []       1      31 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 85.2 bits;  conditional E-value: 3.5e-28
+  36591_DQXS01000079.1_320  1 MKLDELFRKKKKKKRGVVELIKSTIDECLGR 31
+                              MKLDELFRKKKKKKRGVVELIKSTIDECLGR
+    Ga0116200_10000074_320  1 MKLDELFRKKKKKKRGVVELIKSTIDECLGR 31
+                              ******************************9 PP
+
+>> Ga0172379_10000243_3298  [107126 - 107076] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.4   1.8e-05      0.44      22      30 ..       8      16 ..       3      17 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 1.8e-05
+  36591_DQXS01000079.1_320 22 KSTIDECLG 30
+                              K  IDECLG
+   Ga0172379_10000243_3298  8 KDVIDECLG 16
+                              778*****9 PP
+
+>> DTNV01000008.1_42  [2029 - 2145] TPA_asm: Candidatus Micrarchaeota archaeon isolate SpSt-934 Ga0123519_10034757, whol
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   5.8   0.00078        19       3      18 ..       2      24 ..       1      27 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.00078
+  36591_DQXS01000079.1_320  3 LDELFRKKKKK.......KRGVV 18
+                              LD L  KKKKK       KRGVV
+         DTNV01000008.1_42  2 LDNLTLKKKKKnpsllfaKRGVV 24
+                              89999999999888888899999 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (31 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1575  (0.0162937); expected 1933.3 (0.02)
+Passed bias filter:                      897  (0.00927966); expected 1933.3 (0.02)
+Passed Vit filter:                        46  (0.00047588); expected 96.7 (0.001)
+Passed Fwd filter:                         5  (5.17261e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.12u 0.01s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 2292.06
+//
+[ok]

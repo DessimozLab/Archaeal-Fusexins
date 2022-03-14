@@ -1,0 +1,87 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/53204_CP058579_1762.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/53204_CP058579_1762.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/53204_CP058579_1762.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/53204_CP058579_1762.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       53204_CP058579_1762  [M=134]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+      2e-54  185.5   3.4    2.2e-54  185.4   3.4    1.0  1  CP058579_1762               [127484 - 127897] [Halobonum sp. 
+    2.8e-51  175.3   5.4    3.2e-51  175.2   5.4    1.0  1  JGI12330J12834_1000008_654  [41269 - 41685]
+  ------ inclusion threshold ------
+       0.38   13.1   0.1       0.44   12.9   0.1    1.2  1  Ga0172379_10000243_965      [60040 - 60324]
+
+
+Domain annotation for each sequence (and alignments):
+>> CP058579_1762  [127484 - 127897] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  185.4   3.4   6.8e-59   2.2e-54       1     132 [.       6     136 ..       6     138 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 185.4 bits;  conditional E-value: 6.8e-59
+  53204_CP058579_1762   1 mptfdvesaerinvFkvedaylfkhYfdseevFeeLreYYdkdkYRFevpaeefekvreeLeeagyelevvddlkeYvVvvekytdhadi 90 
+                          mptf+v++ ++i +Fkved+ylfkhYfd+e+vF+ L+eYY +dkYRFe+pa++++kv+++Le+++yel++ ddl++Y+Vvvek td+adi
+        CP058579_1762   6 MPTFEVDT-TKIPAFKVEDTYLFKHYFDEEDVFTLLQEYYLQDKYRFEIPASDYTKVQQQLENYFYELQREDDLTPYCVVVEKGTDYADI 94 
+                          8*******.********************************************************************************* PP
+
+  53204_CP058579_1762  91 lrnsvaeleredynlflmkdeaaveqAveegAerlaetelev 132
+                          lrn+v+++er+++ +fl+kd+++veqAve+gA rlae++l++
+        CP058579_1762  95 LRNAVLTKERSGHLIFLLKDNLSVEQAVEHGAIRLAESTLNE 136
+                          **************************************9976 PP
+
+>> JGI12330J12834_1000008_654  [41269 - 41685]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  175.2   5.4   9.8e-56   3.2e-51       1     132 [.       1     131 [.       1     133 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 175.2 bits;  conditional E-value: 9.8e-56
+         53204_CP058579_1762   1 mptfdvesaerinvFkvedaylfkhYfdseevFeeLreYYdkdkYRFevpaeefekvreeLeeagyelevvddlkeYvVvvek 83 
+                                 mptfd+e+ e+i++F+++d+y+fk+Yfd++++F++L+++Y++dkYRFe+p++++++vr+ Lee++yel+v+dd+++Y+Vvvek
+  JGI12330J12834_1000008_654   1 MPTFDIET-EEITAFDTGDNYIFKTYFDENQLFKQLETHYNEDKYRFEIPDNDLTQVRQLLEEYYYELTVTDDVEDYCVVVEK 82 
+                                 8*******.************************************************************************** PP
+
+         53204_CP058579_1762  84 ytdhadilrnsvaeleredynlflmkdeaaveqAveegAerlaetelev 132
+                                 ++d++dilrnsv++++++++++++mkde+++eqA+e+gA++l+++ +++
+  JGI12330J12834_1000008_654  83 KADSSDILRNSVMRKRKGQHEILVMKDELSKEQAIEKGAVSLEKSGVHE 131
+                                 ********************************************99875 PP
+
+>> Ga0172379_10000243_965  [60040 - 60324]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.1   1.4e-05      0.44      36      76 ..       7      48 ..       3      79 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 1.4e-05
+     53204_CP058579_1762 36 LreYYdkdkYRFevpaeefekvreeLeeagyelevv.ddlke 76
+                             +++Y +++YR+e+++++ + + +  +++   l ++  +l++
+  Ga0172379_10000243_965  7 TKKHYLQSHYRYEINRKAERLISKLQSQKVKSLAIIiTNLNS 48
+                            689************998777666555555555444455544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (134 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       816  (0.0084417); expected 1933.3 (0.02)
+Passed bias filter:                      529  (0.00547262); expected 1933.3 (0.02)
+Passed Vit filter:                        35  (0.000362083); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 9907.62
+//
+[ok]

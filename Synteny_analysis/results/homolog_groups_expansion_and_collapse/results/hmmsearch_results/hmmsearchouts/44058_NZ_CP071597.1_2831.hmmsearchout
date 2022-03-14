@@ -1,0 +1,459 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/44058_NZ_CP071597.1_2831.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/44058_NZ_CP071597.1_2831.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/44058_NZ_CP071597.1_2831.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/44058_NZ_CP071597.1_2831.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       44058_NZ_CP071597.1_2831  [M=445]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+   7.4e-229  762.3   0.7   8.2e-229  762.1   0.7    1.0  1  LOEP01000012_1192        [36872 - 35529] (REVERSE SENSE) Halo
+   3.4e-226  753.5   0.2   3.8e-226  753.4   0.2    1.0  1  Ga0207733_100382_360     [23006 - 24349]
+   3.8e-226  753.3   0.2   4.3e-226  753.2   0.2    1.0  1  Ga0207719_100190_1206    [13223 - 11880] (REVERSE SENSE)
+   4.4e-211  703.7   0.6   4.9e-211  703.6   0.6    1.0  1  ATYM01000002_2178        [75041 - 73728] (REVERSE SENSE) Halo
+   3.6e-197  657.8   0.0   4.2e-197  657.6   0.0    1.0  1  NZ_CP071597.1_2831       [3324 - 1858] (REVERSE SENSE) Halovi
+   8.1e-194  646.8   0.3   2.5e-192  641.9   0.3    2.0  1  JABURA010000001_182      [12643 - 14052] JABURA010000001.1 [H
+   1.7e-167  560.1   0.1    1.6e-97  329.4   0.0    2.0  2  CP048739_1680            [56225 - 54984] (REVERSE SENSE) [Hal
+    5.8e-14   54.0   0.9    7.2e-13   50.4   0.9    2.0  1  CP058579_1240            [89726 - 91312] [Halobonum sp. NJ-3-
+    2.2e-08   35.6   0.6     0.0013   20.0   0.1    2.2  2  CP010426.1_26692         [277008 - 275686] (REVERSE SENSE) Ar
+    2.6e-05   25.5   0.0     0.0024   19.0   0.0    2.1  2  Ga0172379_10000243_3790  [86779 - 85508] (REVERSE SENSE)
+    0.00062   21.0   0.0     0.0045   18.1   0.0    2.1  2  LKMP01000007.1_800       [40166 - 42013] Nanohaloarchaea arch
+     0.0073   17.4   1.5      0.022   15.8   0.0    2.4  3  Ga0222658_1000332_289    [15837 - 17660]
+  ------ inclusion threshold ------
+      0.062   14.4   0.0       0.13   13.3   0.0    1.4  1  ATYM01000002_1504        [97462 - 99474] Haloplanus natans DS
+
+
+Domain annotation for each sequence (and alignments):
+>> LOEP01000012_1192  [36872 - 35529] (REVERSE SENSE) Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Ha
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  762.1   0.7  1.1e-232  8.2e-229       7     445 .]       9     448 .]       1     448 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 762.1 bits;  conditional E-value: 1.1e-232
+  44058_NZ_CP071597.1_2831   7 feeagdqklerfvkedeevdaDYsdgiPvardvetdelvkiklddetRialfaksGkGktviakaiisrlyddgykvlhgsDvkn 91 
+                               ++  +d+++erf+++de +++DYs+giPvardvet+el++ik+dd+tRia+f++sG+Gktv+akai+sr++d+g++v+h+sDvk+
+         LOEP01000012_1192   9 WDVGDDYHRERFKQADEVTEIDYSNGIPVARDVETGELIRIKFDDTTRIAAFGASGSGKTVGAKAILSRIHDQGWNVMHFSDVKH 93 
+                               88899******************************************************************************** PP
+
+  44058_NZ_CP071597.1_2831  92 DfqsiskkgGaskkli.etlGlapgeephevPrkifvPkFlvdeYedekpsyverftLGFrDisesdlkfLlnpdseaqeqlldn 175
+                               Dfq+is+kgG+skkli et+Glapgeeph+vPrkif+PkFl+deY d+kpsyv++ftLGF+Di+esd+k+L+n++s+aq+q+l+n
+         LOEP01000012_1192  94 DFQDISYKGGVSKKLIrETAGLAPGEEPHSVPRKIFQPKFLADEYVDGKPSYVDQFTLGFEDIEESDFKALVNVTSDAQKQTLNN 178
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 176 llseldleeegfaslleklddleldysddealkralkrslealenekilsntlRkdPlryldairckectefvfadekgdhdgek 260
+                               l+s+ldle+e+f+++l++l++le+dys++ealk+alkrsle+l+n++ils++lRkdP+r+++++rc++c+e+vf+dekgdh+g++
+         LOEP01000012_1192 179 LVSGLDLENETFSTILSELNNLEIDYSGSEALKGALKRSLESLQNDNILSSRLRKDPFRFVTSWRCHTCDEYVFPDEKGDHQGHN 263
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 261 leerravvsLgLknydrykydekekvqfyvavllrnlieklregeiegplilfiDefhelvprdeeslvkdkfqkildvagRqad 345
+                               leerrav+sLgLknydry+ dekek+qfyva++++n+i++lr+++i+gp+++f+De+he+vprdees+vkdkfq+ildv+gRq+d
+         LOEP01000012_1192 264 LEERRAVLSLGLKNYDRYTPDEKEKFQFYVASMMDNFIQALRQDRIQGPYVVFCDEYHEVVPRDEESPVKDKFQRILDVSGRQND 348
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 346 iatilstqrPsqlPypgskdeadflgelnhlFlgenLdkkdwkaalkatnlynqsdadkWkkklselkefqflyvnpekhdsved 430
+                               iat++stqrPsq+P+pg+k+++df+g+l+h+F++enL++++w++al+a+n+yn+s+++kWk+k+s+++efqflyvnp++hd+ved
+         LOEP01000012_1192 349 IATLISTQRPSQVPMPGGKSRFDFIGDLDHIFISENLNAEEWSKALNAFNFYNPSHQQKWKDKMSSMDEFQFLYVNPNQHDGVED 433
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 431 cpvvealaPlvshtg 445
+                               cpvve+l+Pl+shtg
+         LOEP01000012_1192 434 CPVVEFLSPLWSHTG 448
+                               *************98 PP
+
+>> Ga0207733_100382_360  [23006 - 24349]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  753.4   0.2  5.1e-230  3.8e-226       3     445 .]       4     448 .]       1     448 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 753.4 bits;  conditional E-value: 5.1e-230
+  44058_NZ_CP071597.1_2831   3 rlgk.feeagdqklerfvkedeevdaDYsdgiPvardvetdelvkiklddetRialfaksGkGktviakaiisrlyddgykvlhg 86 
+                               +l k ++++gd+++erf+++ e +++DYs+g+Pvardv+t+elvkik+d++tRi++f+++G+Gktv+akai+sr+yd+g++v+h+
+      Ga0207733_100382_360   4 KLEKlWRSTGDFYQERFQEAGEIEEIDYSQGVPVARDVDTGELVKIKFDSTTRIGNFGATGSGKTVGAKAILSRIYDNGWNVIHF 88 
+                               444489******************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831  87 sDvknDfqsiskkgGaskkli.etlGlapgeephevPrkifvPkFlvdeYe.dekpsyverftLGFrDisesdlkfLlnpdseaq 169
+                               sDvk+Dfq+is+kgGaskkli et+Glapgeeph+vPrkif+PkFl+d+Y+ d+ psyve+ftLGF+Di+es++k+L+np s+aq
+      Ga0207733_100382_360  89 SDVKHDFQDISYKGGASKKLIrETAGLAPGEEPHSVPRKIFQPKFLADDYAqDRPPSYVEPFTLGFEDIEESEFKDLVNPGSDAQ 173
+                               **************************************************978899***************************** PP
+
+  44058_NZ_CP071597.1_2831 170 eqlldnllseldleeegfaslleklddleldysddealkralkrslealenekilsntlRkdPlryldairckectefvfadekg 254
+                               eq+l+nl+++ldle+e+fas+l +ldd+e+dys+++alk+alkrs+++l++++il++++Rk+P+ry+da+rc++c+e+vfad+kg
+      Ga0207733_100382_360 174 EQALNNLVDRLDLEDETFASILGELDDMEMDYSGADALKGALKRSIQSLDSDDILGSRMRKNPFRYADAWRCRTCNEYVFADQKG 258
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 255 dhdgekleerravvsLgLknydrykydekekvqfyvavllrnlieklregeiegplilfiDefhelvprdeeslvkdkfqkildv 339
+                               +h+g+kleerrav+sLgLknydr++ +ekek+qfyva+l++n+i++lreg+iegp+++f+De+he+vprde+s+vkdkfq++ldv
+      Ga0207733_100382_360 259 AHQGHKLEERRAVLSLGLKNYDRHT-HEKEKYQFYVASLMDNFIQELREGRIEGPYVVFCDEYHEIVPRDEKSPVKDKFQRMLDV 342
+                               ************************6.9********************************************************** PP
+
+  44058_NZ_CP071597.1_2831 340 agRqadiatilstqrPsqlPypgskdeadflgelnhlFlgenLdkkdwkaalkatnlynqsdadkWkkklselkefqflyvnpek 424
+                               +gRq+diat++stqrPsqlP+pg+k+++df+g+l+h+F+++nL++++w++al+a+n+yn+s+++kWk+k+s+++efqflyvnp+k
+      Ga0207733_100382_360 343 SGRQNDIATLISTQRPSQLPMPGGKSRFDFIGDLDHIFISKNLNAEEWNKALNAFNFYNSSHRQKWKDKISSMDEFQFLYVNPNK 427
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 425 hdsvedcpvvealaPlvshtg 445
+                               hd+vedcpvve+l+P+++h+g
+      Ga0207733_100382_360 428 HDGVEDCPVVEFLSPKWRHAG 448
+                               *******************97 PP
+
+>> Ga0207719_100190_1206  [13223 - 11880] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  753.2   0.2  5.7e-230  4.3e-226       3     445 .]       4     448 .]       1     448 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 753.2 bits;  conditional E-value: 5.7e-230
+  44058_NZ_CP071597.1_2831   3 rlgk.feeagdqklerfvkedeevdaDYsdgiPvardvetdelvkiklddetRialfaksGkGktviakaiisrlyddgykvlhg 86 
+                               +l k ++++gd+++erf+++ e +++DYs+g+Pvardv+t+elvkik+d++tRi++f+++G+Gktv+akai+sr+yd+g++v+h+
+     Ga0207719_100190_1206   4 KLEKlWRSTGDFYQERFQEAGEIEEIDYSQGVPVARDVSTGELVKIKFDSTTRIGNFGATGSGKTVGAKAILSRIYDNGWNVIHF 88 
+                               444489******************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831  87 sDvknDfqsiskkgGaskkli.etlGlapgeephevPrkifvPkFlvdeYe.dekpsyverftLGFrDisesdlkfLlnpdseaq 169
+                               sDvk+Dfq+is+kgGaskkli et+Glapgeeph+vPrkif+PkFl+d+Y+ d+ psyve+ftLGF+Di+es++k+L+np s+aq
+     Ga0207719_100190_1206  89 SDVKHDFQDISYKGGASKKLIrETAGLAPGEEPHSVPRKIFQPKFLADDYAqDRPPSYVEPFTLGFEDIEESEFKDLVNPGSDAQ 173
+                               **************************************************978899***************************** PP
+
+  44058_NZ_CP071597.1_2831 170 eqlldnllseldleeegfaslleklddleldysddealkralkrslealenekilsntlRkdPlryldairckectefvfadekg 254
+                               eq+l+nl+++ldle+e+fas+l +ldd+e+dys+++alk+alkrs+++l++++il++++Rk+P+ry+da+rc++c+e+vfad+kg
+     Ga0207719_100190_1206 174 EQALNNLVDRLDLEDETFASILGELDDMEMDYSGADALKGALKRSIQSLDSDDILGSRMRKNPFRYADAWRCRTCNEYVFADQKG 258
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 255 dhdgekleerravvsLgLknydrykydekekvqfyvavllrnlieklregeiegplilfiDefhelvprdeeslvkdkfqkildv 339
+                               +h+g+kleerrav+sLgLknydr++ +ekek+qfyva+l++n+i++lreg+iegp+++f+De+he+vprde+s+vkdkfq++ldv
+     Ga0207719_100190_1206 259 AHQGHKLEERRAVLSLGLKNYDRHT-HEKEKYQFYVASLMDNFIQELREGRIEGPYVVFCDEYHEIVPRDEKSPVKDKFQRMLDV 342
+                               ************************6.9********************************************************** PP
+
+  44058_NZ_CP071597.1_2831 340 agRqadiatilstqrPsqlPypgskdeadflgelnhlFlgenLdkkdwkaalkatnlynqsdadkWkkklselkefqflyvnpek 424
+                               +gRq+diat++stqrPsqlP+pg+k+++df+g+l+h+F+++nL++++w++al+a+n+yn+s+++kWk+k+s+++efqflyvnp+k
+     Ga0207719_100190_1206 343 SGRQNDIATLISTQRPSQLPMPGGKSRFDFIGDLDHIFISKNLNAEEWNKALNAFNFYNSSHRQKWKDKISSMDEFQFLYVNPNK 427
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 425 hdsvedcpvvealaPlvshtg 445
+                               hd+vedcpvve+l+P+++h+g
+     Ga0207719_100190_1206 428 HDGVEDCPVVEFLSPKWRHAG 448
+                               *******************97 PP
+
+>> ATYM01000002_2178  [75041 - 73728] (REVERSE SENSE) Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genom
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  703.6   0.6  6.5e-215  4.9e-211       9     445 .]       2     438 .]       1     438 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 703.6 bits;  conditional E-value: 6.5e-215
+  44058_NZ_CP071597.1_2831   9 eagdqklerfvkedeevdaDYsdgiPvardvetdelvkiklddetRialfaksGkGktviakaiisrlyddgykvlhgsDvknDf 93 
+                               eagd+k++++++e+ee+d+DY+ ++P+a++ve++++v+i+l+d+tRi l+a++G+Gktv++k+i+s++yddg++ +h+sDvknDf
+         ATYM01000002_2178   2 EAGDPKYRKYSQEEEEIDVDYNGSLPIAYEVESGDTVNISLTDTTRILLVAPTGRGKTVAGKRIVSTAYDDGWTPVHFSDVKNDF 86 
+                               789********************************************************************************** PP
+
+  44058_NZ_CP071597.1_2831  94 qsiskkgGaskklietlGlapgeephevPrkifvPkFlvdeYedekpsyverftLGFrDisesdlkfLlnpdseaqeqlldnlls 178
+                               qsis++gGask++iet+Gl++geeph+vPrk+f+PkFlvd+Y+++kpsy+e+ftLGF+Di++sdl+fLl+++se+qeq++dnll 
+         ATYM01000002_2178  87 QSISYAGGASKQMIETMGLIDGEEPHRVPRKLFQPKFLVDDYRNGKPSYIEQFTLGFEDITKSDLMFLLDFNSEPQEQVFDNLLG 171
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 179 eldleeegfaslleklddleldysddealkralkrslealenekilsntlRkdPlryldairckectefvfadekgdhd..gekl 261
+                               +l++e+e+f+sl++kldd+e++y+  ++lk+ +kr+l++len+kil+++lRk+P++y+++++c++c+efv++++kg+h+  +++l
+         ATYM01000002_2178 172 DLSIEDENFISLKSKLDDVEIEYT--NNLKGPIKRTLNSLENSKILASNLRKNPFNYIECWECHDCDEFVWKEDKGEHElnNHDL 254
+                               ***********************9..89**************************************************999**** PP
+
+  44058_NZ_CP071597.1_2831 262 eerravvsLgLknydrykydekekvqfyvavllrnlieklregeiegplilfiDefhelvprdeeslvkdkfqkildvagRqadi 346
+                               ee+rav+sL+Lk+yd+y+y+++ek+qfyvavl+rn+i+++r+g+iegp+il+ Defhe++ rd+ +lvk++fqkild+agRqadi
+         ATYM01000002_2178 255 EEKRAVISLSLKHYDNYTYGDEEKFQFYVAVLMRNFIKEIRRGNIEGPFILYGDEFHEVAGRDTGNLVKKYFQKILDIAGRQADI 339
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 347 atilstqrPsqlPypgskdeadflgelnhlFlgenLdkkdwkaalkatnlynqsdadkWkkklselkefqflyvnpekhdsvedc 431
+                               atilstqrPs+lPyp+s+d +df+g+++h+F+ge+L+  dw++a+++tnly q+d++kW+kk+++l++++flyvnpekhd+vedc
+         ATYM01000002_2178 340 ATILSTQRPSKLPYPQSSDPYDFVGDTTHMFIGEGLNPVDWRKAVNSTNLYGQGDKEKWRKKINDLNQYEFLYVNPEKHDDVEDC 424
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 432 pvvealaPlvshtg 445
+                               pvv++++Plv+htg
+         ATYM01000002_2178 425 PVVKFYSPLVRHTG 438
+                               ************98 PP
+
+>> NZ_CP071597.1_2831  [3324 - 1858] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  657.6   0.0  5.7e-201  4.2e-197       5     445 .]      39     489 .]      26     489 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 657.6 bits;  conditional E-value: 5.7e-201
+  44058_NZ_CP071597.1_2831   5 gkfeeagdqklerfvkedeevdaDYsdgiPvardvetdelvkiklddetRialfaksGkGktviakaiisrlyddgykvlhgsDv 89 
+                                 fe+++d++l++++ e++++d+DYs+giPvard++tdel++i++d+etR+++fa+sGkGkt+++ka+isrlyd+g+k+++g+D+
+        NZ_CP071597.1_2831  39 RAFEQSDDPRLTQLT-EPVDPDPDYSQGIPVARDRRTDELIYIQFDGETRVGFFAPSGKGKTTFGKALISRLYDAGFKIFNGGDI 122
+                               349***********9.********************************************************************* PP
+
+  44058_NZ_CP071597.1_2831  90 knDfqsiskkgGaskklietlGlapgeephevPrkifvPkFlvdeYedekpsyverftLGFrDisesdlkfLlnpdseaqeqlld 174
+                               knDfqs+++kgGas++li+++Gla++e+ph++P+kif+PkF+vd+Ye ++psyve+ftLGF+D+s++dl+fLl+pds+aq+++++
+        NZ_CP071597.1_2831 123 KNDFQSLDYKGGASSSLIKRMGLADYEQPHRIPKKIFMPKFMVDAYEGKVPSYVEPFTLGFQDLSWTDLQFLLQPDSQAQKRTVK 207
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 175 nl........lseldleeegfaslleklddleldysddealkralkrslealenekilsntlRkdPlryldairckec..tef.. 247
+                               +l        l+++d+e +gfa+l++k++++el    +++l+r++ +++++le+e+i++n++R+dPl+yl++i+c+ec  tef  
+        NZ_CP071597.1_2831 208 KLarqvtmerLADTDREIHGFALLRQKIMEMEL----GKNLERVMLDTIDVLEAEQIVGNQHREDPLQYLNEIGCPECftTEFqs 288
+                               *********************************....89****************************************999999 PP
+
+  44058_NZ_CP071597.1_2831 248 ....vfadekgdhd..gekleerravvsLgLknydrykydekekvqfyvavllrnlieklregeiegplilfiDefhelvprdee 326
+                                   +++++++d+d  gek++++++++sLgL++++++++++++k+qfy+avllr+l+e++++g+i++p++ f+De+h+l+p+++e
+        NZ_CP071597.1_2831 289 tydnLWTCTNEDCDwkGEKENRVSFAISLGLERWREFRHGDMHKIQFYAAVLLRQLKERAKAGQITPPILGFWDEAHLLLPATGE 373
+                               99999*********99********************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 327 slvkdkfqkildvagRqadiatilstqrPsqlPypgskdeadflgelnhlFlgenLdkkdwkaalkatnlynqsdadkWkkklse 411
+                               sl+++++q+++dva+Rq++++++ls+q+P+++P+   +d+ad+l+elnhlFlg++Ldkk+wkaal++++ly+++dadkW++k+++
+        NZ_CP071597.1_2831 374 SLMTGPMQDLVDVAARQIEMPIVLSSQQPNKIPH---SDDADILAELNHLFLGFDLDKKHWKAALDSMSLYRHYDADKWRRKMNR 455
+                               **********************************...899********************************************* PP
+
+  44058_NZ_CP071597.1_2831 412 lkefqflyvnpekhdsvedcpvvealaPlvshtg 445
+                               lk+++flyv+pe+hdsv+dcp+v++laPl+sh+g
+        NZ_CP071597.1_2831 456 LKKYDFLYVSPEHHDSVTDCPIVRSLAPLCSHPG 489
+                               ********************************98 PP
+
+>> JABURA010000001_182  [12643 - 14052] JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  641.9   0.3  3.4e-196  2.5e-192       3     444 ..      34     451 ..      32     452 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 641.9 bits;  conditional E-value: 3.4e-196
+  44058_NZ_CP071597.1_2831   3 rlgk.feeagdqklerfv.kedeevdaDYsdgiPvardvetdelvkiklddetRialfaksGkGktviakaiisrlyddgykvlh 85 
+                               rlg+ + e+g+ +++rfv ke+e+vdaDYsdg+P+ar+v++d+lv+i+l++etRial+aksG+Gktvia++ isr++dd+yk++h
+       JABURA010000001_182  34 RLGHdLLEIGSGVMDRFVpKEPETVDADYSDGYPFARKVHQDGLVQIPLHGETRIALCAKSGQGKTVIAEDGISRALDDDYKLSH 118
+                               67777899***************************************************************************** PP
+
+  44058_NZ_CP071597.1_2831  86 gsDvknDfqsiskkgGaskklietlGlapgeephevPrkifvPkFlvdeYedekpsyverftLGFrDisesdlkfLlnpd...se 167
+                               gsDv+nD++sisk+gG+s+++++ lGl+pgeep+e+Pr+++vP+F++++Y++e++++ erftLGFrDi+e+dlkfLl++d   se
+       JABURA010000001_182 119 GSDVNNDINSISKHGGVSQEMVDLLGLLPGEEPTEFPRRVMVPEFMFEKYRSERIHWGERFTLGFRDITERDLKFLLGFDgwrSE 203
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 168 aqeqlldnllseldleeegfaslleklddleldysddealkralkrslealenekilsntlRkdPlryldairckectefvfade 252
+                               aq++l+d++l+e+d++++gf+sl+e++d++++++sdde+++r++kr+l+al+++kilsnt+RkdP+           t+f     
+       JABURA010000001_182 204 AQQDLMDDVLTEIDMDTVGFTSLFETIDRIAEKNSDDERTVRKVKRRLQALKDKKILSNTMRKDPF-----------TDFE---- 273
+                               ******************************************************************...........8886.... PP
+
+  44058_NZ_CP071597.1_2831 253 kgdhdgekleerravvsLgLknydrykydekekvqfyvavllrnlieklregeiegplilfiDefhelvprdeeslvkdkfqkil 337
+                                           +++vsL+L+++d++   e+++++fy+a+++rnlieklr+gei+g+lilf+Defh+l+p++ees+vkd+fqkil
+       JABURA010000001_182 274 -----------DGSAVSLCLYHFDKV---EERRYRFYSAITHRNLIEKLRNGEITGNLILFEDEFHYLAPDGEESIVKDEFQKIL 344
+                               ...........589************...9******************************************************* PP
+
+  44058_NZ_CP071597.1_2831 338 dvagRqadiatilstqrPsqlPypgskdeadflgelnhlFlgenLdkkdwkaalkatnlynqsdadkWkkklselkefqflyvnp 422
+                               +++gR+a+++ti+stq+PsqlPypgs+de+df++++nh+Flg++L++kd++a+lk+t+l++q+++d+Wkk++selk++qf+y+n+
+       JABURA010000001_182 345 NLTGRRANVSTIISTQQPSQLPYPGSDDEYDFFSPCNHYFLGRGLSWKDYHAVLKGTGLWHQGFVDRWKKRFSELKDKQFIYIND 429
+                               ************************************************************************************* PP
+
+  44058_NZ_CP071597.1_2831 423 ekhdsvedcpvvealaPlvsht 444
+                               ++h+++e+cpvvea+aPl++h 
+       JABURA010000001_182 430 DVHETPEECPVVEAIAPLFHHG 451
+                               *********************5 PP
+
+>> CP048739_1680  [56225 - 54984] (REVERSE SENSE) [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  329.4   0.0  2.2e-101   1.6e-97       1     237 [.       2     238 ..       2     240 .. 0.99
+   2 !  229.7   0.0   3.8e-71   2.8e-67     265     445 .]     239     414 .]     238     414 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 329.4 bits;  conditional E-value: 2.2e-101
+  44058_NZ_CP071597.1_2831   1 mvrlgkfeeagdqklerfv..kedeevdaDYsdgiPvardvetdelvkiklddetRialfaksGkGktviakaiisrlyddgykv 83 
+                               m+r+gkf++agdq+++r+v  ++d ++++DY+++iP+++d++t+elv++++++++Ri++f+++G+Gkt+++k+++srl++ gyk+
+             CP048739_1680   2 MYRYGKFAKAGDQTHQRYVpdEKDLAPPPDYEKAIPIGTDINTGELVSLSISNKDRIGIFGNTGSGKTRFIKVFVSRLWKGGYKI 86 
+                               99*****************99999************************************************************* PP
+
+  44058_NZ_CP071597.1_2831  84 lhgsDvknDfqsiskkgGaskklietlGlapgeephevPrkifvPkFlvdeYe..dekpsyverftLGFrDisesdlkfLlnpds 166
+                               lh+sDvknDfq++++++Gaskk+ie++G+apge+++ +P+++f+P+Fl++eY   ++kpsy+++++LGFrD+s++d+++Llnp+s
+             CP048739_1680  87 LHCSDVKNDFQDLDNRPGASKKIIEQSGFAPGEKRQPIPKEMFMPRFLYHEYPehRSKPSYLTPYALGFRDVSTEDFRYLLNPSS 171
+                               ****************************************************977899*************************** PP
+
+  44058_NZ_CP071597.1_2831 167 eaqeqlldnllseldleeegfaslleklddleldysddealkralkrslealenekilsntlRkdPlryld 237
+                               +aqe+l++n++s+l++e+ ++++l+e ++d    +s++++l++a+++s+ea++n++i+++t+RkdPl+yld
+             CP048739_1680 172 TAQENLITNMMSGLKAEQLSYQTLYELVHD----TSNNQQLSQAVESSIEAVQNQSIINDTYRKDPLEYLD 238
+                               ****************************99....89*********************************98 PP
+
+  == domain 2  score: 229.7 bits;  conditional E-value: 3.8e-71
+  44058_NZ_CP071597.1_2831 265 ravvsLgLknydrykydekekvqfyvavllrnlieklregeiegplilfiDefhelvprdeeslvkdkfqkild..vagRqadia 347
+                               ++vv+L+L+n++ryky++ke+v++++a+++r+++e+lr+g++egpl+++iDe+h++v+++++s++k   q+++d  v gR ++i+
+             CP048739_1680 239 DNVVVLALENWERYKYSGKERVEMFIANVMRRAREQLRDGDLEGPLLMVIDEAHVFVKNGADSISK---QEAVDttVLGRGYGIP 320
+                               689***************************************************************...99999999******** PP
+
+  44058_NZ_CP071597.1_2831 348 tilstqrPsqlPypgskdeadflgelnhlFlgenLdkkdwkaalkatnlynqsdadkWkkklselkefqflyvnpekhdsvedcp 432
+                               +i+stq+Psq+P++++kd+++++ge+++lFl+ nLd++dwk+al+atnlyn+++ +kW++ +++++ef++l+v+    +++++++
+             CP048739_1680 321 MIYSTQKPSQIPNSDDKDTDNIVGEMSYLFLAPNLDEDDWKTALRATNLYNPNRLQKWRDLFQSMPEFSWLMVD----KAASTYR 401
+                               **************************************************************************....99***** PP
+
+  44058_NZ_CP071597.1_2831 433 vvealaPlvshtg 445
+                               v+++laPl++htg
+             CP048739_1680 402 VIDPLAPLCAHTG 414
+                               ***********98 PP
+
+>> CP058579_1240  [89726 - 91312] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.4   0.9   9.7e-17   7.2e-13     108     443 ..     186     526 ..     130     528 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 50.4 bits;  conditional E-value: 9.7e-17
+  44058_NZ_CP071597.1_2831 108 etlGlapgeephevPrkifvPkFlvdeYe.....dekpsyverftLGFrDisesdlkfLl.npdseaqeqlldnl....lseldl 182
+                               + + l +ge p+ +   +++P F++++ +     ++   yv+ f   F D++  +++f+l n+d +   q+l       +++ + 
+             CP058579_1240 186 DLAYLRDGESPTPIQTVVLMPYFVYKARQdkglpQSGYDYVNVFQFSFDDLTADEIHFILtNLDDHRDYQVLASEvsyrVKDRNY 270
+                               456799*******************99884333344568******************9873667666667765542555666666 PP
+
+  44058_NZ_CP071597.1_2831 183 eeegfaslleklddleld...ysddealkralkrslea.lenekilsntl...RkdPlryldairckectefvfadekgdhdgek 260
+                                 e++  ++    +l+++   + d+ + +r+lk+++ +  +n + l+++    R++P    d i  ++                +
+             CP058579_1240 271 RVESWDDVFAIAWELDEEgafNWDNGQRVRQLKNTVRTtYQNYEFLGKNRpieRREPG--EDGITYRN--------------LAE 339
+                               6777776666555555442225577777888888886525777788765311234443..12222222..............223 PP
+
+  44058_NZ_CP071597.1_2831 261 leerravvsLgLknydrykydekekvqfyvavllrnlieklregeiegplilfiDefhelvprd...eeslvkdkfqkildvagR 342
+                                 ++ + v+L+L+  d    +  +  ++yva+l++++++  +++ + gp+    De+h++vp++    e ++k++  +++    R
+             CP058579_1240 340 CLQKYNTVVLSLQDGDAL-PSSLKMKELYVAILIKKVRNLRQRNVVPGPISWRFDEAHKIVPQQytvREYPSKKQARQMIK-EDR 422
+                               345678999********9.67777789**********9988888899***************9744458899999999987.789 PP
+
+  44058_NZ_CP071597.1_2831 343 qadiatilstqrPsqlPypgskdeadflgelnhlFlgenLdkkdw.......kaalkat.nlynqsdad..kWkkklselk...e 414
+                                 +  + l+tq P+ l +      ++fl +l h+F+ +n++           ++++ ++  +y++ d++  kW   ++ +    e
+             CP058579_1240 423 SLGFRIDLATQTPNDLDM------DNFLDQLRHVFIPQNMSDTSRtsgepspRKIMLSLgRVYESADRQrgKWDAIFDAMAevfE 501
+                               9*************9988......89**************8765422222224555554169*9998874468866555542228 PP
+
+  44058_NZ_CP071597.1_2831 415 fqflyvnpekhdsvedcpvvealaPlvsh 443
+                               +++ly++    ++ +   v+++ +Pl +h
+             CP058579_1240 502 YSWLYID----KKRDYWTVLRPASPLANH 526
+                               9*****9....555667899999999998 PP
+
+>> CP010426.1_26692  [277008 - 275686] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.0   0.1   1.1e-05      0.08     113     219 ..     119     222 ..      35     230 .. 0.78
+   2 !   20.0   0.1   1.7e-07    0.0013     302     360 ..     295     353 ..     255     367 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 1.1e-05
+  44058_NZ_CP071597.1_2831 113 apgeephevPrkifvPkFlvdeYedekpsyverftLGFrDisesdlkfLlnpd.seaqeqlldnllseldleeegfasllekldd 196
+                               a g ep+ +P k++vPk  ++eY++++++    f++   +++ +d   + +++  +    l++++l++l+++      + + + +
+          CP010426.1_26692 119 AWGLEPKGLPVKVYVPKGKFQEYKQKEINVDYSFAIKPGELTAEDWCNVFQIKiTDNIGVLIEKVLTKLKINYD----INDIIFE 199
+                               4456999*********************************************9778888999*******99865....5566666 PP
+
+  44058_NZ_CP071597.1_2831 197 leldysddealkralkrsleale 219
+                               +  d+s d+ +k+a +++  a++
+          CP010426.1_26692 200 IRKDNSIDQLTKNAAENRFRAVK 222
+                               67788888888888888888776 PP
+
+  == domain 2  score: 20.0 bits;  conditional E-value: 1.7e-07
+  44058_NZ_CP071597.1_2831 302 regeiegpli.lfiDefhelvprdeeslvkdkfqkildvagRqadiatilstqrPsqlPy 360
+                               re++ e pl+ +fiDe+hel+p+++ +    ++ +i+   gRq +i+++l+tq+P ++  
+          CP010426.1_26692 295 REEKTENPLVwIFIDEAHELLPKEGINAALPSLIQIIR-EGRQPGISLVLATQQPGEIHR 353
+                               7788888988579**********998888777777775.8***************99865 PP
+
+>> Ga0172379_10000243_3790  [86779 - 85508] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.0   0.0   3.2e-07    0.0024      54     225 ..      76     254 ..      64     260 .. 0.83
+   2 !    4.3   0.0    0.0093        69     311     366 ..     315     370 ..     295     387 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 19.0 bits;  conditional E-value: 3.2e-07
+  44058_NZ_CP071597.1_2831  54 RialfaksGkGktviakaiisrlyddgykvlhgsDvknDfqsiskkgGaskklietlGlapgeephevPr.kifvPkFlvd.... 133
+                                + +f+ sG+Gk ++  +i s l  +  +   + D kn ++ + + +    k ie l    ge p+ vP+ + f+P  +vd    
+   Ga0172379_10000243_3790  76 AMLIFGGSGSGKSTCLARIHSELSFQYSRSQTIFDFKNQYK-LAYMPNDNPKHIEILN-RYGEVPRGVPKvQCFLPSHIVDrwge 158
+                               56799*********999999999888777888899999985.9999999999999886.569*******9779******983333 PP
+
+  44058_NZ_CP071597.1_2831 134 eYedekpsyverftLGFrDisesdlkfLlnpdseaq..eqlldnllseldle..eegfaslleklddleldysddealkralkrs 214
+                               +Y   + +y + + +G +D++ s l +L + + e     ++ld +++ +     + +  sl+ +++  + + s++++   al   
+   Ga0172379_10000243_3790 159 DYCMANYNYTDTWKMGINDVDPSGLLMLGQKETENRgyVNMLDAIMAVIRKRdgKITIGSLKAEIEANQDELSGAKRSGDALLMM 243
+                               6778999*********************99987665226889999998876512467889*****9999999************* PP
+
+  44058_NZ_CP071597.1_2831 215 lealenekils 225
+                               +++l +  +l+
+   Ga0172379_10000243_3790 244 IDSLVKLGVLA 254
+                               *9998766665 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.0093
+  44058_NZ_CP071597.1_2831 311 ilfiDefhelvprdeeslvkdkfqkildvagRqadiatilstqrPsqlPypgskde 366
+                               ++ i+e+  +  +d+   +   + ++  v gR  +i  i+  q+  q+P   ++d+
+   Ga0172379_10000243_3790 315 VIGIEEASSFFGKDSAKNMLSALSQMHYVVGRSEGIFRIYVYQKKEQVPLGIEDDK 370
+                               445677888888888888888999999**********************9766664 PP
+
+>> LKMP01000007.1_800  [40166 - 42013] Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genome shotgun sequen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.0   0.0      0.19   1.4e+03      54      84 ..     123     153 ..     102     156 .. 0.78
+   2 !   18.1   0.0   6.1e-07    0.0045     291     395 ..     304     401 ..     258     409 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 0.0 bits;  conditional E-value: 0.19
+  44058_NZ_CP071597.1_2831  54 RialfaksGkGktviakaiisrlyddgykvl 84 
+                                 a++a++G Gk   +  ++  +++d++ vl
+        LKMP01000007.1_800 123 HFAVLAQTGAGKSYLSSILVEEMLEDEFPVL 153
+                               568899*******************999775 PP
+
+  == domain 2  score: 18.1 bits;  conditional E-value: 6.1e-07
+  44058_NZ_CP071597.1_2831 291 avllrnlieklregeiegplilfiDefhelvprde.eslvkdkfqkildvagRqadiatilstqrPsqlPypgskdeadflgeln 374
+                                 l ++l  +lr+ +  +p+i++i+e+h +vp+++    v +++ + +   gR+ ++ + + +qrP+++ +       ++l+++n
+        LKMP01000007.1_800 304 YLLAERLF-ELRKRNRIPPFIMVIEEAHNFVPEKGfGQAVSNPILRKIASEGRKFGMGLGVISQRPARIDK-------NVLSQCN 380
+                               34444454.566666669*************9865378899999999999**********9*******977.......9999*** PP
+
+  44058_NZ_CP071597.1_2831 375 hlFlgenLdkkdwkaalkatn 395
+                                 F+ +  + +d ka+ k+++
+        LKMP01000007.1_800 381 TQFILRVTNPNDLKAISKSFE 401
+                               *9*999999999999888775 PP
+
+>> Ga0222658_1000332_289  [15837 - 17660]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.0      0.42   3.1e+03      52      74 ..      27      49 ..      12      59 .. 0.79
+   2 !   15.8   0.0     3e-06     0.022     305     361 ..     134     189 ..     112     228 .. 0.80
+   3 ?   -2.3   0.5      0.97   7.2e+03     179     227 ..     290     324 ..     270     349 .. 0.49
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 0.42
+  44058_NZ_CP071597.1_2831 52 etRialfaksGkGktviakaiis 74
+                               tR+ + a+sG Gk  ++++++ 
+     Ga0222658_1000332_289 27 ATRMLINANSGGGKSWAIRRFLE 49
+                              79************999988875 PP
+
+  == domain 2  score: 15.8 bits;  conditional E-value: 3e-06
+  44058_NZ_CP071597.1_2831 305 eiegplilfiDefhelvprdeeslvkdkfqkild..vagRqadiatilstqrPsqlPyp 361
+                               ++  p+i+++De+h++ p++++s +      ++d    gR+ +   +l+tqr s+l + 
+     Ga0222658_1000332_289 134 NLWHPVIVVVDEAHQFCPEKSKSESM---SSVIDlmTRGRKRGFCGVLATQRISKLHKD 189
+                               56789*************99998655...6777732468999*************9763 PP
+
+  == domain 3  score: -2.3 bits;  conditional E-value: 0.97
+  44058_NZ_CP071597.1_2831 179 eldleeegfaslleklddleldysddealkralkrslealenekilsnt 227
+                               e + e  + + +++k+ +l+ +              l   e++ki+ ++
+     Ga0222658_1000332_289 290 EAEEEIRTTEDMKKKIRELKTK--------------LTIAEKSKIIEQK 324
+                               3333444444444444444443..............3333333333333 PP
+
+>> ATYM01000002_1504  [97462 - 99474] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.0   1.8e-05      0.13      41      98 ..      85     142 ..      73     156 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 1.8e-05
+  44058_NZ_CP071597.1_2831  41 tdelvkiklddetR.ialfaksGkGktviakaiisrlyddgykvlhgsDvknDfqsisk 98 
+                               +++lv ++++d t+ + ++++sG+Gkt+   +++s l d++     + D+k+D++ + k
+         ATYM01000002_1504  85 KGGLVDLPVEDLTKhVLAVGQSGSGKTTLFYNLMSELDDQEIPFW-AFDLKQDYRHLVK 142
+                               589******997654999******************999987655.5599999988765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (445 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       628  (0.0064968); expected 1933.3 (0.02)
+Passed bias filter:                      428  (0.00442775); expected 1933.3 (0.02)
+Passed Vit filter:                        49  (0.000506916); expected 96.7 (0.001)
+Passed Fwd filter:                        13  (0.000134488); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.21u 0.02s 00:00:00.23 Elapsed: 00:00:00.07
+# Mc/sec: 23501.56
+//
+[ok]

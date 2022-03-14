@@ -1,0 +1,184 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/44950_LOEP01000012_860.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/44950_LOEP01000012_860.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/44950_LOEP01000012_860.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/44950_LOEP01000012_860.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       44950_LOEP01000012_860  [M=227]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+   2.9e-128  428.8  34.8   3.3e-128  428.6  34.8    1.0  1  LOEP01000012_860             [53821 - 54501] Haloferax sp. Q2
+   6.1e-127  424.4  36.1   6.8e-127  424.3  36.1    1.0  1  Ga0207719_100190_828         [37563 - 36883] (REVERSE SENSE)
+   9.8e-101  338.7  30.1   1.1e-100  338.6  30.1    1.0  1  Ga0207733_100382_3           [4 - 549]
+      3e-10   42.7  19.8    4.2e-10   42.3  19.8    1.3  1  JGI12330J12834_1000008_1698  [83535 - 82777] (REVERSE SENSE)
+    3.2e-10   42.7  25.1    3.8e-10   42.4  25.1    1.0  1  JNCS01000001_1350            [87929 - 87252] (REVERSE SENSE) 
+  ------ inclusion threshold ------
+      0.017   17.4  14.5      0.021   17.0  14.5    1.1  1  Ga0207718_100100_1688        [77056 - 76310] (REVERSE SENSE)
+       0.15   14.3   2.9       0.16   14.2   2.9    1.0  1  Ga0078972_1006503_422        [20881 - 21045]
+
+
+Domain annotation for each sequence (and alignments):
+>> LOEP01000012_860  [53821 - 54501] Haloferax sp. Q22 scaffold12, whole genome shotgun sequence.   [Haloferax sp. Q22 |
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  428.6  34.8  2.4e-132  3.3e-128       1     225 [.       1     226 [.       1     227 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 428.6 bits;  conditional E-value: 2.4e-132
+  44950_LOEP01000012_860   1 mklrkwlfsdteeqvkepvevggleldpegevlesgfeldefegdieereeaidelekdvdrhrkkkkravekarkaeeqaekkdym 87 
+                             m+lrkw+fsdteeqvkepvevggleldpegevlesgfeldef+gdieeree+id+l++d+drhrkkk+rave+ar+ae+++ek+dym
+        LOEP01000012_860   1 MNLRKWMFSDTEEQVKEPVEVGGLELDPEGEVLESGFELDEFQGDIEEREEFIDQLQRDIDRHRKKKERAVERAREAETGSEKEDYM 87 
+                             9************************************************************************************** PP
+
+  44950_LOEP01000012_860  88 veakehkvlkakkkkvldhlrkekltlkklklqhlqdnvgdsldseldidlgeldaseiedaieesgddllesaesiedleealela 174
+                             veakehkvlk+kkkkvl+hlrkekl+lkklklqh+qdnvg+sl+seldid+g+l++s+ie+aieesgddlles++si+dle++lela
+        LOEP01000012_860  88 VEAKEHKVLKQKKKKVLNHLRKEKLMLKKLKLQHMQDNVGSSLNSELDIDVGQLPTSDIESAIEESGDDLLESRDSIQDLEDSLELA 174
+                             *************************************************************************************** PP
+
+  44950_LOEP01000012_860 175 dseaagldlsdieeevedd.dsseevdledrsleteeeidqaieeeleklee 225
+                             dseaagldlsdieeevedd ds+ee++ledrsleteeeidqaieeel+kle+
+        LOEP01000012_860 175 DSEAAGLDLSDIEEEVEDDvDSNEETQLEDRSLETEEEIDQAIEEELQKLED 226
+                             **************************************************98 PP
+
+>> Ga0207719_100190_828  [37563 - 36883] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  424.3  36.1    5e-131  6.8e-127       1     227 []       1     227 []       1     227 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 424.3 bits;  conditional E-value: 5e-131
+  44950_LOEP01000012_860   1 mklrkwlfsdteeqvkepvevggleldpegevlesgfeldefegdieereeaidelekdvdrhrkkkkravekarkaeeqaekkdym 87 
+                             mklr+wl++d+eeq++epvevggleld++gevlesg++l+efe+die+reeai+elekdv+rh+kkkkravekarka+eqa+kk+ym
+    Ga0207719_100190_828   1 MKLRDWLKTDKEEQAEEPVEVGGLELDGDGEVLESGYDLEEFEDDIEGREEAISELEKDVQRHGKKKKRAVEKARKADEQADKKGYM 87 
+                             89************************************************************************************* PP
+
+  44950_LOEP01000012_860  88 veakehkvlkakkkkvldhlrkekltlkklklqhlqdnvgdsldseldidlgeldaseiedaieesgddllesaesiedleealela 174
+                             veakehk++kakk+k+ldhlr+ekltlkklklqhlq+n+gd++d++ldi+lgeldaseiedaiee+gddl+esae++edl+ea+e+a
+    Ga0207719_100190_828  88 VEAKEHKEAKAKKEKILDHLRQEKLTLKKLKLQHLQNNIGDGVDTDLDINLGELDASEIEDAIEEGGDDLWESAENMEDLGEAMEMA 174
+                             *************************************************************************************** PP
+
+  44950_LOEP01000012_860 175 dseaagldlsdieeevedddsseevdledrsleteeeidqaieeelekleenl 227
+                             dsea+gldlsdie+eve++++s++vdl++rsletee+idqai+e+le+++enl
+    Ga0207719_100190_828 175 DSEAGGLDLSDIEAEVENSGTSDTVDLSNRSLETEEDIDQAIDETLEEMDENL 227
+                             ***************************************************97 PP
+
+>> Ga0207733_100382_3  [4 - 549]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  338.6  30.1  7.9e-105  1.1e-100      46     227 .]       1     182 []       1     182 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 338.6 bits;  conditional E-value: 7.9e-105
+  44950_LOEP01000012_860  46 ieereeaidelekdvdrhrkkkkravekarkaeeqaekkdymveakehkvlkakkkkvldhlrkekltlkklklqhlqdnvgdslds 132
+                             +e+reeai+elekdv+rh+kkkkravekarka+eqa+kk+ymveakehk++kakk+k+ldhlr+ekltlkklklqhlq+n+gd++d+
+      Ga0207733_100382_3   1 MEGREEAISELEKDVQRHGKKKKRAVEKARKADEQADKKGYMVEAKEHKEAKAKKEKILDHLRQEKLTLKKLKLQHLQNNIGDGVDT 87 
+                             79************************************************************************************* PP
+
+  44950_LOEP01000012_860 133 eldidlgeldaseiedaieesgddllesaesiedleealeladseaagldlsdieeevedddsseevdledrsleteeeidqaieee 219
+                             +ldi+lgeldaseiedaiee+gddl+esae++edl+ea+e+adsea+gldlsdie+eve++++s++vdl++rsletee+idqai+e+
+      Ga0207733_100382_3  88 DLDINLGELDASEIEDAIEEGGDDLWESAENMEDLGEAMEMADSEAGGLDLSDIEAEVENSGTSDTVDLSNRSLETEEDIDQAIDET 174
+                             *************************************************************************************** PP
+
+  44950_LOEP01000012_860 220 lekleenl 227
+                             le+++enl
+      Ga0207733_100382_3 175 LEEMDENL 182
+                             ******97 PP
+
+>> JGI12330J12834_1000008_1698  [83535 - 82777] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.3  19.8     3e-14   4.2e-10      18     196 ..      52     227 ..      26     251 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 42.3 bits;  conditional E-value: 3e-14
+       44950_LOEP01000012_860  18 pvevggleldpegevlesgfeldefegdieereeaidelekdvdrhrkkkkravekarkaeeqaekkdymveakehkvlkak 99 
+                                        l+ +p+ +vl + +   e+ +d+e+r+e +d+l +d+  h  + +  +e+a+ka+   e k    +ake k++ + 
+  JGI12330J12834_1000008_1698  52 YQHHSILDANPNAKVLATDHSRAEVSEDLEKRNEDLDHLMRDISAHWNRYQGWLERAQKADGIDELK-AKTKAKEEKKAAKD 132
+                                  4455668999**************************************************9776666.5689********** PP
+
+       44950_LOEP01000012_860 100 kkkvldhlrkekltlkklklqhlqdnvgdsldseldidlgeldaseiedaieesgddllesaesiedleealeladseaagl 181
+                                  k+k+ + l +ek  lk    +     v      +  +d  e+ ++  e+a e   + + e + +++++ee++e  + +   l
+  JGI12330J12834_1000008_1698 133 KEKLWKLLWQEKTNLKDAIRRDEHVRV--LAGQNYSVDFTEISTTGPEKAAEVMEQMMQERQMKVKQFEESMERMEEDDVEL 212
+                                  ****************87554433334..44456778899**************999************************* PP
+
+       44950_LOEP01000012_860 182 dlsdieeevedddss 196
+                                  d+ di+ ++ + + +
+  JGI12330J12834_1000008_1698 213 DFNDIDRDIAELQMQ 227
+                                  ******988765433 PP
+
+>> JNCS01000001_1350  [87929 - 87252] (REVERSE SENSE) Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole gen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.4  25.1   2.8e-14   3.8e-10      25     221 ..      25     224 ..      16     226 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 42.4 bits;  conditional E-value: 2.8e-14
+  44950_LOEP01000012_860  25 eldpegevlesgfeldefegdieereeaidelekdvdrhrkkkkravekarkaeeqaekkdymveakehkvlkakkkkvldhlrkek 111
+                             e + + evl+sg+  +e++gd+eeree++++l+k++++ ++k k     a ++ e+aek+ +  +a  +k  +++ + + + + + +
+       JNCS01000001_1350  25 EQEEDSEVLDSGYSHEEIRGDVEEREEFLSHLDKEIEKAERKAKLHFREALQS-EGAEKRRHYRKANGYKTYRDQFQEISEQVANGQ 110
+                             567899*********************************99999998888876.6899999999*********************** PP
+
+  44950_LOEP01000012_860 112 ltlkklklqhlqdnvgdsl.dseldidlgeldaseiedaieesgddllesaesiedleealela.dseaagldlsdieeevedddss 196
+                              tl  + ++ +++ + + + d  +did+ e++  ++ ++ie++  +  e  +  ++l+ + ++a d+e    +l d  + +e ++ +
+       JNCS01000001_1350 111 ETLAVMDVEAVKEKLAKRVeDLGFDIDVTEMPVDDVSSSIEDNSFENREREKVRDQLQRSQQVAgDTEPPYQELMDEGDTMEAEQIQ 197
+                             *****************9934689*****************9999998887777889999999878999999999988888888777 PP
+
+  44950_LOEP01000012_860 197 eevd.l.....edrsleteeeidqaieeele 221
+                             +evd l      +r  e +e+i     ++le
+       JNCS01000001_1350 198 QEVDeLaggdqGNRDDELDEQI----RQDLE 224
+                             7775231111134444444444....44444 PP
+
+>> Ga0207718_100100_1688  [77056 - 76310] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.0  14.5   1.6e-06     0.021      27     194 ..      59     222 ..      38     246 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 1.6e-06
+  44950_LOEP01000012_860  27 dpegevlesgfeldefegdieereeaidelekdvdrhrkkkkravekarkaeeqaekkdymveakehkvlkakkkkvldhlrkeklt 113
+                               + e+l++ ++ ++++ d+++r+  ++ l+ ++  h    k  ++ ar+ +++ +  +   +ak+ k++ + k+++ + l  e   
+   Ga0207718_100100_1688  59 YLDSEMLDTQYKREDVKWDVNHRQSHLNTLQVQIRSHWENYKEWLKSARE-DNGIDELKAKTKAKQAKKAAKDKQQLYKLLWLELDA 144
+                             55889*******************************************98.567777778899******999999****9*999999 PP
+
+  44950_LOEP01000012_860 114 lkklklqhlqdnvgdsldseldidlgeldaseiedaieesgddllesaesiedleealeladseaagldlsdieeeveddd 194
+                             lk    q  q  + ++ +    +d  ++d +  e+a ++    l + +  +e++++       e   ld+sdie++v + +
+   Ga0207718_100100_1688 145 LKDGLRQDEQIRILSGGNY--RVDFSDIDGASAEQAAQQRSSKLRKRRMMVEQFKHNTA-NSMEDIELDFSDIEKDVAELE 222
+                             9999999999999998765..56789***********************9999987543.3347778********997653 PP
+
+>> Ga0078972_1006503_422  [20881 - 21045]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   2.9   1.1e-05      0.16      42      83 ..      12      54 ..       4      55 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 1.1e-05
+  44950_LOEP01000012_860 42 fegdieereeaidelekdvdrhrkkkkravekark.aeeqaek 83
+                            +e di++ e  id+l+k ++  +  k+r +  a + ae+ +ek
+   Ga0078972_1006503_422 12 IERDINKMERKIDQLKKHIKMAQETKERILREAGEnAEQSCEK 54
+                            689**************************98887615555566 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (227 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       701  (0.007252); expected 1933.3 (0.02)
+Passed bias filter:                      354  (0.00366221); expected 1933.3 (0.02)
+Passed Vit filter:                        22  (0.000227595); expected 96.7 (0.001)
+Passed Fwd filter:                         7  (7.24165e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 16783.81
+//
+[ok]

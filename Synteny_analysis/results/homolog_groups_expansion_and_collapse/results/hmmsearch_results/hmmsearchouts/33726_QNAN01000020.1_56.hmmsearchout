@@ -1,0 +1,91 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/33726_QNAN01000020.1_56.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/33726_QNAN01000020.1_56.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/33726_QNAN01000020.1_56.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/33726_QNAN01000020.1_56.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       33726_QNAN01000020.1_56  [M=98]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    2.2e-65  219.8   2.9    2.4e-65  219.7   2.9    1.0  1  DQXS01000079.1_56      [3376 - 3669] TPA_asm: Candidatus Alti
+    2.2e-65  219.8   2.9    2.4e-65  219.7   2.9    1.0  1  Ga0116200_10000074_56  [3376 - 3669]
+    2.2e-65  219.8   2.9    2.4e-65  219.7   2.9    1.0  1  QNAN01000020.1_56      [3376 - 3669] Thermotogae bacterium is
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_56  [3376 - 3669] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  219.7   2.9   7.6e-70   2.4e-65       1      98 []       1      98 []       1      98 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 219.7 bits;  conditional E-value: 7.6e-70
+  33726_QNAN01000020.1_56  1 mekeniiplllfvmlgmllvtplfeqkyividnkkfteyngygfklksatistatilikfpsgdvkeamlpakidnmeieykgmided 88
+                             mekeniiplllfvmlgmllvtplfeqkyividnkkfteyngygfklksatistatilikfpsgdvkeamlpakidnmeieykgmided
+        DQXS01000079.1_56  1 MEKENIIPLLLFVMLGMLLVTPLFEQKYIVIDNKKFTEYNGYGFKLKSATISTATILIKFPSGDVKEAMLPAKIDNMEIEYKGMIDED 88
+                             9*************************************************************************************** PP
+
+  33726_QNAN01000020.1_56 89 tiritisvtp 98
+                             tiritisvtp
+        DQXS01000079.1_56 89 TIRITISVTP 98
+                             *********9 PP
+
+>> Ga0116200_10000074_56  [3376 - 3669]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  219.7   2.9   7.6e-70   2.4e-65       1      98 []       1      98 []       1      98 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 219.7 bits;  conditional E-value: 7.6e-70
+  33726_QNAN01000020.1_56  1 mekeniiplllfvmlgmllvtplfeqkyividnkkfteyngygfklksatistatilikfpsgdvkeamlpakidnmeieykgmided 88
+                             mekeniiplllfvmlgmllvtplfeqkyividnkkfteyngygfklksatistatilikfpsgdvkeamlpakidnmeieykgmided
+    Ga0116200_10000074_56  1 MEKENIIPLLLFVMLGMLLVTPLFEQKYIVIDNKKFTEYNGYGFKLKSATISTATILIKFPSGDVKEAMLPAKIDNMEIEYKGMIDED 88
+                             9*************************************************************************************** PP
+
+  33726_QNAN01000020.1_56 89 tiritisvtp 98
+                             tiritisvtp
+    Ga0116200_10000074_56 89 TIRITISVTP 98
+                             *********9 PP
+
+>> QNAN01000020.1_56  [3376 - 3669] Thermotogae bacterium isolate B96_G9 B96_Guay9_scaffold_13443, whole genome shotgun 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  219.7   2.9   7.6e-70   2.4e-65       1      98 []       1      98 []       1      98 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 219.7 bits;  conditional E-value: 7.6e-70
+  33726_QNAN01000020.1_56  1 mekeniiplllfvmlgmllvtplfeqkyividnkkfteyngygfklksatistatilikfpsgdvkeamlpakidnmeieykgmided 88
+                             mekeniiplllfvmlgmllvtplfeqkyividnkkfteyngygfklksatistatilikfpsgdvkeamlpakidnmeieykgmided
+        QNAN01000020.1_56  1 MEKENIIPLLLFVMLGMLLVTPLFEQKYIVIDNKKFTEYNGYGFKLKSATISTATILIKFPSGDVKEAMLPAKIDNMEIEYKGMIDED 88
+                             9*************************************************************************************** PP
+
+  33726_QNAN01000020.1_56 89 tiritisvtp 98
+                             tiritisvtp
+        QNAN01000020.1_56 89 TIRITISVTP 98
+                             *********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (98 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       937  (0.00969347); expected 1933.3 (0.02)
+Passed bias filter:                      652  (0.00674508); expected 1933.3 (0.02)
+Passed Vit filter:                        24  (0.000248285); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 7245.88
+//
+[ok]

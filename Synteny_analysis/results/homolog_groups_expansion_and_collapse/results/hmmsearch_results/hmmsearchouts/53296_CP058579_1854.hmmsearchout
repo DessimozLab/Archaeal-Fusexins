@@ -1,0 +1,63 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/53296_CP058579_1854.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/53296_CP058579_1854.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/53296_CP058579_1854.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/53296_CP058579_1854.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       53296_CP058579_1854  [M=83]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    3.9e-46  157.3   4.7    4.3e-46  157.1   4.7    1.0  1  JGI12330J12834_1000008_9  [243 - 491]
+    8.6e-41  140.1   3.1    9.2e-41  140.0   3.1    1.0  1  CP058579_1854             [135258 - 135503] [Halobonum sp. NJ
+
+
+Domain annotation for each sequence (and alignments):
+>> JGI12330J12834_1000008_9  [243 - 491]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.1   4.7   8.8e-51   4.3e-46       1      83 []       1      83 []       1      83 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 157.1 bits;  conditional E-value: 8.8e-51
+       53296_CP058579_1854  1 msakriravgwstitmstdeeeiedkilellaeeaedekaiteellleiydledelveldrreGlqdklrkiledyvdeddks 83
+                              ms+k+++avgwstitm+t++ee+ed+i++ll+ee+ed++aiteel+leiydledel++ldrr+G+qd++++iledyvde+d+s
+  JGI12330J12834_1000008_9  1 MSPKSFSAVGWSTITMGTADEEDEDQIRTLLREETEDREAITEELILEIYDLEDELSTLDRRHGIQDGIQSILEDYVDENDAS 83
+                              9********************************************************************************98 PP
+
+>> CP058579_1854  [135258 - 135503] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.0   3.1   1.9e-45   9.2e-41       1      81 [.       1      77 [.       1      82 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 140.0 bits;  conditional E-value: 1.9e-45
+  53296_CP058579_1854  1 msakriravgwstitmstdeeeiedkilellaeeaedekaiteellleiydledelveldrreGlqdklrkiledyvdedd 81
+                         m+a+rir+   ++i+mstde++i+dkilel+ae+a dek+i+e+ll+eiy+led++ve++rreGl++klrkil++yvded+
+        CP058579_1854  1 MTALRIRS---PCIPMSTDEADIDDKILELIAEQA-DEKNIPEDLLIEIYKLEDRMVEMGRREGLPKKLRKILQGYVDEDN 77
+                         9*******...************************.********************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (83 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       606  (0.0062692); expected 1933.3 (0.02)
+Passed bias filter:                      437  (0.00452086); expected 1933.3 (0.02)
+Passed Vit filter:                        28  (0.000289666); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 6136.81
+//
+[ok]

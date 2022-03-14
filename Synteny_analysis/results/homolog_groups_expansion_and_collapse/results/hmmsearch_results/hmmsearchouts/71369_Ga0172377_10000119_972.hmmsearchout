@@ -1,0 +1,177 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/71369_Ga0172377_10000119_972.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/71369_Ga0172377_10000119_972.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/71369_Ga0172377_10000119_972.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/71369_Ga0172377_10000119_972.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       71369_Ga0172377_10000119_972  [M=405]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+   1.5e-256  853.4  44.3   1.7e-256  853.2  44.3    1.0  1  Ga0172379_10001592_172   [9858 - 11072]
+   6.4e-217  722.9  42.6   7.2e-217  722.7  42.6    1.0  1  Ga0172377_10000119_972   [45057 - 46157]
+    1.6e-84  286.9  33.8      2e-84  286.6  33.8    1.0  1  Ga0172377_10000119_802   [34884 - 35963]
+    1.3e-35  125.9  20.1    1.4e-35  125.7  20.1    1.0  1  Ga0172377_10000119_2156  [28385 - 27729] (REVERSE SENSE)
+    3.9e-19   71.6   7.4    4.3e-19   71.4   7.4    1.0  1  Ga0172377_10000119_2149  [28749 - 28354] (REVERSE SENSE)
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0172379_10001592_172  [9858 - 11072]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  853.2  44.3  8.8e-261  1.7e-256       1     405 []       1     405 []       1     405 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 853.2 bits;  conditional E-value: 8.8e-261
+  71369_Ga0172377_10000119_972   1 lgtytikvwislkygsenlienefeiqtdeelekesreqlklqeycdgikliefdgfdeqviddwwddhksnnskvnnlnk 81 
+                                   +gtytikvwislkygsen+ienefeiqtdeelekesreql+lq+ycdgi+l+ef+gf+eqv+ddwwddhksnns++nn+nk
+        Ga0172379_10001592_172   1 MGTYTIKVWISLKYGSENMIENEFEIQTDEELEKESREQLELQAYCDGIELSEFSGFSEQVMDDWWDDHKSNNSSTNNINK 81 
+                                   8******************************************************************************** PP
+
+  71369_Ga0172377_10000119_972  82 vvevkykddiyktwtvksikplitkflkekypdsiivkelnvidltlidnksdeiipveiqkstlskksgalkfvnsefen 162
+                                   +vevkyk+d+yktwtvksi+plit+flkekyp+siiv+e+nvid+t++dn+s+eiipveiqks+++kksga+kf+ns+fen
+        Ga0172379_10001592_172  82 IVEVKYKNDTYKTWTVKSIRPLITNFLKEKYPNSIIVPEINVIDITIFDNNSNEIIPVEIQKSPTTKKSGAMKFGNSQFEN 162
+                                   ********************************************************************************* PP
+
+  71369_Ga0172377_10000119_972 163 sirkqlddniesykkcwfffdseylrylqsknikkkisinmtwliklmkenklkvfvvkydglvkeltskdfdflkyisnt 243
+                                   sirkq+ddnie+y+kcwfffdseyl+ylqskni++k+sinmtwliklmken+lkvfvv+ydglv+elt+kdfdflk+is+t
+        Ga0172379_10001592_172 163 SIRKQIDDNIENYGKCWFFFDSEYLMYLQSKNIGIKTSINMTWLIKLMKENTLKVFVVRYDGLVRELTTKDFDFLKNISHT 243
+                                   ********************************************************************************* PP
+
+  71369_Ga0172377_10000119_972 244 ciigydnderilnrnklkifkniikgynfnqkeidnfykifkvsnekytydifrksnderrklygyvlksisslsvinksl 324
+                                   ciigydnderilnrnklkif+nii+gynfnqkeidnfy++f++sne+++yd+frk+nd+r+klyg+vlk+i+sl++inksl
+        Ga0172379_10001592_172 244 CIIGYDNDERILNRNKLKIFHNIINGYNFNQKEIDNFYNNFYNSNENNCYDFFRKNNDGRCKLYGNVLKCIGSLNIINKSL 324
+                                   ********************************************************************************* PP
+
+  71369_Ga0172377_10000119_972 325 dmdyidekqefkilkinsailkiiekdsikivdkfdickyfpgyvrreklwlvykgkdlsykvffdlckgryknsktlfdy 405
+                                   dmdy+dekq++kil+ins+i++i+e++s+k+vdkfdickyfpgyvrrek+wl+ykg+d++yk+ffd+ckg+ykns+tlfdy
+        Ga0172379_10001592_172 325 DMDYYDEKQHHKILMINSGIFEIFENSSMKFVDKFDICKYFPGYVRREKHWLTYKGNDFCYKTFFDMCKGMYKNSSTLFDY 405
+                                   ********************************************************************************9 PP
+
+>> Ga0172377_10000119_972  [45057 - 46157]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  722.7  42.6  3.7e-221  7.2e-217      40     405 .]       1     366 [.       1     366 [. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 722.7 bits;  conditional E-value: 3.7e-221
+  71369_Ga0172377_10000119_972  40 lklqeycdgikliefdgfdeqviddwwddhksnnskvnnlnkvvevkykddiyktwtvksikplitkflkekypdsiivke 120
+                                   +klqeyc+gik+i+fdgfdeq+i+dwwddhksnn kvnnln+vv+vkykd+iyktwtv++ikpli+kflke+ypdsiivke
+        Ga0172377_10000119_972   1 MKLQEYCEGIKIIPFDGFDEQSIEDWWDDHKSNN-KVNNLNEVVDVKYKDGIYKTWTVEFIKPLINKFLKELYPDSIIVKE 80 
+                                   89********************************.********************************************** PP
+
+  71369_Ga0172377_10000119_972 121 lnvidltlidnksdeiipveiqkstlskksgalkfvnsefensirkqlddniesykkcwfffdseylrylqsknikkkisi 201
+                                   ln+idl+lidnksd+iip+eiqkstls+k    kfv++efensirkqlddni+syk+cwfffdseylrylqsknikk+isi
+        Ga0172377_10000119_972  81 LNDIDLCLIDNKSDDIIPIEIQKSTLSLK----KFVHTEFENSIRKQLDDNIDSYKICWFFFDSEYLRYLQSKNIKKTISI 157
+                                   *****************************....************************************************ PP
+
+  71369_Ga0172377_10000119_972 202 nmtwliklmkenklkvfvvkydglvkeltskdfdflkyisntciigydnderilnrnklkifkniikgynfnqkeidnfyk 282
+                                   nmtw++klmkenklk+f++kydglvkeltskdfdflky+sntc+igy+nderilnrnklki+kniik+yn+nq+eidnfyk
+        Ga0172377_10000119_972 158 NMTWFTKLMKENKLKAFSIKYDGLVKELTSKDFDFLKYMSNTCPIGYENDERILNRNKLKIYKNIIKCYNYNQEEIDNFYK 238
+                                   ********************************************************************************* PP
+
+  71369_Ga0172377_10000119_972 283 ifkvsnekytydifrksnderrklygyvlksisslsvinksldmdyidekqefkilkinsailkiie.......kdsikiv 356
+                                   i+kv++ekyt +if+ksn+err+lygy+l+s+s+lsvink+l+m+ i++++efk++k+nsa+lkiie       kd+ikiv
+        Ga0172377_10000119_972 239 IPKVVGEKYT-SIFTKSNEERRRLYGYILYSMSHLSVINKGLSMN-IEASTEFKNFKFNSAYLKIIEiignsgyKDQIKIV 317
+                                   **********.**********************************.*********************************** PP
+
+  71369_Ga0172377_10000119_972 357 dkfdickyfpgyvrreklwlvykgkdlsykvffdlckgryknsktlfdy 405
+                                   dkfdickyfpgyvrreklwlvyk+k++sy+vf+dlc+gr++n+kt+fd+
+        Ga0172377_10000119_972 318 DKFDICKYFPGYVRREKLWLVYKNKVMSYNVFYDLCIGRFLNHKTIFDF 366
+                                   ************************************************8 PP
+
+>> Ga0172377_10000119_802  [34884 - 35963]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  286.6  33.8     1e-88     2e-84      75     395 ..      30     348 ..      22     360 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 286.6 bits;  conditional E-value: 1e-88
+  71369_Ga0172377_10000119_972  75 kvnnlnkvvevkykddiyktwtvksikplitkflkekypdsiivkelnvidltlidnksdeiipveiqkstlskksgalkf 155
+                                   +v + n++ ++  +++ y  w+v++ikpl+ kflk+k+ + ii +e+n+id+++idn+ ++iip+e+qk+    k      
+        Ga0172377_10000119_802  30 SVGKANDITQICINNEKYEIWSVEYIKPLLIKFLKNKFINCIISQEINDIDFVVIDNE-NNIIPIELQKTYFDTK-EKKTV 108
+                                   5677899*************************************************97.78*********99999.66789 PP
+
+  71369_Ga0172377_10000119_972 156 vnsefensirkqlddniesykkcwfffdseylrylqsknikkkisinmtwliklmkenklkvfvvkydglvkeltskdfdf 236
+                                   +n++fe+ ir q+ddni s ++cwfffd eylry+q   ++k +si+m+w+i  m+e klkvf+++ydglvkelt+kdfdf
+        Ga0172377_10000119_802 109 GNAHFEKVIRIQIDDNIRSSGICWFFFDCEYLRYFQNVGLNKATSIDMSWFIDYMNEGKLKVFAIRYDGLVKELTTKDFDF 189
+                                   9******************************************************************************** PP
+
+  71369_Ga0172377_10000119_972 237 lkyisntciigydnderilnrnklkifkniikgynfnqkeidnfykifkv.....snekytydifrksnderrklygyvlk 312
+                                   lk+i         +de il++nklki+ n++kg+nf q ++d+fy+ + +      n ++t d++ ks++ +  ly ++l+
+        Ga0172377_10000119_802 190 LKQIH-------SDDEIILDKNKLKIYSNVMKGHNFTQYDMDKFYEEYDNlsikdNNGNKTRDLLIKSQNSKSVLYVNILR 263
+                                   **995.......68*******************************98654221115778899******************* PP
+
+  71369_Ga0172377_10000119_972 313 sisslsvinksldmdyidekqefkilkinsailkiie.......kdsikivdkfdickyfpgyvrreklwlvykgkdlsyk 386
+                                   +i +l  in  +++++i  k+      ++s +l i+e       ++  k+vdkfd+ckyfpgyvr +  w  yk+ +l  +
+        Ga0172377_10000119_802 264 AIRTLPEINEIMNLKMIVRKR-----LFESKYLGIFElvssrgnRSVTKFVDKFDVCKYFPGYVRNKEIWNRYKNVNLLND 339
+                                   **********99998666554.....5678888888888899978889***************************999888 PP
+
+  71369_Ga0172377_10000119_972 387 vffdlckgr 395
+                                    +  +c   
+        Ga0172377_10000119_802 340 QLDYICSEN 348
+                                   777777654 PP
+
+>> Ga0172377_10000119_2156  [28385 - 27729] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.7  20.1   7.2e-40   1.4e-35     203     405 .]       2     218 ..       1     218 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 125.7 bits;  conditional E-value: 7.2e-40
+  71369_Ga0172377_10000119_972 203 mtwliklmkenklkvfvvkydglvkeltskdfdflkyisntciigydnderilnrnklkifkniikgynfnqkeidnfyki 283
+                                   m wl +l k + +k f+v y+gl+ el+ +d+ fl ++s+tc i  + d ril++nk++i+ ni+k   f  +ei+ +y+ 
+       Ga0172377_10000119_2156   2 MDWLYRLWKSEIVKLFTVTYNGLIEELSNNDWKFLTKMSQTCKISKNSDHRILEKNKVNIYYNILKILRFTTEEINIIYNS 82 
+                                   89******************************************************************************9 PP
+
+  71369_Ga0172377_10000119_972 284 fkvsnekyt.y..difrksnderrklygyvlksisslsvinksldmdyidekqefkilkinsailkiie......kdsiki 355
+                                   + + +ek t +   + rk   +r  +yg++++ i+   +in +l+    + +++   + +  +i++  e        si++
+       Ga0172377_10000119_2156  83 YIKNKEKSTnFekYLRRKGCTNRESIYGNIMYGITYNVMINDALSCSLENIDTHIVFYGVVLGIFERNEvssgsqILSIRF 163
+                                   988888877222135578999*************************977777777666777777777668887655689** PP
+
+  71369_Ga0172377_10000119_972 356 vdkfdickyfpgyvrreklwlvykgkdlsykvffdlckgry.....knsktlfdy 405
+                                    dk++i kyfpgy+r + +w   k++ l    f+ +  g y     k+++t+fdy
+       Ga0172377_10000119_2156 164 SDKYNIAKYFPGYIRNKEMWDYLKTRWLNRSNFYGVITGNYtydliKKQSTIFDY 218
+                                   ***************************************985555557899**98 PP
+
+>> Ga0172377_10000119_2149  [28749 - 28354] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.4   7.4   2.2e-23   4.3e-19      77     210 ..       6     130 ..       2     132 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 71.4 bits;  conditional E-value: 2.2e-23
+  71369_Ga0172377_10000119_972  77 nnlnkvvevkykddiyktwtvksikplitkflkekypdsiivkelnvidltlidnksdeiipveiqkstlskksgalkfvn 157
+                                   n+l+k+ ++       k w  + +   i +fl + +p+sii++e+n++d+t++d++    +pveiq     ++     +  
+       Ga0172377_10000119_2149   6 NDLKKIDDIEQT-INDKYWLAEEVTSHIINFLYKTFPNSIIIREFNKVDITVLDEN----LPVEIQAVHKNRN---NTLQI 78 
+                                   777777777643.23477***********************************976....8*****8776665...56777 PP
+
+  71369_Ga0172377_10000119_972 158 sefensirkqlddniesykkcwfffdseylrylqsknikkkisinmtwliklm 210
+                                   ++fe+sir+q+++nie  ++cw+f+d ++l +l+ k    k sin   +i +m
+       Ga0172377_10000119_2149  79 ADFEDSIRRQIEQNIEISGRCWLFIDKKFLLHLN-KPTCSKNSINYGLVISFM 130
+                                   99******************************97.566678899999998887 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (405 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1219  (0.0126108); expected 1933.3 (0.02)
+Passed bias filter:                      470  (0.00486225); expected 1933.3 (0.02)
+Passed Vit filter:                        22  (0.000227595); expected 96.7 (0.001)
+Passed Fwd filter:                         5  (5.17261e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.15u 0.03s 00:00:00.18 Elapsed: 00:00:00.06
+# Mc/sec: 24953.91
+//
+[ok]

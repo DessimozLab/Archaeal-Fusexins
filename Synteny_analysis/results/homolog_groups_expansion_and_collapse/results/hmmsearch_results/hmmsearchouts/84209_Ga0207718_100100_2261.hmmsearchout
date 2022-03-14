@@ -1,0 +1,102 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/84209_Ga0207718_100100_2261.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/84209_Ga0207718_100100_2261.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/84209_Ga0207718_100100_2261.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/84209_Ga0207718_100100_2261.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       84209_Ga0207718_100100_2261  [M=84]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    1.4e-51  175.0   1.7    1.6e-51  174.9   1.7    1.0  1  Ga0207718_100100_2261        [35534 - 35283] (REVERSE SENSE)
+    1.5e-42  146.1   0.3    1.6e-42  146.0   0.3    1.0  1  JGI12330J12834_1000008_2457  [35938 - 35693] (REVERSE SENSE)
+    4.2e-07   32.5   0.0    6.3e-07   31.9   0.0    1.3  1  ATYM01000002_555             [35220 - 35465] Haloplanus natan
+  ------ inclusion threshold ------
+      0.069   15.8   1.9       0.33   13.6   0.7    2.3  2  NZ_CP071597.1_619            [41998 - 42861] Halovivax sp. KZ
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0207718_100100_2261  [35534 - 35283] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  174.9   1.7   6.5e-56   1.6e-51       1      84 []       1      84 []       1      84 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 174.9 bits;  conditional E-value: 6.5e-56
+  84209_Ga0207718_100100_2261  1 mskgkyirkeklkkyadyeqiqGaflGafmaliaisavafrlgssrvaalsaavlallavvhayirdGqfekidkaidyaGGet 84
+                                 msk+kyirke+l++ya+ye+iqG+flGafmali+is+va+rl++srv++++aav++l+avvh+y+r+Gqf++i+kaidyaGG+t
+        Ga0207718_100100_2261  1 MSKWKYIRKEHLLGYATYEWIQGFFLGAFMALISISFVANRLPQSRVYFVQAAVFGLFAVVHWYYRRGQFTRIRKAIDYAGGDT 84
+                                 9*********************************************************************************97 PP
+
+>> JGI12330J12834_1000008_2457  [35938 - 35693] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  146.0   0.3   6.7e-47   1.6e-42       1      84 []       1      80 [.       1      80 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 146.0 bits;  conditional E-value: 6.7e-47
+  84209_Ga0207718_100100_2261  1 mskgkyirkeklkkyadyeqiqGaflGafmaliaisavafrlgssr.vaalsaavlallavvhayirdGqfekidkaidyaGGe 83
+                                 m++gk++++eklkky+dy+qiqGaflGa     aisa++frlgs+r +aals+avla+l+vvha+i+dG+fekid+aid+aGGe
+  JGI12330J12834_1000008_2457  1 MFRGKFCTGEKLKKYRDYCQIQGAFLGA-----AISAIGFRLGSGReIAALSGAVLAGLTVVHAHINDGNFEKIDEAIDQAGGE 79
+                                 9***************************.....**************************************************9 PP
+
+  84209_Ga0207718_100100_2261 84 t 84
+                                 +
+  JGI12330J12834_1000008_2457 80 N 80
+                                 7 PP
+
+>> ATYM01000002_555  [35220 - 35465] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequenc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.9   0.0   2.6e-11   6.3e-07       1      80 [.       1      76 [.       1      81 [. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 2.6e-11
+  84209_Ga0207718_100100_2261  1 mskgkyirkeklkkyadyeqiqGaflGafmaliaisavafrlgssrvaalsaavlallavv.hayirdGqfekidkaidya 80
+                                 msk+  + ke+l +y++y ++ G ++G  +  ++i+++    + + +      v++l+ ++  +y+ + +f  i+ka++ a
+             ATYM01000002_555  1 MSKWTVVDKEELNEYREYIFVGGELFGVTVGALTIAILDTNRPAAFLG-----VFSLVVLIgIWYLYRNEFSSIRKALEDA 76
+                                 9***************************88888887765555544443.....4444443315999***********9877 PP
+
+>> NZ_CP071597.1_619  [41998 - 42861] Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0      0.18   4.2e+03      31      49 ..      53      71 ..      41      91 .. 0.77
+   2 ?   13.6   0.7   1.4e-05      0.33      24      69 ..     136     181 ..     123     188 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 0.4 bits;  conditional E-value: 0.18
+  84209_Ga0207718_100100_2261 31 aliaisavafrlgssrvaa 49
+                                  ++ ++++a r++++r++ 
+            NZ_CP071597.1_619 53 VFLPLAYIADRMSEGRIFR 71
+                                 5667889999*99999864 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 1.4e-05
+  84209_Ga0207718_100100_2261  24 aflGafmaliaisavafrlgssrvaalsaavlallavvhayirdGq 69 
+                                   fl   +ali+  ++ +rlg +rv a   avl   a+  +  + G+
+            NZ_CP071597.1_619 136 NFLAFAIALITFDILHHRLGWGRVPAAVVAVLPSAAIFAWLHNSGN 181
+                                  5777779*********************************999998 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (84 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1031  (0.0106659); expected 1933.3 (0.02)
+Passed bias filter:                      828  (0.00856584); expected 1933.3 (0.02)
+Passed Vit filter:                        35  (0.000362083); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 6210.75
+//
+[ok]

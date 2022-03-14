@@ -1,0 +1,121 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/48625_JABURA010000001_54.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/48625_JABURA010000001_54.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/48625_JABURA010000001_54.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/48625_JABURA010000001_54.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       48625_JABURA010000001_54  [M=295]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+   4.7e-114  383.2   2.3   5.7e-114  382.9   2.3    1.1  1  JABURA010000001_54  [3625 - 4680] JABURA010000001.1 [Haloterr
+   6.7e-111  372.8   0.0   7.3e-111  372.7   0.0    1.0  1  CP058579_1059       [75962 - 76858] [Halobonum sp. NJ-3-1 | 2
+   4.5e-109  366.8   1.8   1.1e-108  365.5   1.8    1.6  1  CP048739_1139       [81130 - 83958] [Halogeometricum borinque
+
+
+Domain annotation for each sequence (and alignments):
+>> JABURA010000001_54  [3625 - 4680] JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  382.9   2.3  1.8e-118  5.7e-114       5     294 ..      57     343 ..      28     344 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 382.9 bits;  conditional E-value: 1.8e-118
+  48625_JABURA010000001_54   5 vnleniPeeLkelpqWvcwrleerdgkktKvPlnpetgkeassndpstwssfeeAleal.eegkydGiGfvlteddplvgiDLDd 88 
+                               v++++iP++Lk+++qW+cw +e+rdgk+tKvP++p ++  as++dp+tw+++++A +++  ++++dG+G+v+ted p++g+D+Dd
+        JABURA010000001_54  57 VSTDTIPDALKDRDQWICWTTEDRDGKPTKVPIDPVNDGYASVSDPDTWGTYSAAETYYdLNEDVDGLGYVFTEDGPYAGVDIDD 141
+                               6789*******************************************************77788********************* PP
+
+  48625_JABURA010000001_54  89 cvdpetgelseeaqeivdeldsYtEvSpSgtGlHiivkGklpsggrrkggvEvYdsgrfftvTGnhlegtpeeieerqeelaaly 173
+                               ++++ ++ ++e++ +++ +l+sYtE+SpSgtG+H+iv+G +p+gg+r++++E+Yd++rfftvTG+h++gtp +ie+r+eel++l+
+        JABURA010000001_54 142 ARNQVSEMVEEWVVDVLMTLQSYTERSPSGTGYHVIVEGAVPEGGNRRDQLEMYDDARFFTVTGDHVDGTPGTIEDRSEELQELH 226
+                               ************************************************************************************* PP
+
+  48625_JABURA010000001_54 174 ekyfpekeeeeesaekesekeltlsdeevlekarkakngekfrrlwsgdtsgyesqseadlalcsllafwtgkdaeqidrlfrqs 258
+                               ++y+++++e+++  ++++++e+tlsd+e+l+ka +a+n++kfr+lw+gdtsgy+s+seadlalc+lla+wtg+d+++i+rlf +s
+        JABURA010000001_54 227 AEYIADNNEQSDY-SEPDTREITLSDAELLKKAINASNADKFRALWNGDTSGYPSHSEADLALCNLLAYWTGGDQQRIERLFSKS 310
+                               ********99999.89********************************************************************* PP
+
+  48625_JABURA010000001_54 259 glmrekwdekragstYgertiekaissttevykpke 294
+                               gl+rekw+e   + +Y+erti+ka++++t++y+p++
+        JABURA010000001_54 311 GLVREKWQE---RPDYRERTIKKAVRDVTDYYDPQS 343
+                               ********9...8********************987 PP
+
+>> CP058579_1059  [75962 - 76858] [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  372.7   0.0  2.3e-115  7.3e-111       4     293 ..       7     298 ..       1     299 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 372.7 bits;  conditional E-value: 2.3e-115
+  48625_JABURA010000001_54   4 evnleniPeeLkelpqWvcwrleerdg..kktKvPlnpetgkeassndpstwssfeeAleal.eegkydGiGfvlteddplvgiD 85 
+                               +++++++P+ Lk+++qWvcwr e+rdg  k+ KvP+np tg+ as+ dp+tw++f++A++++ e++ ++G+Gfv+t+ddp+vg D
+             CP058579_1059   7 SITPKTVPATLKAQHQWVCWREESRDGqdKPAKVPINPGTGTYASVADPETWTTFAAAYTTYrEDDTVAGVGFVFTPDDPYVGAD 91 
+                               567899****************9997777*********************************77888****************** PP
+
+  48625_JABURA010000001_54  86 LDdcvdpetgelseeaqeivdeldsYtEvSpSgtGlHiivkGklpsggrrkggvEvYdsgrfftvTGnhlegtpeeieerqeela 170
+                               LDdc+dp tg+l +++++iv++ldsYtE SpSgtG+H++v+G+ p+g++r+g+vE+Yd++r+ftvTG+hl+ tp ++++r+e l+
+             CP058579_1059  92 LDDCRDPATGKLADWTRDIVQRLDSYTEASPSGTGVHVLVRGEFPDGKCRNGDVELYDRDRYFTVTGRHLSLTPPTVNDRTEPLS 176
+                               ************************************************************************************* PP
+
+  48625_JABURA010000001_54 171 alyekyfpekeeeees..aekesekeltlsdeevlekarkakngekfrrlwsgdtsgyesqseadlalcsllafwtgkdaeqidr 253
+                               +l+e+y++ ++ + e   a+  ++++  l+d+++le a +a+ngekf+rlw+gdt+gy s+sead alc+llafwtg+da+qi+r
+             CP058579_1059 177 ELHEEYLAADTGSGERelADGGAPEDAPLADADLLEYALNASNGEKFDRLWRGDTAGYASHSEADQALCNLLAFWTGGDAHQIER 261
+                               *******877776555678899999************************************************************ PP
+
+  48625_JABURA010000001_54 254 lfrqsglmrekwdekragstYgertiekaissttevykpk 293
+                               lf +sgl+r+kw++   + +Y++rtie+ais++  +y+p+
+             CP058579_1059 262 LFSKSGLIRDKWRD---RPNYRKRTIETAISDCPAFYDPE 298
+                               *************9...8*******************986 PP
+
+>> CP048739_1139  [81130 - 83958] [Halogeometricum borinquense strain wsp4 | 60847.21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  365.5   1.8  3.5e-113  1.1e-108       4     293 ..       8     300 ..       1     303 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 365.5 bits;  conditional E-value: 3.5e-113
+  48625_JABURA010000001_54   4 evnleniPeeLkelpqWvcwrleer..dgkktKvPlnpetgkeassndpstwssfeeAlealeegk...ydGiGfvlteddplvg 83 
+                               + n+eniPe Lk+++qW+cwr+e+   ++k+tK+P+np+tg +ass++++tw+sfe+Al+a ++++    dGiGf+++edd ++g
+             CP048739_1139   8 PLNPENIPETLKNERQWICWRYEWSddREKWTKIPVNPKTGGNASSTNKDTWTSFEAALAAHRNDDsieSDGIGFIFHEDDLYAG 92 
+                               5689******************9953366*********************************55444559*************** PP
+
+  48625_JABURA010000001_54  84 iDLDdcvdpetgelseeaqeivdeldsYtEvSpSgtGlHiivkGklpsggrrkggvEvYdsgrfftvTGnhlegtpeeieerqee 168
+                               iDLDdc++pet+e+ ++a +i+++lds+tE+SpSgtGlH+iv+G +p+gg+rk++vE+Yd++rfftvTG+++ +t+ ++++r ++
+             CP048739_1139  93 IDLDDCRNPETDETADWAIDIMETLDSFTEYSPSGTGLHVIVRGVIPDGGNRKDDVEMYDRARFFTVTGDRVPDTEPDVQNRPAQ 177
+                               ************************************************************************************* PP
+
+  48625_JABURA010000001_54 169 laalyekyfpekeeeeesaekesekeltlsdeevlekarkakngekfrrlwsgdtsgy.esqseadlalcsllafwtgkdaeqid 252
+                               l++++++y++++e+e ++++ ++++el+l+dee+++kar+a+ng+kf++lw+g+++gy +++s+ad a+c++lafwt+ d++ +d
+             CP048739_1139 178 LKDVHKEYVADDEDEIPNRTPTPTEELDLEDEELIDKARNAENGDKFEELWNGNIAGYgNDHSRADQAMCNMLAFWTQCDEQWMD 262
+                               **************999999999***********************************9************************** PP
+
+  48625_JABURA010000001_54 253 rlfrqsglmrekwdekragstYgertiekaissttevykpk 293
+                               +lfrqsgl r+kw +   +++Y++rti++a+s++++vy+p 
+             CP048739_1139 263 DLFRQSGLCRDKWVK---RADYRNRTIDNAVSNCSDVYDPG 300
+                               **************9...89******************975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (295 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       577  (0.00596919); expected 1933.3 (0.02)
+Passed bias filter:                      419  (0.00433465); expected 1933.3 (0.02)
+Passed Vit filter:                        32  (0.000331047); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.06
+# Mc/sec: 18176.30
+//
+[ok]

@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37787_DRYJ01000053.1_309.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37787_DRYJ01000053.1_309.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37787_DRYJ01000053.1_309.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37787_DRYJ01000053.1_309.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37787_DRYJ01000053.1_309  [M=164]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+   3.9e-111  370.9  12.5   4.3e-111  370.8  12.5    1.0  1  DRYJ01000053.1_309    [19159 - 19650] TPA_asm: Candidatus Bat
+   3.9e-111  370.9  12.5   4.3e-111  370.8  12.5    1.0  1  Ga0065719_100268_309  [19159 - 19650]
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_309  [19159 - 19650] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  370.8  12.5    9e-116  4.3e-111       1     164 []       1     164 []       1     164 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 370.8 bits;  conditional E-value: 9e-116
+  37787_DRYJ01000053.1_309   1 mnldtlnilrdeefealinkvkecteryrrymnalqlrtdtripfimfrqsivelsyevigflskyqklfegreetsikeavskf 85 
+                               mnldtlnilrdeefealinkvkecteryrrymnalqlrtdtripfimfrqsivelsyevigflskyqklfegreetsikeavskf
+        DRYJ01000053.1_309   1 MNLDTLNILRDEEFEALINKVKECTERYRRYMNALQLRTDTRIPFIMFRQSIVELSYEVIGFLSKYQKLFEGREETSIKEAVSKF 85 
+                               9************************************************************************************ PP
+
+  37787_DRYJ01000053.1_309  86 redvtnflsymfdvrldevptaqmgfafvehirnsleytamilknekkkifikevlkrveiiprfkemrelkkrkeeve 164
+                               redvtnflsymfdvrldevptaqmgfafvehirnsleytamilknekkkifikevlkrveiiprfkemrelkkrkeeve
+        DRYJ01000053.1_309  86 REDVTNFLSYMFDVRLDEVPTAQMGFAFVEHIRNSLEYTAMILKNEKKKIFIKEVLKRVEIIPRFKEMRELKKRKEEVE 164
+                               ******************************************************************************8 PP
+
+>> Ga0065719_100268_309  [19159 - 19650]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  370.8  12.5    9e-116  4.3e-111       1     164 []       1     164 []       1     164 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 370.8 bits;  conditional E-value: 9e-116
+  37787_DRYJ01000053.1_309   1 mnldtlnilrdeefealinkvkecteryrrymnalqlrtdtripfimfrqsivelsyevigflskyqklfegreetsikeavskf 85 
+                               mnldtlnilrdeefealinkvkecteryrrymnalqlrtdtripfimfrqsivelsyevigflskyqklfegreetsikeavskf
+      Ga0065719_100268_309   1 MNLDTLNILRDEEFEALINKVKECTERYRRYMNALQLRTDTRIPFIMFRQSIVELSYEVIGFLSKYQKLFEGREETSIKEAVSKF 85 
+                               9************************************************************************************ PP
+
+  37787_DRYJ01000053.1_309  86 redvtnflsymfdvrldevptaqmgfafvehirnsleytamilknekkkifikevlkrveiiprfkemrelkkrkeeve 164
+                               redvtnflsymfdvrldevptaqmgfafvehirnsleytamilknekkkifikevlkrveiiprfkemrelkkrkeeve
+      Ga0065719_100268_309  86 REDVTNFLSYMFDVRLDEVPTAQMGFAFVEHIRNSLEYTAMILKNEKKKIFIKEVLKRVEIIPRFKEMRELKKRKEEVE 164
+                               ******************************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (164 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       790  (0.00817272); expected 1933.3 (0.02)
+Passed bias filter:                      460  (0.0047588); expected 1933.3 (0.02)
+Passed Vit filter:                        20  (0.000206904); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.05
+# Mc/sec: 12125.75
+//
+[ok]

@@ -1,0 +1,93 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37968_DRYJ01000053.1_490.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37968_DRYJ01000053.1_490.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37968_DRYJ01000053.1_490.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37968_DRYJ01000053.1_490.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37968_DRYJ01000053.1_490  [M=287]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+   4.1e-151  504.4   2.0   4.6e-151  504.3   2.0    1.0  1  DRYJ01000053.1_490    [24057 - 23146] (REVERSE SENSE) TPA_asm
+   4.1e-151  504.4   2.0   4.6e-151  504.3   2.0    1.0  1  Ga0065719_100268_490  [24057 - 23146] (REVERSE SENSE)
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_490  [24057 - 23146] (REVERSE SENSE) TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga006
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  504.3   2.0  9.4e-156  4.6e-151       3     287 .]       1     302 [.       1     302 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 504.3 bits;  conditional E-value: 9.4e-156
+  37968_DRYJ01000053.1_490   3 ikeyleGevalseLsPserldaLyefikelkdrierkrvyskfpklskyqidrvikiLsfsdilatakgyvvltdkgkeilerGl 87 
+                               ++e+leGev+l+eLsPse+ldaLyefi+el+drierkrvys+fpk+skyqidrvikiLsfsdilat++gyvv+tdk+kei++rGl
+        DRYJ01000053.1_490   1 MREFLEGEVTLTELSPSEKLDALYEFILELPDRIERKRVYSLFPKMSKYQIDRVIKILSFSDILATPYGYVVKTDKAKEIERRGL 85 
+                               49*********************************************************************************** PP
+
+  37968_DRYJ01000053.1_490  88 ltlaDfeeaPewirksierkaikieifiGvDsitgykiyynserkeYtlrdkdekklikrfreLgiavtfsidterghevlvvei 172
+                               l+ +DfeeaP+wirk+i+rkaik+eifiG+Dsitgy+++yn++r+eYtlrd de++l+krfreLgiavtfsi+te gh+vlv+ei
+        DRYJ01000053.1_490  86 LS-TDFEEAPLWIRKFIGRKAIKVEIFIGSDSITGYNVHYNYLRREYTLRD-DEGNLMKRFRELGIAVTFSIETE-GHQVLVCEI 167
+                               **.************************************************.***********************.********* PP
+
+  37968_DRYJ01000053.1_490 173 kawtfvkkmhPeeiddvedelakfleevvrvafggfisdevikaGveYlsde.elPkrevtfvidkv.yeeakceaeYkh....y 251
+                               +awtfv++mhP+++d+v+d+lakf+++v+rv+fg++i++e+ikaGveYlsde elP+re+tf+idkv +eeakce+eY+h    y
+        DRYJ01000053.1_490 168 CAWTFVPRMHPNRMDNVIDNLAKFCNDVMRVYFGIPIETETIKAGVEYLSDEcELPIREATFTIDKViWEEAKCEIEYSHlkyaY 252
+                               ************************************************************************************* PP
+
+  37968_DRYJ01000053.1_490 252 tkkeGrlkrilt........isvlrselyrrkkkl......rsrqaslis 287
+                               t++eG+++rilt        isvlrse+yrr+++l      rsrqaslis
+        DRYJ01000053.1_490 253 TLREGEIERILTraevtprrISVLRSEFYRRHPTLspvvppRSRQASLIS 302
+                               ************************************************96 PP
+
+>> Ga0065719_100268_490  [24057 - 23146] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  504.3   2.0  9.4e-156  4.6e-151       3     287 .]       1     302 [.       1     302 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 504.3 bits;  conditional E-value: 9.4e-156
+  37968_DRYJ01000053.1_490   3 ikeyleGevalseLsPserldaLyefikelkdrierkrvyskfpklskyqidrvikiLsfsdilatakgyvvltdkgkeilerGl 87 
+                               ++e+leGev+l+eLsPse+ldaLyefi+el+drierkrvys+fpk+skyqidrvikiLsfsdilat++gyvv+tdk+kei++rGl
+      Ga0065719_100268_490   1 MREFLEGEVTLTELSPSEKLDALYEFILELPDRIERKRVYSLFPKMSKYQIDRVIKILSFSDILATPYGYVVKTDKAKEIERRGL 85 
+                               49*********************************************************************************** PP
+
+  37968_DRYJ01000053.1_490  88 ltlaDfeeaPewirksierkaikieifiGvDsitgykiyynserkeYtlrdkdekklikrfreLgiavtfsidterghevlvvei 172
+                               l+ +DfeeaP+wirk+i+rkaik+eifiG+Dsitgy+++yn++r+eYtlrd de++l+krfreLgiavtfsi+te gh+vlv+ei
+      Ga0065719_100268_490  86 LS-TDFEEAPLWIRKFIGRKAIKVEIFIGSDSITGYNVHYNYLRREYTLRD-DEGNLMKRFRELGIAVTFSIETE-GHQVLVCEI 167
+                               **.************************************************.***********************.********* PP
+
+  37968_DRYJ01000053.1_490 173 kawtfvkkmhPeeiddvedelakfleevvrvafggfisdevikaGveYlsde.elPkrevtfvidkv.yeeakceaeYkh....y 251
+                               +awtfv++mhP+++d+v+d+lakf+++v+rv+fg++i++e+ikaGveYlsde elP+re+tf+idkv +eeakce+eY+h    y
+      Ga0065719_100268_490 168 CAWTFVPRMHPNRMDNVIDNLAKFCNDVMRVYFGIPIETETIKAGVEYLSDEcELPIREATFTIDKViWEEAKCEIEYSHlkyaY 252
+                               ************************************************************************************* PP
+
+  37968_DRYJ01000053.1_490 252 tkkeGrlkrilt........isvlrselyrrkkkl......rsrqaslis 287
+                               t++eG+++rilt        isvlrse+yrr+++l      rsrqaslis
+      Ga0065719_100268_490 253 TLREGEIERILTraevtprrISVLRSEFYRRHPTLspvvppRSRQASLIS 302
+                               ************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (287 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       536  (0.00554504); expected 1933.3 (0.02)
+Passed bias filter:                      321  (0.00332082); expected 1933.3 (0.02)
+Passed Vit filter:                        11  (0.000113797); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.15u 0.00s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 21220.06
+//
+[ok]

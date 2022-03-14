@@ -1,0 +1,63 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/37916_DRYJ01000053.1_438.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/37916_DRYJ01000053.1_438.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/37916_DRYJ01000053.1_438.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/37916_DRYJ01000053.1_438.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       37916_DRYJ01000053.1_438  [M=46]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    1.9e-36  126.2   2.6      2e-36  126.1   2.6    1.0  1  DRYJ01000053.1_438    [25725 - 25862] TPA_asm: Candidatus Bat
+    1.9e-36  126.2   2.6      2e-36  126.1   2.6    1.0  1  Ga0065719_100268_438  [25725 - 25862]
+
+
+Domain annotation for each sequence (and alignments):
+>> DRYJ01000053.1_438  [25725 - 25862] TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11 Ga0065719_100268, who
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.1   2.6   4.2e-41     2e-36       1      46 []       1      46 []       1      46 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 126.1 bits;  conditional E-value: 4.2e-41
+  37916_DRYJ01000053.1_438  1 mYLPtiLmmseviaFLLGmGtavvLeYvYRRFkkGakseeskeLkq 46
+                              mYLPtiLmmseviaFLLGmGtavvLeYvYRRFkkGakseeskeLkq
+        DRYJ01000053.1_438  1 MYLPTILMMSEVIAFLLGMGTAVVLEYVYRRFKKGAKSEESKELKQ 46
+                              9********************************************9 PP
+
+>> Ga0065719_100268_438  [25725 - 25862]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.1   2.6   4.2e-41     2e-36       1      46 []       1      46 []       1      46 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 126.1 bits;  conditional E-value: 4.2e-41
+  37916_DRYJ01000053.1_438  1 mYLPtiLmmseviaFLLGmGtavvLeYvYRRFkkGakseeskeLkq 46
+                              mYLPtiLmmseviaFLLGmGtavvLeYvYRRFkkGakseeskeLkq
+      Ga0065719_100268_438  1 MYLPTILMMSEVIAFLLGMGTAVVLEYVYRRFKKGAKSEESKELKQ 46
+                              9********************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (46 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1159  (0.0119901); expected 1933.3 (0.02)
+Passed bias filter:                      950  (0.00982796); expected 1933.3 (0.02)
+Passed Vit filter:                        29  (0.000300011); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.05
+# Mc/sec: 3401.12
+//
+[ok]

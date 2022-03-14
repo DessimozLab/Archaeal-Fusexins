@@ -1,0 +1,89 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/45840_JNCS01000001_3.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/45840_JNCS01000001_3.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/45840_JNCS01000001_3.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/45840_JNCS01000001_3.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       45840_JNCS01000001_3  [M=49]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    3.3e-34  119.1   4.2    3.6e-34  119.0   4.2    1.0  1  JGI12330J12834_1000008_3  [27 - 173]
+    4.1e-34  118.8   5.8    4.5e-34  118.7   5.8    1.0  1  JNCS01000001_3            [27 - 173] Natrinema altunense stra
+    1.4e-15   59.5   0.2    1.4e-15   59.5   0.2    1.0  1  Ga0207718_100100_18       [2569 - 2655]
+    6.8e-09   38.1   2.7    7.5e-09   38.0   2.7    1.1  1  NZ_CP071597.1_6           [126 - 233] Halovivax sp. KZCA124 c
+
+
+Domain annotation for each sequence (and alignments):
+>> JGI12330J12834_1000008_3  [27 - 173]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.0   4.2   1.5e-38   3.6e-34       1      49 []       1      49 []       1      49 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 119.0 bits;  conditional E-value: 1.5e-38
+      45840_JNCS01000001_3  1 mADDDAtaPsRtrsraltSPmSAEAttLVPSiGGkqHARPlsKvydaKs 49
+                              mADDDAt+P+R++sr++tSPmSAEAt+LVPSiGGkqHARP+sKv+daK+
+  JGI12330J12834_1000008_3  1 MADDDATGPTRGGSRGTTSPMSAEATPLVPSIGGKQHARPPSKVFDAKY 49
+                              9***********************************************8 PP
+
+>> JNCS01000001_3  [27 - 173] Natrinema altunense strain AJ2 N_altunense_AJ2_contig_1, whole genome shotgun sequence.   
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.7   5.8   1.9e-38   4.5e-34       1      49 []       1      49 []       1      49 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 118.7 bits;  conditional E-value: 1.9e-38
+  45840_JNCS01000001_3  1 mADDDAtaPsRtrsraltSPmSAEAttLVPSiGGkqHARPlsKvydaKs 49
+                          mADDDA+aPsRtr++altSPmSAEAttLVPSiGG+qHARPl+K+y++Ks
+        JNCS01000001_3  1 MADDDAPAPSRTRHPALTSPMSAEATTLVPSIGGMQHARPLTKPYGTKS 49
+                          9***********************************************7 PP
+
+>> Ga0207718_100100_18  [2569 - 2655]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   0.2   5.9e-20   1.4e-15      21      49 .]       1      29 []       1      29 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 5.9e-20
+  45840_JNCS01000001_3 21 mSAEAttLVPSiGGkqHARPlsKvydaKs 49
+                          mSAEAt+LVPSiGGk H RP+sK +daKs
+   Ga0207718_100100_18  1 MSAEATPLVPSIGGKAHVRPPSKRFDAKS 29
+                          9***************************7 PP
+
+>> NZ_CP071597.1_6  [126 - 233] Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.0   2.7   3.1e-13   7.5e-09       1      25 [.       1      25 [.       1      29 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 38.0 bits;  conditional E-value: 3.1e-13
+  45840_JNCS01000001_3  1 mADDDAtaPsRtrsraltSPmSAEA 25
+                          mADD+ ++ sRtr++ +tSPmSAEA
+       NZ_CP071597.1_6  1 MADDESPTQSRTRHPVMTSPMSAEA 25
+                          9***********************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (49 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1391  (0.0143902); expected 1933.3 (0.02)
+Passed bias filter:                      750  (0.00775891); expected 1933.3 (0.02)
+Passed Vit filter:                        41  (0.000424154); expected 96.7 (0.001)
+Passed Fwd filter:                         4  (4.13809e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 3622.94
+//
+[ok]

@@ -1,0 +1,847 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/34428_QNDS01000002.1_467.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/34428_QNDS01000002.1_467.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/34428_QNDS01000002.1_467.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/34428_QNDS01000002.1_467.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       34428_QNDS01000002.1_467  [M=2819]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+          0 6823.7 246.0          0 6823.5 246.0    1.0  1  Ga0164313_10000250_467  [23015 - 31471]
+          0 6823.7 246.0          0 6823.5 246.0    1.0  1  QNDS01000002.1_467      [23015 - 31471] Candidatus Fermentiba
+    5.3e-32  112.2 366.7    3.5e-11   43.1  51.6   14.9 13  CP010426.1_22646        [494086 - 482027] (REVERSE SENSE) Arc
+    5.3e-20   72.4  50.4    1.5e-08   34.4  11.0    5.1  5  Ga0222667_1000160_702   [29995 - 33858]
+    8.3e-14   51.8  14.5    9.3e-14   51.6  14.5    1.0  1  QMYS01000134.1_155      [3006 - 1993] (REVERSE SENSE) Candida
+      6e-11   42.3  22.9    7.9e-08   32.0   4.0    7.2  7  JABURA010000001_560     [34538 - 40156] JABURA010000001.1 [Ha
+    2.5e-05   23.7  10.2    3.1e-05   23.4  10.2    1.1  1  LKMP01000007.1_770      [38841 - 39920] Nanohaloarchaea archa
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0164313_10000250_467  [23015 - 31471]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 6823.5 246.0         0         0       1    2819 []       1    2819 []       1    2819 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 6823.5 bits;  conditional E-value: 0
+  34428_QNDS01000002.1_467    1 mksnhricflvmsmlcvslvptasawwnlsyayeyqlnisyagsyathtlqpitvnisnlngsntpalavlynnsgtwveqdw 83  
+                                mksnhricflvmsmlcvslvptasawwnlsyayeyqlnisyagsyathtlqpitvnisnlngsntpalavlynnsgtwveqdw
+    Ga0164313_10000250_467    1 MKSNHRICFLVMSMLCVSLVPTASAWWNLSYAYEYQLNISYAGSYATHTLQPITVNISNLNGSNTPALAVLYNNSGTWVEQDW 83  
+                                9********************************************************************************** PP
+
+  34428_QNDS01000002.1_467   84 ewhferdgsqsvksyvndtirflvnltnntvnrdyfiyttddgsinakntsvflwydgfelghitgyeneyltpsdaiesgek 166 
+                                ewhferdgsqsvksyvndtirflvnltnntvnrdyfiyttddgsinakntsvflwydgfelghitgyeneyltpsdaiesgek
+    Ga0164313_10000250_467   84 EWHFERDGSQSVKSYVNDTIRFLVNLTNNTVNRDYFIYTTDDGSINAKNTSVFLWYDGFELGHITGYENEYLTPSDAIESGEK 166 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  167 ylgsysiksgigvarvrfpeafdsehiyfgvamrrssttnlvsvaylednartnafrlfidgisystemikwkeddvshpvkp 249 
+                                ylgsysiksgigvarvrfpeafdsehiyfgvamrrssttnlvsvaylednartnafrlfidgisystemikwkeddvshpvkp
+    Ga0164313_10000250_467  167 YLGSYSIKSGIGVARVRFPEAFDSEHIYFGVAMRRSSTTNLVSVAYLEDNARTNAFRLFIDGISYSTEMIKWKEDDVSHPVKP 249 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  250 avreqwyyimlkgcdttgsdtvcdgfyvdgvlndtsigttgtvtdveyfaiykntgsgaetfdeiyisdnnfnvypnlptinv 332 
+                                avreqwyyimlkgcdttgsdtvcdgfyvdgvlndtsigttgtvtdveyfaiykntgsgaetfdeiyisdnnfnvypnlptinv
+    Ga0164313_10000250_467  250 AVREQWYYIMLKGCDTTGSDTVCDGFYVDGVLNDTSIGTTGTVTDVEYFAIYKNTGSGAETFDEIYISDNNFNVYPNLPTINV 332 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  333 esedtqglnpgisitlnspvegynstvqtitfncsysctdssivnvslwgnwsgwhrnetnstltgstgtvkftkslpngeyk 415 
+                                esedtqglnpgisitlnspvegynstvqtitfncsysctdssivnvslwgnwsgwhrnetnstltgstgtvkftkslpngeyk
+    Ga0164313_10000250_467  333 ESEDTQGLNPGISITLNSPVEGYNSTVQTITFNCSYSCTDSSIVNVSLWGNWSGWHRNETNSTLTGSTGTVKFTKSLPNGEYK 415 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  416 wncygcnnetncsfaannhtfsvdadiieptivlnhppnassgnlsyilnatitddksnsldvyfyvntsllslslnrindtt 498 
+                                wncygcnnetncsfaannhtfsvdadiieptivlnhppnassgnlsyilnatitddksnsldvyfyvntsllslslnrindtt
+    Ga0164313_10000250_467  416 WNCYGCNNETNCSFAANNHTFSVDADIIEPTIVLNHPPNASSGNLSYILNATITDDKSNSLDVYFYVNTSLLSLSLNRINDTT 498 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  499 islnisampisnaldglqflfhfdnlskygetnthvydfsgngnngtvsgavwdnlgckfggcyvfdgtddyinagtsnltlt 581 
+                                islnisampisnaldglqflfhfdnlskygetnthvydfsgngnngtvsgavwdnlgckfggcyvfdgtddyinagtsnltlt
+    Ga0164313_10000250_467  499 ISLNISAMPISNALDGLQFLFHFDNLSKYGETNTHVYDFSGNGNNGTVSGAVWDNLGCKFGGCYVFDGTDDYINAGTSNLTLT 581 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  582 enftvmawvngsknqaietliakwniqdnfsslpfeafnasnisgynlgsmysgtkgyphpifdgryvywtpnvwdyqhfhtl 664 
+                                enftvmawvngsknqaietliakwniqdnfsslpfeafnasnisgynlgsmysgtkgyphpifdgryvywtpnvwdyqhfhtl
+    Ga0164313_10000250_467  582 ENFTVMAWVNGSKNQAIETLIAKWNIQDNFSSLPFEAFNASNISGYNLGSMYSGTKGYPHPIFDGRYVYWTPNVWDYQHFHTL 664 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  665 airydttlpyknlsswevfnistataysigayrdmvydgryiyytpyfeayiarydttgsfnetsswyvfdaknvsncnnqcy 747 
+                                airydttlpyknlsswevfnistataysigayrdmvydgryiyytpyfeayiarydttgsfnetsswyvfdaknvsncnnqcy
+    Ga0164313_10000250_467  665 AIRYDTTLPYKNLSSWEVFNISTATAYSIGAYRDMVYDGRYIYYTPYFEAYIARYDTTGSFNETSSWYVFDAKNVSNCNNQCY 747 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  748 gfngatfdgefiyynpykrngsvvhfdfiryntskqfnlssswdyvnltgnidgvsqptygyyetiyvngyvyystilddefl 830 
+                                gfngatfdgefiyynpykrngsvvhfdfiryntskqfnlssswdyvnltgnidgvsqptygyyetiyvngyvyystilddefl
+    Ga0164313_10000250_467  748 GFNGATFDGEFIYYNPYKRNGSVVHFDFIRYNTSKQFNLSSSWDYVNLTGNIDGVSQPTYGYYETIYVNGYVYYSTILDDEFL 830 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  831 rfntsgvfndtgnwdlrsggqdgcgisattdgryiyflpyrtagvtwhgriqrydtfgdfntggnwviydagsedgitirdlq 913 
+                                rfntsgvfndtgnwdlrsggqdgcgisattdgryiyflpyrtagvtwhgriqrydtfgdfntggnwviydagsedgitirdlq
+    Ga0164313_10000250_467  831 RFNTSGVFNDTGNWDLRSGGQDGCGISATTDGRYIYFLPYRTAGVTWHGRIQRYDTFGDFNTGGNWVIYDAGSEDGITIRDLQ 913 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  914 ggiydgkyiyfieyhdgtdsqphilrydttkdytlssswdainygsvdglptegykggcydgryiyfghtatknpginggkdl 996 
+                                ggiydgkyiyfieyhdgtdsqphilrydttkdytlssswdainygsvdglptegykggcydgryiyfghtatknpginggkdl
+    Ga0164313_10000250_467  914 GGIYDGKYIYFIEYHDGTDSQPHILRYDTTKDYTLSSSWDAINYGSVDGLPTEGYKGGCYDGRYIYFGHTATKNPGINGGKDL 996 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  997 ahgmalrydtvkgnnasfrlqinapmgenemmglvkgvmftisgtnksysvignntfddselhhiavtyngtnlimyidgvke 1079
+                                ahgmalrydtvkgnnasfrlqinapmgenemmglvkgvmftisgtnksysvignntfddselhhiavtyngtnlimyidgvke
+    Ga0164313_10000250_467  997 AHGMALRYDTVKGNNASFRLQINAPMGENEMMGLVKGVMFTISGTNKSYSVIGNNTFDDSELHHIAVTYNGTNLIMYIDGVKE 1079
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1080 dervvspamsisssledivigastsdsndffngtidelgilnrtlsasevldsyrikngtyswyvnasdgtnvnksevrvfti 1162
+                                dervvspamsisssledivigastsdsndffngtidelgilnrtlsasevldsyrikngtyswyvnasdgtnvnksevrvfti
+    Ga0164313_10000250_467 1080 DERVVSPAMSISSSLEDIVIGASTSDSNDFFNGTIDELGILNRTLSASEVLDSYRIKNGTYSWYVNASDGTNVNKSEVRVFTI 1162
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1163 gsintapqitlvspadnstsvslnavinytytdvdneagncvlynnsdntaictnnsvangttihcnsgvgaysttftyyvnc 1245
+                                gsintapqitlvspadnstsvslnavinytytdvdneagncvlynnsdntaictnnsvangttihcnsgvgaysttftyyvnc
+    Ga0164313_10000250_467 1163 GSINTAPQITLVSPADNSTSVSLNAVINYTYTDVDNEAGNCVLYNNSDNTAICTNNSVANGTTIHCNSGVGAYSTTFTYYVNC 1245
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1246 tdgtdmtkssvwnftteaakislsyhlptetngttistnhteinhsitisdtsnsldtfrfnisgarnvssiiydddlvlaln 1328
+                                tdgtdmtkssvwnftteaakislsyhlptetngttistnhteinhsitisdtsnsldtfrfnisgarnvssiiydddlvlaln
+    Ga0164313_10000250_467 1246 TDGTDMTKSSVWNFTTEAAKISLSYHLPTETNGTTISTNHTEINHSITISDTSNSLDTFRFNISGARNVSSIIYDDDLVLALN 1328
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1329 fnnnsaigdnethvmdisqygnngtmhngtqicgnhsscphyvagrfgqgmsfdgvndyvdcgndsslnitdavtieawikss 1411
+                                fnnnsaigdnethvmdisqygnngtmhngtqicgnhsscphyvagrfgqgmsfdgvndyvdcgndsslnitdavtieawikss
+    Ga0164313_10000250_467 1329 FNNNSAIGDNETHVMDISQYGNNGTMHNGTQICGNHSSCPHYVAGRFGQGMSFDGVNDYVDCGNDSSLNITDAVTIEAWIKSS 1411
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1412 fsgrrwivskggfdqywievsdsgdksrfyirdgddafhsclgttdvtdglwhqvvgtydysegyarvyvdgkkqatcdfsgk 1494
+                                fsgrrwivskggfdqywievsdsgdksrfyirdgddafhsclgttdvtdglwhqvvgtydysegyarvyvdgkkqatcdfsgk
+    Ga0164313_10000250_467 1412 FSGRRWIVSKGGFDQYWIEVSDSGDKSRFYIRDGDDAFHSCLGTTDVTDGLWHQVVGTYDYSEGYARVYVDGKKQATCDFSGK 1494
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1495 kmknnptkkvtvgaassgaqnfngsidevriydralsadevwlhyqsefqkynateyrfydnltnladgeyqhygwandsagg 1577
+                                kmknnptkkvtvgaassgaqnfngsidevriydralsadevwlhyqsefqkynateyrfydnltnladgeyqhygwandsagg
+    Ga0164313_10000250_467 1495 KMKNNPTKKVTVGAASSGAQNFNGSIDEVRIYDRALSADEVWLHYQSEFQKYNATEYRFYDNLTNLADGEYQHYGWANDSAGG 1577
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1578 edtsetrfftvdvpafsvslnsplddsslgdvipdfnfsvsgdrstytcelfindsgygrvenwcyqesanestacgglntgt 1660
+                                edtsetrfftvdvpafsvslnsplddsslgdvipdfnfsvsgdrstytcelfindsgygrvenwcyqesanestacgglntgt
+    Ga0164313_10000250_467 1578 EDTSETRFFTVDVPAFSVSLNSPLDDSSLGDVIPDFNFSVSGDRSTYTCELFINDSGYGRVENWCYQESANESTACGGLNTGT 1660
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1661 yvntsgwgagvvnvtdgdwstagygsilgdylyinyskpagstsnslwqvkravgaaynlslsagcwnqnplqlrvydnsada 1743
+                                yvntsgwgagvvnvtdgdwstagygsilgdylyinyskpagstsnslwqvkravgaaynlslsagcwnqnplqlrvydnsada
+    Ga0164313_10000250_467 1661 YVNTSGWGAGVVNVTDGDWSTAGYGSILGDYLYINYSKPAGSTSNSLWQVKRAVGAAYNLSLSAGCWNQNPLQLRVYDNSADA 1743
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1744 gswsfscfdgvgwsvlssgvtkgvaeeamwwsiadgntsnntdtvitanttlsdghynwyinctvdgrtnqsvartfmvdttp 1826
+                                gswsfscfdgvgwsvlssgvtkgvaeeamwwsiadgntsnntdtvitanttlsdghynwyinctvdgrtnqsvartfmvdttp
+    Ga0164313_10000250_467 1744 GSWSFSCFDGVGWSVLSSGVTKGVAEEAMWWSIADGNTSNNTDTVITANTTLSDGHYNWYINCTVDGRTNQSVARTFMVDTTP 1826
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1827 pvctiisqtpgdlnhssngsfvvkvhcedatgfnlsalgigltlnhsgcmnaswrfpsntkadgyldmqraehrnegewyegl 1909
+                                pvctiisqtpgdlnhssngsfvvkvhcedatgfnlsalgigltlnhsgcmnaswrfpsntkadgyldmqraehrnegewyegl
+    Ga0164313_10000250_467 1827 PVCTIISQTPGDLNHSSNGSFVVKVHCEDATGFNLSALGIGLTLNHSGCMNASWRFPSNTKADGYLDMQRAEHRNEGEWYEGL 1909
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1910 fsniwewsfhdigcchmnmtyngtcaagycvnftftkqdihslfhsfwaldknslehsemnyldvytgnhviskiylpklean 1992
+                                fsniwewsfhdigcchmnmtyngtcaagycvnftftkqdihslfhsfwaldknslehsemnyldvytgnhviskiylpklean
+    Ga0164313_10000250_467 1910 FSNIWEWSFHDIGCCHMNMTYNGTCAAGYCVNFTFTKQDIHSLFHSFWALDKNSLEHSEMNYLDVYTGNHVISKIYLPKLEAN 1992
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1993 atliihtyindtgavrdtlgylcnssketdgvttgsspncvyfgsvdrddsftyckgnacyhgfsmfidenmtvggvkveeem 2075
+                                atliihtyindtgavrdtlgylcnssketdgvttgsspncvyfgsvdrddsftyckgnacyhgfsmfidenmtvggvkveeem
+    Ga0164313_10000250_467 1993 ATLIIHTYINDTGAVRDTLGYLCNSSKETDGVTTGSSPNCVYFGSVDRDDSFTYCKGNACYHGFSMFIDENMTVGGVKVEEEM 2075
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2076 fviwrssanlanawklgysdnttlignisfnnsgllytssdhgitftahngtgvvwaaavhdavdiltyqiysidnstaktgg 2158
+                                fviwrssanlanawklgysdnttlignisfnnsgllytssdhgitftahngtgvvwaaavhdavdiltyqiysidnstaktgg
+    Ga0164313_10000250_467 2076 FVIWRSSANLANAWKLGYSDNTTLIGNISFNNSGLLYTSSDHGITFTAHNGTGVVWAAAVHDAVDILTYQIYSIDNSTAKTGG 2158
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2159 wsgltkdsigvvpeapgtpainhidgdtnkngtysgvfdigcllgedpngepvtgnlslrntdgsfnytingsfsdngsminv 2241
+                                wsgltkdsigvvpeapgtpainhidgdtnkngtysgvfdigcllgedpngepvtgnlslrntdgsfnytingsfsdngsminv
+    Ga0164313_10000250_467 2159 WSGLTKDSIGVVPEAPGTPAINHIDGDTNKNGTYSGVFDIGCLLGEDPNGEPVTGNLSLRNTDGSFNYTINGSFSDNGSMINV 2241
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2242 sfnsslvadgtyrmnltncdntsrcsstlignftidntppyiafntsttaagnhpqsfiqvnitahdigsgidlinislynst 2324
+                                sfnsslvadgtyrmnltncdntsrcsstlignftidntppyiafntsttaagnhpqsfiqvnitahdigsgidlinislynst
+    Ga0164313_10000250_467 2242 SFNSSLVADGTYRMNLTNCDNTSRCSSTLIGNFTIDNTPPYIAFNTSTTAAGNHPQSFIQVNITAHDIGSGIDLINISLYNST 2324
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2325 gglvdsntsgsspfltnftglsdgvyylnatvndsagnlnhtptrtielntlpssitlispadnnwtldnpinftfkytggda 2407
+                                gglvdsntsgsspfltnftglsdgvyylnatvndsagnlnhtptrtielntlpssitlispadnnwtldnpinftfkytggda
+    Ga0164313_10000250_467 2325 GGLVDSNTSGSSPFLTNFTGLSDGVYYLNATVNDSAGNLNHTPTRTIELNTLPSSITLISPADNNWTLDNPINFTFKYTGGDA 2407
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2408 tencklyidnvladtnastknntntllqaagvaegnhtwnvnctnnagnqntsltrniyvdrtkpriplnsppnntyapsntp 2490
+                                tencklyidnvladtnastknntntllqaagvaegnhtwnvnctnnagnqntsltrniyvdrtkpriplnsppnntyapsntp
+    Ga0164313_10000250_467 2408 TENCKLYIDNVLADTNASTKNNTNTLLQAAGVAEGNHTWNVNCTNNAGNQNTSLTRNIYVDRTKPRIPLNSPPNNTYAPSNTP 2490
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2491 tfnftvidmdtnlscelliggagygettalnntpttitanhslpngvhywnitcsdelqtntsktwnltvdtikphiqlnlpn 2573
+                                tfnftvidmdtnlscelliggagygettalnntpttitanhslpngvhywnitcsdelqtntsktwnltvdtikphiqlnlpn
+    Ga0164313_10000250_467 2491 TFNFTVIDMDTNLSCELLIGGAGYGETTALNNTPTTITANHSLPNGVHYWNITCSDELQTNTSKTWNLTVDTIKPHIQLNLPN 2573
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2574 gtstnnqtptfnftvtdnidtnmlceltvdgitygqiyadnntitnitanatlsygtlhwnitctdnatnqntsltyliqils 2656
+                                gtstnnqtptfnftvtdnidtnmlceltvdgitygqiyadnntitnitanatlsygtlhwnitctdnatnqntsltyliqils
+    Ga0164313_10000250_467 2574 GTSTNNQTPTFNFTVTDNIDTNMLCELTVDGITYGQIYADNNTITNITANATLSYGTLHWNITCTDNATNQNTSLTYLIQILS 2656
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2657 ptvsmpagwniigltrnrtytaeticqnitgctvtsnysggnyhshikglpfnifpikfgygyfihlsqattflqtgdalvsp 2739
+                                ptvsmpagwniigltrnrtytaeticqnitgctvtsnysggnyhshikglpfnifpikfgygyfihlsqattflqtgdalvsp
+    Ga0164313_10000250_467 2657 PTVSMPAGWNIIGLTRNRTYTAETICQNITGCTVTSNYSGGNYHSHIKGLPFNIFPIKFGYGYFIHLSQATTFLQTGDALVSP 2739
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2740 tknitveleegwniiawanevtnttaeavcidipssyiskyepatgftthlkgnplnnftvvggkgyfvwlnqtrnwthn 2819
+                                tknitveleegwniiawanevtnttaeavcidipssyiskyepatgftthlkgnplnnftvvggkgyfvwlnqtrnwthn
+    Ga0164313_10000250_467 2740 TKNITVELEEGWNIIAWANEVTNTTAEAVCIDIPSSYISKYEPATGFTTHLKGNPLNNFTVVGGKGYFVWLNQTRNWTHN 2819
+                                *******************************************************************************8 PP
+
+>> QNDS01000002.1_467  [23015 - 31471] Candidatus Fermentibacteria bacterium isolate B22_G4 B22_Guay4_scaffold_00250, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 6823.5 246.0         0         0       1    2819 []       1    2819 []       1    2819 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 6823.5 bits;  conditional E-value: 0
+  34428_QNDS01000002.1_467    1 mksnhricflvmsmlcvslvptasawwnlsyayeyqlnisyagsyathtlqpitvnisnlngsntpalavlynnsgtwveqdw 83  
+                                mksnhricflvmsmlcvslvptasawwnlsyayeyqlnisyagsyathtlqpitvnisnlngsntpalavlynnsgtwveqdw
+        QNDS01000002.1_467    1 MKSNHRICFLVMSMLCVSLVPTASAWWNLSYAYEYQLNISYAGSYATHTLQPITVNISNLNGSNTPALAVLYNNSGTWVEQDW 83  
+                                9********************************************************************************** PP
+
+  34428_QNDS01000002.1_467   84 ewhferdgsqsvksyvndtirflvnltnntvnrdyfiyttddgsinakntsvflwydgfelghitgyeneyltpsdaiesgek 166 
+                                ewhferdgsqsvksyvndtirflvnltnntvnrdyfiyttddgsinakntsvflwydgfelghitgyeneyltpsdaiesgek
+        QNDS01000002.1_467   84 EWHFERDGSQSVKSYVNDTIRFLVNLTNNTVNRDYFIYTTDDGSINAKNTSVFLWYDGFELGHITGYENEYLTPSDAIESGEK 166 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  167 ylgsysiksgigvarvrfpeafdsehiyfgvamrrssttnlvsvaylednartnafrlfidgisystemikwkeddvshpvkp 249 
+                                ylgsysiksgigvarvrfpeafdsehiyfgvamrrssttnlvsvaylednartnafrlfidgisystemikwkeddvshpvkp
+        QNDS01000002.1_467  167 YLGSYSIKSGIGVARVRFPEAFDSEHIYFGVAMRRSSTTNLVSVAYLEDNARTNAFRLFIDGISYSTEMIKWKEDDVSHPVKP 249 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  250 avreqwyyimlkgcdttgsdtvcdgfyvdgvlndtsigttgtvtdveyfaiykntgsgaetfdeiyisdnnfnvypnlptinv 332 
+                                avreqwyyimlkgcdttgsdtvcdgfyvdgvlndtsigttgtvtdveyfaiykntgsgaetfdeiyisdnnfnvypnlptinv
+        QNDS01000002.1_467  250 AVREQWYYIMLKGCDTTGSDTVCDGFYVDGVLNDTSIGTTGTVTDVEYFAIYKNTGSGAETFDEIYISDNNFNVYPNLPTINV 332 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  333 esedtqglnpgisitlnspvegynstvqtitfncsysctdssivnvslwgnwsgwhrnetnstltgstgtvkftkslpngeyk 415 
+                                esedtqglnpgisitlnspvegynstvqtitfncsysctdssivnvslwgnwsgwhrnetnstltgstgtvkftkslpngeyk
+        QNDS01000002.1_467  333 ESEDTQGLNPGISITLNSPVEGYNSTVQTITFNCSYSCTDSSIVNVSLWGNWSGWHRNETNSTLTGSTGTVKFTKSLPNGEYK 415 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  416 wncygcnnetncsfaannhtfsvdadiieptivlnhppnassgnlsyilnatitddksnsldvyfyvntsllslslnrindtt 498 
+                                wncygcnnetncsfaannhtfsvdadiieptivlnhppnassgnlsyilnatitddksnsldvyfyvntsllslslnrindtt
+        QNDS01000002.1_467  416 WNCYGCNNETNCSFAANNHTFSVDADIIEPTIVLNHPPNASSGNLSYILNATITDDKSNSLDVYFYVNTSLLSLSLNRINDTT 498 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  499 islnisampisnaldglqflfhfdnlskygetnthvydfsgngnngtvsgavwdnlgckfggcyvfdgtddyinagtsnltlt 581 
+                                islnisampisnaldglqflfhfdnlskygetnthvydfsgngnngtvsgavwdnlgckfggcyvfdgtddyinagtsnltlt
+        QNDS01000002.1_467  499 ISLNISAMPISNALDGLQFLFHFDNLSKYGETNTHVYDFSGNGNNGTVSGAVWDNLGCKFGGCYVFDGTDDYINAGTSNLTLT 581 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  582 enftvmawvngsknqaietliakwniqdnfsslpfeafnasnisgynlgsmysgtkgyphpifdgryvywtpnvwdyqhfhtl 664 
+                                enftvmawvngsknqaietliakwniqdnfsslpfeafnasnisgynlgsmysgtkgyphpifdgryvywtpnvwdyqhfhtl
+        QNDS01000002.1_467  582 ENFTVMAWVNGSKNQAIETLIAKWNIQDNFSSLPFEAFNASNISGYNLGSMYSGTKGYPHPIFDGRYVYWTPNVWDYQHFHTL 664 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  665 airydttlpyknlsswevfnistataysigayrdmvydgryiyytpyfeayiarydttgsfnetsswyvfdaknvsncnnqcy 747 
+                                airydttlpyknlsswevfnistataysigayrdmvydgryiyytpyfeayiarydttgsfnetsswyvfdaknvsncnnqcy
+        QNDS01000002.1_467  665 AIRYDTTLPYKNLSSWEVFNISTATAYSIGAYRDMVYDGRYIYYTPYFEAYIARYDTTGSFNETSSWYVFDAKNVSNCNNQCY 747 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  748 gfngatfdgefiyynpykrngsvvhfdfiryntskqfnlssswdyvnltgnidgvsqptygyyetiyvngyvyystilddefl 830 
+                                gfngatfdgefiyynpykrngsvvhfdfiryntskqfnlssswdyvnltgnidgvsqptygyyetiyvngyvyystilddefl
+        QNDS01000002.1_467  748 GFNGATFDGEFIYYNPYKRNGSVVHFDFIRYNTSKQFNLSSSWDYVNLTGNIDGVSQPTYGYYETIYVNGYVYYSTILDDEFL 830 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  831 rfntsgvfndtgnwdlrsggqdgcgisattdgryiyflpyrtagvtwhgriqrydtfgdfntggnwviydagsedgitirdlq 913 
+                                rfntsgvfndtgnwdlrsggqdgcgisattdgryiyflpyrtagvtwhgriqrydtfgdfntggnwviydagsedgitirdlq
+        QNDS01000002.1_467  831 RFNTSGVFNDTGNWDLRSGGQDGCGISATTDGRYIYFLPYRTAGVTWHGRIQRYDTFGDFNTGGNWVIYDAGSEDGITIRDLQ 913 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  914 ggiydgkyiyfieyhdgtdsqphilrydttkdytlssswdainygsvdglptegykggcydgryiyfghtatknpginggkdl 996 
+                                ggiydgkyiyfieyhdgtdsqphilrydttkdytlssswdainygsvdglptegykggcydgryiyfghtatknpginggkdl
+        QNDS01000002.1_467  914 GGIYDGKYIYFIEYHDGTDSQPHILRYDTTKDYTLSSSWDAINYGSVDGLPTEGYKGGCYDGRYIYFGHTATKNPGINGGKDL 996 
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467  997 ahgmalrydtvkgnnasfrlqinapmgenemmglvkgvmftisgtnksysvignntfddselhhiavtyngtnlimyidgvke 1079
+                                ahgmalrydtvkgnnasfrlqinapmgenemmglvkgvmftisgtnksysvignntfddselhhiavtyngtnlimyidgvke
+        QNDS01000002.1_467  997 AHGMALRYDTVKGNNASFRLQINAPMGENEMMGLVKGVMFTISGTNKSYSVIGNNTFDDSELHHIAVTYNGTNLIMYIDGVKE 1079
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1080 dervvspamsisssledivigastsdsndffngtidelgilnrtlsasevldsyrikngtyswyvnasdgtnvnksevrvfti 1162
+                                dervvspamsisssledivigastsdsndffngtidelgilnrtlsasevldsyrikngtyswyvnasdgtnvnksevrvfti
+        QNDS01000002.1_467 1080 DERVVSPAMSISSSLEDIVIGASTSDSNDFFNGTIDELGILNRTLSASEVLDSYRIKNGTYSWYVNASDGTNVNKSEVRVFTI 1162
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1163 gsintapqitlvspadnstsvslnavinytytdvdneagncvlynnsdntaictnnsvangttihcnsgvgaysttftyyvnc 1245
+                                gsintapqitlvspadnstsvslnavinytytdvdneagncvlynnsdntaictnnsvangttihcnsgvgaysttftyyvnc
+        QNDS01000002.1_467 1163 GSINTAPQITLVSPADNSTSVSLNAVINYTYTDVDNEAGNCVLYNNSDNTAICTNNSVANGTTIHCNSGVGAYSTTFTYYVNC 1245
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1246 tdgtdmtkssvwnftteaakislsyhlptetngttistnhteinhsitisdtsnsldtfrfnisgarnvssiiydddlvlaln 1328
+                                tdgtdmtkssvwnftteaakislsyhlptetngttistnhteinhsitisdtsnsldtfrfnisgarnvssiiydddlvlaln
+        QNDS01000002.1_467 1246 TDGTDMTKSSVWNFTTEAAKISLSYHLPTETNGTTISTNHTEINHSITISDTSNSLDTFRFNISGARNVSSIIYDDDLVLALN 1328
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1329 fnnnsaigdnethvmdisqygnngtmhngtqicgnhsscphyvagrfgqgmsfdgvndyvdcgndsslnitdavtieawikss 1411
+                                fnnnsaigdnethvmdisqygnngtmhngtqicgnhsscphyvagrfgqgmsfdgvndyvdcgndsslnitdavtieawikss
+        QNDS01000002.1_467 1329 FNNNSAIGDNETHVMDISQYGNNGTMHNGTQICGNHSSCPHYVAGRFGQGMSFDGVNDYVDCGNDSSLNITDAVTIEAWIKSS 1411
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1412 fsgrrwivskggfdqywievsdsgdksrfyirdgddafhsclgttdvtdglwhqvvgtydysegyarvyvdgkkqatcdfsgk 1494
+                                fsgrrwivskggfdqywievsdsgdksrfyirdgddafhsclgttdvtdglwhqvvgtydysegyarvyvdgkkqatcdfsgk
+        QNDS01000002.1_467 1412 FSGRRWIVSKGGFDQYWIEVSDSGDKSRFYIRDGDDAFHSCLGTTDVTDGLWHQVVGTYDYSEGYARVYVDGKKQATCDFSGK 1494
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1495 kmknnptkkvtvgaassgaqnfngsidevriydralsadevwlhyqsefqkynateyrfydnltnladgeyqhygwandsagg 1577
+                                kmknnptkkvtvgaassgaqnfngsidevriydralsadevwlhyqsefqkynateyrfydnltnladgeyqhygwandsagg
+        QNDS01000002.1_467 1495 KMKNNPTKKVTVGAASSGAQNFNGSIDEVRIYDRALSADEVWLHYQSEFQKYNATEYRFYDNLTNLADGEYQHYGWANDSAGG 1577
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1578 edtsetrfftvdvpafsvslnsplddsslgdvipdfnfsvsgdrstytcelfindsgygrvenwcyqesanestacgglntgt 1660
+                                edtsetrfftvdvpafsvslnsplddsslgdvipdfnfsvsgdrstytcelfindsgygrvenwcyqesanestacgglntgt
+        QNDS01000002.1_467 1578 EDTSETRFFTVDVPAFSVSLNSPLDDSSLGDVIPDFNFSVSGDRSTYTCELFINDSGYGRVENWCYQESANESTACGGLNTGT 1660
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1661 yvntsgwgagvvnvtdgdwstagygsilgdylyinyskpagstsnslwqvkravgaaynlslsagcwnqnplqlrvydnsada 1743
+                                yvntsgwgagvvnvtdgdwstagygsilgdylyinyskpagstsnslwqvkravgaaynlslsagcwnqnplqlrvydnsada
+        QNDS01000002.1_467 1661 YVNTSGWGAGVVNVTDGDWSTAGYGSILGDYLYINYSKPAGSTSNSLWQVKRAVGAAYNLSLSAGCWNQNPLQLRVYDNSADA 1743
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1744 gswsfscfdgvgwsvlssgvtkgvaeeamwwsiadgntsnntdtvitanttlsdghynwyinctvdgrtnqsvartfmvdttp 1826
+                                gswsfscfdgvgwsvlssgvtkgvaeeamwwsiadgntsnntdtvitanttlsdghynwyinctvdgrtnqsvartfmvdttp
+        QNDS01000002.1_467 1744 GSWSFSCFDGVGWSVLSSGVTKGVAEEAMWWSIADGNTSNNTDTVITANTTLSDGHYNWYINCTVDGRTNQSVARTFMVDTTP 1826
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1827 pvctiisqtpgdlnhssngsfvvkvhcedatgfnlsalgigltlnhsgcmnaswrfpsntkadgyldmqraehrnegewyegl 1909
+                                pvctiisqtpgdlnhssngsfvvkvhcedatgfnlsalgigltlnhsgcmnaswrfpsntkadgyldmqraehrnegewyegl
+        QNDS01000002.1_467 1827 PVCTIISQTPGDLNHSSNGSFVVKVHCEDATGFNLSALGIGLTLNHSGCMNASWRFPSNTKADGYLDMQRAEHRNEGEWYEGL 1909
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1910 fsniwewsfhdigcchmnmtyngtcaagycvnftftkqdihslfhsfwaldknslehsemnyldvytgnhviskiylpklean 1992
+                                fsniwewsfhdigcchmnmtyngtcaagycvnftftkqdihslfhsfwaldknslehsemnyldvytgnhviskiylpklean
+        QNDS01000002.1_467 1910 FSNIWEWSFHDIGCCHMNMTYNGTCAAGYCVNFTFTKQDIHSLFHSFWALDKNSLEHSEMNYLDVYTGNHVISKIYLPKLEAN 1992
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 1993 atliihtyindtgavrdtlgylcnssketdgvttgsspncvyfgsvdrddsftyckgnacyhgfsmfidenmtvggvkveeem 2075
+                                atliihtyindtgavrdtlgylcnssketdgvttgsspncvyfgsvdrddsftyckgnacyhgfsmfidenmtvggvkveeem
+        QNDS01000002.1_467 1993 ATLIIHTYINDTGAVRDTLGYLCNSSKETDGVTTGSSPNCVYFGSVDRDDSFTYCKGNACYHGFSMFIDENMTVGGVKVEEEM 2075
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2076 fviwrssanlanawklgysdnttlignisfnnsgllytssdhgitftahngtgvvwaaavhdavdiltyqiysidnstaktgg 2158
+                                fviwrssanlanawklgysdnttlignisfnnsgllytssdhgitftahngtgvvwaaavhdavdiltyqiysidnstaktgg
+        QNDS01000002.1_467 2076 FVIWRSSANLANAWKLGYSDNTTLIGNISFNNSGLLYTSSDHGITFTAHNGTGVVWAAAVHDAVDILTYQIYSIDNSTAKTGG 2158
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2159 wsgltkdsigvvpeapgtpainhidgdtnkngtysgvfdigcllgedpngepvtgnlslrntdgsfnytingsfsdngsminv 2241
+                                wsgltkdsigvvpeapgtpainhidgdtnkngtysgvfdigcllgedpngepvtgnlslrntdgsfnytingsfsdngsminv
+        QNDS01000002.1_467 2159 WSGLTKDSIGVVPEAPGTPAINHIDGDTNKNGTYSGVFDIGCLLGEDPNGEPVTGNLSLRNTDGSFNYTINGSFSDNGSMINV 2241
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2242 sfnsslvadgtyrmnltncdntsrcsstlignftidntppyiafntsttaagnhpqsfiqvnitahdigsgidlinislynst 2324
+                                sfnsslvadgtyrmnltncdntsrcsstlignftidntppyiafntsttaagnhpqsfiqvnitahdigsgidlinislynst
+        QNDS01000002.1_467 2242 SFNSSLVADGTYRMNLTNCDNTSRCSSTLIGNFTIDNTPPYIAFNTSTTAAGNHPQSFIQVNITAHDIGSGIDLINISLYNST 2324
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2325 gglvdsntsgsspfltnftglsdgvyylnatvndsagnlnhtptrtielntlpssitlispadnnwtldnpinftfkytggda 2407
+                                gglvdsntsgsspfltnftglsdgvyylnatvndsagnlnhtptrtielntlpssitlispadnnwtldnpinftfkytggda
+        QNDS01000002.1_467 2325 GGLVDSNTSGSSPFLTNFTGLSDGVYYLNATVNDSAGNLNHTPTRTIELNTLPSSITLISPADNNWTLDNPINFTFKYTGGDA 2407
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2408 tencklyidnvladtnastknntntllqaagvaegnhtwnvnctnnagnqntsltrniyvdrtkpriplnsppnntyapsntp 2490
+                                tencklyidnvladtnastknntntllqaagvaegnhtwnvnctnnagnqntsltrniyvdrtkpriplnsppnntyapsntp
+        QNDS01000002.1_467 2408 TENCKLYIDNVLADTNASTKNNTNTLLQAAGVAEGNHTWNVNCTNNAGNQNTSLTRNIYVDRTKPRIPLNSPPNNTYAPSNTP 2490
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2491 tfnftvidmdtnlscelliggagygettalnntpttitanhslpngvhywnitcsdelqtntsktwnltvdtikphiqlnlpn 2573
+                                tfnftvidmdtnlscelliggagygettalnntpttitanhslpngvhywnitcsdelqtntsktwnltvdtikphiqlnlpn
+        QNDS01000002.1_467 2491 TFNFTVIDMDTNLSCELLIGGAGYGETTALNNTPTTITANHSLPNGVHYWNITCSDELQTNTSKTWNLTVDTIKPHIQLNLPN 2573
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2574 gtstnnqtptfnftvtdnidtnmlceltvdgitygqiyadnntitnitanatlsygtlhwnitctdnatnqntsltyliqils 2656
+                                gtstnnqtptfnftvtdnidtnmlceltvdgitygqiyadnntitnitanatlsygtlhwnitctdnatnqntsltyliqils
+        QNDS01000002.1_467 2574 GTSTNNQTPTFNFTVTDNIDTNMLCELTVDGITYGQIYADNNTITNITANATLSYGTLHWNITCTDNATNQNTSLTYLIQILS 2656
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2657 ptvsmpagwniigltrnrtytaeticqnitgctvtsnysggnyhshikglpfnifpikfgygyfihlsqattflqtgdalvsp 2739
+                                ptvsmpagwniigltrnrtytaeticqnitgctvtsnysggnyhshikglpfnifpikfgygyfihlsqattflqtgdalvsp
+        QNDS01000002.1_467 2657 PTVSMPAGWNIIGLTRNRTYTAETICQNITGCTVTSNYSGGNYHSHIKGLPFNIFPIKFGYGYFIHLSQATTFLQTGDALVSP 2739
+                                *********************************************************************************** PP
+
+  34428_QNDS01000002.1_467 2740 tknitveleegwniiawanevtnttaeavcidipssyiskyepatgftthlkgnplnnftvvggkgyfvwlnqtrnwthn 2819
+                                tknitveleegwniiawanevtnttaeavcidipssyiskyepatgftthlkgnplnnftvvggkgyfvwlnqtrnwthn
+        QNDS01000002.1_467 2740 TKNITVELEEGWNIIAWANEVTNTTAEAVCIDIPSSYISKYEPATGFTTHLKGNPLNNFTVVGGKGYFVWLNQTRNWTHN 2819
+                                *******************************************************************************8 PP
+
+>> CP010426.1_22646  [494086 - 482027] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    2.6   4.1     0.004        56     492     553 ..     705     772 ..     676     777 .. 0.57
+   2 !    9.4   5.8   3.6e-05       0.5     530     593 ..     791     854 ..     779     868 .. 0.87
+   3 !    9.1   0.2   4.4e-05       0.6    1496    1541 ..     941     989 ..     898    1015 .. 0.53
+   4 !   28.3   3.3   7.2e-11   9.9e-07    1394    1541 ..    1015    1174 ..     997    1217 .. 0.78
+   5 ?    0.8  50.1     0.014     2e+02    1155    1560 ..    1196    1643 ..    1184    1651 .. 0.66
+   6 !   20.2  44.6     2e-08   0.00028    1090    1541 ..    1692    2183 ..    1674    2190 .. 0.67
+   7 !   20.3   8.9   1.9e-08   0.00026    1379    1547 ..    2192    2367 ..    2185    2441 .. 0.72
+   8 !   10.5  19.1   1.7e-05      0.23    2463    2596 ..    2404    2552 ..    2367    2564 .. 0.70
+   9 !   43.1  51.6   2.6e-15   3.5e-11    2205    2524 ..    2441    2770 ..    2435    2781 .. 0.74
+  10 !   11.0  39.3   1.2e-05      0.17    2429    2652 ..    2778    3006 ..    2764    3016 .. 0.76
+  11 !   13.5  12.8   2.1e-06     0.029    2276    2380 ..    3008    3110 ..    3004    3138 .. 0.72
+  12 !   17.2  56.5   1.6e-07    0.0022    2312    2686 ..    3136    3532 ..    3114    3539 .. 0.71
+  13 ?  -15.0  15.4         7   9.7e+04    1121    1306 ..    3592    3769 ..    3554    3794 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 2.6 bits;  conditional E-value: 0.004
+  34428_QNDS01000002.1_467 492 nrindttislnisampisnaldglqfl.fhfdn......lsk.ygetnthvydfsgngnngtvsgavwdn 553
+                                r n+t   +nis   +s    gl  +   ++n      l+  +    t v d+sg  nngt+sga+w+ 
+          CP010426.1_22646 705 VRTNNTN--VNISLSIVSTDATGLYNItTWYENnqsllvLNMpFVTNTTDVKDYSGYNNNGTISGALWQR 772
+                               3444443..34444444555555543312233311111112213444578******************75 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 3.6e-05
+  34428_QNDS01000002.1_467 530 tnthvydfsgngnngtvsgavwdnlgckfggcyvfdgtddyinagtsnltltenftvmawvngs 593
+                                 t   d s   n+g +sg   +   c  g cy f+g +  i +   nl  +++ftv +w+   
+          CP010426.1_22646 791 NSTTAIDASDYRNDGVLSGVALNTNNCVTGTCYTFNGVNSNITTNNLNLGGANEFTVETWIYPL 854
+                               45778899***********************************99999999*********9754 PP
+
+  == domain 3  score: 9.1 bits;  conditional E-value: 4.4e-05
+  34428_QNDS01000002.1_467 1496 mknnptkkvtvgaassga...qnfngsidevriydralsadevwlhyqs 1541
+                                m+  pt +  +g+    a   + fng++d+ riy++al++ e+  hy+ 
+          CP010426.1_22646  941 MNTTPTTRSFIGSLGGTAgdkDIFNGTMDNFRIYNKALTSSEIQDHYEK 989 
+                                4444444444443222211113355555555555555555555555542 PP
+
+  == domain 4  score: 28.3 bits;  conditional E-value: 7.2e-11
+  34428_QNDS01000002.1_467 1394 sslnitdavtieawik.ssf...sgrrwivskggfdq....ywievsdsgdksrfyirdgddafhsclgttdvtdglwhqvvg 1468
+                                +++n + a+t+eaw++  sf   +g + +   g + +    + i +  +g  s        da++     ++++   w ++vg
+          CP010426.1_22646 1015 TAINSSSAITMEAWVNqKSFpspTGAQVV-LAGTIGNsgggFGITILGAGTVSVGGRSIASDAIQQTSSLSNISLNNWTHIVG 1096
+                                67899999******962456322455444.33433221122778899999999888888999**999999************* PP
+
+  34428_QNDS01000002.1_467 1469 tydysegyarvyvdgk..kqatcdfsgkkmknn...ptkkvtvgaassgaqnfngsidevriydralsadevwlhyqs 1541
+                                  ++++   ++y++gk  k  t+ fs  + +      + k t+g      + fngsi+ vriy+r+lsa++++  y+s
+          CP010426.1_22646 1097 EMEFANDLIKIYINGKldKTFTASFSRDQYNHSilsTATKDTIGFFDGQNRYFNGSIQGVRIYNRSLSANQIYELYNS 1174
+                                ***************944556778887776654222567889***9999***********************999987 PP
+
+  == domain 5  score: 0.8 bits;  conditional E-value: 0.014
+  34428_QNDS01000002.1_467 1155 sevrvftigsintapqitlvspadnstsvslnavinytytdvdneagncvlynnsdntaictnnsv...angttihcnsgvga 1234
+                                ++v v     +  + + + v   dn  + + n vin t ++   e     +y   dnt i  n s+    n +t +  + + a
+          CP010426.1_22646 1196 AQVYVANSSDLGVSDNTSEVLILDNYLTFTNNPVINSTNAQNTTEQD-LNVYFTPDNTGITLNYSIevfKNNATQFLLADIPA 1277
+                                555555555566666666777789999999*******9998877765.5568899********997434589999999***** PP
+
+  34428_QNDS01000002.1_467 1235 ysttftyyv.nctdgt..dmtkssvw......n.ftteaakislsyhlptet....ngttistnhteinhsitisdtsnsldt 1303
+                                 + tf+ ++ n ++ t  +  k+ vw      n    +++++ +  ++p  t    n t istn t++n ++ i++t    d 
+          CP010426.1_22646 1278 TANTFAQFIiNNANTTkgETWKAQVWltdslsNsSLVNTSELLILNYIPNITfnliNTTDISTNNTNVNLTLFINNTDYDNDI 1360
+                                *****9765355444422566888993322111111223333344456665444448999**************999877776 PP
+
+  34428_QNDS01000002.1_467 1304 frfnisgarnvssii........ydddlvlalnfnnnsaig..........dnethvmdisqygnngtmhngtqicgnhs... 1365
+                                +    +   n  si+           d+     +nnn +i           dn++ v+ +    +n t    +    n     
+          CP010426.1_22646 1361 VANITNWYENNQSILvlnmpfvtNTTDVKDYSGYNNNGTISgalwqrylneDNNSLVLLLPFDEDNSTTAIDASDYRNDGvli 1443
+                                54333333444444311111111233444444567776663233333333356666666655555554443333333332010 PP
+
+  34428_QNDS01000002.1_467 1366 scphyvagrfgqgmsfdgvndyvdcgnds....slnitdavtieawikssfs..grrwivskgg....fdqywievsdsgdks 1438
+                                ++    +   g   sfdg  dy++   ds     + + ++ tie w+k   s    r i+sk        qy i   +    +
+          CP010426.1_22646 1444 NAKLNTSCITGTCYSFDGSGDYININ-DSndnlDISLNNSFTIEYWMKYDKSdaTVRDIISKWSssvsKKQYRIYHQN-NILA 1524
+                                3334445567999*********9874.3311114556799*******9755411679999986411114577776544.4567 PP
+
+  34428_QNDS01000002.1_467 1439 rfyirdgddafhsclgttdvtdglwhqvvgtydysegyarvyvdgkkqatcdfsgkkmknnptkkvtvgaassgaqnfngsid 1521
+                                 +  +dg     +   ++ +t   w+ v  t+ ++     +y++g+ +    fs   + n     + +ga s+ aq ++g id
+          CP010426.1_22646 1525 MILSKDGTTNSNTLTSSASLTANQWYYV--TWFFNGTSVALYINGNLDKQQAFSNGAVFNAD-IPLRIGA-SADAQAYQGIID 1603
+                                788899999999999999********98..56667778899*****999999**99887765.4577875.789********* PP
+
+  34428_QNDS01000002.1_467 1522 evriydralsadevwlhyqsefqkynateyrf..ydnltnl 1560
+                                +vriy++al++ e+  hy+  ++ y    ++f   +nl n+
+          CP010426.1_22646 1604 NVRIYNKALTSSEIQDHYEK-YKLYYQPSFKFdgVNNLINI 1643
+                                ******************75.67777777776224566665 PP
+
+  == domain 6  score: 20.2 bits;  conditional E-value: 2e-08
+  34428_QNDS01000002.1_467 1090 isssledivigastsdsndffngtidelgilnrtlsasevldsyrikn..............g.tyswyvnasdgtnvnksev 1157
+                                is+  + i ig    d++ +fng+i  + + nr+lsa+++++ y   n              g ty   + asd t  + s+v
+          CP010426.1_22646 1692 ISNKTNSIRIGI--YDNEVYFNGSILSVRLWNRSLSANQIFELYNSYNtsalnklvseettaGrTYKASLYASD-TYADSSQV 1771
+                                666666677764..68899******************9887655443311111222222222136666666766.44555555 PP
+
+  34428_QNDS01000002.1_467 1158 rvftigsintap.qitlvspadnstsvslnavinyt..............ytdvdneagnc.vlynnsdntaictnnsvangt 1224
+                                    i    +ap + tl  p +n+   +    +n +              y++v  +a  +  +y+    ++  t n+++ngt
+          CP010426.1_22646 1772 NTSEILITASAPnNFTLYLPGNNTKFKNSSNEVNISwvsssdidagtltyYAQVARDASFAdTIYQGITTSTFNTTNALTNGT 1854
+                                55555555556523677777666543322222232200000000000111455555554332456666666778889999999 PP
+
+  34428_QNDS01000002.1_467 1225 t.ihcnsgvga....ysttftyyvnctdgt...dmtkssvwnftteaakislsyhlptetngtti..stnhteinhsitisdt 1297
+                                   + ns  g+    ys  +++ +n    +   +++ s+  n+t e  +++lsy l     g  +   tn  e n+s+ + + 
+          CP010426.1_22646 1855 YyARINSTDGSlwsgYSNIISFIINTVPFSyniQLSSSNGTNLTLE--NLTLSYNLQDTDLGEDLfnITNWYENNQSLLVLNM 1935
+                                6245677666433338999999999876441004444445555555..67899999877666655226999999999988877 PP
+
+  34428_QNDS01000002.1_467 1298 snsldtfrfn.isgarnvssiiydddlvlalnfnnnsai......gdnethvmdisqygnngtmhngtqicgnhsscphyvag 1373
+                                    +t  ++  sg  n +  i        ln +nns +       dn +  +d s++ nng +   t    n++ c      
+          CP010426.1_22646 1936 PFVTNTTDVKdYSGYNN-NGTISGALWQRYLNEDNNSLVllmpfdEDNSSTAIDSSDFKNNGVLSGATL---NRTDCI----- 2009
+                                66666655541444444.44455555566677777776544444458999999*********9976664...777774..... PP
+
+  34428_QNDS01000002.1_467 1374 rfgqgmsfdgvndyvdcgndsslnit.davtieawikssfsg..rrwivskggfdqywievsdsgdksr.fyirdgddafhsc 1452
+                                  g+  sfdg nd+++  + ssl+      +ie wik  +s      iv kg      +  +  gd    f + +g   +   
+          CP010426.1_22646 2010 -TGNCYSFDGTNDFINLIDKSSLDFGaSDFSIELWIKHPVSAitNGRIVYKGASSATDVGYALLGDAQNiFALSNGSTRLLVT 2091
+                                .58899******************9615689******9887522567*********999999999976527799********* PP
+
+  34428_QNDS01000002.1_467 1453 lgttdvtdglwhqvvgtydyseg...yarvyvdgkkqatcdfsgkkmknnptkkvtvgaassgaqnfngsidevriydralsa 1532
+                                 g t+  + lw ++  t    +    y+   +d       ++s        tk+  +g+       +ngsid+vriy++al++
+          CP010426.1_22646 2092 AGKTNFNNDLWNHIAITVKRDNNitiYTNGIIDSSSSNPLNVSNFSGSVSNTKEFILGSIDGTGTFWNGSIDNVRIYNKALTS 2174
+                                ***********9998887654432227777788777777777777778889*********999999***************** PP
+
+  34428_QNDS01000002.1_467 1533 devwlhyqs 1541
+                                 e+  hy+ 
+          CP010426.1_22646 2175 SEIQDHYEK 2183
+                                ******975 PP
+
+  == domain 7  score: 20.3 bits;  conditional E-value: 1.9e-08
+  34428_QNDS01000002.1_467 1379 msfdgvndyvdcgndsslnitd.avtieawiks........sfsgrrwi..vskggfdqywievsdsgdksrfy..irdgdda 1448
+                                + fdgvnd ++  +d + +      t+e+wi +        s sg   +  v  g  d+y + +++      +y  i+d +  
+          CP010426.1_22646 2192 FKFDGVNDMINITKDINDDFGKtGFTMESWIWNnindqpqmSSSGVNILsdVGSGISDRYELRINNISSSPVIYyrIQDSNAI 2274
+                                68*************9998865268*****9761111111144554443223445679**99998876666655125566666 PP
+
+  34428_QNDS01000002.1_467 1449 fhsclgttdvtdglwhqvvgtydysegyarvyvdgkkqat..cdfsgkkmknnptkkvtvgaassgaqnfngsidevriydra 1529
+                                   +  + ++ +  w +++ tyd  +   r y +g    t    f+g      p  ++ +g a    ++++gsi  vriy+r+
+          CP010426.1_22646 2275 NEEVSNAGNLNNNSWNHIIVTYDNVNAQIRAYANGVLTNTnpTAFTGT---ISPNDNLYIGIAG-LVRDYKGSITGVRIYNRS 2353
+                                677788899**************************9877722456665...5677889999886.5789************** PP
+
+  34428_QNDS01000002.1_467 1530 lsadevwlhyqsefqkyn 1547
+                                lsa++++  y+s    yn
+          CP010426.1_22646 2354 LSANQIYELYNS----YN 2367
+                                ******999987....33 PP
+
+  == domain 8  score: 10.5 bits;  conditional E-value: 1.7e-05
+  34428_QNDS01000002.1_467 2463 rniyvdrtkpriplns.ppnntyapsntptfnftvidmdtnlscelliggagygettalnntptti......tanh....slp 2534
+                                 ++ +  t p ip+ s ppnnty   +tp f +   d   n +  +++      + t++n    ti      t  h    +l 
+          CP010426.1_22646 2404 TELLIGNTIPTIPVLSyPPNNTYFKDDTPEFFINNSDDPDNDTIYFVLEIDNAFDFTSINYYNGTIrkisngTNSHnlssALT 2486
+                                4678899******65449*************9988876666555554444433344444433333322222233341121578 PP
+
+  34428_QNDS01000002.1_467 2535 ngvhywnitcsdelqtntskt..wnltvdtikphiqlnlp...ngtstnnqtptfnftvtdnidtnm 2596
+                                +g++yw  t + +lq n+s t   n+t+dti+  i++  p   n t tnn    +n+tvt+   +n+
+          CP010426.1_22646 2487 DGIYYWR-TLATDLQGNSSYTeiRNFTIDTINSTIDFTSPteaNNTYTNNSYIFINVTVTEANFANI 2552
+                                9*****8.56677****9987447*************9885558899*************9766665 PP
+
+  == domain 9  score: 43.1 bits;  conditional E-value: 2.6e-15
+  34428_QNDS01000002.1_467 2205 dpngepvtgnlslrnt.d.gsfnytingsfsdngsminvsfnsslvadgtyrmnltncdntsrcsstlignftidntppyiaf 2285
+                                dp+ + +   l + n+ d  s+ny  ng++    +  n    ss ++dg y       d     s t i nftid     i f
+          CP010426.1_22646 2441 DPDNDTIYFVLEIDNAfDfTSINY-YNGTIRKISNGTNSHNLSSALTDGIYYWRTLATDLQGNSSYTEIRNFTIDTINSTIDF 2522
+                                555555555555555422245555.47888877777787778999************************************** PP
+
+  34428_QNDS01000002.1_467 2286 ntsttaagnh.pqsfiqvnitahdigsgidlinislynstgglvdsntsgs.spfltnftgls.dgvyylnatvndsagnlnh 2365
+                                 + t a   +  +s+i +n+t  +       i   l nst       ts + +    n++ l+ + vyy n +v d a n+n+
+          CP010426.1_22646 2523 TSPTEANNTYtNNSYIFINVTVTEA--NFANITFYLVNSTSVNATLFTSLNnNARWINLSPLNqNEVYYYNVSVADLANNINY 2603
+                                8888777655257999999999774..445566667788877666667654145567888886368***************** PP
+
+  34428_QNDS01000002.1_467 2366 tptrtiel.ntlpssitlispadnnwtldnpinftfkytggdatencklyidnvladtnas.....tknntn.tllqaagva. 2440
+                                + tr i l ntlp++itl+sp +n  + +    ft++       +n  l idn    t         +n tn t l ++ +  
+          CP010426.1_22646 2604 SETRIITLdNTLPNNITLLSPGNNTISTNRTPLFTWNNVTELNFDNYTLEIDNDADFTSVQftfikYNNLTNsTHLMTTPLNd 2686
+                                *******978***************99999999********************766555432111134446534455555541 PP
+
+  34428_QNDS01000002.1_467 2441 egnhtwnvnctnnagnqntsltrniyvdrtkpriplnsppnntyapsntptfnftvidmdtnlscelliggagyge....tta 2519
+                                +  + w++ +t++a n+n s t     d tkp + lnsp nn +  + t   nf  i  dt ++ +l      yg+    t  
+          CP010426.1_22646 2687 NTRYFWKITVTDKANNRN-STTFTYTTDNTKPAVTLNSPGNNQWLTASTV--NFQYIPTDTPFNSNLQAC-DLYGNftstTFE 2765
+                                56789*********9998.55777889*****************987765..556666666655554432.223320000333 PP
+
+  34428_QNDS01000002.1_467 2520 lnntp 2524
+                                 nnt 
+          CP010426.1_22646 2766 KNNTQ 2770
+                                45554 PP
+
+  == domain 10  score: 11.0 bits;  conditional E-value: 1.2e-05
+  34428_QNDS01000002.1_467 2429 ntntllqaagvaegnhtwnvnctnnagnqntsl.trniyvdrtkpripln..sppnntyapsntptfnftvidmd.tnlscel 2507
+                                nt tl+    +a+  +twnv+c + agn   +     + +d  +p +     +  nn+y   n   +n+t  + + +nl+   
+          CP010426.1_22646 2778 NTFTLI----LADSSYTWNVQCNDSAGNSARAAaNFTVNLDTVRPSLSYSgqTEVNNSYKNQNFIFVNWTYTEANfANLTFR- 2855
+                                444443....67899*************8765414567789999998875216789**************999883566665. PP
+
+  34428_QNDS01000002.1_467 2508 liggagygettalnntpttit.anhsl....pngvhywnitcsd.elqtntsktwnltvdtikphiql...nlpngtstnnqt 2581
+                                l   +g  +tt    t   i  +n+++    pn  + +nit +d  lq nt++t  + +dti+p +      l n t  n +t
+          CP010426.1_22646 2856 LFNTTGNVNTTVYTSTAYQINvSNYTIylinPNERYTYNITLTDyALQMNTTETRTIILDTINPSLSYseqTLANNTYYNSNT 2938
+                                567889999999999988875245553444599999*****999569*****************9865222799********* PP
+
+  34428_QNDS01000002.1_467 2582 ptfnftvtdnidtnmlcelt.vdgitygqiyadnntitnitanatlsygtlhwnitctdnatnqntsltyli 2652
+                                  +n+t +d   +n+   l+ + g+    iy      t    n tl      +n+t  d a n n + t ++
+          CP010426.1_22646 2939 LFVNWTYSDTNFANFTFTLAnLTGVVNQTIYNT----TAYQINLTLPNTNYSYNLTIRDLANNYNETSTRVV 3006
+                                ********9988888776642678888888843....4455688899999999**********998877655 PP
+
+  == domain 11  score: 13.5 bits;  conditional E-value: 2.1e-06
+  34428_QNDS01000002.1_467 2276 idntppyiafntsttaagnhpq.sfiqvnitahdigsgidlinislynstgglvdsntsgsspfltnftglsdgvyylnatvn 2357
+                                +dn+ p   +++ t a   + q ++  +nit        +l ni+   s   + +    gs  +  nft l+dg y  n t+ 
+          CP010426.1_22646 3008 LDNAIPVPIYDSRTEANNTYVQrNWAFINITLT----ETNLANITYVISNSSFTNITVFGSRTLDINFTNLADGNYTYNVTIR 3086
+                                677777777776666665554423444555543....46899999999999******************************** PP
+
+  34428_QNDS01000002.1_467 2358 dsagnlnhtptrtielnt.lpssi 2380
+                                d a n+n t trti ++t lp  i
+          CP010426.1_22646 3087 DLANNVNSTETRTIVIDTvLPVPI 3110
+                                ****************98445443 PP
+
+  == domain 12  score: 17.2 bits;  conditional E-value: 1.6e-07
+  34428_QNDS01000002.1_467 2312 gidlinislynstgglvdsntsgsspfltnftglsdgvyylnatvndsagnlnhtptrtielntlpssitlisp.adnnwtld 2393
+                                  +l ni+   s   + +    gs  +  nft l+dg y  n t+ d a n+n t tr i +++    i + +    nn  l 
+          CP010426.1_22646 3136 ETNLANITYVISNSSFTNITVFGSRTLDINFTNLADGNYTYNVTIRDLANNVNSTETRLISIDAAVPLIEFGNStEANNTQLR 3218
+                                457889999999999999999*****************************************988777777544044555554 PP
+
+  34428_QNDS01000002.1_467 2394 np...inftfkytggdatencklyidnvladtnastknntntllqaa...gvaegnhtwnvnctnnagnqntsltrniyvdrt 2470
+                                +    in+tf  t   a    +l+ +  l +   s   n    ++ +    + +  +t+nv   + + n+n + tr i +d  
+          CP010426.1_22646 3219 QNwtfINITFTETNV-ANITFRLFNQTSLVNETVSPSTNIIRAINFTnlpNINNIRYTYNVTIVDFSNNENVTETRTIILDNV 3300
+                                331237777776654.55567888888887777776666555554441115667779************************** PP
+
+  34428_QNDS01000002.1_467 2471 kprip.lnsppnntyap.sntptfnft.vidm.......dtnlscelliggagygettalnntpttitanhslpngvhywnit 2543
+                                 p ip l +p n+t+    n+ +f +    d+       + +ls + +   + + +   + ++  t+t n     g hyw + 
+          CP010426.1_22646 3301 LPSIPtLGNPRNDTWQLyDNSTSFGWQdSTDLenstlnyEFQLSNNTVFNNTYFIKNINITQSNYTLTVNEMPSVGRHYWRVR 3383
+                                ****95678889898641566666653234441000000444555555555555555566666779999999999******** PP
+
+  34428_QNDS01000002.1_467 2544 csdelqtntsktwnltvdtikphiqlnlpngtstnnqtptfnftvtdnidtnml....celtvdgitygqiyadnnt..itni 2620
+                                + d  +  +s +  + vd +   i++  pn  s      t++f v +  +tn        +t  g +yg     nn+  +tn 
+          CP010426.1_22646 3384 AYDGTNY-SSYSSLFQVDIVYAVINITSPNYNSIVRILNTYEFKVEEIANTNWTqrvnITFTAAGTSYGPFLMTNNSdpLTNY 3465
+                                *997433.34555678*****************************9999998651211566889*****99988886559*** PP
+
+  34428_QNDS01000002.1_467 2621 tanatlsy...gtlhwnitctdnatnqntsltyliqi.lsptvsmpagwniigltrnrtytaeticqnit 2686
+                                t n t+     g l    t  +++   n++  + i i  +p+v+ p    i       tyt   +  nit
+          CP010426.1_22646 3466 TYNFTIPNvnpGFLTVVATGYNETLSINATSRFRITIpETPAVTRPG---ITDAYSINTYTYPNVSANIT 3532
+                                ***99754222556666666666666666666666662356666664...33344445666666666665 PP
+
+  == domain 13  score: -15.0 bits;  conditional E-value: 7
+  34428_QNDS01000002.1_467 1121 nrtlsasevldsyrikngtyswyvnasdgtnvnkse..vrvftigsintapqitlvspadnstsvslnavinytytdvdneag 1201
+                                  +++ ++  ds  i     s+yvn+s g  +  s   +  +t+  i +   +  ++ ++n t +  n  i+ + + ++ e  
+          CP010426.1_22646 3592 AVSITDTNYPDSAYIAYKNNSFYVNTSRGISLIASGagLNNITLKDIYSRHTLNKLNNSENVTIIPGNYDIKVSTSKIEAELI 3674
+                                45555556667777777777777777777777666511344566666666666667777777777777777777777777777 PP
+
+  34428_QNDS01000002.1_467 1202 ncvlynnsdntaictnnsvangttihcnsgvgaysttftyyvnctdgtdmtkssvwnftteaakislsyhlptetngttistn 1284
+                                n  +y+n    ++c+ + + +  t+   s v +      + ++c + t  + +  +n+t     +++   l      +t s  
+          CP010426.1_22646 3675 NGTIYENP--ITLCSFEDIED--TVDPPSNVRSVD---QFTLDCGNSTYNSVNLTYNYTNIIGSVTFEENLNIYKCDSTSSCS 3750
+                                77777764..45666666543..455555554432...233566666666666666666666666666666666666666666 PP
+
+  34428_QNDS01000002.1_467 1285 hteinhsitisdtsnsldtfrf 1306
+                                    n+s+   dt+n+l   rf
+          CP010426.1_22646 3751 WVRQNKSL---DTTNNLIIARF 3769
+                                66666654...45555544444 PP
+
+>> Ga0222667_1000160_702  [29995 - 33858]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.9   2.6   3.1e-06     0.043    1360    1510 ..      73     224 ..      61     240 .. 0.85
+   2 !   12.7   0.2   3.7e-06     0.051    1503    1563 ..     458     517 ..     447     537 .. 0.78
+   3 !   21.2   9.5     1e-08   0.00014    1380    1540 ..     561     724 ..     522     762 .. 0.73
+   4 !   34.4  11.0   1.1e-12   1.5e-08    1318    1552 ..     731     983 ..     719     992 .. 0.77
+   5 !    8.6   3.8   6.2e-05      0.86    2379    2467 ..    1036    1127 ..     986    1139 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 3.1e-06
+  34428_QNDS01000002.1_467 1360 icgnhsscphyvagrfgqgmsfdgvndyvdcgndsslnitdavtieawikssfsgrrwivskggfdqywievsdsgdksrfyi 1442
+                                  g +s  p  ++g f + +++dg ndyv   nd     ++  ti +wik         v     + + +e+   gd   f i
+     Ga0222667_1000160_702   73 FLGSYSGNPLSLTGLFYRSLNLDG-NDYVTITNDLK---SEDFTICSWIKPENMDADSFVWDTTGNAFSMEIESDGDL-IFQI 150 
+                                67899999***************9.9*******964...5678*******99888888888888899*****999996.6999 PP
+
+  34428_QNDS01000002.1_467 1443 rdgddafhsc.lgttd.....vtdglwhqvvgtydysegyarvyvdgkkqatcdfsgkkmknnptkkvtvgaas 1510
+                                 + ++++h   +  td     +++g+w +v  +yd  +g    y d   + ++ fs +       k   v a s
+     Ga0222667_1000160_702  151 YNEEETYHYLnIRVTDddessIAEGVWTHVCFSYDEQNGNMSYYEDSVLRKSVAFSDEVYTTSNIKAFNVTALS 224 
+                                999999996424444434555899**************************9*****999988888888888766 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 3.7e-06
+  34428_QNDS01000002.1_467 1503 kvtvgaassgaqnfngsidevriydralsadevwlhyqsefqkynateyrfydnltnladg 1563
+                                ++ +g+  sg +nfngsidev ++ ++l+a e+   y++    y +  y   d + n+++g
+     Ga0222667_1000160_702  458 NLKIGSDISGLNNFNGSIDEVMLFKKTLNATEISNLYNNISTIYSSESYLKGD-FFNITEG 517 
+                                56789999**************************9999988888877775443.3344443 PP
+
+  == domain 3  score: 21.2 bits;  conditional E-value: 1e-08
+  34428_QNDS01000002.1_467 1380 sfdgvn.dyvdcgndsslni.tdavtieawikssfsgr.rwivskggfdqywievsdsgdksrfyirdgddafhsclgttdvt 1459
+                                  dg n +y+ + +d  l++ t   +i awik++++g  + i+ k g+d  +     s +k ++ + dg   + s    t + 
+     Ga0222667_1000160_702  561 DKDGTNgNYIKVSDDDRLDVgTGDFSIFAWIKTNMTGVaQHILDKEGIDPRFYFRVTSANKLQLILDDGVTLVDSLYSLTTIP 643 
+                                45888857***********956789***********96379********8776667899****************99988887 PP
+
+  34428_QNDS01000002.1_467 1460 dglwhqvvgtydysegyarvyvdgkkqatc.dfsgkkmknnptkkvtvgaassgaqnfngsidevriydralsadevwlhyq 1540
+                                   w ++    d  +  a  y++g  +    d        +  + +t+g+  s    fngsidev ++ +a+++ +v   y+
+     Ga0222667_1000160_702  644 TDEWVHIGVVID-RDSNATFYLNGVSDGVGlDDVTVLGTLDNNNDITIGSRYSSVSAFNGSIDEVMLFKKAVNSTQVSEIYN 724 
+                                777766544444.456788888887665432333333233334689**************************9988866554 PP
+
+  == domain 4  score: 34.4 bits;  conditional E-value: 1.1e-12
+  34428_QNDS01000002.1_467 1318 iydddlvlalnfnnns..aigdnethvmdi....sqygnngtmh.......ngtq.i.cgnhsscphyvagrfgqgmsfdgvn 1385
+                                 yd+ l     f+nn+  +i dn+  ++      ++y nn   h       n t  i  g  s    y +g++g  + fdgv+
+     Ga0222667_1000160_702  731 FYDNKLAAWWRFENNTedSISDNDGSIFGNvnleTDYTNNLKAHwsaddhaNDTFgInNGTLSGGASYSTGKYGSAFEFDGVE 813 
+                                5777777777777775336888887665321112578888777622222222232121355678899**************** PP
+
+  34428_QNDS01000002.1_467 1386 dyvdcgndsslni.tdavtieawikssfsgr.rwivskggfdqywievsdsgdksrfyirdgd.dafhscl.gttdvtdglwh 1464
+                                  v   +d sl++  +  +i  w++s   g    iv+k g d  w    ++  +  + + dg  + f  c  g+ ++    w+
+     Ga0222667_1000160_702  814 GKVTFADDDSLDVgVEDFAISVWVNSLNVGTyGMIVNKEGTDPRWYVRLNTNGQVGVALDDGSnELFDMCSsGSENLVGTGWR 896 
+                                ************945789********888762689*******99977777777788889998615788886266677777899 PP
+
+  34428_QNDS01000002.1_467 1465 qvvgtydysegyarvyvdgkkqat.cdfsgkkmknnptkkvtvgaassgaqnfngsidevriydralsadevwlhyqsefqky 1546
+                                +++   d  +g    yvd     t +d+s      n ++   +g   s a  fngsid+v i++ +ls+ e    y++ + + 
+     Ga0222667_1000160_702  897 NIIINAD-RDGLLSCYVDNVLYGTpADISSIGNLSN-ANDFLIGQRYSNAYPFNGSIDDVMIFNSTLSSLERKEIYENGLLNI 977 
+                                9998888.589*******998877478887665555.567899******************************99*9999999 PP
+
+  34428_QNDS01000002.1_467 1547 nateyr 1552
+                                n t+y 
+     Ga0222667_1000160_702  978 NQTDYY 983 
+                                999985 PP
+
+  == domain 5  score: 8.6 bits;  conditional E-value: 6.2e-05
+  34428_QNDS01000002.1_467 2379 sitlispadn..nwtldnpinftfkytg.gdatencklyidnv.ladtnastknntntllqaagvaegnhtwnvnctnnagnq 2457
+                                 +tl+sp +   + t    i+f f+ +   +  + c +++++v  a+t   ++ +tn +   + +a g ++w+v c +  gn+
+     Ga0222667_1000160_702 1036 IVTLVSPVEGysETTSSATIDFLFNASDvSNDVDYCAIFLNDVkYANTSVISEIETNNI-SISSIAAGSYSWKVFCNDSIGNE 1117
+                                57899998752156677788888876642456788999998873577777777777765.67789999999999999999999 PP
+
+  34428_QNDS01000002.1_467 2458 ntsltrniyv 2467
+                                  s +rn  +
+     Ga0222667_1000160_702 1118 INSSSRNFTI 1127
+                                9999999765 PP
+
+>> QMYS01000134.1_155  [3006 - 1993] (REVERSE SENSE) Candidatus Thorarchaeota archaeon isolate B59_G1 B59_Guay1_scaffold
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.6  14.5   6.7e-18   9.3e-14    2475    2648 ..      49     219 ..      36     285 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 51.6 bits;  conditional E-value: 6.7e-18
+  34428_QNDS01000002.1_467 2475 plnsppnntyapsntptfnftvid.mdtnlscelliggagygett.alnntpttitanhslpngvhywnitcsdelqtntskt 2555
+                                 l spp+  y+   tp+fnft +    t +sc l i g+gy       nnt t +tan sl +g + w i c+d+  t  s  
+        QMYS01000134.1_155   49 TLTSPPDLNYTNDTTPSFNFTAVSnNATTFSCTLYINGTGYDSNNsVSNNTATILTANTSLSDGQYKWWINCTDN-STSKSPE 130 
+                                689*****************987515799************87651569999*********************98.5777888 PP
+
+  34428_QNDS01000002.1_467 2556 wnltvdtikphiqlnlpngtstnnqtptfnftvtdnidtnm.lceltvdgitygqiyadnntitnitanatlsygtlh.wnit 2636
+                                  +t+dt+ p +    p  +    +t t+++ v+d   tn+  c l   g t      dn   t       l  g  + +   
+        QMYS01000134.1_155  131 RTITIDTVYPSVSYVNPPTSGDAYETVTIKIQVSD---TNLnYCRLVWSGTTET---FDNSNSTHYWETKQLQQGQKYiFYAY 207 
+                                99***********999999999999*****99986...5543799999998864...46666677777777777765425667 PP
+
+  34428_QNDS01000002.1_467 2637 ctdnatnqntsl 2648
+                                c d+  ++nt+ 
+        QMYS01000134.1_155  208 CVDKVGQKNTTS 219 
+                                888888888743 PP
+
+>> JABURA010000001_560  [34538 - 40156] JABURA010000001.1 [Haloterrigena sp. SYSU A121-1 | 2496101.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    4.0   8.7    0.0015        21    1392    1541 ..     176     326 ..     122     335 .. 0.63
+   2 ?   -1.2   2.4     0.057   7.9e+02    1531    1592 ..     449     509 ..     343     572 .. 0.69
+   3 !   26.2  11.1     3e-10   4.2e-06    1372    1539 ..     646     809 ..     636     815 .. 0.78
+   4 !   32.0   4.0   5.7e-12   7.9e-08     337     439 ..     820     921 ..     808     923 .. 0.88
+   5 ?    0.6  14.8     0.016   2.2e+02    1580    1759 ..     912    1088 ..     907    1113 .. 0.72
+   6 !    5.5   5.6   0.00055       7.6     383     469 ..    1340    1433 ..    1322    1444 .. 0.72
+   7 !   14.7  19.6   9.4e-07     0.013    2249    2381 ..    1461    1588 ..    1441    1688 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 4.0 bits;  conditional E-value: 0.0015
+  34428_QNDS01000002.1_467 1392 ndssl.nitdavtieawikssfsgrrwivskggfdqywievsdsgdksrf.yirdgdda.fhsclgttd.....vtdglwhq. 1465
+                                nd s+   t+  t  awik          ++   d+++   sdsg  + f +  +gd   ++   g td     v+ g w++ 
+       JABURA010000001_560  176 NDVSVpTNTEPRTAMAWIKV---------NQQSNDKFFSYGSDSGTATNFdWTVEGDCVkWRYSNGNTDfacneVATGEWFHw 249 
+                                44443123444455555554.........445555555555666655555223344432123334444322222666766422 PP
+
+  34428_QNDS01000002.1_467 1466 .vvgtydys.egyarvyvdgkkqatcdfsgkkmknnptkkvtvgaassgaqnfngsidevriydralsadevwlhyqs 1541
+                                 vv   d s    a vy++g   +t d +     +     + v    s +  f g id+ + yd+ l+ d++  hy+ 
+       JABURA010000001_560  250 aVVVPSDAStVDDATVYINGTAYTTSDSTSIS-TDASDLYIGVRHKGSSTGGFRGYIDDFQFYDQELTQDQIQAHYEG 326 
+                                2555556551678************9976655.4555667888888899999************************75 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 0.057
+  34428_QNDS01000002.1_467 1531 sadevwlhyqsefqkynateyrfydnltnladgeyqhygwandsaggedtsetrfftvdvpa 1592
+                                +ade    ++ +++    t +     +t l+dg+++   +a+d ag  ++s   +ft++v a
+       JABURA010000001_560  449 TADESISTWKYNLDSGGNTTFIPNTSITGLSDGNHDIIVYAEDEAGNTNSS-QEWFTINVSA 509 
+                                344444444444444444444444445555555555555555555444333.3345555544 PP
+
+  == domain 3  score: 26.2 bits;  conditional E-value: 3e-10
+  34428_QNDS01000002.1_467 1372 agrfgqgmsfdgvndyvdcgndsslnitdavtieawikssfs.g.rrwivskggfd..qywievsdsgdksrfyirdgddafh 1450
+                                +g++g+   fdg +dy+d g+ + ++   a t+ awik +   g  + ++ k g d  ++ i v d  d   +y   g d+  
+       JABURA010000001_560  646 TGQVGNAYDFDGSDDYIDMGD-NFIDGWSAATVSAWIKVNTKpGtTHPVIHKRGSDddNFRISVRDDFDLRCYY-DAGGDTHV 726 
+                                6999***************95.67888999********876424145577777765125788888888876555.55555554 PP
+
+  34428_QNDS01000002.1_467 1451 sclgttdvtdglwhqvvgtydysegyarvyvdgkkqatcdfsgkkmknnptkkvtvgaassgaqnfngsidevriydralsad 1533
+                                +  g   +  g w++v  +yd +    r+yvdg  + t   sg  +k+n t++  +   +   + ++  +d++r+y++ +sa 
+       JABURA010000001_560  727 TIDG--GIGAGAWYHVTCSYDGN--KVRLYVDGTLNNTGSESGS-LKDN-TNNFQIAGDTDRDRYVDVEVDDLRVYNQNVSAS 803 
+                                4444..5789******9999865..68*************9997.5666.45566666777889999***************9 PP
+
+  34428_QNDS01000002.1_467 1534 evwlhy 1539
+                                +v   y
+       JABURA010000001_560  804 QVQSLY 809 
+                                997666 PP
+
+  == domain 4  score: 32.0 bits;  conditional E-value: 5.7e-12
+  34428_QNDS01000002.1_467 337 tqglnpgisitlnspvegynst.vqtitfncsysctdssivnvslwgnwsgwhrnetnstltgstgtvkftkslpngeykwncyg 420
+                                qg +p +++tln p +g   t  q+i fn++ +  d+ + nvslw n +g       +t++g+  tv f ++l  g y+w +  
+       JABURA010000001_560 820 QQGTQP-LNVTLNDPADGASFTgKQSIQFNVT-ARDDTQLENVSLWTNETGTWGPRNSTTVSGTEATVTFDRTLDVGHYEWSALT 902
+                               456555.789********98773699****97.56899*************988888899************************* PP
+
+  34428_QNDS01000002.1_467 421 cnnetncsfaannhtfsvd 439
+                                nne++ +++  n+t++v+
+       JABURA010000001_560 903 YNNESQGNWSKTNRTLTVN 921
+                               ***************9986 PP
+
+  == domain 5  score: 0.6 bits;  conditional E-value: 0.016
+  34428_QNDS01000002.1_467 1580 tsetrfftvdvpafsvslnsplddsslgdvipdfnfsv.sgdrstytcelfindsgygrvenwcyqesanestacgglntgty 1661
+                                +   r +tv+  a s+sl+sp d s+  +     nf+      s  t+elfindsg      w  q+      a g ++   +
+       JABURA010000001_560  912 SKTNRTLTVNYEAPSLSLDSPADGSTEANPA-WHNFTPtCNSDSCDTAELFINDSGVSSNFTWKSQNQVASVGADGSIDLADF 993 
+                                4567999****************99877643.34665404456899*****************99999999999999988877 PP
+
+  34428_QNDS01000002.1_467 1662 vntsgwgagvvnvtdg..dw.stagygsilgdylyinyskpags.tsnslwqvkravgaaynlslsagcwnqnplqlrvydns 1740
+                                 +        v  +dg  d+   +  gs   d+    +s  +g    + l  v      +y+l++      +n l++   d s
+       JABURA010000001_560  994 DDDGKID---VAYADGgsDYvEWCEQGSSTTDWTC--HSVASGYnEIEGLEAVDFDGDGTYELAIMDQ--GNNDLDIASQDTS 1069
+                                6654444...3444441232134556777788754..4555554145678888888888898887664..4577899999999 PP
+
+  34428_QNDS01000002.1_467 1741 adagswsfscfdgvgwsvl 1759
+                                  +gsws   +d    +v 
+       JABURA010000001_560 1070 DPTGSWSTVTVDSSANNVQ 1088
+                                9999999998888776664 PP
+
+  == domain 6  score: 5.5 bits;  conditional E-value: 0.00055
+  34428_QNDS01000002.1_467  383 nwsgwhr.netnstltgstgtvkftkslp...ngeykwncygcnnetncsfaannhtfsvdadiie...ptivlnhppnassg 458 
+                                n s w   n t s   g+  ++ f  s     +   +wn    + + + +fa  n t++v+ d  +   p+i + hppna+  
+       JABURA010000001_560 1340 NASDWVAyNSTSSVTDGTENSLLFDYSQNftlDTTRHWNIKLTQSDGQTAFADSNNTITVQEDTTDttpPSITIYHPPNATIS 1422
+                                6677765144444445555666666554311256789***********************87665423289************ PP
+
+  34428_QNDS01000002.1_467  459 nlsyilnatit 469 
+                                + s  ln t  
+       JABURA010000001_560 1423 DSSPWLNVTAD 1433
+                                ***99998753 PP
+
+  == domain 7  score: 14.7 bits;  conditional E-value: 9.4e-07
+  34428_QNDS01000002.1_467 2249 adgtyrmnltncdntsrcsstlignftidntppyiafntsttaagnhpqsfiqvnitahdigsgidlinislynstgglvdsn 2331
+                                ++g++ + +   d      s     ft+d t p +++n s+t +g   + +i vn++a d    +  +   +  s   + d  
+       JABURA010000001_560 1461 SEGAHTVTVYANDTDGNMGS-QSKTFTVDTTDPTVSYNPSSTGSGTIDHDWILVNVSASDNL-ELSTVTEQFDGSNSSFTD-- 1539
+                                55666665555554444444.4568*********************************9843.333344444445555555.. PP
+
+  34428_QNDS01000002.1_467 2332 tsgsspfltnftglsdgvyylnatvndsagnlnhtptrtielntlpssit 2381
+                                 s s  + tn tgl+dg y ++    d+agn + t  r i ++t  s   
+       JABURA010000001_560 1540 -SDSGNYWTNHTGLADGTYTVKGFAADNAGNTDSTNEREITVDTSSSDSD 1588
+                                .56788************************************99877543 PP
+
+>> LKMP01000007.1_770  [38841 - 39920] Nanohaloarchaea archaeon B1-Br10_U2g21 LB-BRINE-C121, whole genome shotgun sequen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4  10.2   2.2e-09   3.1e-05    1291    1539 ..     109     354 ..      50     358 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 2.2e-09
+  34428_QNDS01000002.1_467 1291 sitisdtsnsldt.frfnisgarnvssi.iydddlvlalnfnnnsaigdnethvmdisqygnngtmhngtqicgnhsscp.h. 1369
+                                 i  s+ sn ld  ++++ +   n+++       l l  nfnn + i +       + q    g          nh     h 
+        LKMP01000007.1_770  109 GINPSEDSNMLDVeVKYDSNNLDNLTTTgTVTGTLDLDENFNNRTLIMNGLKGYWPLDQVYTSGETVYDISENQNHGEKEdHe 191 
+                                46667777777753566666666665542456678889999999999998888888888666665555555566776543132 PP
+
+  34428_QNDS01000002.1_467 1370 yvagrfgqgmsfdgvndyvdcgndsslnitda..vtieawikssfsgrrwivskggfdqywievsdsgdksrfyirdgddafh 1450
+                                +  g +g  + +dg ++y+    d+s  ++da   ti  w  ++f           +d+  i v       r  ir+g  ++ 
+        LKMP01000007.1_770  192 WGDGVYGMALELDGEDNYLKLSSDTSQVVSDAgeYTITFWSFANFDDTGTYHQIDLLDNANIMVRVR--DQRQSIRQGGTSYD 272 
+                                678999*************************95569*********9988888888899888887654..45788999999999 PP
+
+  34428_QNDS01000002.1_467 1451 sclgttdvtdglwhqvvgtydysegyarvyvdgkkqatcdfsgkkmknnptkkvtvgaassgaqnfngsidevriydralsad 1533
+                                s     d     w  v+ t  ++    r y +g+ q++ d     + ++ ++      ass  + ++g idevr+ydrals d
+        LKMP01000007.1_770  273 SQW---DFPVNEW--VMTTMTWNGSTIRTYKNGQFQTAIDDV--SLGQQGAHDAIGHRASSSDRHWDGKIDEVRVYDRALSQD 348 
+                                865...5555556..77888888889*********9998854..4556667777777899999******************** PP
+
+  34428_QNDS01000002.1_467 1534 evwlhy 1539
+                                ev   y
+        LKMP01000007.1_770  349 EVETIY 354 
+                                *98777 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (2819 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       689  (0.00712786); expected 1933.3 (0.02)
+Passed bias filter:                      409  (0.00423119); expected 1933.3 (0.02)
+Passed Vit filter:                        32  (0.000331047); expected 96.7 (0.001)
+Passed Fwd filter:                         7  (7.24165e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 1.27u 0.14s 00:00:01.41 Elapsed: 00:00:00.62
+# Mc/sec: 16808.86
+//
+[ok]

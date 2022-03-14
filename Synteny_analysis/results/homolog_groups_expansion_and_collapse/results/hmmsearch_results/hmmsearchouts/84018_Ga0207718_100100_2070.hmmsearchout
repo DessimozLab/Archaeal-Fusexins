@@ -1,0 +1,86 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/84018_Ga0207718_100100_2070.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/84018_Ga0207718_100100_2070.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/84018_Ga0207718_100100_2070.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/84018_Ga0207718_100100_2070.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       84018_Ga0207718_100100_2070  [M=158]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    2.6e-88  296.3  28.7    2.9e-88  296.1  28.7    1.0  1  JGI12330J12834_1000008_2152  [55617 - 55144] (REVERSE SENSE)
+    1.5e-72  245.1  30.2    1.7e-72  244.9  30.2    1.0  1  Ga0207718_100100_2070        [49494 - 49045] (REVERSE SENSE)
+     0.0079   18.5   2.3     0.0087   18.4   2.3    1.1  1  ATYM01000002_528             [33796 - 33996] Haloplanus natan
+
+
+Domain annotation for each sequence (and alignments):
+>> JGI12330J12834_1000008_2152  [55617 - 55144] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  296.1  28.7   8.9e-93   2.9e-88       1     158 []       1     158 []       1     158 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 296.1 bits;  conditional E-value: 8.9e-93
+  84018_Ga0207718_100100_2070   1 msrerwlesvpgsrggsrrryrrrpvfllrvcrllskkvlGtalrilrrqvGwsrrvprsilGrtlGrkassirdlrvlvfl 82 
+                                  msrerw+esvpgsrggsrrryrrrpvf+++vc+llsk+++Gt+lrilr+++Gwsrrvprs+lGrtlG++++s+rdl+v+vfl
+  JGI12330J12834_1000008_2152   1 MSRERWMESVPGSRGGSRRRYRRRPVFPAPVCPLLSKRGRGTGLRILRCPAGWSRRVPRSALGRTLGQIRCSSRDLGVPVFL 82 
+                                  9********************************************************************************* PP
+
+  84018_Ga0207718_100100_2070  83 prvadrrspGvvlwGrrGraaryrlaaarllgrywrellllvlvctcrsvGvlvlrlfrGsGirGrGtvlspelrs 158
+                                  prva+rrspGv+lwGrrGraary+laaarll+r+w+ellllvlvctcrsvG+lv+rlfrGsGirGrGtvlsp+lrs
+  JGI12330J12834_1000008_2152  83 PRVAGRRSPGVFLWGRRGRAARYHLAAARLLCRGWPELLLLVLVCTCRSVGGLVRRLFRGSGIRGRGTVLSPALRS 158
+                                  **************************************************************************97 PP
+
+>> Ga0207718_100100_2070  [49494 - 49045] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  244.9  30.2   5.2e-77   1.7e-72      24     158 .]       2     136 ..       1     136 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 244.9 bits;  conditional E-value: 5.2e-77
+  84018_Ga0207718_100100_2070  24 rpvfllrvcrllskkvlGtalrilrrqvGwsrrvprsilGrtlGrkassirdlrvlvflprvadrrspGvvlwGrrGraary 105
+                                   p+fllr+crl+++kvlGta+r++rrqvGwsrr++rsilG+t+Grkas+ir++rvlv+lpr+adrrspG+vlwGrrG+a+++
+        Ga0207718_100100_2070   2 TPGFLLRGCRLRWRKVLGTAVRSHRRQVGWSRREHRSILGQTRGRKASGIRGPRVLVCLPRAADRRSPGAVLWGRRGPASTH 83 
+                                  59******************************************************************************** PP
+
+  84018_Ga0207718_100100_2070 106 rlaaarllgrywrellllvlvctcrsvGvlvlrlfrGsGirGrGtvlspelrs 158
+                                  r+a+arl+grywr++l++++vctcrsvGvlvlrlfrG+G+rGrGt+lspe+r+
+        Ga0207718_100100_2070  84 RPAGARLPGRYWRVRLRRAPVCTCRSVGVLVLRLFRGTGTRGRGTRLSPERRC 136
+                                  ****************************************************9 PP
+
+>> ATYM01000002_528  [33796 - 33996] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequenc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   2.3   2.7e-07    0.0087      83     131 ..       8      57 ..       2      66 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 2.7e-07
+  84018_Ga0207718_100100_2070  83 prvadrrspGvvlwGrrGraaryrlaaarll.grywrellllvlvctcrs 131
+                                   r+++     v++ G rG+a++ ++  + l  +  w+ lll+++ c  r 
+             ATYM01000002_528   8 SRASGMCILSVLVLGHRGPASTGHPLRTCLRcCCSWPGLLLRAPACIERN 57 
+                                  5677777778999*********9999888862579***********8875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (158 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      3024  (0.0312839); expected 1933.3 (0.02)
+Passed bias filter:                      709  (0.00733476); expected 1933.3 (0.02)
+Passed Vit filter:                        41  (0.000424154); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 11682.12
+//
+[ok]

@@ -1,0 +1,110 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/91178_Ga0222658_1000332_45.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/91178_Ga0222658_1000332_45.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/91178_Ga0222658_1000332_45.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/91178_Ga0222658_1000332_45.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       91178_Ga0222658_1000332_45  [M=70]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.6e-49  168.6  14.7    1.7e-49  168.5  14.7    1.0  1  Ga0222658_1000332_45    [2218 - 2427]
+    1.6e-49  168.6  14.7    1.7e-49  168.5  14.7    1.0  1  Ga0222667_1000160_1294  [13929 - 13720] (REVERSE SENSE)
+    1.2e-06   31.2  12.9    5.1e-05   26.0  12.9    2.5  1  Ga0075120_10000694_187  [11494 - 11730]
+    5.8e-05   25.8   3.4    0.00043   23.0   0.2    2.2  2  JAADFW010000227.1_544   [8705 - 8436] (REVERSE SENSE) Chlorob
+  ------ inclusion threshold ------
+        1.2   11.9   9.3        8.1    9.3   9.3    2.1  1  Ga0075122_10000827_154  [10608 - 10832]
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0222658_1000332_45  [2218 - 2427]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.5  14.7   8.8e-54   1.7e-49       1      70 []       1      70 []       1      70 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 168.5 bits;  conditional E-value: 8.8e-54
+  91178_Ga0222658_1000332_45  1 mksynplkmwgsyvgaavigfwaysigtlcwiwgsciysrlvilwiigvglgfligwaihsffraltkvn 70
+                                mksynplkmwgsyvgaavigfwaysigtlcwiwgsciysrlvilwiigvglgfligwaihsffraltkvn
+        Ga0222658_1000332_45  1 MKSYNPLKMWGSYVGAAVIGFWAYSIGTLCWIWGSCIYSRLVILWIIGVGLGFLIGWAIHSFFRALTKVN 70
+                                9********************************************************************8 PP
+
+>> Ga0222667_1000160_1294  [13929 - 13720] (REVERSE SENSE)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.5  14.7   8.8e-54   1.7e-49       1      70 []       1      70 []       1      70 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 168.5 bits;  conditional E-value: 8.8e-54
+  91178_Ga0222658_1000332_45  1 mksynplkmwgsyvgaavigfwaysigtlcwiwgsciysrlvilwiigvglgfligwaihsffraltkvn 70
+                                mksynplkmwgsyvgaavigfwaysigtlcwiwgsciysrlvilwiigvglgfligwaihsffraltkvn
+      Ga0222667_1000160_1294  1 MKSYNPLKMWGSYVGAAVIGFWAYSIGTLCWIWGSCIYSRLVILWIIGVGLGFLIGWAIHSFFRALTKVN 70
+                                9********************************************************************8 PP
+
+>> Ga0075120_10000694_187  [11494 - 11730]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0  12.9   2.6e-09   5.1e-05       2      67 ..       4      78 ..       3      79 .] 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 2.6e-09
+  91178_Ga0222658_1000332_45  2 ksynplkmwgsyvgaavi..........gfwaysigtlcwiwgsc...iysrlvilwiigvglgfligwaihsffralt 67
+                                k ynp+kmwgsyvga ++          g++ +   t+   w       ys +++l    +  gfl+gw i+s+fr + 
+      Ga0075120_10000694_187  4 KNYNPFKMWGSYVGAIIMwmggstllgmGYYNFFYLTMWQQWFNFpawDYS-FILLS---IITGFLVGWGIYSLFRRFK 78
+                                89************9875333222222244444444554444332100233.33444...4469************876 PP
+
+>> JAADFW010000227.1_544  [8705 - 8436] (REVERSE SENSE) Chlorobi bacterium isolate M_MaxBin.088 contig-127_5253, whole g
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.0   0.2   2.2e-08   0.00043       2      24 ..       4      25 ..       3      45 .. 0.78
+   2 ?    3.9   0.3      0.02   3.9e+02      44      62 ..      70      85 ..      52      89 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 23.0 bits;  conditional E-value: 2.2e-08
+  91178_Ga0222658_1000332_45  2 ksynplkmwgsyvgaavigfway 24
+                                k ynp+kmwgs++ga+v g++ y
+       JAADFW010000227.1_544  4 KNYNPFKMWGSWMGASV-GLYIY 25
+                                89************986.77766 PP
+
+  == domain 2  score: 3.9 bits;  conditional E-value: 0.02
+  91178_Ga0222658_1000332_45 44 lwiigvglgfligwaihsf 62
+                                l iig    f+igw +  +
+       JAADFW010000227.1_544 70 LIIIG---FFMIGWGLGLL 85
+                                33333...26677765544 PP
+
+>> Ga0075122_10000827_154  [10608 - 10832]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.3   9.3   0.00042       8.1       2      58 ..       4      68 ..       3      74 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 9.3 bits;  conditional E-value: 0.00042
+  91178_Ga0222658_1000332_45  2 ksynplkmwgsyvgaav..igfwaysigtlcw....iwgsci......ysrlvilwiigvglgfligwa 58
+                                k  np+km g y+ga v  i +    +g + +    iw  ++      ys ++++    v +gfligw 
+      Ga0075122_10000827_154  4 KMKNPFKMKGGYIGALVgwISLLILPLGYFNFffltIWQNVLglpsvgYSAILLV----VIIGFLIGWF 68
+                                667***********97755555555555543322236655441111115544444....4568999995 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (70 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                      1910  (0.0197594); expected 1933.3 (0.02)
+Passed bias filter:                      856  (0.00885551); expected 1933.3 (0.02)
+Passed Vit filter:                        59  (0.000610368); expected 96.7 (0.001)
+Passed Fwd filter:                         5  (5.17261e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.15u 0.01s 00:00:00.16 Elapsed: 00:00:00.06
+# Mc/sec: 4313.02
+//
+[ok]

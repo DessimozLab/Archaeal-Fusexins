@@ -1,0 +1,28 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP010426.1_5430        -            673 52581_CP058579_1139  -            655  2.5e-228  762.2   0.0   1   1  3.6e-232  3.1e-228  761.8   0.0     5   646     7   664     3   672 0.95 [286641 - 288659] Archaeon GW2011_AR20 chromosome, complete genome
+Ga0208375_1000150_460  -           1177 52581_CP058579_1139  -            655  1.4e-138  465.6   7.0   1   1  2.4e-142  2.1e-138  465.0   7.0     7   646     8  1168     2  1176 0.95 [27224 - 30754]
+ATYM01000002_1444      -            764 52581_CP058579_1139  -            655  5.2e-122  410.9   8.3   1   2      0.33   2.9e+03   -1.3   1.0   595   648    21    73     3    98 0.58 [93031 - 95322] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence.   [Haloplanus natans DSM 17983 | 926690.3]
+ATYM01000002_1444      -            764 52581_CP058579_1139  -            655  5.2e-122  410.9   8.3   2   2  5.9e-126  5.2e-122  410.9   8.3    17   651   112   760    88   764 0.84 [93031 - 95322] Haloplanus natans DSM 17983 HALNADRAFT_scaffold1.1_C2, whole genome shotgun sequence.   [Haloplanus natans DSM 17983 | 926690.3]
+CP058579_1139          -            750 52581_CP058579_1139  -            655  2.8e-113  382.0   9.7   1   1  4.4e-117  3.8e-113  381.6   9.7     7   646    97   741    70   749 0.85 [81012 - 83261] [Halobonum sp. NJ-3-1 | 2743089.3]
+Ga0208375_1000150_2562 -            289 52581_CP058579_1139  -            655   1.3e-29  105.6   0.0   1   1   4.3e-32   3.8e-28  100.7   0.0   267   572     8   285     1   289 0.80 [81054 - 80188] (REVERSE SENSE)
+CP010426.1_4480        -            626 52581_CP058579_1139  -            655   6.2e-07   30.6   0.1   1   3   1.7e-05      0.15   12.8   0.0   304   336    37    69    19    75 0.84 [236653 - 238530] Archaeon GW2011_AR20 chromosome, complete genome
+CP010426.1_4480        -            626 52581_CP058579_1139  -            655   6.2e-07   30.6   0.1   2   3    0.0013        12    6.6   0.0   365   404   223   262   214   266 0.91 [236653 - 238530] Archaeon GW2011_AR20 chromosome, complete genome
+CP010426.1_4480        -            626 52581_CP058579_1139  -            655   6.2e-07   30.6   0.1   3   3   0.00069       6.1    7.5   0.1   505   582   341   419   290   544 0.77 [236653 - 238530] Archaeon GW2011_AR20 chromosome, complete genome
+CP058579_2810          -             79 52581_CP058579_1139  -            655     0.086   13.6   0.4   1   1   1.2e-05       0.1   13.4   0.4   118   170     5    61     2    67 0.79 [139403 - 139167] (REVERSE SENSE) [Halobonum sp. NJ-3-1 | 2743089.3]
+Ga0075122_10000827_135 -            372 52581_CP058579_1139  -            655      0.19   12.5   0.5   1   2   8.4e-05      0.74   10.5   0.0   250   332     7    89     2    98 0.80 [8685 - 9800]
+Ga0075122_10000827_135 -            372 52581_CP058579_1139  -            655      0.19   12.5   0.5   2   2       0.2   1.7e+03   -0.6   0.4   557   593   304   339   190   370 0.65 [8685 - 9800]
+CP010426.1_29976       -             56 52581_CP058579_1139  -            655      0.29   11.9   0.2   1   1   3.6e-05      0.31   11.8   0.2   119   153    11    39     7    53 0.77 [105557 - 105390] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+CP010426.1_23654       -             52 52581_CP058579_1139  -            655       0.3   11.8   0.7   1   1   3.3e-05      0.29   11.9   0.7   115   160     8    48     3    52 0.74 [430052 - 429897] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+CP048739_219           -            111 52581_CP058579_1139  -            655      0.86   10.3   0.1   1   1    0.0001      0.91   10.3   0.1   107   159    24    78    19   106 0.74 [13816 - 14148] [Halogeometricum borinquense strain wsp4 | 60847.21]
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/52581_CP058579_1139.hmm
+# Target file:     ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# Option settings: hmmsearch -o ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/52581_CP058579_1139.hmmsearchout --tblout ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/52581_CP058579_1139.tblout --domtblout ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/52581_CP058579_1139.domtblout --cpu 3 ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/52581_CP058579_1139.hmm ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa 
+# Current dir:     /media3/mauri/fusexins/analysis_mobile_elements_with_MAGs_and_Halovivax/scripts
+# Date:            Tue Aug 10 16:15:17 2021
+# [ok]

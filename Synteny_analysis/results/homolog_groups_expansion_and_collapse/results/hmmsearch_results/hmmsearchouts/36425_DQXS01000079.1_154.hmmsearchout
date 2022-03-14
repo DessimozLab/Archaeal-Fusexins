@@ -1,0 +1,83 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/36425_DQXS01000079.1_154.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/36425_DQXS01000079.1_154.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/36425_DQXS01000079.1_154.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/36425_DQXS01000079.1_154.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       36425_DQXS01000079.1_154  [M=268]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    2.6e-80  272.2   0.6      3e-80  272.0   0.6    1.0  1  DQXS01000079.1_154      [8195 - 8995] TPA_asm: Candidatus Alt
+    2.6e-80  272.2   0.6      3e-80  272.0   0.6    1.0  1  Ga0116200_10000074_154  [8195 - 8995]
+
+
+Domain annotation for each sequence (and alignments):
+>> DQXS01000079.1_154  [8195 - 8995] TPA_asm: Candidatus Altiarchaeales archaeon isolate HyVt-139 Ga0116200_10000074, wh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  272.0   0.6   6.2e-85     3e-80      21     241 ..      46     266 ..      11     267 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 272.0 bits;  conditional E-value: 6.2e-85
+  36425_DQXS01000079.1_154  21 r......gtnileedWdvLiiLDacRyDlfeevaeeyeldgelekvvSkgsstkewleknFegkelkdtvyvsanpfvsk..lee 97 
+                               +      g++++ee+Wd+Li+LDacRyD+fe+v+   ++dg+lek++S gs+t+ewl+knF +  ++d+vy+sanp++s+  + +
+        DQXS01000079.1_154  46 KikgnrdGVKVIEEEWDYLIVLDACRYDYFEKVN---RIDGKLEKRISLGSNTPEWLKKNF-DGYYDDVVYISANPHISNyeV-R 125
+                               023334599*************************...69**********************.678*************86333.2 PP
+
+  36425_DQXS01000079.1_154  98 ...akeefhkvievwkegwdeelgtvpPekvteaaieaaekypdkrlivHylqPHaPyigekgkelekkevweklkrgelskeel 179
+                                   +++f kv+++w ++wd+ l+ v+P++vt++a+++++ky  kr+i+HylqPH+Pyi +   ++    + + ++ g++s eel
+        DQXS01000079.1_154 126 gfrGTDHFWKVENLWYYDWDNVLESVHPRRVTKKALRTIRKYYGKRFIIHYLQPHQPYILSP--KV----THSLVRIGKISIEEL 204
+                               456779*****************************************************852..22....12456779******* PP
+
+  36425_DQXS01000079.1_154 180 reaYeenLrlvleeveklleeldgkvviTaDHGellGEkglygHpeglelpelreVPwleve 241
+                               r+aY enL lv +evekl++ l+gk+viTaDHG+llGEk + gHp g++++el+eVPwl+ve
+        DQXS01000079.1_154 205 RKAYMENLILVHNEVEKLVNVLEGKIVITADHGQLLGEKFEIGHPLGVYFKELVEVPWLVVE 266
+                               ************************************************************96 PP
+
+>> Ga0116200_10000074_154  [8195 - 8995]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  272.0   0.6   6.2e-85     3e-80      21     241 ..      46     266 ..      11     267 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 272.0 bits;  conditional E-value: 6.2e-85
+  36425_DQXS01000079.1_154  21 r......gtnileedWdvLiiLDacRyDlfeevaeeyeldgelekvvSkgsstkewleknFegkelkdtvyvsanpfvsk..lee 97 
+                               +      g++++ee+Wd+Li+LDacRyD+fe+v+   ++dg+lek++S gs+t+ewl+knF +  ++d+vy+sanp++s+  + +
+    Ga0116200_10000074_154  46 KikgnrdGVKVIEEEWDYLIVLDACRYDYFEKVN---RIDGKLEKRISLGSNTPEWLKKNF-DGYYDDVVYISANPHISNyeV-R 125
+                               023334599*************************...69**********************.678*************86333.2 PP
+
+  36425_DQXS01000079.1_154  98 ...akeefhkvievwkegwdeelgtvpPekvteaaieaaekypdkrlivHylqPHaPyigekgkelekkevweklkrgelskeel 179
+                                   +++f kv+++w ++wd+ l+ v+P++vt++a+++++ky  kr+i+HylqPH+Pyi +   ++    + + ++ g++s eel
+    Ga0116200_10000074_154 126 gfrGTDHFWKVENLWYYDWDNVLESVHPRRVTKKALRTIRKYYGKRFIIHYLQPHQPYILSP--KV----THSLVRIGKISIEEL 204
+                               456779*****************************************************852..22....12456779******* PP
+
+  36425_DQXS01000079.1_154 180 reaYeenLrlvleeveklleeldgkvviTaDHGellGEkglygHpeglelpelreVPwleve 241
+                               r+aY enL lv +evekl++ l+gk+viTaDHG+llGEk + gHp g++++el+eVPwl+ve
+    Ga0116200_10000074_154 205 RKAYMENLILVHNEVEKLVNVLEGKIVITADHGQLLGEKFEIGHPLGVYFKELVEVPWLVVE 266
+                               ************************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (268 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       634  (0.00655887); expected 1933.3 (0.02)
+Passed bias filter:                      495  (0.00512088); expected 1933.3 (0.02)
+Passed Vit filter:                        41  (0.000424154); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.05
+# Mc/sec: 19815.25
+//
+[ok]

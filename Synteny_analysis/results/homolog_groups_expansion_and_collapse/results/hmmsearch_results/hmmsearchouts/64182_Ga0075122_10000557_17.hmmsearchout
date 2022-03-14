@@ -1,0 +1,113 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/64182_Ga0075122_10000557_17.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/64182_Ga0075122_10000557_17.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/64182_Ga0075122_10000557_17.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/64182_Ga0075122_10000557_17.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       64182_Ga0075122_10000557_17  [M=221]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    8.8e-92  309.0   6.6    9.8e-92  308.8   6.6    1.0  1  Ga0222667_1000160_732  [35283 - 35903]
+    4.2e-90  303.5  10.4    4.7e-90  303.3  10.4    1.0  1  Ga0075122_10000557_17  [509 - 1129]
+    2.4e-09   39.4  10.2    2.4e-09   39.4  10.2    2.2  2  CP010426.1_30874       [61357 - 59963] (REVERSE SENSE) Archae
+
+
+Domain annotation for each sequence (and alignments):
+>> Ga0222667_1000160_732  [35283 - 35903]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  308.8   6.6     3e-96   9.8e-92      10     220 ..       1     207 []       1     207 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 308.8 bits;  conditional E-value: 3e-96
+  64182_Ga0075122_10000557_17  10 veikinkreelvikynhklkkeeeykvekklsy.sivivkkPdketkGfssrtedgkfvlllDyDnvkkeevkedvefliee 90 
+                                  +e+kink++el++k  hklk++e+ykv+k++s+ +i+i++kP +++kGfs++te+++++++ DyDnv+k++v ed+e+l+++
+        Ga0222667_1000160_732   1 MEVKINKNGELIVK--HKLKRNETYKVSKTASFqTISIYRKP-QQVKGFSNCTEFSRYIFTGDYDNVNKDIVLEDAEYLQQK 79 
+                                  79************..**************************.*************************************** PP
+
+  64182_Ga0075122_10000557_17  91 fdLpvlYiFetkeeivlgekvgnYhviclaklrleeileiisetsaDeafknlpklskyrswvLRilpkgkrgkPkFkgivg 172
+                                  +dLp +Y+F+tkeeivlgek+gnYh+++la++++e+i+eii+e+++De++k+++++s+yrsw+LR+++kgkrg+P+F+g+vg
+        Ga0222667_1000160_732  80 YDLPLFYLFTTKEEIVLGEKRGNYHLVNLAIHSYEDIKEIIKEIRGDEKYKTMNTRSPYRSWILRLSGKGKRGRPRFVGVVG 161
+                                  ********************************************************************************** PP
+
+  64182_Ga0075122_10000557_17 173 dilkvldqeistahkelisklypkikkvkYkkeDglkkvklqeYetks 220
+                                   +l++ld++is+ah+eliskly ki++++Y+k+Dg+++vk+q+Yetk+
+        Ga0222667_1000160_732 162 -ELENLDRKISLAHLELISKLY-KIPEIEYSKNDGGRIVKMQIYETKG 207
+                                  .9********************.***********************95 PP
+
+>> Ga0075122_10000557_17  [509 - 1129]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  303.3  10.4   1.4e-94   4.7e-90       9     219 ..       2     207 .]       1     207 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 303.3 bits;  conditional E-value: 1.4e-94
+  64182_Ga0075122_10000557_17   9 G.veikinkreelvikynhklkkeeeykvekklsy.sivivkkPdketkGfssrtedgkfvlllDyDnvkkeevkedvefli 88 
+                                  G ++ik+ k++elv++  hklkk+e+yk++kk++y +++i+kkP +++kGfss+tedg+++ll+DyD+v++++v+edv++++
+        Ga0075122_10000557_17   2 GrMDIKV-KGGELVLR--HKLKKNETYKIQKKDKYeAVYIFKKP-QICKGFSSKTEDGHHILLMDYDEVDYSVVQEDVRLVQ 79 
+                                  779****.********..**************************.************************************* PP
+
+  64182_Ga0075122_10000557_17  89 eefdLpvlYiFetkeeivlgekvgnYhviclaklrleeileiisetsaDeafknlpklskyrswvLRilpkgkrgkPkFkgi 170
+                                  eef+Lp++YiF+tkee    + vgnYh+i+l+k+++eeil+++s++s+De+f+++p++skyrswvLRi++k++r+kPkFk+i
+        Ga0075122_10000557_17  80 EEFGLPSAYIFYTKEE----KGVGNYHAIFLSKHTPEEILKYLSYCSVDENFIDSPMRSKYRSWVLRIGAKRGRNKPKFKEI 157
+                                  ****************....9************************************************************* PP
+
+  64182_Ga0075122_10000557_17 171 vg.dilkvldqeistahkelisklypkikkvkYkkeDglkkvklqeYetk 219
+                                  ++ di++++d+eistahk+l++++ypkik+++Yk eD+lkkvk+qeYet+
+        Ga0075122_10000557_17 158 LNiDIIQLSDYEISTAHKDLLTRIYPKIKHPTYKLEDNLKKVKIQEYETR 207
+                                  *************************************************7 PP
+
+>> CP010426.1_30874  [61357 - 59963] (REVERSE SENSE) Archaeon GW2011_AR20 chromosome, complete genome
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   0.4      0.33   1.1e+04      10      39 ..     169     196 ..     160     207 .. 0.69
+   2 !   39.4  10.2   7.5e-14   2.4e-09      52     210 ..     291     438 ..     268     446 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 0.33
+  64182_Ga0075122_10000557_17  10 veikinkreelvikynhklkkeeeykvekk 39 
+                                   ++ ++++ +  ik    +k+e+ yk ++k
+             CP010426.1_30874 169 FHVFFKDKTKINIK--DPIKRELYYKEKRK 196
+                                  55556566666666..67888888887544 PP
+
+  == domain 2  score: 39.4 bits;  conditional E-value: 7.5e-14
+  64182_Ga0075122_10000557_17  52 ketkGfssrte..dgkfvlllDyDnvkkeevkedveflieefdLpvlYiFetkeeivlgekvgnYhviclaklrleeileii 131
+                                   +++ +s+++   + ++v++l y n  + +v ed++ l+++f+L ++Y+F+t       e +++Y ++cl+  +   +++i+
+             CP010426.1_30874 291 YDAYFISNKVLglKDRYVVFLRYKNEIFPKVVEDIKNLQKKFNLNDAYLFKT-------ESKDEYFALCLKTVQKNKLIKIL 365
+                                  5566677776511468************************************.......678******************** PP
+
+  64182_Ga0075122_10000557_17 132 setsaDeafknlpklskyrswvLRilpk....gkr.gkPkFkgivgdilkvldqeistahkelisklypkikkvkYkkeDgl 208
+                                  ++  a ++        +++   LRi++k     k  + P + + ++  ++ +d +is ah++++  +   +k  +Yk+  g 
+             CP010426.1_30874 366 KNSLAINK-------NNFNDQFLRISSKyydeSKIaKPPIYIKTIN--SDSNDSHISNAHLKFL--IDKGMKVYRYKNLHGN 436
+                                  98665332.......3456667888887333223314466778888..999*************..8888999999988776 PP
+
+  64182_Ga0075122_10000557_17 209 kk 210
+                                  ++
+             CP010426.1_30874 437 TE 438
+                                  65 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (221 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       856  (0.00885551); expected 1933.3 (0.02)
+Passed bias filter:                      471  (0.0048726); expected 1933.3 (0.02)
+Passed Vit filter:                        24  (0.000248285); expected 96.7 (0.001)
+Passed Fwd filter:                         3  (3.10357e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.15u 0.00s 00:00:00.15 Elapsed: 00:00:00.06
+# Mc/sec: 13616.82
+//
+[ok]

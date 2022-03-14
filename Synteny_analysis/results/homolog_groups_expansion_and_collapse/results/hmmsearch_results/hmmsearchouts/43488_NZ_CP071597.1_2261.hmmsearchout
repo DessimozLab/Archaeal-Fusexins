@@ -1,0 +1,93 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../results/trying_to_catch_homologs/results/homolog_groups_HMMs/43488_NZ_CP071597.1_2261.hmm
+# target sequence database:        ../results/trying_to_catch_homologs/data/all_predicted_orfs.faa
+# output directed to file:         ../results/trying_to_catch_homologs/results/hmmsearch_results/hmmsearchouts/43488_NZ_CP071597.1_2261.hmmsearchout
+# per-seq hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/tblouts/43488_NZ_CP071597.1_2261.tblout
+# per-dom hits tabular output:     ../results/trying_to_catch_homologs/results/hmmsearch_results/domtblouts/43488_NZ_CP071597.1_2261.domtblout
+# number of worker threads:        3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       43488_NZ_CP071597.1_2261  [M=306]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+   7.6e-185  615.3   5.6     9e-185  615.0   5.6    1.0  1  CP058579_4490       [23152 - 22151] (REVERSE SENSE) [Halobonu
+   6.6e-178  592.5   1.5   7.4e-178  592.3   1.5    1.0  1  NZ_CP071597.1_2261  [43827 - 42889] (REVERSE SENSE) Halovivax
+
+
+Domain annotation for each sequence (and alignments):
+>> CP058579_4490  [23152 - 22151] (REVERSE SENSE) [Halobonum sp. NJ-3-1 | 2743089.3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  615.0   5.6  1.9e-189    9e-185       2     306 .]      30     334 .]      29     334 .] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 615.0 bits;  conditional E-value: 1.9e-189
+  43488_NZ_CP071597.1_2261   2 vvqltndklltveavttkeivdrkhmtpdysrktalsrraviagiaalssvsvagraessatrasltrptlpdlfaespwetvdl 86 
+                               +v+ltnd++lt+++vt++eivdrkhmtp+ys+kta+srraviagiaalss+svagraessatrasltrptlpdlfaespwetvd+
+             CP058579_4490  30 AVCLTNDSCLTYPYVTPGEIVDRKHMTPNYSNKTAMSRRAVIAGIAALSSFSVAGRAESSATRASLTRPTLPDLFAESPWETVDY 114
+                               69*********************************************************************************** PP
+
+  43488_NZ_CP071597.1_2261  87 ekqdnndvawiGaslqnaalrekvkddlGvdvplwrlyawtlqtirsekyidytseeddsGislidslllgiGpGaveidldeia 171
+                               ekqdnndvawiGas+q+a+lrekvkddlGvdvp+wrlyawtlqt+rse+yid+tseeddsG+s+idsll+g+GpGaveidld+ia
+             CP058579_4490 115 EKQDNNDVAWIGASSQHAGLREKVKDDLGVDVPQWRLYAWTLQTMRSEAYIDFTSEEDDSGMSVIDSLLVGYGPGAVEIDLDDIA 199
+                               ************************************************************************************* PP
+
+  43488_NZ_CP071597.1_2261 172 qfledkaesvvsatalelfsdqlesdypfsdidlcsGlyeeel.lscrrndvsysnaeailedeftlsaeftaeteddefeieyr 255
+                               +++e kae++v+atale+fsdqle+dypf+d+dlc+Glye+e+ ++crrnd+sysnaea++edeftlsaeftaetedd+f+i+yr
+             CP058579_4490 200 NHRE-KAETIVGATALEVFSDQLETDYPFTDADLCTGLYESEWgTTCRRNDISYSNAEATIEDEFTLSAEFTAETEDDDFVIDYR 283
+                               ****.******************************************************************************** PP
+
+  43488_NZ_CP071597.1_2261 256 allvvqtydrGksyiaaGvvypeemeeewldeyefdedfigdsrdflkavk 306
+                               allvvqtydrG++yia+G+vypeemee+wldeyefd+dfigdsr+f+kav+
+             CP058579_4490 284 ALLVVQTYDRGQTYIATGAVYPEEMEEGWLDEYEFDQDFIGDSRAFMKAVR 334
+                               *************************************************97 PP
+
+>> NZ_CP071597.1_2261  [43827 - 42889] (REVERSE SENSE) Halovivax sp. KZCA124 chromosome 1, complete sequence
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  592.3   1.5  1.5e-182  7.4e-178       1     306 []       1     313 []       1     313 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 592.3 bits;  conditional E-value: 1.5e-182
+  43488_NZ_CP071597.1_2261   1 mvvqltndkll......tveavttkeivdrkh.mtpdysrktalsrraviagiaalssvsvagraessatrasltrptlpdlfae 78 
+                               mv+q+t+dkll      tveavttk++v+++h m+pd+sr+t+lsrrav++g+a++++v++a++a++s++++s+++p++p++f++
+        NZ_CP071597.1_2261   1 MVTQITPDKLLqtlkftTVEAVTTKLAVPQRHtMNPDPSRSTTLSRRAVLTGLASIAAVPTATGAANSTATSSFGQPSIPQAFHG 85 
+                               899********99***99******************************************************************* PP
+
+  43488_NZ_CP071597.1_2261  79 spwetvdlekqdnndvawiGaslqnaalrekvkddlGvdvplwrlyawtlqtirsekyidytseeddsGislidslllgiGpGav 163
+                               +pwe+++l+++dnndvawiG+slqn+a++++v+ddlG+++plw+ly+w+lqtirsekyidy++++d++Gi+++++++l+iGpG+v
+        NZ_CP071597.1_2261  86 EPWEQNNLGESDNNDVAWIGQSLQNTAMQSRVQDDLGINPPLWNLYTWNLQTIRSEKYIDYNGGDDGGGIPFVSQVSLPIGPGSV 170
+                               ************************************************************************************* PP
+
+  43488_NZ_CP071597.1_2261 164 eidldeiaqfledkaesvvsatalelfsdqlesdypfsdidlcsGlyeeellscrrndvsysnaeailedeftlsaeftaetedd 248
+                               +idldei+qfled++esvvsata+elf+dq+esdypfs+id+csGly+eel+scr+ndvsysnaeailed+ft++a++ta+++dd
+        NZ_CP071597.1_2261 171 FIDLDEIDQFLEDITESVVSATAVELFTDQVESDYPFSQIDICSGLYDEELFSCRFNDVSYSNAEAILEDSFTITATHTATNGDD 255
+                               ************************************************************************************* PP
+
+  43488_NZ_CP071597.1_2261 249 efeieyrallvvqtydrGksyiaaGvvypeemeeewldeyefdedfigdsrdflkavk 306
+                               efeieyr++lvvqty+rG+sy+aaGvvype+m++ew+++yef+++fi+dsrdf+k++k
+        NZ_CP071597.1_2261 256 EFEIEYRGFLVVQTYNRGESYTAAGVVYPERMDDEWWGDYEFGASFIDDSRDFMKNTK 313
+                               ********************************************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (306 nodes)
+Target sequences:                        96663  (3696875 residues searched)
+Passed MSV filter:                       482  (0.0049864); expected 1933.3 (0.02)
+Passed bias filter:                      392  (0.00405533); expected 1933.3 (0.02)
+Passed Vit filter:                        22  (0.000227595); expected 96.7 (0.001)
+Passed Fwd filter:                         2  (2.06904e-05); expected 1.0 (1e-05)
+Initial search space (Z):              96663  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.16u 0.01s 00:00:00.17 Elapsed: 00:00:00.05
+# Mc/sec: 22624.88
+//
+[ok]

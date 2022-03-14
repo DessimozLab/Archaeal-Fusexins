@@ -1,0 +1,86 @@
+LOCUS       DRYJ01000000             230 rc    DNA     linear   ENV 17-MAR-2020
+DEFINITION  TPA_asm: Candidatus Bathyarchaeota archaeon isolate SpSt-11, whole
+            genome shotgun sequencing project.
+ACCESSION   DRYJ00000000
+VERSION     DRYJ00000000.1  GI:1821395761
+DBLINK      BioProject: PRJNA480137
+            BioSample: SAMN09639006
+KEYWORDS    WGS; Third Party Data; TPA; TPA:assembly.
+SOURCE      Candidatus Bathyarchaeota archaeon (hot springs metagenome)
+  ORGANISM  Candidatus Bathyarchaeota archaeon
+            Archaea; Candidatus Bathyarchaeota.
+REFERENCE   1  (bases 1 to 230)
+  AUTHORS   Zhou,Z., Liu,Y., Xu,W., Pan,J., Luo,Z.H. and Li,M.
+  TITLE     Genome- and Community-Level Interaction Insights into Carbon
+            Utilization and Element Cycling Functions of Hydrothermarchaeota in
+            Hydrothermal Sediment
+  JOURNAL   mSystems 5 (1), e00795-19 (2020)
+   PUBMED   31911466
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 230)
+  AUTHORS   Zhou,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2018) School of Biological Sciences, The
+            University of Hong Kong, Kadoorie Biological Sciences Building,
+            Hong Kong, Hong Kong
+COMMENT     The Candidatus Bathyarchaeota archaeon whole genome shotgun (WGS)
+            project has the project accession DRYJ00000000.  This version of
+            the project (01) has the accession number DRYJ01000000, and
+            consists of sequences DRYJ01000001-DRYJ01000230.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: MEGAHIT v. 1.1.2
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 14.81x
+            Sequencing Technology  :: Illumina Genome Analyzer II
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 02/26/2019 11:58:04
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.7
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 1,625
+            CDSs (total)                      :: 1,581
+            Genes (coding)                    :: 1,570
+            CDSs (with protein)               :: 1,570
+            Genes (RNA)                       :: 44
+            rRNAs                             :: 1, 1 (5S, 16S)
+            complete rRNAs                    :: 1 (5S)
+            partial rRNAs                     :: 1 (16S)
+            tRNAs                             :: 40
+            ncRNAs                            :: 2
+            Pseudo Genes (total)              :: 11
+            CDSs (without protein)            :: 11
+            Pseudo Genes (ambiguous residues) :: 1 of 11
+            Pseudo Genes (frameshifted)       :: 4 of 11
+            Pseudo Genes (incomplete)         :: 5 of 11
+            Pseudo Genes (internal stop)      :: 3 of 11
+            Pseudo Genes (multiple problems)  :: 2 of 11
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..230
+                     /organism="Candidatus Bathyarchaeota archaeon"
+                     /mol_type="genomic DNA"
+                     /isolate="SpSt-11"
+                     /isolation_source="Great Boiling Spring, Nevada"
+                     /db_xref="taxon:2026714"
+                     /environmental_sample
+                     /country="USA: Great Boiling Spring, Nevada"
+                     /lat_lon="40.67 N 119.37 W"
+                     /collection_date="2010-02-24"
+                     /metagenome_source="hot springs metagenome"
+                     /note="Metagenome-assembled genome binned from sequencing
+                     reads available in SRR4027810;
+                     metagenomic"
+WGS         DRYJ01000001-DRYJ01000230
+//
