@@ -33,11 +33,11 @@ This notebook was used to parse the results of the phmmer search against the met
 
 Synteny_analysis
 ----------------
-Data, scripts, and notebooks to generate IMEs clustering based on Jaccard indexes (Supplementary Fig. 8) and  synteny plots (Fig. 4b; Supplementary Fig. 16 ).
+Data, scripts, and notebooks to generate IMEs clustering based on Jaccard indexes (Supplementary Fig. 8) and  synteny plots (Fig. 8; Supplementary Fig. 16 ).
 
 Phylo_Eco_Mapping
 -----------------
-Data, scripts and structural models to produce the phylogenetic tree with environmental information and selected trimers with electrostatic surfaces to be calculated with APBS (Supplementary Fig. 17). 
+Data, scripts and structural models to produce the phylogenetic tree with environmental information and selected trimers with electrostatic surfaces to be calculated with APBS (Fig. 6). Also containing sequences, alingment and phylogenetic tree of Fsx1 and HAP2/GCS1 homologs (Suppelemtary Figure 10).
 
 Datasource
 -----------
