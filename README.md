@@ -7,7 +7,7 @@ The Datasource folder also contains files relevant to the manuscript such as mov
 
 HHblits
 -------
-Ipython notebook used with HHblits. Used for finidng FsxA and comparing FsxA profiles to known fusexin profiles. ( Figure 1.a , supp Figure 1 ).
+Ipython notebook used with HHblits. Used for finidng Fsx1 and comparing Fsx1 profiles to known fusexin profiles. ( Figure 1.a , supp Figure 1 ).
 
 Kmer
 ----
